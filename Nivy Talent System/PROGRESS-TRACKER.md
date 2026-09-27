@@ -38,3 +38,19 @@ Details: `24-IMPLEMENTATION-ROADMAP/`
 - [ ] Historical Gmail/Excel/resume migration
 - [ ] Tool/platform comparison + MVP stack
 - [ ] Pilot + acceptance testing
+
+
+## Talent Acquisition Expansion + Versioning — 2026-09-27
+- [x] Expanded scope: talent discovery + partner acquisition + institutional sourcing + community distribution
+- [x] Added Partner Engine specification: `02-TALENT-SOURCING/TALENT-ACQUISITION-AND-PARTNER-ENGINE.md`
+- [x] Added V1→V7 version roadmap: `24-IMPLEMENTATION-ROADMAP/VERSION-ROADMAP.md`
+- [x] V1 defined as executable acquisition MVP, not a paper prototype
+- [x] V2 defined for sourcing/partner scale
+- [x] V3 defined for WhatsApp/Telegram/Facebook/LinkedIn/email community distribution
+- [x] V4 defined for AI-assisted sourcing and agentic workflows
+- [x] V5 defined for employer/job marketplace and matching
+- [x] V6 defined for international multi-market operation
+- [x] V7 defined for fully integrated Talent OS
+- [ ] V1 implementation plan + tool stack
+- [ ] V1 workflow build + pilot
+- [ ] V1 acceptance testing
