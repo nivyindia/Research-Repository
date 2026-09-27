@@ -1,24 +1,19 @@
-# 17 — SOPs
+# SOP Library
 
-Operating procedures and policy extracts migrated from Google Drive.
+Required SOPs: recruiter, sourcer, screener, assessment evaluator, trainer, mentor, hiring manager, candidate support, institute coordinator, talent-pool manager and automation/data administrator.
 
-## Contents
+Every SOP should define trigger, inputs, steps, owner, SLA, exceptions, output, audit evidence and escalation.
 
-| File | Source |
-|------|--------|
-| [hr-policies.md](./hr-policies.md) | HR Policies (handbook framework) |
-| [hr-department-policies.md](./hr-department-policies.md) | HR Department Policies |
-| [master-company-policies.md](./master-company-policies.md) | Master Company Policies & Procedures Manual |
-| [work-guidelines.md](./work-guidelines.md) | Work Guidelines (SMM training track) |
-| [hr-tasks-checklist.md](./hr-tasks-checklist.md) | HR Tasks day-wise ops |
-| [sales-marketing-policies.md](./sales-marketing-policies.md) | Sales / Marketing / CS Policies |
-| [admin-management-policies.md](./admin-management-policies.md) | Admin & Management Rules |
-| [procurement-policies.md](./procurement-policies.md) | Purchase / Procurement Policies |
-| [operations-policies.md](./operations-policies.md) | Operations Department Policies |
-| va-hiring-funnel-*.md | VA hiring (parallel track) |
+---
 
-## Related
+## Migrated VA Hiring SOPs (2026-09-27)
 
-- Intake → `../03-CANDIDATE-ACQUISITION/`
-- Screening → `../04-SCREENING/`
-- Assessments → `../05-PAID-ASSESSMENT/`
+| File | Description | Source |
+|---|---|---|
+| [va-hiring-funnel-master.md](./va-hiring-funnel-master.md) | Complete candidate-first funnel + free/paid training paths | S0.0 Drive Doc |
+| [va-hiring-funnel-sop.md](./va-hiring-funnel-sop.md) | Team roles + stage-by-stage operating procedure | VA HIRING FUNNEL – SOP |
+| [stage-00-job-awareness.md](./stage-00-job-awareness.md) | Stage 0 detailed entry-control SOP | SOP: STAGE 0 |
+| [stage-05-orientation.md](./stage-05-orientation.md) | Live Orientation Call script & structure | S5 Drive Doc |
+| [stage-06-selection-contract.md](./stage-06-selection-contract.md) | Final selection + Employment Agreement key clauses | S6 Drive Doc |
+
+Phase 1 (Core SOPs) complete.
