@@ -35,3 +35,10 @@ Google Drive folder `99-MIGRATED-TO-GITHUB-Talent-System` + MANIFEST v2.
 ## PII rule
 
 Repo holds **schemas, policies, curricula, questions** — not candidate response sheets or personal data dumps.
+
+
+## 26 — Organization Chart + Role Requirements
+
+Master reference: `26-ORG-AND-ROLE-REQUIREMENTS/MASTER-ORG-CHART-AND-ROLE-CATALOG.md`
+
+Covers Nivy Next, Nivy Advisory, shared operations, sales-first staffing, outsourced delivery, internal hiring, role catalogue, compensation models and reusable job-post requirements.
