@@ -54,3 +54,18 @@ Details: `24-IMPLEMENTATION-ROADMAP/`
 - [ ] V1 implementation plan + tool stack
 - [ ] V1 workflow build + pilot
 - [ ] V1 acceptance testing
+
+
+## Candidate Discovery & Qualification — P0 Priority — 2026-09-27
+- [x] Defined Candidate Discovery & Qualification Engine
+- [x] Defined Role Success Profile concept
+- [x] Defined evidence hierarchy and source-to-quality measurement
+- [x] Defined V1 qualification gates and reliability observation
+- [x] Defined Candidate Research Agent scope and human controls
+- [x] Added V1 Candidate Discovery Implementation Plan
+- [x] Updated version roadmap to make candidate discovery the P0 V1 capability
+- [ ] Build 5 V1 Role Success Profiles
+- [ ] Build source-to-quality campaign schema
+- [ ] Normalize existing screening/scoring/assessment resources
+- [ ] Build V1 candidate discovery workflows
+- [ ] Pilot with real candidates and calibrate signals against downstream outcomes
