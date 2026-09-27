@@ -47,3 +47,18 @@ Do not duplicate mature assets unnecessarily.
 ## Data boundary
 
 GitHub stores process definitions, schemas, rubrics and templates. Candidate PII, CVs, phone numbers, emails and live application responses belong in the operational ATS/CRM/database.
+
+## New implementation documents
+
+| File | Purpose |
+|---|---|
+| 11-SOFTWARE-STACK-AND-TOOLS.md | Exact online software/tool stack and what each system does |
+| 12-END-TO-END-CANDIDATE-DISCOVERY-SOP.md | Detailed operator SOP from hiring request through Talent Pool/outcome learning |
+
+## V1 operating stack
+
+The default low-cost V1 operating model is:
+
+Google Forms → Google Sheets → Google Drive → Gmail → Google Calendar/Meet → n8n → AI assistance → Human review → Talent/Outcome analytics
+
+GitHub is the version-controlled documentation/process layer. Candidate PII and live candidate records remain in controlled operational systems.
