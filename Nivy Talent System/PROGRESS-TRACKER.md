@@ -5,16 +5,17 @@
 - [x] PII/data governance rule
 - [x] Master index
 - [x] Lifecycle and scoring principles
-- [x] Google Drive live inventory (HR, Recruitment, Training, Policies)
-- [x] Phase-wise Drive migration plan + tracker (`24-IMPLEMENTATION-ROADMAP/`)
-- [x] Screening question bank started (HR Pre Interview + Sales Screening papers)
-- [x] Intake + candidate form schema (no PII)
-- [x] Fresher intake process documented
-- [x] Pre-hiring assignments (HR Executive + BDE)
+- [x] Google Drive inventory (VA Hiring assets)
+- [x] Phase-wise migration plan + tracker created
+- [x] Core VA Hiring SOPs migrated (Phase 1)
+- [x] Screening questions + Trial Task + Templates migrated (Phase 2)
+- [x] Form schema + Dashboard schema (no PII)
 - [ ] Existing solution landscape
-- [ ] Paid assessment library (MCQ remaining)
+- [ ] Intake + candidate database specification
+- [x] Screening question bank (VA)
+- [x] Paid assessment library (VA Trial Task)
 - [ ] 3-task consistency protocol
-- [ ] Training/remediation system
+- [ ] Training/remediation system (S7 source empty)
 - [ ] Internship/apprenticeship SOP
 - [ ] 30/60/90 probation system
 - [ ] Talent-pool schema and matching
@@ -33,8 +34,7 @@ Every research item should preserve source, date, decision/status and intended d
 
 ---
 
-**Active work:** Google Drive → Talent System content migration  
-
-- Plan → `24-IMPLEMENTATION-ROADMAP/00-GOOGLE-DRIVE-MIGRATION-PLAN.md`  
-- Tracker → `24-IMPLEMENTATION-ROADMAP/03-DRIVE-CONTENT-MIGRATION-TRACKER.md`  
-- **Phase 1 complete.** Next: Phase 2 Policies / SOPs.
+**Active work:** VA Hiring content migration  
+Plan → `24-IMPLEMENTATION-ROADMAP/01-VA-HIRING-PHASE-WISE-IMPLEMENTATION-PLAN.md`  
+Tracker → `24-IMPLEMENTATION-ROADMAP/02-MIGRATION-TRACKER.md`  
+**Current overall migration progress: ~59%**

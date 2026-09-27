@@ -2,38 +2,29 @@
 
 ## Current focus
 
-**Google Drive → Nivy Talent System content migration**
+**Google Drive → Nivy Talent System content migration (VA Hiring Funnel)**
 
-### Plans & Trackers
+### Active Plans
 
 | File | Description |
-|------|-------------|
-| [00-GOOGLE-DRIVE-MIGRATION-PLAN.md](./00-GOOGLE-DRIVE-MIGRATION-PLAN.md) | **Primary plan** — full Drive migration, phase-wise (HR, screening, training, policies) |
-| [03-DRIVE-CONTENT-MIGRATION-TRACKER.md](./03-DRIVE-CONTENT-MIGRATION-TRACKER.md) | **Live item tracker** for Drive migration |
-| [01-VA-HIRING-PHASE-WISE-IMPLEMENTATION-PLAN.md](./01-VA-HIRING-PHASE-WISE-IMPLEMENTATION-PLAN.md) | VA Hiring funnel specific plan (parallel) |
-| [02-MIGRATION-TRACKER.md](./02-MIGRATION-TRACKER.md) | VA Hiring item tracker |
+|---|---|
+| [00-GOOGLE-DRIVE-MIGRATION-PLAN.md](./00-GOOGLE-DRIVE-MIGRATION-PLAN.md) | Original broad migration plan |
+| [01-VA-HIRING-PHASE-WISE-IMPLEMENTATION-PLAN.md](./01-VA-HIRING-PHASE-WISE-IMPLEMENTATION-PLAN.md) | VA Hiring phase-wise plan |
+| [02-MIGRATION-TRACKER.md](./02-MIGRATION-TRACKER.md) | **Live tracker** |
 
-### Drive Migration — Phase Summary
+### Phase Summary
 
-| Phase | Scope | Priority | Status |
-|-------|--------|----------|--------|
-| 0 | Live inventory & classification | — | ✅ Done |
-| 1 | Screening + Candidate Acquisition | P0 | 🔄 In Progress (~50%) |
-| 2 | Policies / SOPs / Handbooks | P0 | ⬜ Pending |
-| 3 | Training & Fresher systems | P0 | ⬜ Pending |
-| 4 | Roles matrix + Architecture | P1 | ⬜ Pending |
-| 5 | Assessments, ranking, templates | P1 | ⬜ Pending |
-| 6 | Verification + index update | — | ⬜ Pending |
+| Phase | Scope | Status |
+|---|---|---|
+| 0 | Inventory & classification | ✅ Done |
+| 1 | Core SOPs & Master Funnel | ✅ Done |
+| 2 | Screening, Assessment & Templates | ✅ Done |
+| 3 | Training, Probation & Metrics | 🔄 In Progress (Dashboard done; S7 empty) |
+| 4 | Role Packs & Supporting Assets | Pending |
+| 5 | Verification + Index update | Pending |
 
-**Overall (Drive migration):** ~11% (inventory + 3 screening files)
-
-### Next Action
-
-1. Finish Phase 1.4–1.6 (form schema, intake process, HR Assessment)  
-2. Then Phase 2 policies  
+**Overall Progress:** ~59%
 
 ### Related
-
 - [MASTER-INDEX.md](../MASTER-INDEX.md)
 - [PROGRESS-TRACKER.md](../PROGRESS-TRACKER.md)
-- Screening content: `../04-SCREENING/`
