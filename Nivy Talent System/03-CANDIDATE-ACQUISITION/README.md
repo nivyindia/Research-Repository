@@ -1,7 +1,16 @@
-# Candidate Acquisition
+# 03 — Candidate Acquisition
 
-Design: application form → candidate ID → CV/email intake → parsing → deduplication → consent/preferences → acknowledgement → screening invite → scheduling → assessment → status updates.
+Intake schemas and fresher application process. **No raw candidate PII.**
 
-Candidate PII stays in the operational ATS/CRM/database, not this repository.
+## Contents
 
-Required profile fields include education, experience, location, work mode, availability, expected compensation, notice period, prior projects/jobs, reasons for leaving, tools, learning, laptop/internet and AI/tool usage.
+| File | Description |
+|------|-------------|
+| [contact-information-form-schema.md](./contact-information-form-schema.md) | Google Form field map (schema only) |
+| [fresher-intake-process.md](./fresher-intake-process.md) | End-to-end path: apply → train → job/intern |
+
+## Related
+
+- Screening exams → `../04-SCREENING/`
+- Pre-hiring assignments → `../05-PAID-ASSESSMENT/`
+- Templates / comms → `../18-TEMPLATES/`, `../12-CANDIDATE-COMMUNICATION/`
