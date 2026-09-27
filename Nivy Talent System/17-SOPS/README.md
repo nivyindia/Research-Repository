@@ -1,17 +1,18 @@
-# SOP Library
+# 17 — SOPs
 
-Required SOPs: recruiter, sourcer, screener, assessment evaluator, trainer, mentor, hiring manager, candidate support, institute coordinator, talent-pool manager and automation/data administrator.
+Operating procedures and policy extracts migrated from Google Drive.
 
-Every SOP should define trigger, inputs, steps, owner, SLA, exceptions, output, audit evidence and escalation.
+## Contents (Phase 2+)
 
----
+| File | Source |
+|------|--------|
+| [hr-policies.md](./hr-policies.md) | HR Policies (handbook framework) |
+| [work-guidelines.md](./work-guidelines.md) | Work Guidelines (SMM training track) |
+| [hr-tasks-checklist.md](./hr-tasks-checklist.md) | HR Tasks day-wise ops |
+| va-hiring-funnel-*.md | VA hiring (parallel track) |
 
-## Migrated VA Hiring SOPs (2026-09-27)
+## Related
 
-| File | Description | Source |
-|---|---|---|
-| [va-hiring-funnel-master.md](./va-hiring-funnel-master.md) | Complete candidate-first funnel + free/paid training paths | S0.0 Drive Doc |
-| [va-hiring-funnel-sop.md](./va-hiring-funnel-sop.md) | Team roles + stage-by-stage operating procedure | VA HIRING FUNNEL – SOP |
-| [stage-00-job-awareness.md](./stage-00-job-awareness.md) | Stage 0 detailed entry-control SOP | SOP: STAGE 0 |
-
-More stage SOPs to be added in remaining Phase 1 items.
+- Intake → `../03-CANDIDATE-ACQUISITION/`
+- Screening → `../04-SCREENING/`
+- Assessments → `../05-PAID-ASSESSMENT/`
