@@ -1,25 +1,27 @@
-# Templates Index (Drive migration)
+# 18 — Templates
 
-**Migrated:** 2026-09-27  
+## Drive-migrated / existing
 
-## Found / already in repo via other folders
-
-| Template type | Location |
-|---------------|----------|
-| Contact Information form schema | `03-CANDIDATE-ACQUISITION/contact-information-form-schema.md` |
-| Daily sales call log / weekly report / meeting agenda / lead handoff | `17-SOPS/sales-marketing-policies.md` |
-| PRF, Vendor eval, PO, GRN, supplier review | `17-SOPS/procurement-policies.md` |
-| Production log, PM checklist, inventory, incident, order tracking | `17-SOPS/operations-policies.md` |
-| Asset register, visitor log, travel claim, minutes (suggested) | `17-SOPS/admin-management-policies.md` |
-| Client onboarding checklist | `07-TRAINING/digital-marketing-sales-manual.md` |
-| HR day checklist | `17-SOPS/hr-tasks-checklist.md` |
-
-## Not found as standalone Drive files
-
-| Item | Status |
+| File | Notes |
 |------|--------|
-| Company letterhead | ❌ Not found in search |
-| Internship completion certificate | ❌ Not found |
-| Formal offer letter template | Referenced in HR Training videos/process; no separate doc found |
+| va-agreement.md | VA track agreement |
+| va-job-description.md | VA JD |
+| va-offer-letter.md | VA offer |
 
-**Action:** Create letterhead + certificate + offer templates under this folder when design assets are available; until then use process descriptions in Orientation / HR Training outline.
+## Created this migration (policy-based; no Drive letterhead asset)
+
+| File | Notes |
+|------|--------|
+| [offer-letter-bde.md](./offer-letter-bde.md) | FT BDE ₹18–30k band |
+| [offer-letter-hr.md](./offer-letter-hr.md) | FT HR ₹15–20k band |
+| [offer-letter-internship.md](./offer-letter-internship.md) | Academy / stipend path |
+| [internship-completion-certificate.md](./internship-completion-certificate.md) | Certificate body |
+| [communication-screening-outcomes.md](./communication-screening-outcomes.md) | Fail / path / interview / docs |
+
+## Forms living under SOPs
+
+See previous index: sales logs, procurement PRF/PO/GRN, ops logs, HR checklist, client onboarding.
+
+## Still need design assets
+
+Company **letterhead** PDF/PNG — not found on Drive; drop into this folder when ready.

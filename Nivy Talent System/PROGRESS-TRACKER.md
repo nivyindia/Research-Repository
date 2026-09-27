@@ -1,41 +1,48 @@
 # Progress Tracker
 
+## Google Drive → GitHub Talent System migration
+
+- [x] Phase 0 Inventory
+- [x] Phase 1 Screening + Acquisition
+- [x] Phase 2 Policies / SOPs
+- [x] Phase 3 Training (outlines + MCQ; large masters on Drive)
+- [x] Phase 4 Roles, lifecycle, ranking
+- [x] Phase 5 Assessments + templates (offer/certificate synthesized)
+- [x] Phase 6 Verification + MASTER-INDEX
+- [x] Drive archive folder + manifest v2
+- [ ] Manual drag of source files into Drive archive (user action)
+- [ ] Letterhead design asset upload
+
+**Drive migration content: ~95%** (remaining = assets not present on Drive)
+
+Details → `24-IMPLEMENTATION-ROADMAP/03-DRIVE-CONTENT-MIGRATION-TRACKER.md`  
+Verification → `24-IMPLEMENTATION-ROADMAP/06-VERIFICATION-CHECKLIST.md`
+
+---
+
+## Broader Talent System build (pre-existing checklist)
+
 - [x] Dedicated Talent System folder
 - [x] Repository boundary
 - [x] PII/data governance rule
-- [x] Master index (updated with VA assets)
+- [x] Master index
 - [x] Lifecycle and scoring principles
-- [x] Google Drive inventory (VA Hiring assets)
-- [x] Phase-wise migration plan + tracker
-- [x] Core VA Hiring SOPs migrated
-- [x] Screening questions + Trial Task + Templates
-- [x] Form schema + Dashboard schema (no PII)
-- [x] Appointment Setter role pack seed
-- [x] Training/probation source note
-- [x] Automation notes (VA Hiring)
-- [x] Niche data index note
-- [x] VA Hiring Drive migration plan CLOSED (100% defined scope)
+- [x] Core screening + paid assessment (BDE/HR/VA)
+- [x] Ranking system documented
+- [x] Training curricula indexed
 - [ ] Existing solution landscape
 - [ ] Intake + candidate database specification
-- [x] Screening question bank (VA)
-- [x] Paid assessment library (VA Trial Task)
 - [ ] 3-task consistency protocol
-- [ ] Training/remediation system (content gap — S7 was empty)
-- [ ] Internship/apprenticeship SOP
-- [ ] 30/60/90 probation system
+- [ ] Internship/apprenticeship SOP (deep)
+- [ ] 30/60/90 probation system (deep)
 - [ ] Talent-pool schema and matching
-- [ ] Email/WhatsApp communication library
-- [ ] Automation workflows (design notes only; not n8n builds)
+- [ ] Email/WhatsApp communication library (seed done)
+- [ ] Automation workflows (n8n builds)
 - [ ] Institute partnership system
 - [ ] City sourcing system
-- [ ] All role packs
+- [ ] All role packs (BDE/HR/VA mapped; deepen)
 - [ ] Tool/platform comparison
 - [ ] MVP stack decision
 - [ ] Pilot
 - [ ] Acceptance testing
 - [ ] Transfer-ready implementation package
-
----
-
-**VA Hiring Google Drive migration: COMPLETE**  
-Details → `24-IMPLEMENTATION-ROADMAP/02-MIGRATION-TRACKER.md`
