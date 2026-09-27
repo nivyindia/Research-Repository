@@ -1,6 +1,7 @@
-# Talent Pool
+# 10 — Talent Pool
 
-Operational profile fields:
-Candidate ID, verified skills, role families, assessment evidence, consistency, availability, location/time zone, work mode, compensation/rate expectations, source, last activity and status.
+| File | Description |
+|------|-------------|
+| [talent-pool-schema.md](./talent-pool-schema.md) | Membership, reason codes, matching weights, cadence |
 
-Keep operational records in an ATS/CRM/database. GitHub stores the schema and SOP, not candidate PII.
+Lifecycle stage: `talent_pool` between internship/exit and re-hire.

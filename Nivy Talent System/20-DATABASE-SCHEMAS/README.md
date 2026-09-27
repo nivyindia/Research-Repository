@@ -1,6 +1,9 @@
-# Database Schemas
+# 20 — Database Schemas
 
-Core entities:
-Candidate, Application, Source, Consent, CommunicationPreference, Screening, Assessment, Submission, Score, Task, Skill, Role, TrainingEnrollment, Internship, ProbationReview, Job, Assignment, Institute, Campaign, Availability, CompensationExpectation and AuditLog.
+| File | Description |
+|------|-------------|
+| [candidate-database-spec.md](./candidate-database-spec.md) | persons, applications, assessments, stages, offers (PII-safe schema) |
 
-Use one stable Candidate ID across the lifecycle. Record state transitions with timestamp, actor/system and evidence.
+Talent pool fields → `10-TALENT-POOL/talent-pool-schema.md`  
+
+**Never commit candidate response CSVs here.**

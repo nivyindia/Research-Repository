@@ -14,8 +14,8 @@
 - [x] 3-task consistency protocol
 - [x] Ranking system (BDE/HR)
 - [x] Offer + certificate + screening comms templates
-- [ ] Talent-pool schema and matching
-- [ ] Intake + candidate database specification
+- [x] Talent-pool schema and matching
+- [x] Intake + candidate database specification
 - [ ] Email/WhatsApp library expansion
 - [ ] Automation workflows (n8n)
 - [ ] Institute partnership system
