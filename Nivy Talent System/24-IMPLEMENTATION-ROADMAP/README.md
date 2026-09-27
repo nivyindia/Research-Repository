@@ -2,34 +2,38 @@
 
 ## Current focus
 
-**Google Drive → Nivy Talent System content migration (VA Hiring Funnel)**
+**Google Drive → Nivy Talent System content migration**
 
-### Active Plans
+### Plans & Trackers
 
 | File | Description |
-|---|---|
-| [00-GOOGLE-DRIVE-MIGRATION-PLAN.md](./00-GOOGLE-DRIVE-MIGRATION-PLAN.md) | Original broad migration plan (HR policies, training, etc.) |
-| [01-VA-HIRING-PHASE-WISE-IMPLEMENTATION-PLAN.md](./01-VA-HIRING-PHASE-WISE-IMPLEMENTATION-PLAN.md) | **Current active plan** — VA Hiring specific, phase-wise + rules |
-| [02-MIGRATION-TRACKER.md](./02-MIGRATION-TRACKER.md) | **Live tracker** — item-level status |
+|------|-------------|
+| [00-GOOGLE-DRIVE-MIGRATION-PLAN.md](./00-GOOGLE-DRIVE-MIGRATION-PLAN.md) | **Primary plan** — full Drive migration, phase-wise (HR, screening, training, policies) |
+| [03-DRIVE-CONTENT-MIGRATION-TRACKER.md](./03-DRIVE-CONTENT-MIGRATION-TRACKER.md) | **Live item tracker** for Drive migration |
+| [01-VA-HIRING-PHASE-WISE-IMPLEMENTATION-PLAN.md](./01-VA-HIRING-PHASE-WISE-IMPLEMENTATION-PLAN.md) | VA Hiring funnel specific plan (parallel) |
+| [02-MIGRATION-TRACKER.md](./02-MIGRATION-TRACKER.md) | VA Hiring item tracker |
 
-### Phase Summary (VA Hiring Migration)
+### Drive Migration — Phase Summary
 
 | Phase | Scope | Priority | Status |
-|---|---|---|---|
-| 0 | Inventory & classification | — | ✅ Done |
-| 1 | Core SOPs & Master Funnel | P0 | ⬜ Next |
-| 2 | Screening, Assessment & Templates | P0 | Pending |
-| 3 | Training, Probation & Metrics | P1 | Pending |
-| 4 | Role Packs & Supporting Assets | P2 | Pending |
-| 5 | Verification + Index/Tracker update | — | Pending |
+|-------|--------|----------|--------|
+| 0 | Live inventory & classification | — | ✅ Done |
+| 1 | Screening + Candidate Acquisition | P0 | 🔄 In Progress (~50%) |
+| 2 | Policies / SOPs / Handbooks | P0 | ⬜ Pending |
+| 3 | Training & Fresher systems | P0 | ⬜ Pending |
+| 4 | Roles matrix + Architecture | P1 | ⬜ Pending |
+| 5 | Assessments, ranking, templates | P1 | ⬜ Pending |
+| 6 | Verification + index update | — | ⬜ Pending |
 
-**Overall Progress:** ~14% (Inventory complete)
-
-### Related Trackers
-
-- [MASTER-INDEX.md](../MASTER-INDEX.md)
-- [PROGRESS-TRACKER.md](../PROGRESS-TRACKER.md)
+**Overall (Drive migration):** ~11% (inventory + 3 screening files)
 
 ### Next Action
 
-Start **Phase 1.1**: Extract `S0.0 - VA Hiring Funnel – Step-by-Step System` → `17-SOPS/va-hiring-funnel-master.md`
+1. Finish Phase 1.4–1.6 (form schema, intake process, HR Assessment)  
+2. Then Phase 2 policies  
+
+### Related
+
+- [MASTER-INDEX.md](../MASTER-INDEX.md)
+- [PROGRESS-TRACKER.md](../PROGRESS-TRACKER.md)
+- Screening content: `../04-SCREENING/`

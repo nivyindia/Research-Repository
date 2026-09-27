@@ -5,11 +5,11 @@
 - [x] PII/data governance rule
 - [x] Master index
 - [x] Lifecycle and scoring principles
-- [x] Google Drive inventory (VA Hiring assets)
-- [x] Phase-wise migration plan + tracker created (`24-IMPLEMENTATION-ROADMAP/`)
+- [x] Google Drive live inventory (HR, Recruitment, Training, Policies)
+- [x] Phase-wise Drive migration plan + tracker (`24-IMPLEMENTATION-ROADMAP/`)
+- [x] Screening question bank started (HR Pre Interview + Sales Screening papers)
+- [ ] Intake + candidate database specification (form schema)
 - [ ] Existing solution landscape
-- [ ] Intake + candidate database specification
-- [ ] Screening question bank
 - [ ] Paid assessment library
 - [ ] 3-task consistency protocol
 - [ ] Training/remediation system
@@ -31,6 +31,8 @@ Every research item should preserve source, date, decision/status and intended d
 
 ---
 
-**Active work:** VA Hiring content migration  
-See → `24-IMPLEMENTATION-ROADMAP/01-VA-HIRING-PHASE-WISE-IMPLEMENTATION-PLAN.md`  
-Live tracker → `24-IMPLEMENTATION-ROADMAP/02-MIGRATION-TRACKER.md`
+**Active work:** Google Drive → Talent System content migration  
+
+- Plan → `24-IMPLEMENTATION-ROADMAP/00-GOOGLE-DRIVE-MIGRATION-PLAN.md`  
+- Tracker → `24-IMPLEMENTATION-ROADMAP/03-DRIVE-CONTENT-MIGRATION-TRACKER.md`  
+- Parallel VA track → `24-IMPLEMENTATION-ROADMAP/01-VA-HIRING-PHASE-WISE-IMPLEMENTATION-PLAN.md`
