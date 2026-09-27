@@ -12,37 +12,29 @@
 | Phase 0 — Inventory | ✅ Done | 1 | 1 | 100% |
 | Phase 1 — Screening + Acquisition | ✅ Done | 6 | 6 | 100% |
 | Phase 2 — Policies / SOPs | ✅ Done | 7 | 8 | 88% |
-| Phase 3 — Training | ⬜ Not Started | 0 | 9 | 0% |
+| Phase 3 — Training | ✅ Mostly done | 6 | 9 | 67% |
 | Phase 4 — Roles & Architecture | ⬜ Not Started | 0 | 3 | 0% |
-| Phase 5 — Assessments / Templates | 🔄 In Progress | 2 | 4 | 50% |
+| Phase 5 — Assessments / Templates | 🔄 In Progress | 3 | 4 | 75% |
 | Phase 6 — Verification | ⬜ Not Started | 0 | 6 | 0% |
-| **TOTAL** | | **16** | **37** | **~43%** |
+| **TOTAL** | | **23** | **37** | **~62%** |
 
 ---
 
-## Phase 2 — Policies / SOPs
+## Phase 3 — Training
 
 | ID | Item | Destination | Status |
 |----|------|-------------|--------|
-| 2.1 | HR Policies | `17-SOPS/hr-policies.md` | ✅ |
-| 2.2 | HR Department Policies | `17-SOPS/hr-department-policies.md` | ✅ |
-| 2.3 | Master Company Policies | `17-SOPS/master-company-policies.md` | ✅ |
-| 2.4 | Work Guidelines | `17-SOPS/work-guidelines.md` | ✅ |
-| 2.5 | HR Tasks checklist | `17-SOPS/hr-tasks-checklist.md` | ✅ |
-| 2.6 | Admin / Ops / Purchase / Sales policies | `17-SOPS/` (4 files) | ✅ |
-| 2.7 | Employee Allowances | — | ❌ Not found on Drive |
-| 2.8 | Cross-link Nivy Jobs Handbook | indexes | ⬜ optional |
+| 3.1 | Sales Professional Academy | — | ⬜ name not found; use DM sales manual |
+| 3.2 | Freshers motivation | — | ⬜ not found as separate file |
+| 3.3 | Orientation | `07-TRAINING/orientation.md` | ✅ |
+| 3.4 | VA Basic + Advance | outline + Drive masters | ✅ outline; full on Drive |
+| 3.5 | HR Training | `07-TRAINING/hr-training-outline.md` | ✅ |
+| 3.6 | Sales Training Schedule | `07-TRAINING/sales-training-schedule.md` | ✅ |
+| 3.7 | Course v1.1 / SMM-VA | VA Basic outline covers | ✅ partial |
+| 3.8 | Accounting + DM training | DM manual ✅; Accounting sheet thin | 🔄 |
+| 3.9 | Cross-link Nivy Jobs | optional | ⬜ |
 
-**Also migrated:** sales-marketing-policies, admin-management-policies, procurement-policies, operations-policies.
-
----
-
-## Drive archive
-
-- Folder: `99-MIGRATED-TO-GITHUB-Talent-System`
-- Manifest uploaded; `Copy of HR Policies` + `Copy of Orientation` trashed
-- Live forms (Contact Information) kept active
-- Connector cannot move files — drag sources to archive manually
+**Also:** basic-training-mcq.md, digital-marketing-sales-manual.md
 
 ---
 
@@ -50,6 +42,5 @@
 
 | Date | Change |
 |------|--------|
-| 2026-09-27 | Phase 0–1 done |
-| 2026-09-27 | Phase 2 policies batch 1 + archive folder |
-| 2026-09-27 | Phase 2 complete: dept policies (HR, Master, Sales, Admin, Procurement, Ops) |
+| 2026-09-27 | Phases 0–2 done |
+| 2026-09-27 | Phase 3 training batch: orientation, VA/HR outlines, schedule, MCQ, DM sales manual |
