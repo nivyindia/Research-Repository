@@ -5,6 +5,8 @@
 - [x] PII/data governance rule
 - [x] Master index
 - [x] Lifecycle and scoring principles
+- [x] Google Drive inventory (VA Hiring assets)
+- [x] Phase-wise migration plan + tracker created (`24-IMPLEMENTATION-ROADMAP/`)
 - [ ] Existing solution landscape
 - [ ] Intake + candidate database specification
 - [ ] Screening question bank
@@ -26,3 +28,9 @@
 - [ ] Transfer-ready implementation package
 
 Every research item should preserve source, date, decision/status and intended destination.
+
+---
+
+**Active work:** VA Hiring content migration  
+See → `24-IMPLEMENTATION-ROADMAP/01-VA-HIRING-PHASE-WISE-IMPLEMENTATION-PLAN.md`  
+Live tracker → `24-IMPLEMENTATION-ROADMAP/02-MIGRATION-TRACKER.md`
