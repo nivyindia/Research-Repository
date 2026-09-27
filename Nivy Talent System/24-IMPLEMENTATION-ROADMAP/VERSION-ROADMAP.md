@@ -4,7 +4,9 @@
 
 ## Core principle
 
-**V1 = operational minimum, not a prototype.** It must actually source people, capture them, communicate with them, assess them, and move qualified people into the Talent Pool.
+**V1 = operational minimum, not a prototype.** It must actually find the right candidates, capture them, communicate with them, assess them, observe consistency, and move evidence-backed talent into the Talent Pool.
+
+**P0 priority:** Candidate Discovery & Qualification Engine. Before scaling acquisition volume, Nivy must define what success looks like for each role, where suitable candidates can be found, and how job-relevant evidence will distinguish strong candidates from merely polished applicants.
 
 Build in this order:
 
@@ -38,6 +40,15 @@ Nivy Academy and Nivy Jobs remain front ends/modules over one shared Talent Syst
 # V1 — Talent Acquisition MVP
 
 **Goal:** Start sourcing and processing candidates immediately with minimal infrastructure.
+
+### 0. Candidate Discovery & Qualification — P0
+- Role Success Profile for each priority role.
+- Source-to-quality tracking, not applicant-volume tracking.
+- Evidence hierarchy: observed work > practical assessment > repeated tasks > structured interview > CV/self-report.
+- Structured screening for role fit, availability, expectations, learning behaviour and reliability signals.
+- Paid practical assessment + three-task consistency stage.
+- Candidate Research Agent design with human approval for consequential actions.
+- Downstream outcome tracking back to source and qualification evidence.
 
 ### 1. Talent sourcing
 - Define 5–10 priority role families.
