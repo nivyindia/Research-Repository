@@ -1,12 +1,16 @@
-# Paid Assessment
+# 05 — Paid Assessment / Pre-Hiring Assignments
 
-Practical tests are the primary work-evidence filter.
+Practical assignments used after or alongside automated screening.
 
-Examples:
-- Computer Operator: 50 records, dedupe + formatting.
-- Accounting: sample transactions, ledger/P&L/reconciliation.
-- Digital Marketing: marketing plan + 5 posts + keyword research.
-- WordPress: sample landing page.
-- AI/Automation: automate a repetitive business process.
+## Contents (from Google Drive)
 
-Research payment, time limits, originality/provenance, candidate instructions, evaluation and appeal/re-test rules.
+| File | Role |
+|------|------|
+| [hr-pre-hiring-assignment.md](./hr-pre-hiring-assignment.md) | HR Executive fresher |
+| [bde-pre-hiring-assignment.md](./bde-pre-hiring-assignment.md) | BDE / Sales fresher |
+
+## Related
+
+- Screening papers → `../04-SCREENING/`
+- Scoring weights → `../06-SCORING/`
+- Role packs → `../16-ROLE-WISE-SYSTEMS/`

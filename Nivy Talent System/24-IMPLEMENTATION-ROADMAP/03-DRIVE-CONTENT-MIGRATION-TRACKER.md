@@ -11,13 +11,13 @@
 | Phase | Status | Done | Total | % |
 |-------|--------|------|-------|---|
 | Phase 0 — Inventory | ✅ Done | 1 | 1 | 100% |
-| Phase 1 — Screening + Acquisition | 🔄 In Progress | 3 | 6 | 50% |
+| Phase 1 — Screening + Acquisition | ✅ Done | 6 | 6 | 100% |
 | Phase 2 — Policies / SOPs | ⬜ Not Started | 0 | 8 | 0% |
 | Phase 3 — Training | ⬜ Not Started | 0 | 9 | 0% |
 | Phase 4 — Roles & Architecture | ⬜ Not Started | 0 | 3 | 0% |
-| Phase 5 — Assessments / Templates | ⬜ Not Started | 0 | 4 | 0% |
+| Phase 5 — Assessments / Templates | 🔄 In Progress | 2 | 4 | 50% |
 | Phase 6 — Verification | ⬜ Not Started | 0 | 6 | 0% |
-| **TOTAL** | | **4** | **37** | **~11%** |
+| **TOTAL** | | **9** | **37** | **~24%** |
 
 ---
 
@@ -28,9 +28,11 @@
 | 1.1 | HR Pre Interview Exams | `04-SCREENING/hr-pre-interview-exams.md` | ✅ | Live Drive extract |
 | 1.2 | Sales Screening Question Paper | `04-SCREENING/sales-screening-question-paper.md` | ✅ | Live Drive extract |
 | 1.3 | 04-SCREENING README | `04-SCREENING/README.md` | ✅ | |
-| 1.4 | Contact form schema (no PII) | `03-CANDIDATE-ACQUISITION/contact-information-form-schema.md` | ⬜ | Form only, not responses |
-| 1.5 | Fresher intake process | `03-CANDIDATE-ACQUISITION/fresher-intake-process.md` | ⬜ | |
-| 1.6 | HR Assessment | `05-PAID-ASSESSMENT/hr-assessment.md` | ⬜ | From HR/Policies |
+| 1.4 | Contact form schema (no PII) | `03-CANDIDATE-ACQUISITION/contact-information-form-schema.md` | ✅ | Form fields only |
+| 1.5 | Fresher intake process | `03-CANDIDATE-ACQUISITION/fresher-intake-process.md` | ✅ | From Orientation + form |
+| 1.6 | HR Assessment | `05-PAID-ASSESSMENT/hr-pre-hiring-assignment.md` | ✅ | Pre-Hiring Assignment HR |
+
+**Bonus:** BDE Pre-Hiring Assignment also migrated → `05-PAID-ASSESSMENT/bde-pre-hiring-assignment.md`
 
 ---
 
@@ -113,4 +115,5 @@
 
 | Date | Change |
 |------|--------|
-| 2026-09-27 | Live Drive inventory completed. Phase-wise plan + this tracker created. Phase 1.1–1.3 extracted (HR + Sales screening papers). |
+| 2026-09-27 | Live Drive inventory completed. Phase-wise plan + tracker created. Phase 1.1–1.3 extracted. |
+| 2026-09-27 | Phase 1 complete: form schema, fresher intake process, HR + BDE pre-hiring assignments. Overall ~24%. |
