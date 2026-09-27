@@ -129,3 +129,30 @@ Minimum acceptance:
 ## Deliberately outside V1
 
 No autonomous hiring, mass scraping, complex AI matching, every possible role, or full international/community automation. First prove the discovery loop with real candidates.
+
+## 11. V1 Software and Operations Layer
+
+Configure the operating stack before scaling candidate volume:
+
+1. Google Forms — canonical candidate/hiring/assessment/reviewer intake
+2. Google Sheets — V1 operational candidate/source/campaign/stage/evidence tables
+3. Google Drive — restricted CV/document/evidence storage
+4. Gmail — controlled candidate and internal communications
+5. Google Calendar + Meet — screens, interviews and work-trial reviews
+6. n8n — orchestration, reminders, routing, integrations, logging and exception handling
+7. Google Apps Script — only lightweight helper logic where appropriate
+8. Approved AI model/runtime — extraction, summaries, missing-evidence flags and research assistance
+9. GitHub — SOPs, schemas, role packs, rubrics, prompts and version history
+10. Analytics — Google Sheets and/or Looker Studio for source-to-outcome reporting
+
+See 11-SOFTWARE-STACK-AND-TOOLS.md.
+
+## 12. End-to-End Operating SOP
+
+The real operating sequence is documented in 12-END-TO-END-CANDIDATE-DISCOVERY-SOP.md.
+
+It covers:
+
+Hiring Need → Role Profile → Source Map → Campaign → Discovery → Form Intake → Candidate ID → Dedup → Eligibility → AI-assisted extraction → Role Routing → Screen → Practical Test → Evidence Review → Three Consistency Tasks → Training → Paid Work Trial/Internship → Probation → Talent Pool/Core Staff/Project → Outcome → Source Learning
+
+Each stage has a defined tool, owner, input/output, automation action and exception path.
