@@ -7,82 +7,63 @@
 
 ## Overall Progress
 
-| Phase | Status | Completed Items | Total Items | % |
+| Phase | Status | Completed | Total | % |
 |---|---|---|---|---|
 | Phase 0 — Inventory | ✅ Done | 4 | 4 | 100% |
 | Phase 1 — Core SOPs | ✅ Done | 6 | 6 | 100% |
 | Phase 2 — Screening & Templates | ✅ Done | 6 | 6 | 100% |
-| Phase 3 — Training & Metrics | 🔄 In Progress | 1 | 3 | 33% |
-| Phase 4 — Role Packs & Other | ⬜ Not Started | 0 | 4 | 0% |
-| Phase 5 — Verification | ⬜ Not Started | 0 | 6 | 0% |
-| **TOTAL** | | **17** | **29** | **59%** |
+| Phase 3 — Training & Metrics | ✅ Done | 3 | 3 | 100% |
+| Phase 4 — Role Packs & Other | 🔄 Partial | 1 | 4 | 25% |
+| Phase 5 — Verification | 🔄 In Progress | 4 | 6 | 67% |
+| **TOTAL** | | **24** | **29** | **83%** |
 
 ---
 
-## Detailed Item Tracker
+## Phase Detail
 
-### Phase 1 — Core SOPs & Master Funnel ✅
+### Phase 1 ✅ | Phase 2 ✅
+All core SOPs, interview bank, trial task, JD, offer, agreement, form schema migrated.
 
-| ID | Item | Destination | Status |
+### Phase 3 ✅
+| ID | Item | Status | Notes |
 |---|---|---|---|
-| 1.1 | S0.0 Master Funnel | `17-SOPS/va-hiring-funnel-master.md` | ✅ |
-| 1.2 | VA HIRING FUNNEL – SOP | `17-SOPS/va-hiring-funnel-sop.md` | ✅ |
-| 1.3 | Stage 0 Job Awareness | `17-SOPS/stage-00-job-awareness.md` | ✅ |
-| 1.4 | Stage 5 Orientation | `17-SOPS/stage-05-orientation.md` | ✅ |
-| 1.5 | Stage 6 Selection + Contract | `17-SOPS/stage-06-selection-contract.md` | ✅ |
-| 1.6 | Update 17-SOPS README | `17-SOPS/README.md` | ✅ |
+| 3.1 | Training & Probation (S7) | ✅ | Note filed — source empty |
+| 3.2 | Dashboard schema | ✅ | |
+| 3.3 | Cross-links | ✅ | MASTER-INDEX + role pack |
 
-### Phase 2 — Screening, Assessment & Templates ✅
-
-| ID | Item | Destination | Status |
-|---|---|---|---|
-| 2.1 | Interview Questions (S4) | `04-SCREENING/va-interview-questions.md` | ✅ |
-| 2.2 | Trial Task (S3) | `05-PAID-ASSESSMENT/va-trial-task.md` | ✅ |
-| 2.3 | Job Description (S1) | `18-TEMPLATES/va-job-description.md` | ✅ |
-| 2.4 | Offer Letter | `18-TEMPLATES/va-offer-letter.md` | ✅ |
-| 2.5 | VA Agreement | `18-TEMPLATES/va-agreement.md` | ✅ |
-| 2.6 | Form structures (no PII) | `03-CANDIDATE-ACQUISITION/va-screening-form-schema.md` | ✅ |
-
-### Phase 3 — Training, Probation & Metrics
-
-| ID | Item | Destination | Status | Notes |
-|---|---|---|---|---|
-| 3.1 | Training & Probation (S7) | `07-TRAINING/` + `09-PROBATION/` | ⏸️ | Source file essentially empty |
-| 3.2 | Dashboard schema | `21-METRICS-KPIS/va-hiring-dashboard-schema.md` | ✅ | Done |
-| 3.3 | Cross-links (Academy/Jobs) | READMEs | ⬜ | |
-
-### Phase 4 — Role Packs & Supporting
-
-| ID | Item | Destination | Status |
-|---|---|---|---|
-| 4.1 | Appointment Setter role pack | `16-ROLE-WISE-SYSTEMS/Appointment-Setter/` | ⬜ |
-| 4.2 | Automation notes | `13-AUTOMATION/` | ⬜ |
-| 4.3 | 75M Niches data index | `02-TALENT-SOURCING/` | ⬜ |
-| 4.4 | MoldMojo B-Roll prompts | TBD | ⬜ Optional |
-
-### Phase 5 — Verification
-
+### Phase 4
 | ID | Item | Status |
 |---|---|---|
-| 5.1 | Source headers on all files | ✅ |
-| 5.2 | No PII check | ✅ |
-| 5.3 | MASTER-INDEX.md updated | ⬜ |
-| 5.4 | PROGRESS-TRACKER.md updated | ⬜ |
+| 4.1 | Appointment Setter role pack | ✅ Seed created |
+| 4.2 | Automation notes | ⬜ |
+| 4.3 | 75M Niches data index | ⬜ Optional |
+| 4.4 | MoldMojo B-Roll | ⬜ Optional / out of scope |
+
+### Phase 5
+| ID | Item | Status |
+|---|---|---|
+| 5.1 | Source headers | ✅ |
+| 5.2 | No PII | ✅ |
+| 5.3 | MASTER-INDEX updated | ✅ |
+| 5.4 | PROGRESS-TRACKER updated | ✅ |
 | 5.5 | Plan marked COMPLETED | ⬜ |
-| 5.6 | Roadmap README summary | ⬜ |
+| 5.6 | Roadmap README | ✅ |
 
 ---
 
-## Google Drive Archive Status
+## Google Drive Archive (Trash) Log
 
 | File | Result |
 |---|---|
 | VA HIRING FUNNEL – SOP | ✅ Trashed |
 | SOP: STAGE 0 – JOB AWARENESS | ✅ Trashed |
-| VA Agreement | Attempting |
-| Most other careers.nivy files | ❌ Permission denied (owner = careers.nivy) |
+| VA Agreement | ✅ Trashed |
+| VA Offer Letter | ✅ Trashed |
+| VA Offer Letter.docx | ✅ Trashed |
+| VA Hiring Dashboard | ✅ Trashed |
+| S0.0 / S3 / S4 / S5 / S6 / S8 / others (careers.nivy) | ❌ Permission denied |
 
-Manual archive by Drive owner recommended for remaining files.
+**Manual action required** by Drive owner for remaining careers.nivy files.
 
 ---
 
@@ -90,5 +71,5 @@ Manual archive by Drive owner recommended for remaining files.
 
 | Date | Change |
 |---|---|
-| 2026-09-27 | Phase 0–1 complete; Phase 2 started |
-| 2026-09-27 | Phase 2 complete (Agreement + Form schema + Dashboard schema). Overall ~59%. |
+| 2026-09-27 | Phases 0–2 complete |
+| 2026-09-27 | Phase 3 complete; role pack seed; MASTER-INDEX; overall ~83% |
