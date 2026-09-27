@@ -1,6 +1,8 @@
-# Role-Wise Systems
+# 16 — Role-Wise Systems
 
-Initial packs:
-Computer/Data Operator; Accounting/Bookkeeping; Tax Support; Sales/BDE; Digital Marketing; SEO; PPC; Social Media; Content; Graphic/Video; WordPress/Web; Software Development; AI/Automation; QA/Testing; Operations/VA.
+| Pack | Status |
+|------|--------|
+| [role-packs-mapping.md](./role-packs-mapping.md) | Index of BDE / HR / VA packs to screening, training, ranking |
+| BDE / HR / VA-SMM subfolders | Create as role content deepens |
 
-Each pack: role profile → skills → application fields → screen → paid test → rubric → repeated tasks → training → probation KPIs.
+See also: `01-SYSTEM-ARCHITECTURE/roles-responsibilities-matrix.md`

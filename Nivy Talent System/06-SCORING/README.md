@@ -1,11 +1,7 @@
-# Scoring & Calibration
+# 06 — Scoring
 
-Use common reliability criteria plus role-specific skill criteria. Require evidence for scores. Calibrate evaluators with sample submissions. Track reviewer disagreement and borderline cases.
+| File | Source |
+|------|--------|
+| [ranking-system.md](./ranking-system.md) | Drive Ranking System for Employees (BDE + HR) |
 
-Thresholds for research validation:
-- 80+ strong
-- 65–79 developing/probation pathway
-- 50–64 project-only consideration
-- <50 reject
-
-These are workflow thresholds to test and calibrate, not automatic employment decisions.
+Gates from Orientation: **≥80%** → full-time job; **65–79%** → internship.

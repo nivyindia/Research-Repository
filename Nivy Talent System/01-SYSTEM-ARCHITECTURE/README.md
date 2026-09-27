@@ -17,3 +17,9 @@ Candidate segments: Long-term Core, Developing Talent, Project Specialist, Part-
 Task Quality 25, Deadline 20, Instruction Following 15, Communication 10, Problem Solving 10, Learning 10, AI/Tool Usage 5, Documentation 5.
 
 AI may extract, classify, summarize, remind, route, draft and match. Final employment decisions remain human decisions based on job-relevant evidence.
+
+## Migrated notes
+
+- [lifecycle-alignment.md](./lifecycle-alignment.md) — Drive ops mapped to this lifecycle  
+- [roles-responsibilities-matrix.md](./roles-responsibilities-matrix.md) — matrix index + RACI  
+- Ranking → `../06-SCORING/ranking-system.md`
