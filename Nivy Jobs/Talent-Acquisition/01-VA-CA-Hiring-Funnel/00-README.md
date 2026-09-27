@@ -2,6 +2,9 @@
 
 Complete step-by-step Virtual Assistant / CA Assistant hiring system migrated from Google Drive.
 
+**Canonical source:** Google Docs in *Virtual Assistant Hiring Funnel* folder.  
+CA Assistant folder `.docx` files are secondary.
+
 ## Pipeline Stages (S0–S8)
 
 | Stage | Title | File | Status |
@@ -13,17 +16,24 @@ Complete step-by-step Virtual Assistant / CA Assistant hiring system migrated fr
 | S4 | Interview | [S4-Interview.md](S4-Interview.md) | MIGRATED |
 | S5 | Live Orientation Call | [S5-Live-Orientation-Call.md](S5-Live-Orientation-Call.md) | MIGRATED |
 | S6 | Final Selection + Contract | [S6-Final-Selection-Contract.md](S6-Final-Selection-Contract.md) | MIGRATED |
-| S7 | Training & Probation | [S7-Training-Probation.md](S7-Training-Probation.md) | MIGRATED (source minimal) |
+| S7 | Training & Probation | [S7-Training-Probation.md](S7-Training-Probation.md) | MIGRATED |
 | S8 | Offer Letter | [S8-Offer-Letter.md](S8-Offer-Letter.md) | MIGRATED |
 
-- [source-links.md](source-links.md) — Original Drive IDs and links
+## Legal / Templates
 
-## Related SOPs
+| Doc | File |
+|-----|------|
+| VA Employment Agreement | [VA-Agreement.md](VA-Agreement.md) |
+| VA Offer Letter Template | [VA-Offer-Letter-Template.md](VA-Offer-Letter-Template.md) |
 
-See `../06-SOPs-and-Automation/`
+## Source links
 
-## Notes
+[source-links.md](source-links.md) — Drive file IDs
 
-- Preferred source: Google Docs from **Virtual Assistant Hiring Funnel** folder
-- CA Assistant folder has parallel .docx versions (kept as secondary source)
-- Content condensed for readability; full legal/email HTML retained in spirit from originals
+## Related in repo
+
+- SOPs → [../06-SOPs-and-Automation/](../06-SOPs-and-Automation/)
+- BDE Screening → [../02-BDE-Fresher-Screening/](../02-BDE-Fresher-Screening/)
+- Existing training → `Nivy Jobs/90-Day Fresher Course Structure ...md`
+- Existing HR → `Nivy Jobs/Employee Handbook (HR Policies) ...md`
+- Plan/Tracker → `docs/plans/talent-acquisition-migration/`

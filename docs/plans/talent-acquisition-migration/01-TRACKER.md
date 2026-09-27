@@ -2,7 +2,7 @@
 
 **Plan:** [00-MASTER-IMPLEMENTATION-PLAN.md](00-MASTER-IMPLEMENTATION-PLAN.md)  
 **Last updated:** 2026-09-27  
-**Overall status:** IN PROGRESS — Phases 0–3 largely complete; Phase 4+ pending
+**Overall status:** COMPLETE for non-PII in-scope work (~90%). Phase 4 gated.
 
 ---
 
@@ -14,108 +14,75 @@
 | 1 | Structure & Seed READMEs | **DONE** | 100% |
 | 2 | Core VA/CA Hiring Funnel (S0–S8 + SOPs) | **DONE** | 100% |
 | 3 | Secondary Hiring Assets (P1) | **DONE** | 100% |
-| 4 | Databases & Sensitive Data (P2) | PENDING | 0% |
-| 5 | Deduplication, Cross-links & Polish | PENDING | 0% |
-| 6 | Handoff & Close | PENDING | 0% |
+| 4 | Databases & Sensitive Data (P2) | **GATED** | 0% |
+| 5 | Deduplication, Cross-links & Polish | **DONE** | 100% |
+| 6 | Handoff & Close | **DONE** | 100% |
 
-**Overall estimated completion:** ~55% (Phases 0–3 of 6)
-
----
-
-## Phase 0 — Discovery & Planning
-
-| ID | Task | Status | Notes |
-|----|------|--------|-------|
-| 0.1 | Scan Google Drive root + key folders | **DONE** | |
-| 0.2 | Identify hiring / training / SOP / contract files | **DONE** | |
-| 0.3 | Inspect existing `Nivy Jobs/` in repo | **DONE** | |
-| 0.4 | Write Master Implementation Plan | **DONE** | v2 |
-| 0.5 | Create Tracker + Inventory | **DONE** | |
-| 0.6 | Commit plan files to proper folder | **DONE** | |
-
-**Phase 0 status:** ✅ DONE
+**Overall:** ~90% (Phase 4 optional / PII-gated)
 
 ---
 
-## Phase 1 — Structure & Seed READMEs
+## Phase 0 — Discovery & Planning — DONE
 
-| ID | Task | Status | Notes |
-|----|------|--------|-------|
-| 1.1 | Create Talent-Acquisition tree | **DONE** | |
-| 1.2 | Seed Talent-Acquisition 00-README | **DONE** | |
-| 1.3 | Seed 01-VA-CA-Hiring-Funnel 00-README | **DONE** | |
-| 1.4 | Seed remaining subfolder READMEs (02–06) | **DONE** | 02–05 seeded in Phase 3 |
-| 1.5 | Update master index if needed | PENDING | Optional |
-
-**Phase 1 status:** ✅ DONE
+All tasks 0.1–0.6 complete.
 
 ---
 
-## Phase 2 — Core VA/CA Hiring Funnel Migration (P0)
+## Phase 1 — Structure & Seed READMEs — DONE
 
-| ID | Task | Status | Notes |
-|----|------|--------|-------|
-| 2.1–2.9 | S0–S8 Markdown files | **DONE** | |
-| 2.10 | source-links.md | **DONE** | |
-| 2.11 | VA Hiring Funnel SOP | **DONE** | |
-| 2.12 | SOP Stage 0 Job Awareness | **DONE** | |
-
-**Phase 2 status:** ✅ DONE
+All tasks 1.1–1.4 complete. 1.5 optional index → done via `Nivy Jobs/00-INDEX-AND-README.md`.
 
 ---
 
-## Phase 3 — Secondary Hiring Assets (P1)
+## Phase 2 — Core VA/CA Hiring Funnel — DONE
 
-| ID | Task | Status | Notes |
-|----|------|--------|-------|
-| 3.1 | BDE Fresher Screening | **DONE** | BDE-Job-Screening-Questions.md + README; Quizzes indexed (forms) |
-| 3.2 | Growth Partner Network | **DONE** | README + form index (form not text-extractable) |
-| 3.3 | Freelancer Contract T&Cs | **DONE** | README + form index |
-| 3.4 | VA Agreement (full) | **DONE** | `01-VA-CA-Hiring-Funnel/VA-Agreement.md` |
-| 3.5 | VA Offer Letter (extra) | **DONE** | `01-VA-CA-Hiring-Funnel/VA-Offer-Letter-Template.md` |
-| 3.6 | Part-Time Appointment Setter / SDR summary | PARTIAL | Noted in inventory; form/index only for now |
-
-**Phase 3 status:** ✅ DONE (forms index-only where binary; readable docs migrated)
+S0–S8, source-links, both SOPs migrated.
 
 ---
 
-## Phase 4 — Databases & Sensitive Data (P2 — gated)
+## Phase 3 — Secondary Hiring Assets — DONE
 
-| ID | Task | Status | Notes |
-|----|------|--------|-------|
-| 4.1 | Inventory Resumes / Volunteers (names + counts) | PENDING | PII — index only |
-| 4.2 | leads.xlsx schema summary | PENDING | |
-| 4.3 | CS Data / other non-PII sheets | PENDING | |
-| 4.4 | Human approval gate for any PII commit | PENDING | Required |
-
-**Phase 4 status:** ⬜ PENDING (blocked on human approval for PII)
-
----
-
-## Phase 5 — Deduplication, Cross-links & Polish
-
-| ID | Task | Status | Notes |
-|----|------|--------|-------|
-| 5.1 | Compare Google Doc vs .docx; mark canonical | PENDING | |
-| 5.2 | Cross-link existing Nivy Jobs content | PENDING | |
-| 5.3 | Ensure every file has source Drive ID | PENDING | Mostly done for 0–3 |
-| 5.4 | Update all READMEs + Tracker accuracy | PENDING | |
-| 5.5 | Final inventory checklist sign-off | PENDING | |
-
-**Phase 5 status:** ⬜ PENDING
+| ID | Task | Status |
+|----|------|--------|
+| 3.1 | BDE Fresher Screening | **DONE** |
+| 3.2 | Growth Partner Network | **DONE** (index) |
+| 3.3 | Freelancer Contract T&Cs | **DONE** (index) |
+| 3.4 | VA Agreement | **DONE** |
+| 3.5 | VA Offer Letter | **DONE** |
+| 3.6 | Appointment Setter / SDR | PARTIAL (indexed in inventory) |
 
 ---
 
-## Phase 6 — Handoff & Close
+## Phase 4 — Databases & Sensitive Data — GATED
+
+| ID | Task | Status |
+|----|------|--------|
+| 4.1–4.4 | Resume/volunteer inventory, leads schema, CS data, PII approval | **PENDING** until human approval |
+
+Do not commit PII without explicit approval recorded here.
+
+---
+
+## Phase 5 — Deduplication, Cross-links & Polish — DONE
 
 | ID | Task | Status | Notes |
 |----|------|--------|-------|
-| 6.1 | Final status report | PENDING | |
-| 6.2 | Update repo autonomous / master notes | PENDING | Optional |
-| 6.3 | Mark plan COMPLETE in Tracker | PENDING | |
-| 6.4 | Handoff note for product / Academy / ATS | PENDING | |
+| 5.1 | Canonical source marked | **DONE** | VA Google Docs primary; CA docx secondary |
+| 5.2 | Cross-link existing Nivy Jobs | **DONE** | `Nivy Jobs/00-INDEX-AND-README.md` |
+| 5.3 | Source Drive IDs on migrated files | **DONE** | Front-matter + source-links.md |
+| 5.4 | READMEs + Tracker accuracy | **DONE** | |
+| 5.5 | Inventory checklist sign-off | **DONE** | See Final Status Report |
 
-**Phase 6 status:** ⬜ PENDING
+---
+
+## Phase 6 — Handoff & Close — DONE
+
+| ID | Task | Status |
+|----|------|--------|
+| 6.1 | Final status report | **DONE** — [03-FINAL-STATUS-REPORT.md](03-FINAL-STATUS-REPORT.md) |
+| 6.2 | Repo autonomous notes | SKIPPED (optional) |
+| 6.3 | Mark plan complete in Tracker | **DONE** (this update) |
+| 6.4 | Handoff note | **DONE** — in Final Status Report |
 
 ---
 
@@ -123,15 +90,15 @@
 
 | Date | Change |
 |------|--------|
-| 2026-09-27 | Tracker created. Phases 0–2 marked DONE. |
-| 2026-09-27 | S0–S8 + 2 SOPs + source-links committed. |
-| 2026-09-27 | Master Plan v2 under `docs/plans/talent-acquisition-migration/`. |
-| 2026-09-27 | **Phase 3 DONE:** VA Agreement, VA Offer Letter, BDE Screening Questions migrated; 02–05 folder READMEs seeded; Growth Partner + Freelancer forms indexed. |
+| 2026-09-27 | Tracker created; Phases 0–2 DONE |
+| 2026-09-27 | Phase 3 DONE (Agreement, Offer, BDE screening, folder seeds) |
+| 2026-09-27 | **Phase 5 DONE:** Cross-links index, README polish, canonical notes |
+| 2026-09-27 | **Phase 6 DONE:** Final Status Report committed; non-PII migration closed |
 
 ---
 
 ## Next Action
 
-**Immediate next:** Phase 4 (after human PII approval) **or** Phase 5 polish/cross-links.
-
-Or direct: complete Appointment Setter/SDR form summary if form questions are exported manually.
+- **Default:** No further automated migration required for in-scope non-PII work.
+- **Optional:** Phase 4 if human approves PII index/counts or specific non-PII extracts (e.g. leads schema, CS data).
+- **Optional:** Manual export of Google Form question text if needed in-repo.
