@@ -69,3 +69,24 @@ Details: `24-IMPLEMENTATION-ROADMAP/`
 - [ ] Normalize existing screening/scoring/assessment resources
 - [ ] Build V1 candidate discovery workflows
 - [ ] Pilot with real candidates and calibrate signals against downstream outcomes
+
+
+## Organization Chart + Recurring Role Catalogue — 2026-09-27
+
+- [x] Reviewed existing company/AI OS organization structures
+- [x] Reused existing Nivy Next and Nivy Advisory service architecture
+- [x] Consolidated shared departments and operational roles
+- [x] Added master organization chart
+- [x] Defined recurring role catalogue
+- [x] Added Digital Marketing / SEO / Social / Content / Ads roles
+- [x] Added Web / App / AI / Automation roles
+- [x] Added Accounting / CPA / CEA / Tax support roles
+- [x] Added Computer Operator / Data Entry / Form Processing / Project Operator roles
+- [x] Added Operations / QA / Sales / HR / Customer Success / Technology roles
+- [x] Added salary / hourly / task / assignment / project / retainer / commission / incentive / contractor / outsourcing models
+- [x] Added sales-first → outsourced delivery → internal hiring strategy
+- [x] Added reusable Job Posting Master Record
+- [ ] Confirm final candidate resume/application email
+- [ ] Build role-specific Success Profiles and practical tests
+- [ ] Build role-by-role compensation ranges
+- [ ] Generate reusable job-post templates
