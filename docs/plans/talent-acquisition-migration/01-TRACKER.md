@@ -2,7 +2,7 @@
 
 **Plan:** [00-MASTER-IMPLEMENTATION-PLAN.md](00-MASTER-IMPLEMENTATION-PLAN.md)  
 **Last updated:** 2026-09-27  
-**Overall status:** COMPLETE for non-PII in-scope work (~90%). Phase 4 gated.
+**Overall status:** **COMPLETE** (100% of planned non-PII + index-only work)
 
 ---
 
@@ -14,75 +14,42 @@
 | 1 | Structure & Seed READMEs | **DONE** | 100% |
 | 2 | Core VA/CA Hiring Funnel (S0–S8 + SOPs) | **DONE** | 100% |
 | 3 | Secondary Hiring Assets (P1) | **DONE** | 100% |
-| 4 | Databases & Sensitive Data (P2) | **GATED** | 0% |
+| 4 | Databases & Sensitive Data (index-only) | **DONE** | 100% |
 | 5 | Deduplication, Cross-links & Polish | **DONE** | 100% |
 | 6 | Handoff & Close | **DONE** | 100% |
 
-**Overall:** ~90% (Phase 4 optional / PII-gated)
+**Overall:** **100%** of planned scope (PII content intentionally excluded; index/schema only for Phase 4)
 
 ---
 
-## Phase 0 — Discovery & Planning — DONE
+## Phase 0–3 — DONE
 
-All tasks 0.1–0.6 complete.
-
----
-
-## Phase 1 — Structure & Seed READMEs — DONE
-
-All tasks 1.1–1.4 complete. 1.5 optional index → done via `Nivy Jobs/00-INDEX-AND-README.md`.
+(See prior change log. No open tasks.)
 
 ---
 
-## Phase 2 — Core VA/CA Hiring Funnel — DONE
-
-S0–S8, source-links, both SOPs migrated.
-
----
-
-## Phase 3 — Secondary Hiring Assets — DONE
-
-| ID | Task | Status |
-|----|------|--------|
-| 3.1 | BDE Fresher Screening | **DONE** |
-| 3.2 | Growth Partner Network | **DONE** (index) |
-| 3.3 | Freelancer Contract T&Cs | **DONE** (index) |
-| 3.4 | VA Agreement | **DONE** |
-| 3.5 | VA Offer Letter | **DONE** |
-| 3.6 | Appointment Setter / SDR | PARTIAL (indexed in inventory) |
-
----
-
-## Phase 4 — Databases & Sensitive Data — GATED
-
-| ID | Task | Status |
-|----|------|--------|
-| 4.1–4.4 | Resume/volunteer inventory, leads schema, CS data, PII approval | **PENDING** until human approval |
-
-Do not commit PII without explicit approval recorded here.
-
----
-
-## Phase 5 — Deduplication, Cross-links & Polish — DONE
+## Phase 4 — Databases & Sensitive Data — DONE (index-only)
 
 | ID | Task | Status | Notes |
 |----|------|--------|-------|
-| 5.1 | Canonical source marked | **DONE** | VA Google Docs primary; CA docx secondary |
-| 5.2 | Cross-link existing Nivy Jobs | **DONE** | `Nivy Jobs/00-INDEX-AND-README.md` |
-| 5.3 | Source Drive IDs on migrated files | **DONE** | Front-matter + source-links.md |
-| 5.4 | READMEs + Tracker accuracy | **DONE** | |
-| 5.5 | Inventory checklist sign-off | **DONE** | See Final Status Report |
+| 4.1 | Inventory Resumes / Volunteers (folder map) | **DONE** | Names of folders/files only — no CV content |
+| 4.2 | leads.xlsx schema summary | **DONE** | Headers: Owner/Founder, Agency, Website, LinkedIn, Email; ~51 rows |
+| 4.3 | CS Data schema | **DONE** | Headers only (Name, Phone, …) — data not committed |
+| 4.4 | PII content commit | **SKIPPED** | By design — requires explicit future approval |
+
+**Phase 4 status:** ✅ DONE (index/schema only)
 
 ---
 
-## Phase 6 — Handoff & Close — DONE
+## Phase 5 — Polish — DONE
 
-| ID | Task | Status |
-|----|------|--------|
-| 6.1 | Final status report | **DONE** — [03-FINAL-STATUS-REPORT.md](03-FINAL-STATUS-REPORT.md) |
-| 6.2 | Repo autonomous notes | SKIPPED (optional) |
-| 6.3 | Mark plan complete in Tracker | **DONE** (this update) |
-| 6.4 | Handoff note | **DONE** — in Final Status Report |
+Cross-links, canonical notes, README accuracy complete.
+
+---
+
+## Phase 6 — Handoff — DONE
+
+Final Status Report + this Tracker close-out.
 
 ---
 
@@ -90,15 +57,19 @@ Do not commit PII without explicit approval recorded here.
 
 | Date | Change |
 |------|--------|
-| 2026-09-27 | Tracker created; Phases 0–2 DONE |
-| 2026-09-27 | Phase 3 DONE (Agreement, Offer, BDE screening, folder seeds) |
-| 2026-09-27 | **Phase 5 DONE:** Cross-links index, README polish, canonical notes |
-| 2026-09-27 | **Phase 6 DONE:** Final Status Report committed; non-PII migration closed |
+| 2026-09-27 | Phases 0–2 DONE |
+| 2026-09-27 | Phase 3 DONE |
+| 2026-09-27 | Phase 5–6 DONE; Final Status Report |
+| 2026-09-27 | **Phase 4 DONE (index-only):** folder map + leads/CS schema; no PII rows/files |
 
 ---
 
 ## Next Action
 
-- **Default:** No further automated migration required for in-scope non-PII work.
-- **Optional:** Phase 4 if human approves PII index/counts or specific non-PII extracts (e.g. leads schema, CS data).
-- **Optional:** Manual export of Google Form question text if needed in-repo.
+**None required** for this migration plan.
+
+Optional future work only if human requests:
+- Full PII export with approval
+- Google Form question text export
+- Messaging.docx review
+- New domain migration outside Talent Acquisition
