@@ -25,3 +25,16 @@
 - [ ] Pilot + acceptance testing
 
 Details: `24-IMPLEMENTATION-ROADMAP/`
+
+
+## Repository-wide discovery update — 2026-09-27
+- [x] Repository tree scan completed (11,654 paths)
+- [x] Targeted searches completed across Jobs, Careers, Academy, HR, recruitment, applicants, training, assessment and automation
+- [x] Resource map created: `00-START-HERE/RESOURCE-MAP.md`
+- [x] Full implementation plan created: `24-IMPLEMENTATION-ROADMAP/FULL-IMPLEMENTATION-PLAN.md`
+- [x] Architecture decision: Talent System is the shared engine; Nivy Jobs and Nivy Academy are front ends/programmes
+- [x] Existing originals are preserved until provenance/deduplication review
+- [x] Historical CSV/XLSX/archive assets identified
+- [ ] Historical Gmail/Excel/resume migration
+- [ ] Tool/platform comparison + MVP stack
+- [ ] Pilot + acceptance testing
