@@ -1,183 +1,168 @@
-# Google Drive → Nivy Talent System Migration Plan
+# Google Drive → Nivy Talent System — Phase-Wise Implementation Plan
 
 **Date:** 2026-09-27  
 **Repo:** nivyindia/Research-Repository  
 **Target root:** `Nivy Talent System/`  
-**Source:** User Google Drive (HR, Employees, Training & Learning, Course, Planning, Company Drive, etc.)
-
-## Objective
-
-Google Drive में scattered talent acquisition, recruitment, screening, training, HR policies और jobs-related files को systematically extract करके `Nivy Talent System` के existing folder structure में organize करना। Plan phases में divide है; execution उसी structure के अंदर content fill करेगा।
-
-## Existing Target Structure (Already Present)
-
-```
-Nivy Talent System/
-├─ 00-START-HERE
-├─ 01-SYSTEM-ARCHITECTURE
-├─ 02-TALENT-SOURCING
-├─ 03-CANDIDATE-ACQUISITION
-├─ 04-SCREENING
-├─ 05-PAID-ASSESSMENT
-├─ 06-SCORING
-├─ 07-TRAINING
-├─ 08-PAID-INTERNSHIP
-├─ 09-PROBATION
-├─ 10-TALENT-POOL
-├─ 11-JOB-ALLOCATION
-├─ 12-CANDIDATE-COMMUNICATION
-├─ 13-AUTOMATION
-├─ 14-INSTITUTE-PARTNERSHIPS
-├─ 15-CITY-SOURCING
-├─ 16-ROLE-WISE-SYSTEMS
-├─ 17-SOPS
-├─ 18-TEMPLATES
-├─ 19-PROMPTS
-├─ 20-DATABASE-SCHEMAS
-├─ 21-METRICS-KPIS
-├─ 22-RESEARCH
-├─ 23-TOOLS-PLATFORMS
-├─ 24-IMPLEMENTATION-ROADMAP   ← this plan lives here
-├─ 25-TESTING
-├─ 99-ARCHIVE
-├─ MASTER-INDEX.md
-├─ PROGRESS-TRACKER.md
-└─ README.md
-```
-
-Related sibling folders already containing related material:
-- `Nivy Jobs/` (Fresher course, BDE guidelines, HR policies extracts, client scripts)
-- `Nivy Academy/` (AI courses, modules, tracks)
-
-## Phase 0 — Inventory & Classification (DONE in this document)
-
-### High-value Google Drive sources identified
-
-| Source Location | File / Folder | Relevance | Proposed Target Folder |
-|---|---|---|---|
-| HR / Recruitment | HR Pre Interview Exams | Screening questions | 04-SCREENING + 05-PAID-ASSESSMENT |
-| HR / Recruitment | Sales Screening Question Paper | Role-wise screening | 04-SCREENING + 16-ROLE-WISE-SYSTEMS/Sales |
-| HR / Fresher Screening Forms | Contact Information (Form + Responses) | Candidate acquisition | 03-CANDIDATE-ACQUISITION |
-| HR | HR Policies + Copy of HR Policies | Policies / handbook | 17-SOPS + 09-PROBATION |
-| HR / Policies | Human Resources (HR) Department Policies | Core HR SOP | 17-SOPS |
-| HR / Policies | Master Company Policies & Procedures Manual | Company-wide | 17-SOPS + 01-SYSTEM-ARCHITECTURE |
-| HR / Policies | Administration & Management Department Rules | Admin SOP | 17-SOPS |
-| HR / Policies | Operations Department Policies | Ops | 17-SOPS |
-| HR / Policies | Sales Marketing & Customer Support Policies | Sales policies | 16-ROLE-WISE-SYSTEMS/Sales |
-| HR / Policies | Purchase / Procurement Department Policies | Support | 17-SOPS |
-| HR / Policies | HR Assessment | Assessment rubric | 05-PAID-ASSESSMENT + 06-SCORING |
-| HR | HR Tasks | Recruiter/HR task list | 17-SOPS |
-| HR | Types of Employee Allowances | Compensation | 09-PROBATION / 18-TEMPLATES |
-| HR | Work Guidelines | Work rules | 17-SOPS |
-| HR | Attendance (Sheet) | Ops data | 21-METRICS-KPIS (reference only) |
-| Employees / Training | Accounting folder | Role training | 07-TRAINING + 16-ROLE-WISE-SYSTEMS/Accounts |
-| Employees / Training | Digital Marketing folder | Role training | 07-TRAINING + 16-ROLE-WISE-SYSTEMS/Marketing |
-| Root / Docs | Sales Professional Academy | Training curriculum | 07-TRAINING + Nivy Academy cross-link |
-| Root | Freshers motivation | Onboarding / culture | 07-TRAINING + 08-PAID-INTERNSHIP |
-| Root | Goal alignment | Performance | 09-PROBATION + 21-METRICS-KPIS |
-| Root | Organization_HR_Document_Roles_and_Responsibilities_Matrix.xlsx | Roles matrix | 01-SYSTEM-ARCHITECTURE + 16-ROLE-WISE-SYSTEMS |
-| Planning | Master Plan full | Strategic context | 22-RESEARCH (provenance) |
-| Company Drive / 02 Human Resources | Recruitment, Policies, Work Ethics, Employee Files | Duplicate / newer copies | Cross-check & merge |
-| Company Drive / 05 Training & Learning | Course v1.1, Fresher Career, HR Training, SMM-VA | Training material | 07-TRAINING |
-| Course | Version 1.1 | Course content | 07-TRAINING / Nivy Academy |
-| Students Internship Certificate + Letterhead | Templates | 18-TEMPLATES + 08-PAID-INTERNSHIP |
-
-### Classification rules
-
-1. **PII / personal candidate data** (form responses with names/phones) → do **not** push raw PII into public repo. Extract only structure, field list, sample anonymised rows, and process description.
-2. **Policies & SOPs** → Markdown conversion, clean headings, version note + original Drive link in front-matter.
-3. **Question papers / assessments** → place under 04-SCREENING or 05-PAID-ASSESSMENT; split by role if possible.
-4. **Training curricula** → 07-TRAINING; cross-link to `Nivy Academy` and `Nivy Jobs` where overlap exists.
-5. **Role matrices / org design** → 01-SYSTEM-ARCHITECTURE + 16-ROLE-WISE-SYSTEMS.
-6. **Duplicates** → keep newest or most complete; older copies go to 99-ARCHIVE with note.
-
-## Phase 1 — Core Screening & Acquisition Assets (Priority 1)
-
-**Goal:** Make candidate intake + screening operational docs available inside Talent System.
-
-| Action | Source | Destination path |
-|---|---|---|
-| Extract & convert HR Pre Interview Exams | Drive HR/Recruitment | `04-SCREENING/hr-pre-interview-exams.md` |
-| Extract & convert Sales Screening Question Paper | Drive HR/Recruitment | `04-SCREENING/sales-screening-question-paper.md` + `16-ROLE-WISE-SYSTEMS/Sales/` |
-| Document Contact Information form structure (fields only, no PII) | Fresher Screening Forms | `03-CANDIDATE-ACQUISITION/contact-information-form-schema.md` |
-| Create acquisition process note from form + responses pattern | same | `03-CANDIDATE-ACQUISITION/fresher-intake-process.md` |
-| Extract HR Assessment | Policies | `05-PAID-ASSESSMENT/hr-assessment.md` + `06-SCORING/` |
-
-**Deliverable:** Screening question bank started + intake schema documented.
-
-## Phase 2 — Policies, SOPs & Handbooks (Priority 1)
-
-| Action | Source | Destination path |
-|---|---|---|
-| Convert HR Policies (primary) | HR | `17-SOPS/hr-policies.md` |
-| Convert Human Resources Department Policies | Policies | `17-SOPS/hr-department-policies.md` |
-| Convert Master Company Policies & Procedures Manual | Policies | `17-SOPS/master-company-policies.md` |
-| Convert Work Guidelines | HR | `17-SOPS/work-guidelines.md` |
-| Convert HR Tasks | HR | `17-SOPS/hr-tasks-checklist.md` |
-| Convert Admin / Ops / Purchase / Sales policies | Policies | respective under `17-SOPS/` or role folders |
-| Convert Types of Employee Allowances | HR | `18-TEMPLATES/employee-allowances.md` |
-| Cross-link existing Nivy Jobs Employee Handbook extracts | Nivy Jobs | Update MASTER-INDEX + PROGRESS-TRACKER |
-
-**Deliverable:** Single source of truth for HR/recruiter SOPs inside Talent System.
-
-## Phase 3 — Training & Fresher Systems (Priority 1)
-
-| Action | Source | Destination path |
-|---|---|---|
-| Extract Sales Professional Academy | Root Docs | `07-TRAINING/sales-professional-academy.md` |
-| Extract Freshers motivation | Root | `07-TRAINING/freshers-motivation.md` |
-| Extract Goal alignment | Root | `09-PROBATION/goal-alignment.md` |
-| Inventory & extract Course v1.1 / Fresher Career / HR Training / SMM-VA | Company Drive 05 + Course | `07-TRAINING/` subfolders by track |
-| Extract Accounting & Digital Marketing training folders | Employees/Training | `16-ROLE-WISE-SYSTEMS/Accounts/` + `Marketing/` + `07-TRAINING/` |
-| Link / reconcile with existing Nivy Jobs 90-Day Fresher Course & BDE Guidelines | Nivy Jobs | Cross-references in 07-TRAINING README |
-| Internship certificate + letterhead templates | Root | `18-TEMPLATES/` + `08-PAID-INTERNSHIP/` |
-
-**Deliverable:** Training library started; fresher pathway materials consolidated.
-
-## Phase 4 — Roles, Architecture & Org Design
-
-| Action | Source | Destination path |
-|---|---|---|
-| Extract Organization_HR_Document_Roles_and_Responsibilities_Matrix | Spreadsheet | `01-SYSTEM-ARCHITECTURE/roles-and-responsibilities-matrix.md` (+ CSV if useful) |
-| Map roles into 16-ROLE-WISE-SYSTEMS packs | matrix + policies | Computer Ops, Accounts, Sales, Marketing, HR, etc. |
-| Update 01-SYSTEM-ARCHITECTURE with lifecycle alignment from policies | — | Architecture docs |
-
-## Phase 5 — Research Provenance & Archive
-
-| Action | Source | Destination |
-|---|---|---|
-| Master Plan full (strategic context) | Planning | `22-RESEARCH/master-plan-context.md` (summary + link) |
-| Older / duplicate policy copies | various | `99-ARCHIVE/` with provenance note |
-| Update MASTER-INDEX.md and PROGRESS-TRACKER.md | — | Reflect completed items |
-
-## Phase 6 — Verification & Progress Update
-
-1. Every migrated file has YAML/front-matter or header with:
-   - Original Drive file name + file_id or web link
-   - Migration date
-   - Status (extracted / cleaned / needs review)
-2. No raw PII committed.
-3. PROGRESS-TRACKER checkboxes updated for:
-   - Screening question bank
-   - Training/remediation system (partial)
-   - Internship SOP (templates)
-   - Existing solution landscape (Drive sources)
-4. Short status note in `24-IMPLEMENTATION-ROADMAP/README.md`.
-
-## Execution Order (Immediate Next)
-
-1. **Phase 1** — Screening + Acquisition (highest operational value)
-2. **Phase 2** — Policies / SOPs
-3. **Phase 3** — Training materials
-4. Phase 4 → 5 → 6
-
-## Notes / Constraints
-
-- GitHub push uses text content (Markdown preferred). Binary/Office files will be converted to Markdown/CSV where possible; large binaries avoided unless essential.
-- Form response sheets containing personal data will only contribute schema + process docs.
-- If a Drive file is already substantially present in `Nivy Jobs` or `Nivy Academy`, we create a thin pointer + delta only (avoid full duplication).
-- All work stays inside `Nivy Talent System/` unless cross-repo promotion is explicitly requested later.
+**Source:** Live Google Drive scan (HR, Employees, Course, Company Drive, root docs)  
+**Tracker:** [03-DRIVE-CONTENT-MIGRATION-TRACKER.md](./03-DRIVE-CONTENT-MIGRATION-TRACKER.md)
 
 ---
 
-**Status of this plan:** Created 2026-09-27. Ready for Phase 1 execution.
+## Objective
+
+Drive mein scattered talent acquisition, recruitment, screening, training, HR policies aur related files ko extract karke existing Talent System folder structure mein organize karna — phases mein, tracker ke saath.
+
+## Rules
+
+1. **No raw PII** — candidate names/phones/emails form responses se repo mein nahi.
+2. Har migrated file mein: original Drive name, file_id/link, migration date, status.
+3. Markdown preferred; large binaries avoid.
+4. Duplicate → newest keep; older → `99-ARCHIVE`.
+5. Already in `Nivy Jobs` / `Nivy Academy` → thin cross-link, full duplicate nahi.
+6. Work stays in `Research-Repository` until explicit promotion.
+
+## Target Structure (already present)
+
+```
+Nivy Talent System/
+├─ 00-START-HERE … 25-TESTING, 99-ARCHIVE
+├─ MASTER-INDEX.md | PROGRESS-TRACKER.md | README.md
+```
+
+---
+
+## Phase Overview
+
+| Phase | Scope | Priority | Status |
+|-------|--------|----------|--------|
+| **0** | Live Drive inventory + classification | — | ✅ Done |
+| **1** | Screening + Candidate Acquisition | P0 | 🔄 In Progress |
+| **2** | Policies / SOPs / Handbooks | P0 | ⬜ Pending |
+| **3** | Training & Fresher systems | P0 | ⬜ Pending |
+| **4** | Roles matrix + Architecture alignment | P1 | ⬜ Pending |
+| **5** | Assessments, ranking, templates | P1 | ⬜ Pending |
+| **6** | Verification + index/tracker update | — | ⬜ Pending |
+
+---
+
+## Phase 0 — Inventory (DONE)
+
+### Drive folders verified
+
+| Folder | Relevance |
+|--------|-----------|
+| HR | Recruitment, Policies, Screening forms, Handbook |
+| Employees | Training (Accounting, DM), Sales, Work |
+| Course | Version 1.1 |
+| NivyIndia - Company Drive | 02 HR, 05 Training & Learning |
+| Root / Docs | Academy, motivation, ranking, orientation, matrix, certificates |
+
+### High-value file map
+
+| Source | File | Destination |
+|--------|------|-------------|
+| HR/Recruitment | HR Pre Interview Exams | `04-SCREENING/hr-pre-interview-exams.md` |
+| HR/Recruitment | Sales Screening Question Paper | `04-SCREENING/sales-screening-question-paper.md` |
+| HR/Fresher Screening Forms | Contact Information form | `03-CANDIDATE-ACQUISITION/` schema only |
+| HR | HR Policies, HR Tasks, Work Guidelines, Allowances | `17-SOPS/` + `18-TEMPLATES/` |
+| HR/Policies | Dept policies, Master Company Policies, HR Assessment | `17-SOPS/` + `05-PAID-ASSESSMENT/` |
+| Root | Sales Professional Academy, Freshers motivation | `07-TRAINING/` |
+| Root | Ranking System, Orientation, Basic Training MCQ | `06-SCORING/`, `07-TRAINING/`, `05-PAID-ASSESSMENT/` |
+| Root | Roles & Responsibilities Matrix | `01-SYSTEM-ARCHITECTURE/` |
+| Root | VA Basic/Advance, HR Training, Sales Training Schedule | `07-TRAINING/` |
+| Root | Internship Certificate, Letterhead | `18-TEMPLATES/` + `08-PAID-INTERNSHIP/` |
+| Employees/Training | Accounting, Digital Marketing | `16-ROLE-WISE-SYSTEMS/` + `07-TRAINING/` |
+| Company Drive/05 | Course v1.1, Fresher Career, HR Training, SMM-VA | `07-TRAINING/` |
+
+---
+
+## Phase 1 — Screening + Acquisition (P0) — IN PROGRESS
+
+**Goal:** Candidate intake + screening papers usable inside Talent System.
+
+| ID | Action | Destination | Status |
+|----|--------|-------------|--------|
+| 1.1 | HR Pre Interview Exams → Markdown | `04-SCREENING/hr-pre-interview-exams.md` | ✅ Extracted |
+| 1.2 | Sales Screening Question Paper → Markdown | `04-SCREENING/sales-screening-question-paper.md` | ✅ Extracted |
+| 1.3 | 04-SCREENING README | `04-SCREENING/README.md` | ✅ Extracted |
+| 1.4 | Contact form schema (fields only, no PII) | `03-CANDIDATE-ACQUISITION/contact-information-form-schema.md` | ⬜ |
+| 1.5 | Fresher intake process note | `03-CANDIDATE-ACQUISITION/fresher-intake-process.md` | ⬜ |
+| 1.6 | HR Assessment extract | `05-PAID-ASSESSMENT/hr-assessment.md` | ⬜ |
+
+**Exit criteria:** Screening question bank started; intake schema documented; no PII committed.
+
+---
+
+## Phase 2 — Policies / SOPs (P0)
+
+| ID | Action | Destination |
+|----|--------|-------------|
+| 2.1 | HR Policies | `17-SOPS/hr-policies.md` |
+| 2.2 | HR Department Policies | `17-SOPS/hr-department-policies.md` |
+| 2.3 | Master Company Policies | `17-SOPS/master-company-policies.md` |
+| 2.4 | Work Guidelines | `17-SOPS/work-guidelines.md` |
+| 2.5 | HR Tasks checklist | `17-SOPS/hr-tasks-checklist.md` |
+| 2.6 | Admin / Ops / Purchase / Sales policies | `17-SOPS/` or role folders |
+| 2.7 | Employee Allowances | `18-TEMPLATES/employee-allowances.md` |
+| 2.8 | Cross-link Nivy Jobs Employee Handbook | MASTER-INDEX + README |
+
+---
+
+## Phase 3 — Training & Fresher systems (P0)
+
+| ID | Action | Destination |
+|----|--------|-------------|
+| 3.1 | Sales Professional Academy | `07-TRAINING/sales-professional-academy.md` |
+| 3.2 | Freshers motivation | `07-TRAINING/freshers-motivation.md` |
+| 3.3 | Orientation | `07-TRAINING/orientation.md` |
+| 3.4 | VA Basic + VA Advance Training | `07-TRAINING/` + role packs |
+| 3.5 | HR Training | `07-TRAINING/hr-training.md` |
+| 3.6 | Sales Training Schedule | `07-TRAINING/sales-training-schedule.md` |
+| 3.7 | Course v1.1 / Fresher Career / SMM-VA inventory | `07-TRAINING/` subfolders |
+| 3.8 | Accounting + Digital Marketing training | `16-ROLE-WISE-SYSTEMS/` + `07-TRAINING/` |
+| 3.9 | Cross-link Nivy Jobs 90-Day Fresher + BDE Guidelines | READMEs |
+
+---
+
+## Phase 4 — Roles & Architecture (P1)
+
+| ID | Action | Destination |
+|----|--------|-------------|
+| 4.1 | Roles & Responsibilities Matrix extract | `01-SYSTEM-ARCHITECTURE/roles-and-responsibilities-matrix.md` |
+| 4.2 | Map roles into 16-ROLE-WISE-SYSTEMS packs | Sales, HR, Accounts, Marketing, VA, etc. |
+| 4.3 | Lifecycle alignment note in architecture | `01-SYSTEM-ARCHITECTURE/` |
+
+---
+
+## Phase 5 — Assessments, Ranking, Templates (P1)
+
+| ID | Action | Destination |
+|----|--------|-------------|
+| 5.1 | Basic Training MCQ | `05-PAID-ASSESSMENT/basic-training-mcq.md` |
+| 5.2 | Ranking System for Employees | `06-SCORING/ranking-system.md` + `09-PROBATION/` |
+| 5.3 | Internship Certificate template | `18-TEMPLATES/` + `08-PAID-INTERNSHIP/` |
+| 5.4 | Letterhead template | `18-TEMPLATES/letterhead.md` |
+
+---
+
+## Phase 6 — Verification
+
+| ID | Check |
+|----|--------|
+| 6.1 | Every file has source header (Drive link / id / date) |
+| 6.2 | No PII in repo |
+| 6.3 | MASTER-INDEX.md updated |
+| 6.4 | PROGRESS-TRACKER.md updated |
+| 6.5 | This plan + tracker marked current |
+| 6.6 | Roadmap README summary accurate |
+
+---
+
+## Execution order
+
+1. Finish Phase 1 remaining items  
+2. Phase 2 (policies)  
+3. Phase 3 (training)  
+4. Phase 4 → 5 → 6  
+
+**Related:** VA Hiring specific plan → [01-VA-HIRING-PHASE-WISE-IMPLEMENTATION-PLAN.md](./01-VA-HIRING-PHASE-WISE-IMPLEMENTATION-PLAN.md) (parallel track where VA funnel assets exist).
