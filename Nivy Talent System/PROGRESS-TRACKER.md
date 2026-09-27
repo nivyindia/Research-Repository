@@ -90,3 +90,24 @@ Details: `24-IMPLEMENTATION-ROADMAP/`
 - [ ] Build role-specific Success Profiles and practical tests
 - [ ] Build role-by-role compensation ranges
 - [ ] Generate reusable job-post templates
+
+
+## Candidate Discovery Implementation Package — 2026-09-27
+
+- [x] Created dedicated implementation folder: 03-CANDIDATE-ACQUISITION/00-CANDIDATE-DISCOVERY-IMPLEMENTATION/
+- [x] Common Candidate Discovery process
+- [x] V1 implementation plan
+- [x] Dedicated progress tracker
+- [x] Role variation matrix
+- [x] Candidate source matrix
+- [x] Evidence framework
+- [x] Candidate discovery data model
+- [x] n8n + AI implementation specification
+- [x] Pilot and acceptance tests
+- [x] Reusable Role Success Profile template
+- [ ] Build first five Role Success Profiles
+- [ ] Build first five practical assessments
+- [ ] Configure operational candidate database
+- [ ] Configure intake and source attribution
+- [ ] Build V1 n8n workflows
+- [ ] Run real-candidate pilot
