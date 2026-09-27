@@ -1,5 +1,26 @@
-# Implementation Roadmap
+# 24 — Implementation Roadmap
 
-Phase 0 Governance → Phase 1 Intake MVP → Phase 2 Screening → Phase 3 Paid Assessment → Phase 4 Three-task Consistency → Phase 5 Paid Work Trial → Phase 6 Probation → Phase 7 Talent Pool/Matching → Phase 8 Institute/City Network → Phase 9 Automation/AI → Phase 10 Pilot and Scale.
+## Current focus
 
-MVP acceptance: intake, candidate ID, dedupe, parsing, status communication, screening scheduling, paid assessment tracking, structured scoring, repeated-task evidence, probation reminders, searchable talent pool, KPI reporting and audit history.
+**Google Drive → Nivy Talent System content migration**
+
+See detailed phased plan:
+
+→ [00-GOOGLE-DRIVE-MIGRATION-PLAN.md](./00-GOOGLE-DRIVE-MIGRATION-PLAN.md)
+
+### Phase summary
+
+| Phase | Scope | Priority | Status |
+|---|---|---|---|
+| 0 | Inventory & classification of Drive talent/HR/training files | — | Done |
+| 1 | Screening + Candidate Acquisition assets | P1 | Next |
+| 2 | Policies, SOPs, Handbooks | P1 | Pending |
+| 3 | Training & Fresher systems | P1 | Pending |
+| 4 | Roles matrix & architecture | P2 | Pending |
+| 5 | Research provenance & archive | P2 | Pending |
+| 6 | Verification + Progress Tracker update | — | Pending |
+
+### Related trackers
+
+- [MASTER-INDEX.md](../MASTER-INDEX.md)
+- [PROGRESS-TRACKER.md](../PROGRESS-TRACKER.md)
