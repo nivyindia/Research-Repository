@@ -18,9 +18,9 @@
 - [x] Intake + candidate database specification
 - [x] Email/WhatsApp library expansion
 - [x] Deep role packs (BDE/HR/VA folders)
-- [ ] Automation workflows (n8n)
-- [ ] Institute partnership system
-- [ ] City sourcing system
+- [x] Automation workflow design notes
+- [x] Institute partnership system
+- [x] City sourcing system
 - [ ] Tool/platform comparison + MVP stack
 - [ ] Pilot + acceptance testing
 

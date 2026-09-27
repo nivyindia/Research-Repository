@@ -1,10 +1,7 @@
-# Automation
+# 13 — Automation
 
-Target workflow:
-Application → Candidate ID → CV parsing → Deduplication → Eligibility → Screening scheduling → Paid assessment → Submission → Evaluation → Consistency tracking → Training/remediation → Internship → Probation reminders → Talent pool → Job matching.
+| File | Description |
+|------|-------------|
+| [automation-workflow-design.md](./automation-workflow-design.md) | MVP workflows, stack options, n8n sketches, safety |
 
-Candidate communication, email, forms, calendar, CRM/ATS, WhatsApp provider, storage, analytics and AI agents should be orchestrated where practical.
-
-AI agents: profile extraction, classification, screening summary, evaluation assistance, consistency analysis, communication drafting, matching, outreach drafting, funnel analysis and data-quality checks.
-
-AI must not independently make irreversible hiring decisions.
+No production workflow exports in repo yet.
