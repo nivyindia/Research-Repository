@@ -111,3 +111,19 @@ Details: `24-IMPLEMENTATION-ROADMAP/`
 - [ ] Configure intake and source attribution
 - [ ] Build V1 n8n workflows
 - [ ] Run real-candidate pilot
+
+## Candidate Discovery Software + SOP — 2026-09-27
+
+- [x] Defined V1 online software/tool stack
+- [x] Defined Google Forms intake layer
+- [x] Defined Google Sheets operational MVP layer
+- [x] Defined restricted Google Drive document layer
+- [x] Defined Gmail communication layer
+- [x] Defined Calendar/Meet scheduling layer
+- [x] Defined n8n orchestration layer
+- [x] Defined AI assistance and human approval boundaries
+- [x] Added end-to-end Candidate Discovery & Hiring SOP
+- [ ] Configure actual Google Workspace assets
+- [ ] Configure actual n8n workflows
+- [ ] Connect operational candidate database
+- [ ] Run pilot and measure source-to-outcome performance
