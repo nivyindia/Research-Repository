@@ -1,8 +1,8 @@
 # Progress Tracker
 
-## Google Drive → GitHub Talent System migration
+## Google Drive -> GitHub Talent System migration
 
-- [x] Phase 0–6 content migration (~95%)
+- [x] Phase 0-6 content migration (~95%)
 - [x] Drive archive folder + manifest v2
 - [ ] Manual drag of source files into Drive archive (user)
 - [ ] Letterhead design asset
@@ -16,11 +16,11 @@
 - [x] Offer + certificate + screening comms templates
 - [x] Talent-pool schema and matching
 - [x] Intake + candidate database specification
-- [ ] Email/WhatsApp library expansion
+- [x] Email/WhatsApp library expansion
+- [x] Deep role packs (BDE/HR/VA folders)
 - [ ] Automation workflows (n8n)
 - [ ] Institute partnership system
 - [ ] City sourcing system
-- [ ] Deep role packs (BDE/HR/VA folders)
 - [ ] Tool/platform comparison + MVP stack
 - [ ] Pilot + acceptance testing
 

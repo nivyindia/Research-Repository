@@ -1,8 +1,10 @@
 # 16 — Role-Wise Systems
 
-| Pack | Status |
-|------|--------|
-| [role-packs-mapping.md](./role-packs-mapping.md) | Index of BDE / HR / VA packs to screening, training, ranking |
-| BDE / HR / VA-SMM subfolders | Create as role content deepens |
+| Pack | Path |
+|------|------|
+| [BDE](./BDE/README.md) | Sales / Business Development |
+| [HR](./HR/README.md) | HR Executive |
+| [VA-SMM](./VA-SMM/README.md) | Virtual Assistant / Social Media |
+| [role-packs-mapping.md](./role-packs-mapping.md) | Cross-index |
 
-See also: `01-SYSTEM-ARCHITECTURE/roles-responsibilities-matrix.md`
+Each pack links screening -> assessment -> training -> offer -> probation -> ranking -> policy.

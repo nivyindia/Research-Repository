@@ -1,5 +1,7 @@
-# Candidate Communication
+# 12 — Candidate Communication
 
-Build reusable sequences for application receipt, screening, scheduling, assessment, reminders, results, training, internship, probation, talent-pool confirmation, closure and re-engagement.
+| File | Description |
+|------|-------------|
+| [comms-library-email-whatsapp.md](./comms-library-email-whatsapp.md) | Templates A-L across intake -> pool -> exit |
 
-Email/WhatsApp automation must respect applicable consent, opt-out, identification, platform and rate-limit rules.
+Seeds also in `18-TEMPLATES/communication-screening-outcomes.md`
