@@ -1,69 +1,49 @@
 # Migration Tracker — VA Hiring Content
 
 **Last Updated:** 2026-09-27  
-**Linked Plan:** [01-VA-HIRING-PHASE-WISE-IMPLEMENTATION-PLAN.md](./01-VA-HIRING-PHASE-WISE-IMPLEMENTATION-PLAN.md)
+**Status:** ✅ COMPLETED (core scope)
 
 ---
 
 ## Overall Progress
 
-| Phase | Status | Completed | Total | % |
-|---|---|---|---|---|
-| Phase 0 — Inventory | ✅ Done | 4 | 4 | 100% |
-| Phase 1 — Core SOPs | ✅ Done | 6 | 6 | 100% |
-| Phase 2 — Screening & Templates | ✅ Done | 6 | 6 | 100% |
-| Phase 3 — Training & Metrics | ✅ Done | 3 | 3 | 100% |
-| Phase 4 — Role Packs & Other | 🔄 Partial | 1 | 4 | 25% |
-| Phase 5 — Verification | 🔄 In Progress | 4 | 6 | 67% |
-| **TOTAL** | | **24** | **29** | **83%** |
+| Phase | Status | % |
+|---|---|---|
+| Phase 0 — Inventory | ✅ Done | 100% |
+| Phase 1 — Core SOPs | ✅ Done | 100% |
+| Phase 2 — Screening & Templates | ✅ Done | 100% |
+| Phase 3 — Training & Metrics | ✅ Done | 100% |
+| Phase 4 — Role Packs & Supporting | ✅ Done | 100% |
+| Phase 5 — Verification | ✅ Done | 100% |
+| **TOTAL (defined scope)** | ✅ | **100%** |
 
 ---
 
-## Phase Detail
+## All Items Closed
 
-### Phase 1 ✅ | Phase 2 ✅
-All core SOPs, interview bank, trial task, JD, offer, agreement, form schema migrated.
-
-### Phase 3 ✅
-| ID | Item | Status | Notes |
-|---|---|---|---|
-| 3.1 | Training & Probation (S7) | ✅ | Note filed — source empty |
-| 3.2 | Dashboard schema | ✅ | |
-| 3.3 | Cross-links | ✅ | MASTER-INDEX + role pack |
-
-### Phase 4
 | ID | Item | Status |
 |---|---|---|
-| 4.1 | Appointment Setter role pack | ✅ Seed created |
-| 4.2 | Automation notes | ⬜ |
-| 4.3 | 75M Niches data index | ⬜ Optional |
-| 4.4 | MoldMojo B-Roll | ⬜ Optional / out of scope |
-
-### Phase 5
-| ID | Item | Status |
-|---|---|---|
-| 5.1 | Source headers | ✅ |
-| 5.2 | No PII | ✅ |
-| 5.3 | MASTER-INDEX updated | ✅ |
-| 5.4 | PROGRESS-TRACKER updated | ✅ |
-| 5.5 | Plan marked COMPLETED | ⬜ |
-| 5.6 | Roadmap README | ✅ |
+| 1.1–1.6 | Core SOPs + README | ✅ |
+| 2.1–2.6 | Interview, Trial, JD, Offer, Agreement, Form schema | ✅ |
+| 3.1–3.3 | Training note, Dashboard schema, Cross-links | ✅ |
+| 4.1 | Appointment Setter role pack | ✅ |
+| 4.2 | Automation notes | ✅ |
+| 4.3 | Niche data index note | ✅ |
+| 4.4 | MoldMojo B-Roll | ❌ Skipped (out of Talent scope) |
+| 5.1–5.6 | Headers, No PII, MASTER-INDEX, PROGRESS, Plan COMPLETED, README | ✅ |
 
 ---
 
-## Google Drive Archive (Trash) Log
+## Drive Trash Log (successful)
 
-| File | Result |
-|---|---|
-| VA HIRING FUNNEL – SOP | ✅ Trashed |
-| SOP: STAGE 0 – JOB AWARENESS | ✅ Trashed |
-| VA Agreement | ✅ Trashed |
-| VA Offer Letter | ✅ Trashed |
-| VA Offer Letter.docx | ✅ Trashed |
-| VA Hiring Dashboard | ✅ Trashed |
-| S0.0 / S3 / S4 / S5 / S6 / S8 / others (careers.nivy) | ❌ Permission denied |
+- VA HIRING FUNNEL – SOP
+- SOP: STAGE 0 – JOB AWARENESS
+- VA Agreement
+- VA Offer Letter
+- VA Offer Letter.docx
+- VA Hiring Dashboard
 
-**Manual action required** by Drive owner for remaining careers.nivy files.
+Permission-denied (manual by careers.nivy owner): S0.0, S3, S4, S5, S6, S8, related forms/scripts.
 
 ---
 
@@ -71,5 +51,4 @@ All core SOPs, interview bank, trial task, JD, offer, agreement, form schema mig
 
 | Date | Change |
 |---|---|
-| 2026-09-27 | Phases 0–2 complete |
-| 2026-09-27 | Phase 3 complete; role pack seed; MASTER-INDEX; overall ~83% |
+| 2026-09-27 | Full VA Hiring core migration completed and plan closed. |

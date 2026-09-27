@@ -11,18 +11,21 @@
 - [x] Screening questions + Trial Task + Templates
 - [x] Form schema + Dashboard schema (no PII)
 - [x] Appointment Setter role pack seed
-- [x] Training/probation source note (S7 empty)
+- [x] Training/probation source note
+- [x] Automation notes (VA Hiring)
+- [x] Niche data index note
+- [x] VA Hiring Drive migration plan CLOSED (100% defined scope)
 - [ ] Existing solution landscape
 - [ ] Intake + candidate database specification
 - [x] Screening question bank (VA)
 - [x] Paid assessment library (VA Trial Task)
 - [ ] 3-task consistency protocol
-- [ ] Training/remediation system (content gap)
+- [ ] Training/remediation system (content gap — S7 was empty)
 - [ ] Internship/apprenticeship SOP
 - [ ] 30/60/90 probation system
 - [ ] Talent-pool schema and matching
 - [ ] Email/WhatsApp communication library
-- [ ] Automation workflows
+- [ ] Automation workflows (design notes only; not n8n builds)
 - [ ] Institute partnership system
 - [ ] City sourcing system
 - [ ] All role packs
@@ -34,5 +37,5 @@
 
 ---
 
-**VA Hiring Drive migration:** ~83% complete  
-Tracker → `24-IMPLEMENTATION-ROADMAP/02-MIGRATION-TRACKER.md`
+**VA Hiring Google Drive migration: COMPLETE**  
+Details → `24-IMPLEMENTATION-ROADMAP/02-MIGRATION-TRACKER.md`

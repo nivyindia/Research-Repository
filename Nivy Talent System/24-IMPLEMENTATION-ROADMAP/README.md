@@ -2,26 +2,21 @@
 
 ## VA Hiring Drive → Talent System Migration
 
-| Phase | Scope | Status |
-|---|---|---|
-| 0 | Inventory | ✅ Done |
-| 1 | Core SOPs & Master Funnel | ✅ Done |
-| 2 | Screening, Assessment & Templates | ✅ Done |
-| 3 | Training, Metrics, Cross-links | ✅ Done |
-| 4 | Role Packs (Appointment Setter seed) | 🔄 Partial |
-| 5 | Verification | 🔄 In Progress |
+**Status: ✅ COMPLETED (2026-09-27)**
 
-**Overall: ~83%**
+| Phase | Status |
+|---|---|
+| 0 Inventory | ✅ |
+| 1 Core SOPs | ✅ |
+| 2 Screening & Templates | ✅ |
+| 3 Training & Metrics | ✅ |
+| 4 Role Packs & Automation notes | ✅ |
+| 5 Verification | ✅ |
 
-### Key files
-- [01-VA-HIRING-PHASE-WISE-IMPLEMENTATION-PLAN.md](./01-VA-HIRING-PHASE-WISE-IMPLEMENTATION-PLAN.md)
-- [02-MIGRATION-TRACKER.md](./02-MIGRATION-TRACKER.md) ← **live tracker**
-- [00-GOOGLE-DRIVE-MIGRATION-PLAN.md](./00-GOOGLE-DRIVE-MIGRATION-PLAN.md) (broader original plan)
+### Plans
+- [01-VA-HIRING-PHASE-WISE-IMPLEMENTATION-PLAN.md](./01-VA-HIRING-PHASE-WISE-IMPLEMENTATION-PLAN.md) — **CLOSED**
+- [02-MIGRATION-TRACKER.md](./02-MIGRATION-TRACKER.md) — 100% defined scope
+- [00-GOOGLE-DRIVE-MIGRATION-PLAN.md](./00-GOOGLE-DRIVE-MIGRATION-PLAN.md) — broader original plan (other HR/policy items if Drive access expands)
 
-### Done highlights
-All major VA Hiring SOPs, interview bank, trial task, JD, offer, agreement, form schema, dashboard schema, and Appointment Setter role pack seed are in the repo under `Nivy Talent System/`.
-
-### Remaining
-- Optional: automation notes, 75M niches index
-- Manual archive of remaining `careers.nivy` Drive files (permission blocked for this auth)
-- Mark plan COMPLETED after final review
+### Where content lives
+See `MASTER-INDEX.md` section **VA Hiring Content Migrated**.

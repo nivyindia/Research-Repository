@@ -30,11 +30,9 @@
 | 25-TESTING | Pilot, acceptance, failure modes |
 | 99-ARCHIVE | Superseded versions |
 
-Actual subfolders should be added as research volume grows; do not create empty placeholder clutter.
-
 ---
 
-## VA Hiring Content Migrated (2026-09-27)
+## VA Hiring Content Migrated (2026-09-27) — COMPLETE
 
 | Path | Content |
 |---|---|
@@ -42,15 +40,17 @@ Actual subfolders should be added as research volume grows; do not create empty 
 | `17-SOPS/va-hiring-funnel-sop.md` | Team SOP |
 | `17-SOPS/stage-00-job-awareness.md` | Stage 0 |
 | `17-SOPS/stage-05-orientation.md` | Orientation script |
-| `17-SOPS/stage-06-selection-contract.md` | Selection + contract clauses |
-| `04-SCREENING/va-interview-questions.md` | 25 interview Qs + answers |
-| `05-PAID-ASSESSMENT/va-trial-task.md` | Trial task (USA outreach) |
-| `18-TEMPLATES/va-job-description.md` | JD + commission structure |
-| `18-TEMPLATES/va-offer-letter.md` | Offer letter template |
-| `18-TEMPLATES/va-agreement.md` | Employment agreement |
-| `03-CANDIDATE-ACQUISITION/va-screening-form-schema.md` | Form fields (no PII) |
-| `21-METRICS-KPIS/va-hiring-dashboard-schema.md` | Dashboard schema + KPIs |
-| `16-ROLE-WISE-SYSTEMS/Appointment-Setter/README.md` | Role pack entry point |
-| `07-TRAINING/va-training-probation-note.md` | Note on empty S7 source |
+| `17-SOPS/stage-06-selection-contract.md` | Selection + contract |
+| `04-SCREENING/va-interview-questions.md` | 25 interview Qs |
+| `05-PAID-ASSESSMENT/va-trial-task.md` | Trial task |
+| `18-TEMPLATES/va-job-description.md` | JD |
+| `18-TEMPLATES/va-offer-letter.md` | Offer letter |
+| `18-TEMPLATES/va-agreement.md` | Agreement |
+| `03-CANDIDATE-ACQUISITION/va-screening-form-schema.md` | Form schema (no PII) |
+| `21-METRICS-KPIS/va-hiring-dashboard-schema.md` | Dashboard + KPIs |
+| `16-ROLE-WISE-SYSTEMS/Appointment-Setter/README.md` | Role pack |
+| `07-TRAINING/va-training-probation-note.md` | S7 empty note |
+| `13-AUTOMATION/va-hiring-automation-notes.md` | Automation design notes |
+| `02-TALENT-SOURCING/niche-data-index-note.md` | 75M niches index note |
 
-See live tracker: `24-IMPLEMENTATION-ROADMAP/02-MIGRATION-TRACKER.md`
+Tracker (closed): `24-IMPLEMENTATION-ROADMAP/02-MIGRATION-TRACKER.md`
