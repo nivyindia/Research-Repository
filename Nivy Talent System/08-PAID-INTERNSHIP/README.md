@@ -1,5 +1,8 @@
-# Paid Internship / Apprenticeship
+# 08 — Paid Internship / Academy
 
-Define entry criteria, paid work rules, mentor, tasks, reporting, QC, escalation, learning objectives and conversion criteria.
+| File | Description |
+|------|-------------|
+| [internship-academy-sop.md](./internship-academy-sop.md) | Entry bands, 3-month phases, stipend, conversion |
 
-The purpose is to observe real work behaviour with controlled business risk before long-term commitment.
+Templates: `18-TEMPLATES/offer-letter-internship.md`, certificate, FT offers  
+Training: `07-TRAINING/`

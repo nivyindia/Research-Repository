@@ -1,16 +1,10 @@
-# 05 — Paid Assessment / Pre-Hiring Assignments
+# 05 — Paid Assessment
 
-Practical assignments used after or alongside automated screening.
+| File | Description |
+|------|-------------|
+| hr-pre-hiring-assignment.md | HR practical |
+| bde-pre-hiring-assignment.md | BDE practical |
+| va-trial-task.md | VA trial |
+| [three-task-consistency-protocol.md](./three-task-consistency-protocol.md) | Consistency after first practical |
 
-## Contents (from Google Drive)
-
-| File | Role |
-|------|------|
-| [hr-pre-hiring-assignment.md](./hr-pre-hiring-assignment.md) | HR Executive fresher |
-| [bde-pre-hiring-assignment.md](./bde-pre-hiring-assignment.md) | BDE / Sales fresher |
-
-## Related
-
-- Screening papers → `../04-SCREENING/`
-- Scoring weights → `../06-SCORING/`
-- Role packs → `../16-ROLE-WISE-SYSTEMS/`
+Scoring weights → `01-SYSTEM-ARCHITECTURE` / `09-PROBATION`

@@ -1,9 +1,7 @@
-# 30/60/90 Probation
+# 09 — Probation
 
-**0–30:** attendance, deadlines, quality, reporting, learning, communication.
+| File | Description |
+|------|-------------|
+| [30-60-90-probation.md](./30-60-90-probation.md) | Gates, scorecard, PIP, RACI inside 6-month probation |
 
-**31–60:** increase responsibility; reduce supervision where evidence supports it.
-
-**61–90:** review consistency, ownership, quality and business contribution.
-
-Outcomes: core role, continued development where appropriate, talent-pool/project work, or exit.
+Related: `06-SCORING/ranking-system.md`, `07-TRAINING/orientation.md`
