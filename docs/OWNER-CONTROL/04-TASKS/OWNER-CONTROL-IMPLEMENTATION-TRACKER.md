@@ -6,10 +6,10 @@
 |---|---|---|---|---|
 | OC-00 | Foundation | Owner Control structure | DONE | Owner Control folders/pages |
 | OC-01 | Foundation | Initial master diagram | DONE | 05-VISUALS/NIVY-OWNER-CONTROL-MASTER.drawio |
-| OC-10 | History | Repository/source inventory | IN PROGRESS | Source map + evidence list |
-| OC-11 | History | Historical timeline | NOT STARTED | 01-HISTORY/ timeline |
-| OC-12 | History | Completed/active/deferred classification | NOT STARTED | History classification |
-| OC-20 | Current | Active workstream map | IN PROGRESS | Current-state update |
+| OC-10 | History | Repository/source inventory | DONE | 01-HISTORY/SOURCE-MAP.md |
+| OC-11 | History | Historical timeline | IN PROGRESS | 01-HISTORY/2026-09.md, 2026-10.md |
+| OC-12 | History | Completed/active/deferred classification | IN PROGRESS | Classification being applied during reconstruction |
+| OC-20 | Current | Active workstream map | DONE | 02-CURRENT/CURRENT-STATUS.md |
 | OC-21 | Current | Dependencies + next actions | NOT STARTED | Current execution map |
 | OC-30 | Plans | Canonical plan mapping | NOT STARTED | Master plan map |
 | OC-31 | Plans | Roadmap | NOT STARTED | Master roadmap |
@@ -35,8 +35,8 @@
 ## Progress
 
 **Foundation:** 100%  
-**History:** 15%  
-**Current:** 30%  
+**History:** 45%  
+**Current:** 45%  
 **Plans:** 0%  
 **Tasks:** 0%  
 **Visuals:** 10%  
