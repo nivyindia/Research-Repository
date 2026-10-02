@@ -14,10 +14,10 @@
 | OC-30 | Plans | Canonical plan mapping | DONE | CANONICAL-PLAN-MAP.md + MASTER-PLAN-INDEX.md |
 | OC-31 | Plans | Roadmap | DONE | 03-PLANS/MASTER-ROADMAP.md |
 | OC-40 | Tasks | Master task map | DONE | MASTER-TASK-MAP.md |
-| OC-50 | Visuals | History timeline diagram | NOT STARTED | draw.io |
-| OC-51 | Visuals | Master roadmap diagram | NOT STARTED | draw.io |
-| OC-52 | Visuals | Task hierarchy diagram | NOT STARTED | draw.io |
-| OC-53 | Visuals | Sales/client acquisition diagram | NOT STARTED | draw.io |
+| OC-50 | Visuals | History timeline diagram | DONE | NIVY-HISTORY-TIMELINE.drawio |
+| OC-51 | Visuals | Master roadmap diagram | DONE | NIVY-MASTER-ROADMAP.drawio |
+| OC-52 | Visuals | Task hierarchy diagram | DONE | NIVY-TASK-HIERARCHY.drawio |
+| OC-53 | Visuals | Sales/client acquisition diagram | DONE | NIVY-SALES-ACQUISITION-FLOW.drawio |
 | OC-60 | ChatGPT | Session continuity format | NOT STARTED | Context standard |
 | OC-61 | ChatGPT | Curated historical session summaries | NOT STARTED | ChatGPT context archive |
 | OC-70 | Maintenance | First control-system review | NOT STARTED | Updated status + tracker |
@@ -39,7 +39,7 @@
 **Current:** 100%  
 **Plans:** 100%  
 **Tasks:** 100%  
-**Visuals:** 10%  
+**Visuals:** 100%  
 **ChatGPT continuity:** 0%  
 
 Overall control-system implementation is currently in the **foundation + reconstruction stage**.
