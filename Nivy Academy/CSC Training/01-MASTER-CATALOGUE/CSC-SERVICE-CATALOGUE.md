@@ -70,6 +70,27 @@
 | CSC-OTH-002 | Other | SPARSH Defence Pension | Pension portal assistance where authorized | Medium | https://www.youtube.com/results?search_query=CSC+SPARSH+Defence+Pension+VLE+training |
 | CSC-OTH-003 | Other | Rural e-Mobility Dealership | Product/dealership process where available | Low | https://www.youtube.com/results?search_query=CSC+eMobility+VLE+training |
 
+## Current 2026 research update
+
+The latest government evidence is broader than the earlier 2024/2025 baseline:
+
+- PIB reported on 22 July 2026 that **more than 800 citizen-centric services** are being delivered through CSCs across the country and that the official CSC website contains district-wise CSC and service lists.
+- PIB reported on 5 August 2026 that **5,16,787 CSCs** were functional nationally as of 30 June 2026, including **4,07,122 rural/Gram Panchayat-level CSCs**, and described G2C, B2C, financial/banking, utility, insurance and pension services.
+- The July 2025 PIB release provides the detailed public service-family list used as the baseline for this catalogue: Aadhaar, PAN, passport, certificates, DigiLocker, utilities, banking/BC, DigiPay/AEPS, insurance, pensions, loans, education, health, agriculture, Tele-Law, eStamp, travel, IRCTC and e-commerce.
+- The Government's December 2024 release states that the CSC/PACS programme covers **more than 300 e-services**, including banking, insurance, Aadhaar, health and agricultural services.
+
+### Expansion rule
+
+Because the current government evidence indicates **800+ citizen-centric services** while older CSC/PACS material refers to 300+ services, the project should no longer target a fixed invented number such as exactly 300. The target is now:
+
+**Discover → verify → classify → deduplicate → train → maintain the complete currently available CSC service catalogue.**
+
+Priority sources:
+1. Current CSC official service list / Digital Seva menu.
+2. Official ministry/department portals.
+3. State e-District/PDS/municipal/transport portals where CSC access exists.
+4. Current practical YouTube training, only after checking recency and workflow.
+
 ## Catalogue note
 
 This is the **verified national-core layer**, not a claim that these 70+ rows are the complete 300+ portal services. Government material confirms 300+ e-services but publishes them primarily as service families/examples. State and partner-specific services must be expanded through current Digital Seva Portal/service menus before being added as individual rows.
