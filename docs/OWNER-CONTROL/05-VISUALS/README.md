@@ -48,6 +48,15 @@ V08–V11 are currently **REVIEW**; visual opening/review is still required befo
 
 V12–V15 are currently **REVIEW**; visual opening/review is still required before DONE.
 
+## Phase 5 — Governance
+
+- `NIVY-RESPONSIBILITY-RACI-MAP.drawio` — ownership, responsibility, accountability and evidence.
+- `NIVY-DECISION-ESCALATION-FLOW.drawio` — decision authority and escalation lifecycle.
+- `NIVY-ACCESS-SECURITY-MAP.drawio` — identity, least privilege, data classification and audit.
+- `NIVY-SOP-ARCHITECTURE.drawio` — process-to-SOP execution and lifecycle structure.
+
+V16–V19 are currently **REVIEW**; visual opening/review is still required before DONE.
+
 ## Build order
 
 `Company → Strategy/Execution → Operations → Technology/Knowledge → Governance → Cross-diagram Validation → Publication`
