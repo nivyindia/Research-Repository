@@ -1,66 +1,32 @@
-# Visual Control System
+# Visual Control System — Diagram Library
 
 All company-level visual maps are stored here as editable **Draw.io** files.
 
-## Existing owner-control maps
+**Start here:** [00-LIBRARY-INDEX.md](00-LIBRARY-INDEX.md) — full catalog, domain folders, and department mapping.
 
-1. `NIVY-OWNER-CONTROL-MASTER.drawio` — owner control and active work.
-2. `NIVY-HISTORY-TIMELINE.drawio` — reconstructed history.
-3. `NIVY-MASTER-ROADMAP.drawio` — major plans and direction.
-4. `NIVY-TASK-HIERARCHY.drawio` — company/workstream/project/task hierarchy.
-5. `NIVY-SALES-ACQUISITION-FLOW.drawio` — acquisition flow.
-6. `NIVY-AUTOMATION-MAP.drawio` — automation/system opportunities.
-7. `NIVY-SERVICE-DELIVERY-FLOW.drawio` — client delivery lifecycle.
-8. `NIVY-TALENT-PIPELINE.drawio` — candidate-to-team-member lifecycle.
-9. `NIVY-FINANCE-FLOW.drawio` — revenue, cashflow, accounting and review lifecycle.
+## Domain folders (canonical masters)
 
-## Company Visual System — Current Build
-
-### Phase 1 — Company Foundation
-
-- `NIVY-COMPANY-MASTER-MAP.drawio` — canonical company-wide operating map.
-- `NIVY-BRAND-ARCHITECTURE.drawio` — master company/brand/service relationship.
-- `NIVY-ORGANIZATION-MAP.drawio` — owner, departments, functions and enablement structure.
-
-These V01–V03 files are currently **REVIEW** status. They are editable Draw.io sources; visual opening/review and source reconciliation are still required before DONE.
+| Folder | Domain |
+|---|---|
+| [01-COMPANY](01-COMPANY/) | Company master, brand, org, owner control, roadmap, history |
+| [02-STRATEGY-EXECUTION](02-STRATEGY-EXECUTION/) | Goal cascade, planning cadence, task hierarchy, review loop |
+| [03-OPERATIONS](03-OPERATIONS/) | Sales, service delivery, talent, finance, SOP |
+| [04-TECH-DATA-AI](04-TECH-DATA-AI/) | Data/knowledge, AIOS, automation, research lifecycle |
+| [05-GOVERNANCE](05-GOVERNANCE/) | RACI, decision/escalation, access/security |
 
 ## Control documents
 
-- `06-COMPANY-VISUAL-SYSTEM-IMPLEMENTATION-PLAN.md` — canonical implementation plan.
-- `07-PROGRESS-TRACKER.md` — canonical build status and evidence.
-- `08-DRAWIO-STANDARD.md` — naming, visual semantics, provenance and validation standard.
+- `00-LIBRARY-INDEX.md` — library index (preferred entry)
+- `06-COMPANY-VISUAL-SYSTEM-IMPLEMENTATION-PLAN.md` — implementation plan
+- `07-PROGRESS-TRACKER.md` — build status
+- `08-DRAWIO-STANDARD.md` — naming, semantics, validation
 
-## Phase 3 — Core Operations
+## Department access
 
-- `NIVY-SALES-ACQUISITION-FLOW.drawio` — reconciled canonical Sales/Revenue Flow.
-- `NIVY-SERVICE-DELIVERY-FLOW.drawio` — delivery lifecycle from onboarding through retention.
-- `NIVY-TALENT-PIPELINE.drawio` — workforce lifecycle from role need through probation/retention.
-- `NIVY-FINANCE-FLOW.drawio` — revenue, collection, expenses, bookkeeping, compliance and KPI review.
+Department folders under Company OS link here via `Visuals.md` — they do **not** hold second copies of `.drawio` files.
 
-V08–V11 are currently **REVIEW**; visual opening/review is still required before DONE.
-
-## Phase 4 — Technology & Knowledge
-
-- `NIVY-DATA-KNOWLEDGE-ARCHITECTURE.drawio` — source-to-canonical-to-operational knowledge flow.
-- `NIVY-AIOS-ARCHITECTURE.drawio` — business, knowledge, application, integration, agent and control layers.
-- `NIVY-AUTOMATION-INTEGRATION-MAP.drawio` — triggers, orchestration, AI, approvals, actions and evidence.
-- `NIVY-RESEARCH-KNOWLEDGE-LIFECYCLE.drawio` — research capture through canonical publication and refresh.
-
-V12–V15 are currently **REVIEW**; visual opening/review is still required before DONE.
-
-## Phase 5 — Governance
-
-- `NIVY-RESPONSIBILITY-RACI-MAP.drawio` — ownership, responsibility, accountability and evidence.
-- `NIVY-DECISION-ESCALATION-FLOW.drawio` — decision authority and escalation lifecycle.
-- `NIVY-ACCESS-SECURITY-MAP.drawio` — identity, least privilege, data classification and audit.
-- `NIVY-SOP-ARCHITECTURE.drawio` — process-to-SOP execution and lifecycle structure.
-
-V16–V19 are currently **REVIEW**; visual opening/review is still required before DONE.
-
-## Build order
-
-`Company → Strategy/Execution → Operations → Technology/Knowledge → Governance → Cross-diagram Validation → Publication`
+Example: `Company OS/Company-OS-v7/Company-OS/01_AREAS/SALES/Visuals.md`
 
 ## Duplication rule
 
-Do not create competing diagrams when an existing canonical map already covers the concept. Extend/reconcile the existing map or explicitly register the relationship in the tracker.
+One concept = one canonical diagram. Edit only inside the domain folders above. Extend or reconcile; do not create competing maps.
