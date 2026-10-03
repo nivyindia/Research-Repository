@@ -10,6 +10,9 @@ All company-level visual maps are stored here as editable **Draw.io** files.
 4. `NIVY-TASK-HIERARCHY.drawio` — company/workstream/project/task hierarchy.
 5. `NIVY-SALES-ACQUISITION-FLOW.drawio` — acquisition flow.
 6. `NIVY-AUTOMATION-MAP.drawio` — automation/system opportunities.
+7. `NIVY-SERVICE-DELIVERY-FLOW.drawio` — client delivery lifecycle.
+8. `NIVY-TALENT-PIPELINE.drawio` — candidate-to-team-member lifecycle.
+9. `NIVY-FINANCE-FLOW.drawio` — revenue, cashflow, accounting and review lifecycle.
 
 ## Company Visual System — Current Build
 
@@ -26,6 +29,15 @@ These V01–V03 files are currently **REVIEW** status. They are editable Draw.io
 - `06-COMPANY-VISUAL-SYSTEM-IMPLEMENTATION-PLAN.md` — canonical implementation plan.
 - `07-PROGRESS-TRACKER.md` — canonical build status and evidence.
 - `08-DRAWIO-STANDARD.md` — naming, visual semantics, provenance and validation standard.
+
+## Phase 3 — Core Operations
+
+- `NIVY-SALES-ACQUISITION-FLOW.drawio` — reconciled canonical Sales/Revenue Flow.
+- `NIVY-SERVICE-DELIVERY-FLOW.drawio` — delivery lifecycle from onboarding through retention.
+- `NIVY-TALENT-PIPELINE.drawio` — workforce lifecycle from role need through probation/retention.
+- `NIVY-FINANCE-FLOW.drawio` — revenue, collection, expenses, bookkeeping, compliance and KPI review.
+
+V08–V11 are currently **REVIEW**; visual opening/review is still required before DONE.
 
 ## Build order
 
