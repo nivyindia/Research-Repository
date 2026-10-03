@@ -150,3 +150,59 @@ Only then decide whether Nivy needs to create a practical SOP.
 - CSC Academy DRA portal: https://onboarding-dra.cscacademy.org/onboard-user-self
 - TEC assignment guidance: https://digipaathshala.cscacademy.org/uploads/lmscourse/publisher/assignment_guidelines/0f9008fa5758e49500810cd16e2867c1.pdf
 - BC/BF assignment guidance: https://digipaathshala.cscacademy.org/uploads/lmscourse/publisher/assignment_guidelines/efca0c0ec54fdd43b01a0ff70afc6b4c.pdf
+
+
+## Government-side authorization/workflow audit — 2026-10-03
+
+### Aadhaar
+UIDAI confirms that Aadhaar enrolment/update centres exist through multiple registrars, including CSC, banks, post offices, BSNL and State Governments. Current UIDAI guidance says residents must use an Aadhaar Enrolment Centre and operators capture demographic and biometric information; new enrolment is free. This establishes the CSC ecosystem role but does **not** mean every CSC is currently authorised for Aadhaar. Nivy training must therefore verify the individual centre/operator's current authorization before marking Aadhaar operational.
+
+Official sources:
+- https://uidai.gov.in/en/enrolment-and-update
+- https://uidai.gov.in/en/ecosystem/enrolment-documents/295-faqs/enrolment-update.html
+
+### Ayushman Bharat PM-JAY
+NHA material states that beneficiaries can visit a nearest CSC or PM-JAY empanelled hospital for assistance. NHA's current technical-support material specifically says CSC/VLEs can raise technical tickets through Digital Seva and identifies CSC district/state managers for support. Therefore a CSC operational workflow exists, but the exact current VLE menu/authorization and live transaction workflow must be checked inside the authenticated Digital Seva environment before training is frozen.
+
+Official sources:
+- https://nha.gov.in/img/resources/Ayushman-Mitra-Flyer-english.pdf
+- https://supportbeta.nha.gov.in/
+
+### PM-KISAN
+The current PM-KISAN portal explicitly provides a status page for farmers registered through CSC and states that biometric eKYC is available for CSC VLE logins. The new farmer registration form authenticates Aadhaar before registration can proceed. This is sufficient to mark PM-KISAN as **CSC-supported and workflow-verifiable**, but the current Digital Seva operator sequence should still be captured from an authorised VLE account before creating the final Nivy SOP.
+
+Official sources:
+- https://pmkisan.gov.in/
+- https://pmkisan.gov.in/farmerstatus.aspx
+- https://pmkisan.gov.in/RegistrationFormupdated.aspx
+
+### e-Shram
+The current Ministry of Labour & Employment e-Shram FAQ explicitly states that workers can register through an assisted approach at a CSC, and that workers without an Aadhaar-linked mobile number may register through biometric authentication at a CSC/SSK. It also states that CSCs can update worker details. Registration is free. This is a strong basis for creating a CSC operator workflow after recording the current portal sequence.
+
+Official sources:
+- https://eshram.gov.in/faqs
+- https://eshram.gov.in/help
+
+### IRCTC rail e-ticketing
+IRCTC's current authorised-principal-provider document identifies CSC e-Governance Services India Ltd. as a working principal service provider under the E-Governance Scheme. IRCTC's agent policy requires RSP registration through a Principal Service Provider, Aadhaar and PAN verification, OTP authentication and an authorisation certificate displayed at the outlet. Therefore rail ticketing is **authorization-dependent**, not a generic service that every CSC can perform without the required RSP/PSP relationship.
+
+Official sources:
+- https://contents.irctc.co.in/en/IRCTC%20Authorised%20Principal%20Service%20Providers.pdf
+- https://contents.irctc.co.in/en/Agent_Policy.pdf
+
+### PAN
+No current official Protean/UTIITSL CSC-specific authorization source was sufficiently verified in this pass. Keep PAN in **VERIFY** status; do not infer CSC authorization from old tutorials.
+
+## Updated service status
+
+| Service | Government/official evidence | CSC authorization status | Nivy action |
+|---|---|---|---|
+| Aadhaar | Strong | Centre/operator-specific | Verify local authorization; then SOP |
+| Ayushman | Strong | VLE workflow exists; exact live menu needs verification | Capture authenticated workflow |
+| PM-KISAN | Strong | CSC VLE login explicitly supported | Capture authenticated workflow |
+| e-Shram | Strong | CSC assisted registration explicitly supported | Build workflow from current portal |
+| IRCTC | Strong | PSP/RSP authorization required | Train only authorised RSP/PSP centres |
+| PAN | Not sufficiently verified | Unknown in current pass | Keep VERIFY |
+
+### Data protection
+These services involve Aadhaar, biometric, financial or welfare information. Repository training must use synthetic examples only and must never store real Aadhaar numbers, OTPs, bank credentials, biometric data or live customer documents.
