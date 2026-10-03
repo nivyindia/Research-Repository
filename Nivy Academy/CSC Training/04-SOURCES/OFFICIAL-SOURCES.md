@@ -42,3 +42,19 @@ Key finding: As of 30 June 2026, 4,07,122 rural CSCs were reported as functional
 ## Research rule
 
 Government sources establish the service families and official context. They should be combined with current Digital Seva Portal/service-specific official documentation when creating a service SOP.
+
+
+## Reuse-first official training sources — verified 03 October 2026
+
+### CSC Academy
+- VLE Training: https://www.cscacademy.org/services/vle-training
+- Education: https://www.cscacademy.org/services/education
+- Services List: https://www.cscacademy.org/service-list
+- Skill Courses: https://www.cscacademy.org/skill-course
+- CSC ecosystem overview: https://www.cscacademy.org/csc
+
+These existing CSC Academy resources should be reused/adapted before creating equivalent Nivy Academy training material.
+
+### Reuse rule
+Official material is the preferred source of truth. Existing practical videos are supplementary. Do not copy or republish copyrighted material merely because it is publicly accessible; link to it, summarize it, or adapt only where permitted. Preserve provenance and licensing information.
+
