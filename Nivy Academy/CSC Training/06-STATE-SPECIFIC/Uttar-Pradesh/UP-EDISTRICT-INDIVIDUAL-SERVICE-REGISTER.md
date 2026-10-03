@@ -55,3 +55,53 @@ No training SOP should be marked final until the exact current portal service na
 - UP Electronics Corporation / Government of Uttar Pradesh presentation: 336 G2C services from 52 departments through e-District. citeturn1search31
 - Ministry of Road Transport & Highways Vahan portal: current state-specific service count and authentication notes. citeturn0search0turn0search2
 - mParivahan: current Sarathi, Vahan and eChallan service families. citeturn0search1
+
+
+## Batch 2 — verified transport/vehicle extraction
+
+The current MoRTH Vahan Citizen Services portal currently shows **33 services for Uttar Pradesh** on the live/staging service selector, so the older 30-service figure should no longer be treated as current. citeturn0search1
+
+Current Vahan service families exposed by the portal include:
+- Tax/Fee Services
+- RC Related Services
+- Vehicle Related Services
+- Apply for Certificates
+- Additional Services
+- Appointment
+- Online Services
+- Documents
+- Status
+- Know Your Vehicle Details
+- Nominee/dealer-related services
+
+The portal specifically exposes workflows for transfer of ownership, change of address, duplicate RC, hypothecation addition/termination, fitness certificate, NOC, duplicate fitness certificate, renewal of private registration, private/commercial conversion, home-state assignment, vehicle-parameter changes, appointment/reprint/reschedule, document upload/modification, application status, transaction history, payment re-verification and receipt reprint. citeturn0search4
+
+### CSC training implications
+
+| Service family | Operator must learn | Verification |
+|---|---|---|
+| Transfer of Ownership | seller initiation → buyer continuation → documents → fee → status | Official Vahan |
+| Change of Address | application → documents → fee → status | Official Vahan |
+| Duplicate RC | application → supporting documents → payment → status | Official Vahan |
+| Hypothecation Addition/Termination | correct transaction type → documents → payment → status | Official Vahan |
+| Fitness Certificate | application → fee → slot → vehicle/document verification | Official Vahan |
+| NOC | application → fee → documents → status | Official Vahan |
+| Registration Renewal | eligibility → application → fee → documents → status | Official Vahan |
+| Private ↔ Commercial Conversion | correct conversion workflow → fee → documents | Official Vahan |
+| Vehicle Parameter Change | parameter selection → supporting proof → fee → status | Official Vahan |
+| Appointment | book/reprint/reschedule → slot handling | Official Vahan |
+| Document Upload/Modification | upload rules → pending-doc workflow → status | Official Vahan |
+| Payment Re-verification | identify pending bank transaction → re-verify safely | Official Vahan |
+| Receipt/Forms | reprint receipt and pre-filled service forms | Official Vahan |
+
+**Important authentication rule:** where a Vahan service requires Aadhaar biometric authentication, the applicant may use a nearest CSC or an attached biometric device. If Aadhaar authentication is used with an Aadhaar number belonging to someone other than the registered owner, the application can be rejected and fees may not be refundable. Contactless eKYC services can avoid an RTO visit for document verification when Aadhaar authentication is used; non-contactless services may require RTO/vehicle verification after application, fee payment, document upload and slot booking. citeturn0search0
+
+### Current portal-count correction
+
+- Previous research note: 30 UP Vahan services.
+- Current portal observation: **33 UP Vahan services**.
+- Therefore the training repository should use **33 as the current observed count**, with the date of verification recorded, rather than preserving 30 as a current figure. citeturn0search1
+
+### Next extraction target
+
+Continue with exact individual names from the live UP e-District menu rather than inferring service names from broad categories. The official UP Electronics Corporation presentation confirms 336 G2C services across 52 departments, with Caste, Income, Domicile, Khatauni and Solvency among high-volume services. citeturn0search12
