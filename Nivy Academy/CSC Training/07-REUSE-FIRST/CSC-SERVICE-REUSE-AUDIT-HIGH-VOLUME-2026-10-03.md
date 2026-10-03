@@ -103,3 +103,50 @@ Nivy-owned content should focus on:
 - CSC Academy/IIBF BC training: https://onboarding-bcbf.cscacademy.org/onboard-user-self
 - CSC Academy/IIBF DRA training: https://onboarding-dra.cscacademy.org/onboard-user-self
 - TEC portal: https://newcsctally.cscacademy.org/
+
+
+## Deep-audit result — official CSC Academy search, 2026-10-03
+
+Search scope: CSC Academy and Digipaathshala official domains for Aadhaar, PAN, Ayushman, PM-KISAN, e-Shram and IRCTC-specific training.
+
+### Result by service
+
+| Service | Official reusable training found in this search | Status | Action |
+|---|---|---|---|
+| Aadhaar | No current service-specific CSC Academy/Digipaathshala training course verified | **Not verified** | Keep on verification queue; do not build duplicate training yet |
+| PAN | No current service-specific CSC Academy/Digipaathshala training course verified | **Not verified** | Keep on verification queue; do not build duplicate training yet |
+| Ayushman | No current service-specific CSC Academy/Digipaathshala training course verified | **Not verified** | Keep on verification queue; do not build duplicate training yet |
+| PM-KISAN | No current service-specific CSC Academy/Digipaathshala training course verified | **Not verified** | Keep on verification queue; do not build duplicate training yet |
+| e-Shram | No current service-specific CSC Academy/Digipaathshala training course verified | **Not verified** | Keep on verification queue; do not build duplicate training yet |
+| IRCTC / travel | No current service-specific CSC Academy/Digipaathshala training course verified | **Not verified** | Keep on verification queue; do not build duplicate training yet |
+
+### Reusable adjacent training confirmed
+
+1. **TEC** already covers Fundamentals of Telecentre, G2C/B2C Services, CSC Scheme, Digital Seva Portal, Digital Security/Wellness, Finance/Accounting, GST, Soft Skills and Business Communication. This is the reusable foundation for CSC operator training.
+2. **BCC** provides simulated hands-on computer training and explicitly includes e-Governance applications.
+3. **CSC Academy skill-course operations** already document Digital Seva enrolment/payment workflow.
+4. **BC/BF** has official CSC Academy/IIBF training and an official Digipaathshala assignment guide covering Digital Seva registration, exam-centre workflow, service marketing, course details, commission and FAQs.
+5. **DRA** currently has live CSC Academy/IIBF batches, demonstrating that current training availability can change and must be checked at deployment time.
+6. **VLE Training** remains the official umbrella training source for VLE capability development.
+
+### Interpretation
+
+“No service-specific training found” means **not verified in the searched official CSC Academy/Digipaathshala material**, not “no training exists anywhere” and not “the service is unavailable through CSC”.
+
+Before Nivy creates an SOP for any of these six services, perform a second-source check against:
+- the relevant official government service portal
+- current CSC/Digital Seva authorization/menu where accessible
+- official department operator/manual/training material
+- current official YouTube channel material, if available
+
+Only then decide whether Nivy needs to create a practical SOP.
+
+### Current-source links
+
+- CSC Academy BCC: https://www.cscacademy.org/digital-education
+- CSC Academy Skill Courses: https://www.cscacademy.org/skill-course
+- CSC Academy VLE Training: https://www.cscacademy.org/services/vle-training
+- CSC Academy BC/BF portal: https://onboarding-bcbf.cscacademy.org/onboard-user-self
+- CSC Academy DRA portal: https://onboarding-dra.cscacademy.org/onboard-user-self
+- TEC assignment guidance: https://digipaathshala.cscacademy.org/uploads/lmscourse/publisher/assignment_guidelines/0f9008fa5758e49500810cd16e2867c1.pdf
+- BC/BF assignment guidance: https://digipaathshala.cscacademy.org/uploads/lmscourse/publisher/assignment_guidelines/efca0c0ec54fdd43b01a0ff70afc6b4c.pdf
