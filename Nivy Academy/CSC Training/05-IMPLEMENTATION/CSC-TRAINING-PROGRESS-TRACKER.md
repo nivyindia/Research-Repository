@@ -18,16 +18,18 @@ Last update: 2026-10-03
 |---|---|---|---|
 | CSC-TR-010 | Discover current Digital Seva service menu | In progress | Government evidence confirms 800+ CSC services; live individual menu still needs extraction |
 | CSC-TR-011 | Extract all individually named national services | In progress | National-core families converted into training rows |
-| CSC-TR-012 | Map state-specific services | Pending | Start with UP, then other states |
+| CSC-TR-012 | Map state-specific services | **In progress** | UP extraction batches now active |
 | CSC-TR-013 | Map partner/authorized services | In progress | GeM and authorization-dependent modules added to research queue |
 | CSC-TR-014 | Remove duplicates/obsolete services | Pending | Run after live-menu extraction |
-| CSC-TR-015 | Assign unique Service IDs | In progress | Existing national-core IDs retained; new rows require permanent IDs |
+| CSC-TR-015 | Assign unique Service IDs | In progress | Existing national-core IDs retained; UP register now uses stable provisional IDs pending exact portal IDs |
+| CSC-TR-016 | Build UP individual e-District register | **In progress** | Batch 03 added: `01-MASTER-CATALOGUE/UP-EDISTRICT-INDIVIDUAL-SERVICE-REGISTER-BATCH-03.md`; exact 353-row extraction is still pending |
+| CSC-TR-017 | Separate UP service ecosystems | **Done** | e-District/Jan Seva, municipal/e-Nagarsewa, transport (Vahan/Sarathi/eChallan), Rojgaar Sangam and Sewa Mitra kept separate |
 
 ## Phase 3 — Training content
 
 | ID | Task | Status | Notes |
 |---|---|---|---|
-| CSC-TR-020 | Find one practical YouTube video per service | In progress | Two current 2026 multi-service operator guides verified; service-by-service verification continues |
+| CSC-TR-020 | Find one practical YouTube video per service | In progress | Service-by-service verification continues |
 | CSC-TR-021 | Verify video recency and workflow | In progress | Videos must be checked against official portals before mandatory use |
 | CSC-TR-022 | Find official documentation per regulated service | Pending | Required for Aadhaar, financial, tax, health and other controlled workflows |
 | CSC-TR-023 | Write service SOPs | Pending | Use reusable SOP template |
@@ -48,6 +50,9 @@ Last update: 2026-10-03
 ## Current training artefacts
 
 - `01-MASTER-CATALOGUE/CSC-SERVICE-CATALOGUE.md` — national-core catalogue + 2026 expansion rules.
+- `01-MASTER-CATALOGUE/INDIVIDUAL-SERVICE-EXTRACTION-QUEUE.md` — extraction rules and UP/national batches.
+- `01-MASTER-CATALOGUE/UP-INDIVIDUAL-SERVICE-BATCH-02.md` — verified UP service families and transport evidence.
+- `01-MASTER-CATALOGUE/UP-EDISTRICT-INDIVIDUAL-SERVICE-REGISTER-BATCH-03.md` — current individual-service register seed with evidence labels.
 - `02-TRAINING-MATRIX/SERVICE-TRAINING-SOP-TEMPLATE.md` — per-service SOP template.
 - `02-TRAINING-MATRIX/CSC-SERVICE-TRAINING-MATRIX.md` — expanded operator training matrix with practice tasks.
 - `03-YOUTUBE-TRAINING/YOUTUBE-TRAINING-INDEX.md` — video index/search queue.
@@ -70,10 +75,10 @@ A service is **Training Ready** only when it has:
 
 ## Next execution batch
 
-1. Extract the current individual CSC/Digital Seva service list.
-2. Build the permanent Service-ID master register.
-3. Map Uttar Pradesh state/e-District/PDS/transport/municipal services.
+1. Extract the exact current UP e-District/e-Sathi individual service names and department mapping.
+2. Build one permanent Service-ID master register without fabricating missing rows.
+3. Map UP PDS, welfare, municipal and transport services separately from the e-District count.
 4. Verify official documentation for regulated services.
 5. Replace generic YouTube searches with one verified practical video per priority service.
-6. Write SOPs for the Critical-priority services first.
+6. Write SOPs for Critical-priority services first.
 7. Convert SOPs into candidate practical tests and Nivy Academy modules.
