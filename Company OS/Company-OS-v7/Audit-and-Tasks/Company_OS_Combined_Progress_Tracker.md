@@ -1,6 +1,6 @@
 # Company OS V7 — Combined Implementation Progress Tracker
 
-**Last updated:** 2026-10-03 (Phase 2 gate)
+**Last updated:** 2026-10-03 (Phase 3 gate)
 
 ## Status legend
 - ✅ DONE — verified
@@ -18,14 +18,14 @@
 | P04 | Historical V5/V6/Final-v7 disposition | ✅ DONE | P04_Version_Disposition_and_Authority.md |
 | P05 | Governance Doc 01–10 reconciliation | ✅ DONE | P05_Governance_Docs_01-10_Reconciliation.md |
 | P06 | Canonical object/master-data model | ✅ DONE | Canonical-Object-Model.md |
-| P07 | Company→Brand→Department→Function→Role→Person model | ✅ DONE | Strategy-Execution-Model.md §P07 — hierarchy + Function seed; reuses Doc 01, Brands, Org-Chart |
-| P08 | Goal→Plan→Initiative→Project→Task→Work→Output | ✅ DONE | Strategy-Execution-Model.md §P08 — field specs + linkage rules; 02_PROJECTS reused |
-| P09 | Company/Department/Employee goal cascade | ✅ DONE | Strategy-Execution-Model.md §P09 + Goal-Registry.md example cascade |
-| P10 | Annual→Quarterly→Monthly→Weekly→Daily planning | ✅ DONE | Strategy-Execution-Model.md §P10 — cadence table aligned to Planning Cadence diagram |
-| P11 | Daily work + recurring work + priorities + dependencies | ✅ DONE | Strategy-Execution-Model.md §P11 — daily model, priority scale, Work log template |
-| P12 | Employee responsibility→work allocation | ✅ DONE | Strategy-Execution-Model.md §P12 — Responsibility record + allocation rules; RACI diagram reused |
-| P13 | KPI→Report→Dashboard→Review | 🟡 REVIEW | Objects defined in Canonical model; KPI registry pending |
-| P14 | Decision/Change/Exception/Evidence records | 🟡 REVIEW | Objects defined; record templates pending |
+| P07 | Company→Brand→Department→Function→Role→Person model | ✅ DONE | Strategy-Execution-Model.md §P07 |
+| P08 | Goal→Plan→Initiative→Project→Task→Work→Output | ✅ DONE | Strategy-Execution-Model.md §P08 |
+| P09 | Company/Department/Employee goal cascade | ✅ DONE | Strategy-Execution-Model.md §P09 + Goal-Registry.md |
+| P10 | Annual→Quarterly→Monthly→Weekly→Daily planning | ✅ DONE | Strategy-Execution-Model.md §P10 |
+| P11 | Daily work + recurring work + priorities + dependencies | ✅ DONE | Strategy-Execution-Model.md §P11 |
+| P12 | Employee responsibility→work allocation | ✅ DONE | Strategy-Execution-Model.md §P12 |
+| P13 | KPI→Report→Dashboard→Review | ✅ DONE | KPI-Management-Review-Model.md §P13 — field specs, cadence, registry seed; reuses Review Loop + dashboard.md |
+| P14 | Decision/Change/Exception/Evidence records | ✅ DONE | KPI-Management-Review-Model.md §P14 — Decision/Change/Exception/Issue/Evidence templates; reuses Decision Escalation diagram |
 | P15 | Document/process/SOP lifecycle | 🟡 REVIEW | Doc 04 + SOP Architecture; end-to-end test pending |
 | P16 | Customer/vendor/product/service master data | ⏳ PENDING | Cross-cutting objects defined; master registries pending |
 | P17 | Integration contracts | 🟡 REVIEW | Integration object defined; contracts pending |
@@ -33,14 +33,14 @@
 | P19 | Research→Canonical→Operational knowledge flow | 🟡 REVIEW | Research lifecycle exists; promotion validation pending |
 | P20 | Metadata/naming/lifecycle automation | 🟡 REVIEW | Metadata enforcement verified; full lifecycle pending |
 | P21 | Diagram D01–D19 reconciliation | 🟡 REVIEW | 19 Draw.io artifacts exist; visual/source validation pending |
-| P22 | Department management views | ⏳ PENDING | Add/extend department goal/work/KPI/review views where absent |
-| P23 | Employee management views | ⏳ PENDING | Add/extend employee goal/work/daily/KPI views where absent |
-| P24 | Company/Department/Employee daily execution model | 🟡 REVIEW | Defined in Strategy-Execution-Model §P11; views pending |
-| P25 | Management dashboard architecture | ⏳ PENDING | Company→Department→Project→Employee→Daily views |
-| P26 | Meeting→Decision→Action→Follow-up | ⏳ PENDING | Define canonical linkage |
-| P27 | Issue→Exception→Escalation→Resolution→Learning | ⏳ PENDING | Define record/linkage |
+| P22 | Department management views | ⏳ PENDING | Inputs defined in KPI model; views pending |
+| P23 | Employee management views | ⏳ PENDING | Inputs defined in KPI model; views pending |
+| P24 | Company/Department/Employee daily execution model | 🟡 REVIEW | Defined in Strategy-Execution-Model §P11 |
+| P25 | Management dashboard architecture | ⏳ PENDING | View map in KPI model; build pending |
+| P26 | Meeting→Decision→Action→Follow-up | ⏳ PENDING | Decision record exists; meeting linkage pending |
+| P27 | Issue→Exception→Escalation→Resolution→Learning | 🟡 REVIEW | Issue/Exception records defined in P14; full loop pending |
 | P28 | Capacity/workload/resource allocation | ⏳ PENDING | Define only if not already canonical |
-| P29 | Health/audit dashboard | ⏳ PENDING | Orphan/stale/owner/link checks |
+| P29 | Health/audit dashboard | 🟡 REVIEW | dashboard.md + Doc 07 metrics exist; expand checks pending |
 | P30 | Cross-diagram validation | ⏳ PENDING | Validate D01–D19 as one visual system |
 | P31 | Canonical diagram location decision | ⏳ PENDING | Keep existing location OR migrate; never split |
 | P32 | End-to-end scenario tests | ⏳ PENDING | Company goal, document, issue scenarios |
@@ -48,28 +48,29 @@
 
 ## Current phase
 
-**Phase 2 — COMPLETE (P07–P12).**  
-**Next:** Phase 3 — KPI and Management Review (P13–P14).  
-Await explicit instruction before starting Phase 3.
+**Phase 3 — COMPLETE (P13–P14).**  
+**Next:** Phase 4 — Operational Workflows (P15–P17 area + P26–P28).  
+Await explicit instruction before starting Phase 4.
 
-## Phase 2 gate evidence
+## Phase 3 gate evidence
 
 | Item | Detail |
 |---|---|
 | Status | DONE |
 | Date | 2026-10-03 |
-| Files created | `Strategy-Execution-Model.md`, `Goal-Registry.md` |
+| Files created | `KPI-Management-Review-Model.md` |
 | Files modified | This tracker |
-| Existing reused | Doc 01, Brands, Company-Overview, Org-Chart, 02_PROJECTS, Canonical-Object-Model, diagrams (Company Master, Brand Architecture, Organization Map, Goal Cascade, Planning Cadence, RACI) |
-| Validation | Hierarchy mapped to existing registries; Goal→…→Output field specs and linkage rules defined; example cascade in Goal-Registry traces Company Goal → Person Goal → Plan → Project (this program) → Tasks → Work → Output; no parallel hierarchy created |
-| Commit SHAs | 4f333cc5 (Strategy-Execution-Model), a301eff0 (Goal-Registry), (this commit) |
-| Blockers | None for Phase 2 exit. Real goal population and Brand confirmations remain human/operational work. |
-| Next action | Begin Phase 3 only when commanded. |
+| Existing reused | NIVY-REVIEW-LOOP, NIVY-DECISION-ESCALATION-FLOW, Doc 07, dashboard.md, dashboard-generate.yml, Doc 02 REP/REC, Canonical + Strategy-Execution models |
+| Validation | KPI→Report→Dashboard→Review→Decision→Change→Evidence chain defined; review cadence by scope; illustrative KPI seed + program example path; no parallel review/dashboard system |
+| Commit SHAs | 1f56c38f (KPI-Management-Review-Model), (this commit) |
+| Blockers | None for Phase 3 exit. Real KPI targets and management view UIs deferred. |
+| Next action | Begin Phase 4 only when commanded. |
 
 ## Prior phase gates (retained)
 
-- **Phase 0:** P04/P05 — commits 2e37e6ff, cf1d05c9, 1060b7bc
-- **Phase 1:** P06 — commits 08a39e3b, 1d84a846
+- **Phase 0:** P04/P05
+- **Phase 1:** P06
+- **Phase 2:** P07–P12 — commits 4f333cc5, a301eff0, 42dafdad
 
 ## Critical path
 
