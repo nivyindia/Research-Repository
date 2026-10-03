@@ -1,6 +1,6 @@
 # Company OS V7 — Combined Implementation Progress Tracker
 
-**Last updated:** 2026-10-03
+**Last updated:** 2026-10-03 (Phase 0 gate)
 
 ## Status legend
 - ✅ DONE — verified
@@ -15,8 +15,8 @@
 | P01 | Company Standardization baseline audit | ✅ DONE | Gap Matrix + Audit |
 | P02 | Combined gap register | ✅ DONE | Combined Missing Gaps |
 | P03 | Combined implementation plan | ✅ DONE | This plan |
-| P04 | Historical V5/V6/Final-v7 disposition | ⏳ PENDING | Inventory + authority map |
-| P05 | Governance Doc 01–10 reconciliation | 🟡 REVIEW | Reconcile actual files vs Doc09/tracker |
+| P04 | Historical V5/V6/Final-v7 disposition | ✅ DONE | P04_Version_Disposition_and_Authority.md — commit 2e37e6ff; V7 sole active; v1–v6 historical/snapshot |
+| P05 | Governance Doc 01–10 reconciliation | ✅ DONE | P05_Governance_Docs_01-10_Reconciliation.md — commit cf1d05c9; live Docs 01–08+10 canonical; Doc 09 historical plan |
 | P06 | Canonical object/master-data model | ⏳ PENDING | Audit existing registries first |
 | P07 | Company→Brand→Department→Function→Role→Person model | 🟡 REVIEW | Existing company/brand/org diagrams; canonical linkage pending |
 | P08 | Goal→Plan→Initiative→Project→Task→Work→Output | 🟡 REVIEW | Existing goal/task diagrams; end-to-end linkage pending |
@@ -48,9 +48,22 @@
 
 ## Current phase
 
-**Phase 0 — Baseline/authority → Phase 1 object model.**
+**Phase 0 — COMPLETE.**  
+**Next:** Phase 1 — Canonical object model (P06).  
+Await explicit instruction before starting Phase 1.
 
-Do not start broad new builds until P04–P06 are resolved.
+## Phase 0 gate evidence
+
+| Item | Detail |
+|---|---|
+| Status | DONE |
+| Date | 2026-10-03 |
+| Files created | `P04_Version_Disposition_and_Authority.md`, `P05_Governance_Docs_01-10_Reconciliation.md` |
+| Files modified | This tracker |
+| Validation | Repository tree inventory; live Docs 01–10 vs Doc 09; CHANGELOG/v6 audit cross-check; Draw.io location confirmed under `docs/OWNER-CONTROL/05-VISUALS/` |
+| Commit SHAs | 2e37e6ff (P04), cf1d05c9 (P05), (this commit) |
+| Blockers | None for Phase 0 exit. Residual open items (CODEOWNERS handles, tentative brand codes) are human-input and do not block Phase 1. |
+| Next action | Begin P06 only when commanded. |
 
 ## Critical path
 
