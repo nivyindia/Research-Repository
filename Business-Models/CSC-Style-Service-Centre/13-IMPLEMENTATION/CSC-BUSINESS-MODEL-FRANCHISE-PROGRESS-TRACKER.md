@@ -24,47 +24,61 @@ REUSE → ADAPT → INTEGRATE → BUILD ONLY WHAT IS MISSING.
 ## Status legend
 Done / In progress / Pending / VERIFY / Candidate / Blocked — external access/authorization required.
 
-## Batch loop
-Read tracker → inspect existing files → research primary sources → reuse existing material → create/update correct nested file → add provenance → update tracker → commit → continue.
-
 ---
 
 ## Phase 1 — Market and CSC ecosystem research
 
-| Task | Status | Evidence / File | Notes |
-|------|--------|-----------------|-------|
-| CSC history & evolution | Done | `01-MARKET-AND-MODEL-RESEARCH/01-CSC-ECOSYSTEM-OVERVIEW.md` | Dated timeline 2006→2026 |
-| Current CSC ecosystem architecture | Done | same | Central SPV, State, District, VLE |
-| Stakeholder responsibilities | In progress | same + next file | SDA/DeGS still VERIFY per state |
-| Money / revenue flow (conceptual) | In progress | same | Numbers deferred to Phase 4 |
-| Technology flow (high-level) | Done | same | DSP + backend infra |
-| Customer / data ownership notes | Done | same | |
-| Latest network statistics (dated) | VERIFY | — | Capture from csc.gov.in dashboard on verification date |
-| VLE eligibility & registration (official) | In progress | next file under 02 / 01 | register.csc.gov.in + csc.gov.in FAQs |
+| Task | Status | Evidence / File |
+|------|--------|-----------------|
+| CSC history & evolution | **Done** | `01-MARKET-AND-MODEL-RESEARCH/01-CSC-ECOSYSTEM-OVERVIEW.md` |
+| Current ecosystem architecture | **Done** | same |
+| Stakeholder responsibilities | **In progress** | same + channel file |
+| Money / revenue flow (conceptual) | **In progress** | same (numbers → Phase 4) |
+| Technology flow (high-level) | **Done** | same |
+| Customer / data ownership notes | **Done** | same |
+| Latest network statistics (dated) | **VERIFY** | Capture from csc.gov.in on verification date |
+| Source register | **Done** | `12-SOURCE-REGISTER/SOURCE-REGISTER-2026-10-04.md` |
 
 ## Phase 2 — Channel hierarchy
 
-| Task | Status | Evidence / File | Notes |
-|------|--------|-----------------|-------|
-| Historical 3-tier map (VLE / SCA / SDA) | In progress | `02-CHANNEL-HIERARCHY/` | Reuse Academy CHANNEL-LEVEL map |
-| Current VLE role & eligibility | In progress | — | |
-| District / SCA role (current vs historical) | VERIFY | — | SCA language often historical; confirm current |
-| State / SDA / DeGS role | VERIFY | — | |
-| Central / CSC SPV role | Done | ecosystem overview | |
-| Appointment, territory, exclusivity, fees | Pending | — | No invention of figures |
+| Task | Status | Evidence / File |
+|------|--------|-----------------|
+| Historical 3-tier map (VLE / SCA / SDA) | **Done** | `02-CHANNEL-HIERARCHY/01-CHANNEL-HIERARCHY-AND-VLE-ELIGIBILITY.md` |
+| Current VLE role & eligibility | **Done** | same (FAQ + register portal) |
+| District / SCA role (current vs historical) | **VERIFY** | SCA often historical; confirm current |
+| State / SDA / DeGS role | **VERIFY** | |
+| Central / CSC SPV role | **Done** | |
+| Appointment, territory, exclusivity, fees | **In progress** | Registration free per FAQ; no invented fees |
 
-## Phase 3–13
-All remaining phases: **Pending** (start after Phase 1–2 core evidence is solid).
+## Phase 3 — Service portfolio and authorization
+
+| Task | Status | Evidence / File |
+|------|--------|-----------------|
+| Integrate existing Academy catalogue | **Done** | `03-SERVICE-PORTFOLIO/01-SERVICE-PORTFOLIO-INTEGRATION.md` |
+| Authorization / revenue matrix seed | **Pending** | Next batch |
+| High-volume revenue services for economics | **Pending** | |
+
+## Phase 4–13
+**Pending** — sequential after Phase 1–3 core evidence.
 
 ---
 
-## Existing detailed tracker (reference only)
-`Nivy Academy/CSC Training/08-BUSINESS-MODEL-FRANCHISE/13-IMPLEMENTATION/`
+## Commits this session (2026-10-04)
+1. `01-CSC-ECOSYSTEM-OVERVIEW.md`
+2. Tracker activation
+3. `01-CHANNEL-HIERARCHY-AND-VLE-ELIGIBILITY.md`
+4. `SOURCE-REGISTER-2026-10-04.md`
+5. `01-SERVICE-PORTFOLIO-INTEGRATION.md`
+6. This tracker update
 
-Do not use the Academy location as the working root for this business-model programme.
+## Next incomplete logical tasks
+1. Service authorization matrix seed (Phase 3).
+2. Dated network statistics capture (VERIFY).
+3. Unit-economics research with **sourced only** figures (Phase 4).
+4. Continue VERIFY items for SCA/SDA current role.
 
 ## Definition of done
-The repository must contain a traceable, source-backed CSC-style business model covering channel hierarchy, service/authorization matrix, economics, operations, onboarding/training, technology/AIOS, franchise/distributor/master-partner programmes, marketing, sales/proposals, legal/compliance, state/district expansion, pilot/scale, KPI/MIS, gap analysis and maintenance.
+Traceable, source-backed CSC-style business model covering all 17 completion items in the Grok execution prompt.
 
 ## Last update
-2026-10-04 — Phase 1 ecosystem overview committed; tracker activated; continuing Phase 1–2 research.
+2026-10-04 — Phases 1–3 started; core research files committed; continuing autonomously.
