@@ -72,3 +72,21 @@ A service is Training Ready only when it has verified service identity, availabi
 3. Build one permanent canonical Service-ID register without fabricating missing rows.
 4. Cross-map PDS, welfare, municipal and transport separately from the e-District count.
 5. Verify official documentation and current practical training videos for priority services.
+
+
+## Phase 2C — High-volume official workflow audit
+
+| ID | Task | Status | Output |
+|---|---|---|---|
+| CSC-TR-019E | Government-side authorization/workflow audit for high-volume services | Done | High-volume reuse audit updated |
+| CSC-TR-019F | Clear verified services for SOP workflow capture | Done | PM-KISAN, e-Shram, Ayushman, Aadhaar, IRCTC gates recorded |
+| CSC-TR-019G | Keep insufficiently verified PAN out of build queue | Done | PAN remains VERIFY |
+| CSC-TR-019H | Define execution-ready reuse/SOP integration map | Done | Service-specific reuse map added |
+
+### Next execution
+- Capture current authorised operator workflow for PM-KISAN.
+- Capture current CSC-assisted workflow for e-Shram.
+- Verify current Digital Seva workflow for Ayushman.
+- Verify centre/operator authorization before Aadhaar training.
+- Verify active PSP/RSP authorization before IRCTC training.
+- Verify current official PAN authorization before building PAN SOP.
