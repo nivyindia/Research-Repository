@@ -206,3 +206,30 @@ No current official Protean/UTIITSL CSC-specific authorization source was suffic
 
 ### Data protection
 These services involve Aadhaar, biometric, financial or welfare information. Repository training must use synthetic examples only and must never store real Aadhaar numbers, OTPs, bank credentials, biometric data or live customer documents.
+
+
+## Execution-ready SOP integration map — 2026-10-03
+
+| Service | Reuse base | Nivy practical layer | Training gate |
+|---|---|---|---|
+| PM-KISAN | Official PM-KISAN portal + existing CSC support | farmer registration/eKYC checklist, receipt/status/QC | Capture current authorised VLE flow |
+| e-Shram | Official e-Shram FAQ/help | assisted registration/update checklist, biometric/privacy QC | Capture current CSC flow |
+| Ayushman PM-JAY | NHA/CSC support material | beneficiary search/card workflow, exception handling | Verify current Digital Seva menu |
+| Aadhaar | UIDAI official guidance | centre-level operator checklist only | Verify centre/operator authorization first |
+| IRCTC | IRCTC PSP/RSP policy | authorised-agent workflow + booking/refund/QC | Verify active PSP/RSP credentials/process |
+| PAN | Official provider source still required | none yet | Keep VERIFY |
+
+### Reuse rule for implementation
+
+1. Link to official sources instead of copying copyrighted training content.
+2. Record source URL and last-verified date.
+3. Capture only permitted operator-specific steps.
+4. Add Nivy synthetic practice cases, QC checklists and escalation paths.
+5. Never use real citizen/customer data in training.
+6. Re-verify regulated workflows after portal or rule changes.
+
+### Immediate build order
+
+PM-KISAN → e-Shram → Ayushman → Aadhaar → IRCTC → PAN
+
+This is an execution sequence, not a quality ranking. It prioritises modules where the audit has already established a usable official workflow basis while preserving authorization gates.
