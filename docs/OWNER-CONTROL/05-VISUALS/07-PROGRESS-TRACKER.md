@@ -9,9 +9,9 @@
 - BLOCKED — dependency prevents progress
 
 ## Program status
-Current phase: Phase 3 — Core Operations
+Current phase: Phase 4 — Technology & Knowledge
 Overall status: IN_PROGRESS
-Implementation completion: 50% (V01–V11 artifacts created; validation/publication remains).
+Implementation completion: 70% (V01–V15 artifacts created; validation/publication remains).
 
 Planning documents do not count as implementation completion.
 
@@ -31,10 +31,10 @@ Planning documents do not count as implementation completion.
 | V09 | Service Delivery Flow | 3 | REVIEW | NIVY-SERVICE-DELIVERY-FLOW.drawio |
 | V10 | Talent Pipeline | 3 | REVIEW | NIVY-TALENT-PIPELINE.drawio |
 | V11 | Finance Flow | 3 | REVIEW | NIVY-FINANCE-FLOW.drawio |
-| V12 | Data/Knowledge Architecture | 4 | NOT_STARTED | — |
-| V13 | AIOS Architecture | 4 | NOT_STARTED | — |
-| V14 | Automation/Integration Map | 4 | NOT_STARTED | Existing owner-control automation map; reconcile/extend |
-| V15 | Research/Knowledge Lifecycle | 4 | NOT_STARTED | — |
+| V12 | Data/Knowledge Architecture | 4 | REVIEW | NIVY-DATA-KNOWLEDGE-ARCHITECTURE.drawio |
+| V13 | AIOS Architecture | 4 | REVIEW | NIVY-AIOS-ARCHITECTURE.drawio |
+| V14 | Automation/Integration Map | 4 | REVIEW | NIVY-AUTOMATION-INTEGRATION-MAP.drawio; existing automation map remains historical/reference |
+| V15 | Research/Knowledge Lifecycle | 4 | REVIEW | NIVY-RESEARCH-KNOWLEDGE-LIFECYCLE.drawio |
 | V16 | RACI/Responsibility Map | 5 | NOT_STARTED | — |
 | V17 | Decision/Escalation Flow | 5 | NOT_STARTED | — |
 | V18 | Access/Security Map | 5 | NOT_STARTED | — |
@@ -68,6 +68,15 @@ Planning documents do not count as implementation completion.
 | V10 | 2026-10-03 | Nivy talent pipeline: source → screen → paid test → onboarding → probation | REVIEW — XML Draw.io structure created | Role-specific branches and approval matrix will be refined in V16/V19 |
 | V11 | 2026-10-03 | Revenue, billing, collection, expenses, bookkeeping, compliance and KPI cycle | REVIEW — XML Draw.io structure created | Accounting-system integration will be refined in V12/V14 |
 
+## V12–V15 implementation record
+
+| Item | Created | Source check | Validation | Known limitation |
+|---|---|---|---|---|
+| V12 | 2026-10-03 | Raw → organized → canonical → operational architecture | REVIEW — XML Draw.io structure created | System-specific schemas will be refined later |
+| V13 | 2026-10-03 | Company OS / AIOS concepts and control layers | REVIEW — XML Draw.io structure created | Exact agent catalog and model routing will be refined later |
+| V14 | 2026-10-03 | Existing automation map + integration requirements | REVIEW — new canonical integration map created | Existing automation map remains historical/reference until cross-validation |
+| V15 | 2026-10-03 | Research repo lifecycle and reuse/adapt/integrate/build principle | REVIEW — XML Draw.io structure created | Detailed provenance/version rules will be cross-validated later |
+
 ## Execution order
 V00 → V01–V03 → V04–V07 → V08–V11 → V12–V15 → V16–V19 → V20 → V21
 
@@ -75,4 +84,4 @@ V00 → V01–V03 → V04–V07 → V08–V11 → V12–V15 → V16–V19 → V2
 For every completed item record: status, date, file path, source documents checked, validation result, known limitations, and next dependency.
 
 ## Current next action
-Validate V01–V11 in Draw.io, then start V12–V15 (Data/Knowledge, AIOS, Automation/Integration, Research/Knowledge Lifecycle).
+Validate V01–V15 in Draw.io, then start V16–V19 (RACI, Decision/Escalation, Access/Security, SOP Architecture).
