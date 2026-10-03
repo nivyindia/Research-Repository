@@ -38,3 +38,11 @@ Use this file as the repository-wide discovery map. Scan it before choosing work
 
 ## Rule
 Keep this index as a map, not a duplicate of every document. When a new canonical source is discovered, add its path and role here.
+
+
+## Company Visual System Program
+
+- docs/OWNER-CONTROL/05-VISUALS/06-COMPANY-VISUAL-SYSTEM-IMPLEMENTATION-PLAN.md — canonical plan for the company-wide Draw.io visual system.
+- docs/OWNER-CONTROL/05-VISUALS/07-PROGRESS-TRACKER.md — canonical implementation tracker.
+- docs/OWNER-CONTROL/05-VISUALS/08-DRAWIO-STANDARD.md — canonical Draw.io standard.
+- docs/OWNER-CONTROL/05-VISUALS/README.md — visual-system entry point.
