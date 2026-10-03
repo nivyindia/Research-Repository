@@ -42,3 +42,16 @@ Therefore these should **not be independently rebuilt as first-party Nivy lesson
 - IIBF BC/BF training guidelines: https://digipaathshala.cscacademy.org/uploads/lmscourse/publisher/assignment_guidelines/efca0c0ec54fdd43b01a0ff70afc6b4c.pdf
 - CSC Academy skill FAQ: https://www.cscacademy.org/faq-skill
 - CSC Academy PwD FAQ: https://www.cscacademy.org/faq-pwd
+
+
+## Additional reuse audit — current web verification
+
+- **TEC/VLE foundation:** existing TEC material already covers CSC/VLE orientation and entrepreneurship. Reuse it instead of creating a duplicate basic theory course. Sources: https://newcsctally.cscacademy.org/ and the existing TEC assignment-guidelines PDF.
+- **Current CSC Academy service catalogue:** the current service list includes TEC, Basic Computer Course, Tally Education, PMGDISHA, 3D Printing & CAD, Cyber Security, Digital Wellness, NCS and Soft Skills. Reuse/reference these existing offerings instead of recreating equivalent catalogues.
+- **Existing practical skill workflow:** CSC Academy already documents a Digital Seva workflow for enrolling candidates into the Computer Hardware & Troubleshooting course. Reuse the workflow reference and only add Nivy's missing QC/practice layer.
+- **BC/BF training:** current CSC Academy/IIBF training provides BC Basic, BC Advanced and DRA programmes. Use this as the primary training reference for banking-training modules and recheck current rules before deployment.
+- **NCS:** CSC Academy already has an NCS FAQ covering Digital Seva registration, eligibility, job search, profile updates and fee/commission information. Reuse it rather than creating a duplicate FAQ.
+
+### Build only what is missing
+
+Do not build duplicate CSC/VLE fundamentals, TEC entrepreneurship, CSC Academy course catalogues, BC/BF curriculum or NCS FAQ. Build only current state-specific operator workflows, service-level practical checklists, QC/error handling, candidate tests and escalation matrices.
