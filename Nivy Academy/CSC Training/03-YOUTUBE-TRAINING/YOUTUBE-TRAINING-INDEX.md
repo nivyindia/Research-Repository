@@ -8,6 +8,19 @@
 | DigiPay / AEPS | https://www.youtube.com/watch?v=nmNhDd_JcIc | Verified result | CSC DigiPay Web Portal AEPS training; published 2024-10-19; covers withdrawal, balance enquiry, mini statement and payout |
 | PM-KISAN / Farmer Registry | https://www.youtube.com/watch?v=wTO1ZKrFq1o | Verified result | PM Kisan/CSC Farmer Registry training; published 2024-12-19 |
 
+
+## Reuse-first sources discovered (2026-10-03)
+
+Before creating new training content, check the existing CSC Academy ecosystem:
+
+- CSC Academy VLE Training: https://www.cscacademy.org/services/vle-training
+- CSC Academy Education: https://www.cscacademy.org/services/education
+- CSC Academy service list: https://www.cscacademy.org/service-list
+- CSC Academy skill courses: https://www.cscacademy.org/skill-course
+- CSC Academy CSC overview: https://www.cscacademy.org/csc
+
+These are preferred starting points for reuse. Third-party YouTube videos remain supplementary and must be verified against the current official workflow.
+
 ## Service-specific YouTube search queue
 
 When no individual video was reliably verified, use the service-specific search URL in the master catalogue and select a recent, practical tutorial.
