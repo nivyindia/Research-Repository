@@ -6,54 +6,39 @@
 ## Rule
 REUSE → ADAPT → INTEGRATE → BUILD ONLY WHAT IS MISSING.
 
-## Status legend
-Done / In progress / Pending / VERIFY / Candidate / Blocked
+---
+
+## Phase status (2026-10-04)
+
+| Phase | Status | Key files |
+|-------|--------|-----------|
+| 1 Market & ecosystem | **Done** (core) | Ecosystem overview, network stats, source register |
+| 2 Channel hierarchy | **Done** (core) | Hierarchy + VLE eligibility; SCA/SDA still VERIFY |
+| 3 Service portfolio | **Done** (seed) | Integration + auth/revenue matrix seed |
+| 4 Unit economics | **Done** (framework) | Sourced figures only; more rates pending |
+| 5 Franchise programme | **In progress** | `05-.../01-NIVY-CHANNEL-PROGRAMME-STRUCTURE.md` |
+| 6 Operations & training | **In progress** | `06-.../01-OPERATIONS-FRAMEWORK.md` |
+| 7 Tech / AIOS | Pending | — |
+| 8 Marketing benchmarks | Pending | — |
+| 9 Sales / proposals | Pending | — |
+| 10 Legal / compliance | Pending | — |
+| 11 State / district | **In progress** | `11-.../01-UTTAR-PRADESH-SNAPSHOT.md` |
+| 12 Pilot / scale | Pending | — |
+| 13 Final integration | Pending | — |
 
 ---
 
-## Phase 1 — Market & ecosystem
-| Task | Status | File |
-|------|--------|------|
-| Ecosystem overview | **Done** | `01-.../01-CSC-ECOSYSTEM-OVERVIEW.md` |
-| Network statistics (dated) | **Done** | `01-.../02-NETWORK-STATISTICS-DATED.md` |
-| Source register | **Done** | `12-SOURCE-REGISTER/SOURCE-REGISTER-2026-10-04.md` |
+## This batch commits
+1. Nivy channel programme structure (L0–L4, non-CSC branded)
+2. Operations framework skeleton
+3. UP snapshot (CSC 3.0 dual DSP, e-District, counts, ₹30 share example context-limited)
 
-## Phase 2 — Channel hierarchy
-| Task | Status | File |
-|------|--------|------|
-| Hierarchy + VLE eligibility | **Done** | `02-.../01-CHANNEL-HIERARCHY-AND-VLE-ELIGIBILITY.md` |
-| SCA current role | **VERIFY** | — |
-| SDA/DeGS current role | **VERIFY** | — |
-
-## Phase 3 — Service portfolio
-| Task | Status | File |
-|------|--------|------|
-| Integration map | **Done** | `03-.../01-SERVICE-PORTFOLIO-INTEGRATION.md` |
-| Auth / revenue matrix seed | **Done** | `03-.../02-SERVICE-AUTHORIZATION-MATRIX-SEED.md` |
-| Fill more rate cards | **In progress** | matrix |
-
-## Phase 4 — Unit economics
-| Task | Status | File |
-|------|--------|------|
-| Framework + sourced figures | **Done** | `04-.../01-UNIT-ECONOMICS-FRAMEWORK-AND-SOURCED-FIGURES.md` |
-| More commission sources | **In progress** | — |
-| Original Nivy model | **Pending** | — |
-
-## Phase 5–13
-**Pending**
-
----
-
-## Session commits (2026-10-04 continued)
-- Service authorization matrix seed
-- Network statistics dated (5,16,787 / 4,07,122 rural as of 30 Jun 2026)
-- Unit economics framework (reg free; Jio 1.6%; agri 10–25%; no invented averages)
-
-## Next batch
-1. More sourced commissions (AEPS, PAN, IRCTC) if public
-2. Phase 5 franchise programme design structure (original Nivy — clearly non-CSC-branded)
-3. Operations skeleton
-4. UP state snapshot for Phase 11 start
+## Next batch priorities
+1. Phase 7 tech blueprint skeleton
+2. Phase 10 legal clause subject map
+3. Phase 8 marketing benchmark rules + first catalogue rows
+4. Partner onboarding checklist (Phase 5/6)
+5. More public commission rates if found
 
 ## Last update
-2026-10-04 — Phases 1–4 core files committed; continuing.
+2026-10-04 — Batch complete; continue sequential.
