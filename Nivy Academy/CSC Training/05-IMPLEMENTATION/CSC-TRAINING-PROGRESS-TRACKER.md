@@ -33,6 +33,14 @@ Last update: 2026-10-03
 | CSC-TR-019 | Add official reusable training sources to repository indexes | Done | YouTube index + official sources updated |
 | CSC-TR-019A | Apply provenance/licensing rule | Done | Reuse/adapt/link; do not republish copyrighted material without permission |
 
+## Phase 2B — Existing CSC Academy material reuse
+
+| ID | Task | Status | Notes |
+|---|---|---|---|
+| CSC-TR-019B | Audit CSC Academy existing training/service resources | Done | Service list, VLE training, education, skills, TEC, IIBF BC/BF and FAQ material mapped |
+| CSC-TR-019C | Identify content that should not be rebuilt | Done | TEC already covers VLE fundamentals, G2C/B2C, Digital Seva, finance/accounting, GST and business communication |
+| CSC-TR-019D | Create reusable-source map with provenance | Done | CSC-ACADEMY-REUSE-MAP-2026-10-03.md |
+
 ## Phase 3 — Training content
 
 | ID | Task | Status | Notes |
