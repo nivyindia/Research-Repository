@@ -1,44 +1,44 @@
 # CSC-Style Service Centre — Master Implementation Tracker
 
-## Workspace
-`Business-Models/CSC-Style-Service-Centre/`
+**Last update:** 2026-10-04 (batch: tech, legal, marketing, onboarding)
 
 ## Rule
 REUSE → ADAPT → INTEGRATE → BUILD ONLY WHAT IS MISSING.
 
 ---
 
-## Phase status (2026-10-04)
+## Phase status
 
-| Phase | Status | Key files |
-|-------|--------|-----------|
-| 1 Market & ecosystem | **Done** (core) | Ecosystem overview, network stats, source register |
-| 2 Channel hierarchy | **Done** (core) | Hierarchy + VLE eligibility; SCA/SDA still VERIFY |
-| 3 Service portfolio | **Done** (seed) | Integration + auth/revenue matrix seed |
-| 4 Unit economics | **Done** (framework) | Sourced figures only; more rates pending |
-| 5 Franchise programme | **In progress** | `05-.../01-NIVY-CHANNEL-PROGRAMME-STRUCTURE.md` |
-| 6 Operations & training | **In progress** | `06-.../01-OPERATIONS-FRAMEWORK.md` |
-| 7 Tech / AIOS | Pending | — |
-| 8 Marketing benchmarks | Pending | — |
-| 9 Sales / proposals | Pending | — |
-| 10 Legal / compliance | Pending | — |
-| 11 State / district | **In progress** | `11-.../01-UTTAR-PRADESH-SNAPSHOT.md` |
-| 12 Pilot / scale | Pending | — |
-| 13 Final integration | Pending | — |
+| Phase | Status | Key deliverables |
+|-------|--------|------------------|
+| 1 Market & ecosystem | **Done** | Ecosystem, network stats, sources |
+| 2 Channel hierarchy | **Done** (VERIFY SCA/SDA) | Hierarchy + VLE eligibility |
+| 3 Service portfolio | **Done** (seed) | Integration + auth/revenue matrix |
+| 4 Unit economics | **Done** (framework) | Sourced figures; more rates open |
+| 5 Franchise programme | **In progress** | Channel structure + **onboarding checklist** |
+| 6 Operations & training | **In progress** | Ops framework |
+| 7 Tech / AIOS | **In progress** | **Tech blueprint** (CRM/ERP/LMS shortlist) |
+| 8 Marketing benchmarks | **In progress** | **Rules + log seed** |
+| 9 Sales / proposals | **Pending** | — |
+| 10 Legal / compliance | **In progress** | **Clause subject map** |
+| 11 State / district | **In progress** | UP snapshot |
+| 12 Pilot / scale | **Pending** | — |
+| 13 Final integration | **Pending** | — |
 
 ---
 
-## This batch commits
-1. Nivy channel programme structure (L0–L4, non-CSC branded)
-2. Operations framework skeleton
-3. UP snapshot (CSC 3.0 dual DSP, e-District, counts, ₹30 share example context-limited)
+## This batch files
+- `10-TECH-AND-SYSTEMS/01-TECH-AIOS-BLUEPRINT.md`
+- `09-LEGAL-COMPLIANCE/01-LEGAL-CLAUSE-SUBJECT-MAP.md`
+- `07-MARKETING-MATERIAL-BENCHMARKS/01-MARKETING-RESEARCH-RULES-AND-LOG.md`
+- `05-FRANCHISE-PROGRAM-DESIGN/02-PARTNER-ONBOARDING-CHECKLIST.md`
 
-## Next batch priorities
-1. Phase 7 tech blueprint skeleton
-2. Phase 10 legal clause subject map
-3. Phase 8 marketing benchmark rules + first catalogue rows
-4. Partner onboarding checklist (Phase 5/6)
-5. More public commission rates if found
+## Next batch
+1. Phase 9 sales funnel / proposal skeleton
+2. Phase 12 pilot KPIs + launch checklist
+3. Marketing log: add 5 private-sector benchmarks
+4. Sales scripts + disclaimer block
+5. Gap report draft (Phase 13 start)
 
-## Last update
-2026-10-04 — Batch complete; continue sequential.
+## Definition of done
+Still open until all 17 completion items in Grok execution prompt are evidence-backed in-repo.
