@@ -9,9 +9,9 @@
 - BLOCKED — dependency prevents progress
 
 ## Program status
-Current phase: Phase 1 — Company Foundation
+Current phase: Phase 2 — Strategy & Execution
 Overall status: IN_PROGRESS
-Implementation completion: 15% (V01–V03 created; validation/publication remains).
+Implementation completion: 30% (V01–V07 artifacts created; validation/publication remains).
 
 Planning documents do not count as implementation completion.
 
@@ -23,10 +23,10 @@ Planning documents do not count as implementation completion.
 | V01 | Company Master Map | 1 | REVIEW | NIVY-COMPANY-MASTER-MAP.drawio |
 | V02 | Brand Architecture | 1 | REVIEW | NIVY-BRAND-ARCHITECTURE.drawio |
 | V03 | Organization Map | 1 | REVIEW | NIVY-ORGANIZATION-MAP.drawio |
-| V04 | Goal Cascade | 2 | NOT_STARTED | — |
-| V05 | Planning Cadence | 2 | NOT_STARTED | — |
-| V06 | Project/Task Hierarchy | 2 | NOT_STARTED | Existing NIVY-TASK-HIERARCHY.drawio; reconcile/extend |
-| V07 | Review Loop | 2 | NOT_STARTED | — |
+| V04 | Goal Cascade | 2 | REVIEW | NIVY-GOAL-CASCADE.drawio |
+| V05 | Planning Cadence | 2 | REVIEW | NIVY-PLANNING-CADENCE.drawio |
+| V06 | Project/Task Hierarchy | 2 | REVIEW | NIVY-TASK-HIERARCHY.drawio |
+| V07 | Review Loop | 2 | REVIEW | NIVY-REVIEW-LOOP.drawio |
 | V08 | Sales/Revenue Flow | 3 | NOT_STARTED | Existing NIVY-SALES-ACQUISITION-FLOW.drawio; reconcile/extend |
 | V09 | Service Delivery Flow | 3 | NOT_STARTED | — |
 | V10 | Talent Pipeline | 3 | NOT_STARTED | — |
@@ -41,6 +41,15 @@ Planning documents do not count as implementation completion.
 | V19 | SOP Architecture | 5 | NOT_STARTED | — |
 | V20 | Cross-diagram validation | 6 | NOT_STARTED | — |
 | V21 | Visual README/index publication | 7 | IN_PROGRESS | README.md |
+
+## V04–V07 implementation record
+
+| Item | Created | Source check | Validation | Known limitation |
+|---|---|---|---|---|
+| V04 | 2026-10-03 | Canonical goal hierarchy in Draw.io standard | REVIEW — XML Draw.io structure created | Needs visual opening/review |
+| V05 | 2026-10-03 | Annual→quarterly→monthly→weekly→daily cadence | REVIEW — XML Draw.io structure created | Cadence will later connect to actual calendar/PM system |
+| V06 | 2026-10-03 | Existing task hierarchy reconciled | REVIEW — canonical hierarchy extended | Existing historical content replaced by generic canonical model |
+| V07 | 2026-10-03 | Review/feedback loop requirements | REVIEW — XML Draw.io structure created | Actual KPI fields will be refined with operating system |
 
 ## V01–V03 implementation record
 
