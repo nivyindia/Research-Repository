@@ -22,7 +22,7 @@ Last update: 2026-10-03
 | CSC-TR-013 | Map partner/authorized services | In progress | GeM and authorization-dependent modules added to research queue |
 | CSC-TR-014 | Remove duplicates/obsolete services | Pending | Run after live-menu extraction |
 | CSC-TR-015 | Assign unique Service IDs | In progress | Existing national-core IDs retained; UP register now uses stable provisional IDs pending exact portal IDs |
-| CSC-TR-016 | Build UP individual e-District register | **In progress** | Batch 03 added: `01-MASTER-CATALOGUE/UP-EDISTRICT-INDIVIDUAL-SERVICE-REGISTER-BATCH-03.md`; exact 353-row extraction is still pending |
+| CSC-TR-016 | Build UP individual e-District register | **In progress** | Batch 03 + Batch 04 added; exact 353-row extraction is still pending |
 | CSC-TR-017 | Separate UP service ecosystems | **Done** | e-District/Jan Seva, municipal/e-Nagarsewa, transport (Vahan/Sarathi/eChallan), Rojgaar Sangam and Sewa Mitra kept separate |
 
 ## Phase 3 — Training content
@@ -53,6 +53,7 @@ Last update: 2026-10-03
 - `01-MASTER-CATALOGUE/INDIVIDUAL-SERVICE-EXTRACTION-QUEUE.md` — extraction rules and UP/national batches.
 - `01-MASTER-CATALOGUE/UP-INDIVIDUAL-SERVICE-BATCH-02.md` — verified UP service families and transport evidence.
 - `01-MASTER-CATALOGUE/UP-EDISTRICT-INDIVIDUAL-SERVICE-REGISTER-BATCH-03.md` — current individual-service register seed with evidence labels.
+- `01-MASTER-CATALOGUE/UP-EDISTRICT-INDIVIDUAL-SERVICE-REGISTER-BATCH-04.md` — additional official service-family evidence; exact portal rows remain pending.
 - `02-TRAINING-MATRIX/SERVICE-TRAINING-SOP-TEMPLATE.md` — per-service SOP template.
 - `02-TRAINING-MATRIX/CSC-SERVICE-TRAINING-MATRIX.md` — expanded operator training matrix with practice tasks.
 - `03-YOUTUBE-TRAINING/YOUTUBE-TRAINING-INDEX.md` — video index/search queue.
@@ -76,6 +77,7 @@ A service is **Training Ready** only when it has:
 ## Next execution batch
 
 1. Extract the exact current UP e-District/e-Sathi individual service names and department mapping.
+2. Use Batch 04 evidence to prioritize Revenue, PDS, Pension, Khatauni, revenue-dispute and Employment extraction.
 2. Build one permanent Service-ID master register without fabricating missing rows.
 3. Map UP PDS, welfare, municipal and transport services separately from the e-District count.
 4. Verify official documentation for regulated services.
