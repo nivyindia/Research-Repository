@@ -25,6 +25,14 @@ Last update: 2026-10-03
 | CSC-TR-016 | Build UP individual e-District register | In progress | Batches 03–07 accumulated; exact 353-row extraction still pending |
 | CSC-TR-017 | Separate UP service ecosystems | Done | e-District/Jan Seva, municipal/e-Nagarsewa, transport, Rojgaar Sangam and department portals kept separate |
 
+## Phase 2A — Reuse-first integration
+
+| ID | Task | Status | Output |
+|---|---|---|---|
+| CSC-TR-018 | Discover existing CSC Academy training/content before building | Done | Reuse-first source register |
+| CSC-TR-019 | Add official reusable training sources to repository indexes | Done | YouTube index + official sources updated |
+| CSC-TR-019A | Apply provenance/licensing rule | Done | Reuse/adapt/link; do not republish copyrighted material without permission |
+
 ## Phase 3 — Training content
 
 | ID | Task | Status | Notes |
