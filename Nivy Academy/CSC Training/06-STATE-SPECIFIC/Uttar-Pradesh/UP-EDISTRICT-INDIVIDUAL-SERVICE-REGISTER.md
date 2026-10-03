@@ -105,3 +105,47 @@ The portal specifically exposes workflows for transfer of ownership, change of a
 ### Next extraction target
 
 Continue with exact individual names from the live UP e-District menu rather than inferring service names from broad categories. The official UP Electronics Corporation presentation confirms 336 G2C services across 52 departments, with Caste, Income, Domicile, Khatauni and Solvency among high-volume services. citeturn0search12
+
+
+## Batch 3 — department/service discovery
+
+### Verified government baseline
+
+UP Electronics Corporation's 2025 government presentation confirms that the UP CSC/e-District ecosystem provides **336 G2C services across 52 departments**, with Caste, Income, Domicile, Khatauni and Solvency identified as high-volume citizen services. citeturn0search12
+
+A direct current indexed copy of all 336 individual e-District menu entries was **not exposed by the public search index**, so this batch does not fabricate a 336-row list. Instead, the research process is being expanded to department-owned official portals so every extracted service can be independently verified.
+
+### Newly verified UP government citizen-service families
+
+| Service ID | Service / family | Official source | Status |
+|---|---|---|---|
+| CSC-UP-DEPT-001 | Medical Establishment Registration | UP Directorate General Medical & Health Services | Verified family |
+| CSC-UP-DEPT-002 | Medical Illness Certificate | UP Directorate General Medical & Health Services | Verified family |
+| CSC-UP-DEPT-003 | Disability Certificate | UP Directorate General Medical & Health Services | Verified family |
+| CSC-UP-DEPT-004 | Medical Reimbursement Payment | UP Directorate General Medical & Health Services | Verified family |
+| CSC-UP-DEPT-005 | Death Certificate (medical/health workflow) | UP Directorate General Medical & Health Services | Verified family |
+| CSC-UP-DEPT-006 | Immunization Certificate | UP Directorate General Medical & Health Services | Verified family |
+| CSC-UP-DEPT-007 | Age Certificate | UP Directorate General Medical & Health Services | Verified family |
+| CSC-UP-DEPT-008 | Medico-Legal Certificate | UP Directorate General Medical & Health Services | Verified family |
+| CSC-UP-DEPT-009 | Medical Fitness Certificate | UP Directorate General Medical & Health Services | Verified family |
+| CSC-UP-DEPT-010 | EPF-related service | UP Directorate General Medical & Health Services | Verified family |
+| CSC-UP-DEPT-011 | Gratuity | UP Directorate General Medical & Health Services | Verified family |
+| CSC-UP-DEPT-012 | Pension | UP Directorate General Medical & Health Services | Verified family |
+
+The department's live public website currently lists these under its citizen-centric services. citeturn0search9
+
+### Separate UP digital-service ecosystems to map
+
+The repository should keep e-District's 336-service baseline separate from other UP government digital platforms until an official source establishes that a specific service is part of the 336 count. For example, Sewa Mitra is a separate UP Government platform covering local/home services; its current site reports 3,500+ services and 75 districts. citeturn0search0turn0search2
+
+### Extraction rule reinforced
+
+Do **not** count a service toward the 336 e-District register merely because it is a UP Government online service. A row enters the 336 register only after:
+1. Exact service name is found in an e-District/CSC service menu or official government document.
+2. Department is identified.
+3. Current availability is verified.
+4. Portal/workflow is identified.
+5. Eligibility/documents/authentication/fee are captured where applicable.
+6. Training workflow and QC checks are documented.
+
+This prevents mixing e-District, Sewa Mitra, Vahan, department portals and other CSC partner services into one unsupported count.
