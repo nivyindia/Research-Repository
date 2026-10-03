@@ -1,0 +1,16 @@
+# Company Master Standards — Visuals
+
+**Full library index:** [docs/OWNER-CONTROL/05-VISUALS/00-LIBRARY-INDEX.md](../../../../../../docs/OWNER-CONTROL/05-VISUALS/00-LIBRARY-INDEX.md)
+
+Company-wide diagrams used with the V7 Master Standards models:
+
+| Diagram | Link |
+|---|---|
+| Company Master Map | [01-COMPANY/NIVY-COMPANY-MASTER-MAP.drawio](../../../../../../docs/OWNER-CONTROL/05-VISUALS/01-COMPANY/NIVY-COMPANY-MASTER-MAP.drawio) |
+| Goal Cascade | [02-STRATEGY-EXECUTION/NIVY-GOAL-CASCADE.drawio](../../../../../../docs/OWNER-CONTROL/05-VISUALS/02-STRATEGY-EXECUTION/NIVY-GOAL-CASCADE.drawio) |
+| Planning Cadence | [02-STRATEGY-EXECUTION/NIVY-PLANNING-CADENCE.drawio](../../../../../../docs/OWNER-CONTROL/05-VISUALS/02-STRATEGY-EXECUTION/NIVY-PLANNING-CADENCE.drawio) |
+| Task Hierarchy | [02-STRATEGY-EXECUTION/NIVY-TASK-HIERARCHY.drawio](../../../../../../docs/OWNER-CONTROL/05-VISUALS/02-STRATEGY-EXECUTION/NIVY-TASK-HIERARCHY.drawio) |
+| Review Loop | [02-STRATEGY-EXECUTION/NIVY-REVIEW-LOOP.drawio](../../../../../../docs/OWNER-CONTROL/05-VISUALS/02-STRATEGY-EXECUTION/NIVY-REVIEW-LOOP.drawio) |
+| SOP Architecture | [03-OPERATIONS/NIVY-SOP-ARCHITECTURE.drawio](../../../../../../docs/OWNER-CONTROL/05-VISUALS/03-OPERATIONS/NIVY-SOP-ARCHITECTURE.drawio) |
+| AIOS Architecture | [04-TECH-DATA-AI/NIVY-AIOS-ARCHITECTURE.drawio](../../../../../../docs/OWNER-CONTROL/05-VISUALS/04-TECH-DATA-AI/NIVY-AIOS-ARCHITECTURE.drawio) |
+| Decision Escalation | [05-GOVERNANCE/NIVY-DECISION-ESCALATION-FLOW.drawio](../../../../../../docs/OWNER-CONTROL/05-VISUALS/05-GOVERNANCE/NIVY-DECISION-ESCALATION-FLOW.drawio) |
