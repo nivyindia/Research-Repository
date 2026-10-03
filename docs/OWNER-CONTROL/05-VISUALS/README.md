@@ -39,6 +39,15 @@ These V01–V03 files are currently **REVIEW** status. They are editable Draw.io
 
 V08–V11 are currently **REVIEW**; visual opening/review is still required before DONE.
 
+## Phase 4 — Technology & Knowledge
+
+- `NIVY-DATA-KNOWLEDGE-ARCHITECTURE.drawio` — source-to-canonical-to-operational knowledge flow.
+- `NIVY-AIOS-ARCHITECTURE.drawio` — business, knowledge, application, integration, agent and control layers.
+- `NIVY-AUTOMATION-INTEGRATION-MAP.drawio` — triggers, orchestration, AI, approvals, actions and evidence.
+- `NIVY-RESEARCH-KNOWLEDGE-LIFECYCLE.drawio` — research capture through canonical publication and refresh.
+
+V12–V15 are currently **REVIEW**; visual opening/review is still required before DONE.
+
 ## Build order
 
 `Company → Strategy/Execution → Operations → Technology/Knowledge → Governance → Cross-diagram Validation → Publication`
