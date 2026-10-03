@@ -56,3 +56,21 @@ The National Government Services Portal currently lists UP e-District services i
 
 ## Data protection
 Training repositories must contain synthetic examples only. Never upload real Aadhaar, PAN, bank account, OTP, password, biometric or private-key data.
+
+
+## Verification update — 03 October 2026
+
+### Current portal evidence
+- UP Government's 2025 IT & Electronics presentation states **353 government services from 54 departments** are being delivered through e-District/Jan Seva, and that the service set is being expanded. citeturn0search24
+- Therefore the repository must not treat older 314/41 or 336/52 figures as the permanent current catalogue. The individual-service register remains an extraction target.
+- Vahan's current citizen-service page currently displays **33 services for Uttar Pradesh** on one current build; another current Vahan build displayed 31, so the repository will record the date/build when counting services rather than hard-code a permanent count. citeturn0search0turn0search2
+- Vahan explicitly states that some Aadhaar-biometric-only services can be completed at a CSC with a biometric device; contactless eKYC services can avoid an RTO visit, while non-contactless services may require document/vehicle verification at the RTO. citeturn0search0
+- Vahan's current service menu includes RC-related services, vehicle services, certificates, appointments, status and document downloads, including NOC, duplicate fitness certificate, registration renewal, vehicle conversion and parameter changes. citeturn0search3
+- mParivahan currently exposes Uttar Pradesh through **Sarathi, Vahan and eChallan** ecosystems. citeturn0search1
+
+### Next extraction priority
+1. Freeze an evidence snapshot for the exact current UP e-District service names and department mapping.
+2. Extract each service into the master register rather than relying on family names.
+3. For each service capture: official portal, CSC authorization, eligibility, documents, authentication, fee, SLA, workflow, payment, receipt, status, correction/objection, escalation and training video.
+4. For Vahan/Sarathi/eChallan, keep a separate transport register because portal service counts and available services can change by state/build.
+5. Mark a service **Training Ready** only after all required fields are verified.
