@@ -1,48 +1,40 @@
 # Company OS V7 — Combined Implementation Progress Tracker
 
-**Last updated:** 2026-10-03 (Phase 9 gate)
+**Last updated:** 2026-10-03 (Phase 10 — PROGRAM STRUCTURAL COMPLETE)
 
 ## Status legend
 - ✅ DONE — verified
-- ⏳ PENDING — not yet implemented/verified
-- ⚠️ — operational follow-up (not structural blocker)
+- ⚠️ Operational follow-up (not structural blocker)
 
 | ID | Phase / Workstream | Status | Evidence |
 |---|---|---|---|
-| P00–P31 | Phases 0–8 | ✅ DONE | Models, diagrams, workflows, governance |
-| P32 | End-to-end scenario tests | ✅ DONE | P32_End_to_End_Scenario_Validation.md — A/B/C PASS |
-| P33 | Publication/release | ⏳ PENDING | Phase 10 |
+| P00–P32 | Phases 0–9 | ✅ DONE | Models, diagrams, workflows, scenarios A/B/C |
+| P33 | Publication / handover | ✅ DONE | P33_Publication_and_Handover.md + README updates |
 
-## Scenario results (P32)
+## Program status
 
-| Scenario | Result |
-|---|---|
-| A Company Goal → … → Change → Result | PASS (structural) |
-| B Document create → … → Archive | PASS (structural) |
-| C Issue → … → Learning → KPI review | PASS |
+**STRUCTURAL IMPLEMENTATION COMPLETE.**  
+All planned phases 0–10 delivered. Remaining items are human adoption (owners, KPI numbers, external publish credentials).
 
-## Current phase
-
-**Phase 9 — COMPLETE.**  
-**Next:** Phase 10 — Publication and Handover (P33).  
-Await explicit instruction before continuing.
-
-## Phase 9 gate evidence
+## Phase 10 gate evidence
 
 | Item | Detail |
 |---|---|
 | Status | DONE |
 | Date | 2026-10-03 |
-| Files created | `P32_End_to_End_Scenario_Validation.md` |
-| Validation | All three required scenarios traced to artifacts and schemas |
-| Commit SHAs | 36ad0f39 (P32 validation), (this commit) |
-| Blockers | None structural. Live data, human Approve/Publish, ISS ops adoption remain operational. |
-| Next action | Phase 10 only when commanded. |
+| Files created | `P33_Publication_and_Handover.md` |
+| Files modified | `Company-OS/README.md`, `Company-OS-v7/README.md`, this tracker |
+| Deliverables | Operating index, owner/department/goal/planning/management maps, automation summary, publication plan, handover checklist |
+| Commit SHAs | d8e7c62c (P33), 11efd029 (Company-OS README), ab82e2ee (V7 README), (this commit) |
+| External publish | Optional — GitHub is canonical; Notion/Wiki via publish-sync when configured |
 
-## Critical path remaining
+## Handover entry points
 
-**P33**
+1. [P33_Publication_and_Handover.md](P33_Publication_and_Handover.md)  
+2. [Company-OS/README.md](../Company-OS/README.md)  
+3. [Company-OS-v7/README.md](../README.md)  
+4. [P32_End_to_End_Scenario_Validation.md](P32_End_to_End_Scenario_Validation.md)  
 
-## Completion rule
+## Completion rule (met)
 
-A work item is DONE only when canonical source, implementation, terminology, validation evidence, and tracker update all exist.
+Canonical sources identified · implementation exists · terminology reconciled · validation evidence recorded · tracker updated.
