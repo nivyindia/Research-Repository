@@ -1,6 +1,6 @@
 # CSC-Style Service Centre — Master Implementation Tracker
 
-**Last update:** 2026-10-04 (batch: L1 onboarding, weekly ops cadence, quiz bank outline)
+**Last update:** 2026-10-04 (batch: monthly health worksheet, recruitment brief, portal outage playbook)
 
 ## Rule
 REUSE → ADAPT → INTEGRATE → BUILD ONLY WHAT IS MISSING.
@@ -9,21 +9,22 @@ REUSE → ADAPT → INTEGRATE → BUILD ONLY WHAT IS MISSING.
 
 ## Status
 
-Documentation pack covers **L1 + L2 + L3** onboarding, ops cadence, QC, and training outline. Execution remains human-led.
+Ops / QC / recruitment **execution templates** continue to thicken. Commercial numbers still blocked on term-sheet freeze.
 
 ---
 
 ## This batch
-- `05-FRANCHISE-PROGRAM-DESIGN/13-L1-ONBOARDING-CHECKLIST.md` (**new**)
-- `06-OPERATIONS-AND-TRAINING/08-WEEKLY-OPS-CADENCE.md` (**new**)
-- `06-OPERATIONS-AND-TRAINING/09-TRAINING-QUIZ-BANK-OUTLINE.md` (**new**)
+- `14-MONITORING-QC-SUSTAINABILITY/05-MONTHLY-HEALTH-REVIEW-WORKSHEET.md` (**new**)
+- `07-MARKETING-MATERIAL-BENCHMARKS/06-RECRUITMENT-CAMPAIGN-BRIEF.md` (**new**)
+- `06-OPERATIONS-AND-TRAINING/10-PORTAL-OUTAGE-MINI-PLAYBOOK.md` (**new**)
 
-## Channel onboarding docs
-| Tier | Checklist |
-|------|----------|
-| L3 | `02-PARTNER-ONBOARDING-CHECKLIST.md` + application/welcome/training |
-| L2 | `12-L2-ONBOARDING-CHECKLIST.md` |
-| L1 | `13-L1-ONBOARDING-CHECKLIST.md` |
+## Cadence stack
+| Rhythm | Doc |
+|--------|-----|
+| Daily | Opening/closing checklist |
+| Weekly | `08-WEEKLY-OPS-CADENCE.md` |
+| Monthly | `05-MONTHLY-HEALTH-REVIEW-WORKSHEET.md` |
+| Day 30/60/90 | Review form |
 
 ## Human priority
 `07-EXECUTION-RUNBOOK-NEXT-90-DAYS.md`
