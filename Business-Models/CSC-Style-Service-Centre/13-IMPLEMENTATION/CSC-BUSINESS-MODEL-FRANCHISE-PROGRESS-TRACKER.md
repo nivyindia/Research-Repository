@@ -1,6 +1,6 @@
 # CSC-Style Service Centre — Master Implementation Tracker
 
-**Last update:** 2026-10-04 (batch: probation/graduation, brand do-dont, support card)
+**Last update:** 2026-10-04 (batch: review form, de-branding exit checklist)
 
 ## Rule
 REUSE → ADAPT → INTEGRATE → BUILD ONLY WHAT IS MISSING.
@@ -9,19 +9,18 @@ REUSE → ADAPT → INTEGRATE → BUILD ONLY WHAT IS MISSING.
 
 ## Status
 
-Pilot **design pack complete** for documentation purposes. Execution depends on people, counsel, and term-sheet freeze.
+End-to-end **L3 lifecycle documentation** is in place (apply → live → review → exit).
 
 ---
 
 ## This batch
-- `05-FRANCHISE-PROGRAM-DESIGN/09-PROBATION-AND-GRADUATION-CRITERIA.md` (**new**)
-- `07-MARKETING-MATERIAL-BENCHMARKS/05-BRAND-DO-DONT-ONE-PAGER.md` (**new**)
-- `06-OPERATIONS-AND-TRAINING/07-SUPPORT-CONTACT-CARD-TEMPLATE.md` (**new**)
+- `05-FRANCHISE-PROGRAM-DESIGN/10-REVIEW-FORM-DAY-30-60-90.md` (**new**)
+- `05-FRANCHISE-PROGRAM-DESIGN/11-DEBRANDING-AND-EXIT-CHECKLIST.md` (**new**)
 
-## L3 lifecycle (docs)
-Apply → DD → Term sheet → Agreement → Welcome kit → Training PASS → Hardware + fee list → LIVE → Day 30/60/90 reviews → Graduate / Extend / Exit
+## L3 lifecycle
+Apply → DD → Term sheet → Agreement → Welcome kit → Training PASS → Hardware + fee list → LIVE → Day 30/60/90 form → Graduate / Extend / Exit (+ de-brand)
 
-## Human priority
+## Execute next
 `07-EXECUTION-RUNBOOK-NEXT-90-DAYS.md`
 
 ## Definition of done
