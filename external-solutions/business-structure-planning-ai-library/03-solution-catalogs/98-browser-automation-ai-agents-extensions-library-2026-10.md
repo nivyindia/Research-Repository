@@ -1,8 +1,8 @@
-# Browser Automation, AI Agents & Extensions Library — 2026-10
+# Browser Automation, AI Agents & Extensions Library — 2026-10 (Updated)
 
 **Purpose:** Comprehensive free / freemium / open-source tools, frameworks, managed services, and Chrome extensions for browser automation, computer-use agents, RPA-style task automation, and agentic AI that can click, fill forms, scrape, research, and complete multi-step web tasks autonomously.
 
-**Why this matters for Nivy:** Browser automation is the practical “hands” layer for any agent that needs to operate real websites (YouTube Studio, social platforms, CRMs, research sites, admin panels) without official APIs.
+**Why this matters for Nivy:** Browser automation is the practical “hands” layer for any agent that needs to operate real websites (YouTube Studio, social platforms, CRMs, research sites, admin panels, WordPress) without official APIs.
 
 **Reuse rule:** Prefer open-source / self-hosted first (Playwright, Browser Use, Stagehand, Playwright MCP, Steel, Nanobrowser). Use managed free tiers only for prototyping. Always add human-approval gates for actions that publish, spend money, or change live data.
 
@@ -36,6 +36,8 @@
 | **MagenticLite** | Open-source agent | Fully free | Browser + local files agent | Search MagenticLite |
 | **UI-TARS (ByteDance)** | Multimodal agent | Free | Screenshot → structured UI control for desktop + browser | Search UI-TARS |
 | **Microsoft OmniParser** | UI parser | Free | Screenshot → interactable elements for agents | https://github.com/microsoft/OmniParser |
+| **Crawl4AI** | LLM-ready crawler | Fully free | Turns any website into clean Markdown for agents | https://github.com/unclecode/crawl4ai |
+| **Firecrawl** | Scrape + extract API | Freemium | Clean LLM-ready data from any site | https://www.firecrawl.dev |
 
 ---
 
@@ -110,15 +112,17 @@
 - Prefer read-only research agents first.
 - Log every browser action (Playwright tracing, session replay).
 - Respect robots.txt, rate limits, and platform Terms of Service.
-- For YouTube / social publishing: keep a human-in-the-loop gate even if the agent prepares the upload.
+- For YouTube / social publishing / WordPress edits: keep a human-in-the-loop gate even if the agent prepares the action.
 
 ---
 
 ## 8. Cross-links inside this library
 
 - Content creation free tools → `97-free-freemium-external-content-creation-tools-catalog-2026-10.md`
+- Website / WordPress agents → `99-website-development-wordpress-html-agents-catalog-2026-10.md`
+- Social media growth agents → `100-social-media-accounts-growth-agents-catalog-2026-10.md`
 - Open-source YouTube / social agents → `23-jarvis-voice-creator-youtube-social-marketing-reuse-catalog-2026-09.md`
 - Company-wide agent systems → catalogs in `02-company-department-models` and `03-solution-catalogs`
 
-**Last updated:** 2026-10-04
+**Last updated:** 2026-10-04 (expanded with Crawl4AI, Firecrawl, social/WordPress cross-links)
 **Next discovery gaps:** Instagram/TikTok native upload automation with approval, CAPTCHA-solving policies, multi-account session management, stealth fingerprint rotation best practices.
