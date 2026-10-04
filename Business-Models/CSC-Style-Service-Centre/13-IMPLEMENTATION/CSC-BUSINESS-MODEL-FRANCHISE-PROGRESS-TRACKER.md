@@ -1,37 +1,32 @@
 # CSC-Style Service Centre — Master Implementation Tracker
 
-**Last update:** 2026-10-04 (batch: canonical disclaimer, centre ID standard, README pilot index)
+**Last update:** 2026-10-04 (batch: welcome kit outline, certification rubric, master index refresh)
 
 ## Rule
 REUSE → ADAPT → INTEGRATE → BUILD ONLY WHAT IS MISSING.
 
 ---
 
-## Status summary
+## Status
 
 | Area | Status |
 |------|--------|
-| Research skeletons (phases 1–14) | **Advanced / largely complete** |
-| Pilot operating pack | **Ready for human execution** |
-| Commercial ₹ figures | **Blocked — term-sheet freeze** |
-| Designed public PDFs | **Blocked — after term sheet** |
+| Research + pilot design pack | **Ready for execution** |
+| Term-sheet ₹ / Annex A rates | **Blocked on Finance + Legal + primary sources** |
+| Public designed PDFs | **Blocked on term-sheet freeze** |
 
 ---
 
-## This batch files
-- `08-SALES-PROPOSALS-AND-PITCHES/00-CANONICAL-DISCLAIMER.md` (**new**)
-- `05-FRANCHISE-PROGRAM-DESIGN/07-CENTRE-ID-STANDARD.md` (**new**)
-- `README.md` (pilot pack index)
+## This batch
+- `05-FRANCHISE-PROGRAM-DESIGN/08-PARTNER-WELCOME-KIT-OUTLINE.md` (**new**)
+- `06-OPERATIONS-AND-TRAINING/06-TRAINING-CERTIFICATION-RUBRIC.md` (**new**)
+- `00-MASTER-RESEARCH-INDEX.md` (pilot links refresh)
 
-## Human next steps (see runbook)
-1. Dry-run  
-2. Counsel email  
-3. District scoring  
-4. Term-sheet amounts + Annex A from primary sources  
-5. CRM + centre_id assignment  
-6. Recruit 5–15 pilot centres  
+## Onboarding chain (L3)
+Application fields → DD → Term sheet → Agreement → **Welcome kit** → **Training PASS** → Hardware + fee list → LIVE
 
-`07-EXECUTION-RUNBOOK-NEXT-90-DAYS.md`
+## Human priority
+Follow `07-EXECUTION-RUNBOOK-NEXT-90-DAYS.md`.
 
 ## Definition of done
 17 completion items evidence-backed + approved commercial numbers + pilot learnings before scale claims.
