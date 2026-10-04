@@ -1,6 +1,6 @@
 # CSC-Style Service Centre — Master Implementation Tracker
 
-**Last update:** 2026-10-04 (batch: welcome kit outline, certification rubric, master index refresh)
+**Last update:** 2026-10-04 (batch: probation/graduation, brand do-dont, support card)
 
 ## Rule
 REUSE → ADAPT → INTEGRATE → BUILD ONLY WHAT IS MISSING.
@@ -9,24 +9,20 @@ REUSE → ADAPT → INTEGRATE → BUILD ONLY WHAT IS MISSING.
 
 ## Status
 
-| Area | Status |
-|------|--------|
-| Research + pilot design pack | **Ready for execution** |
-| Term-sheet ₹ / Annex A rates | **Blocked on Finance + Legal + primary sources** |
-| Public designed PDFs | **Blocked on term-sheet freeze** |
+Pilot **design pack complete** for documentation purposes. Execution depends on people, counsel, and term-sheet freeze.
 
 ---
 
 ## This batch
-- `05-FRANCHISE-PROGRAM-DESIGN/08-PARTNER-WELCOME-KIT-OUTLINE.md` (**new**)
-- `06-OPERATIONS-AND-TRAINING/06-TRAINING-CERTIFICATION-RUBRIC.md` (**new**)
-- `00-MASTER-RESEARCH-INDEX.md` (pilot links refresh)
+- `05-FRANCHISE-PROGRAM-DESIGN/09-PROBATION-AND-GRADUATION-CRITERIA.md` (**new**)
+- `07-MARKETING-MATERIAL-BENCHMARKS/05-BRAND-DO-DONT-ONE-PAGER.md` (**new**)
+- `06-OPERATIONS-AND-TRAINING/07-SUPPORT-CONTACT-CARD-TEMPLATE.md` (**new**)
 
-## Onboarding chain (L3)
-Application fields → DD → Term sheet → Agreement → **Welcome kit** → **Training PASS** → Hardware + fee list → LIVE
+## L3 lifecycle (docs)
+Apply → DD → Term sheet → Agreement → Welcome kit → Training PASS → Hardware + fee list → LIVE → Day 30/60/90 reviews → Graduate / Extend / Exit
 
 ## Human priority
-Follow `07-EXECUTION-RUNBOOK-NEXT-90-DAYS.md`.
+`07-EXECUTION-RUNBOOK-NEXT-90-DAYS.md`
 
 ## Definition of done
-17 completion items evidence-backed + approved commercial numbers + pilot learnings before scale claims.
+Evidence-backed programme + approved commercial numbers + pilot learnings before scale claims.
