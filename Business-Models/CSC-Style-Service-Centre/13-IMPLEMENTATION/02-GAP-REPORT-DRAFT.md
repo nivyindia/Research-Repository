@@ -1,78 +1,80 @@
-# Gap Report Draft — CSC-Style / Nivy Service-Centre Programme
+# Gap Report — CSC-Style / Nivy Service-Centre Programme
 
 **Folder:** `13-IMPLEMENTATION/`  
 **Created:** 2026-10-04  
-**Updated:** 2026-10-04 (status pass after multi-batch execution)  
-**Status:** Living draft (Phase 13)  
-**Rule:** Evidence-backed only; mark VERIFY / Blocked where external authorisation or live numbers are missing.
+**Updated:** 2026-10-04 (polish pass)  
+**Status:** Living gap analysis (Phase 13)  
+**Rule:** Evidence-backed only; VERIFY / Blocked where primary sources or approvals missing.
 
 ---
 
 ## 1. Purpose
 
-Maps the 17 completion items from `GROK-EXECUTE-COMPLETE-CSC-BUSINESS-MODEL-PLAN.md` against repository evidence.
+Track the 17 completion items from `GROK-EXECUTE-COMPLETE-CSC-BUSINESS-MODEL-PLAN.md` against repository evidence and remaining blockers.
 
 ---
 
 ## 2. Completion matrix (17 items)
 
-| # | Required deliverable | Status | Evidence (paths) | Gap / next action |
-|---|----------------------|--------|------------------|-------------------|
-| 1 | Complete channel hierarchy | **Mostly done** | `02-CHANNEL-HIERARCHY/`, `05-FRANCHISE-PROGRAM-DESIGN/01-...` | VERIFY SCA/SDA primary appointment docs |
-| 2 | Service / authorisation matrix | **In progress** | `03-SERVICE-PORTFOLIO/02-...` (expanded) | Primary rate cards still VERIFY |
-| 3 | Sourced economics | **Framework done** | `04-UNIT-ECONOMICS/` + DigiPay VERIFY note | Pilot real data; bank primary AePS rates |
-| 4 | Operating model | **Advanced** | Ops framework + fraud playbook + daily checklist + escalation form + hardware list | Soft-launch dry run |
-| 5 | Onboarding / training / certification | **In progress** | Onboarding checklist | LMS alignment + assessment content |
-| 6 | Technology / AIOS blueprint | **In progress** | `10-TECH-AND-SYSTEMS/01-...` | Tool shortlist decision |
-| 7 | Franchise programme (L3) | **Advanced skeleton** | Channel + onboarding + sales + one-pager + FAQ + WhatsApp scripts | **Term sheet numbers** blocked |
-| 8 | Distributor programme (L2) | **Advanced skeleton** | Channel + L2 deck outline + legal L2 subjects | L2 economics + SLA doc |
-| 9 | State / master programme (L1) | **Advanced skeleton** | Channel + L1 deck outline + legal L1 subjects | Multi-district playbook depth |
-| 10 | Original marketing kit | **Research + outlines** | Benchmarks ≥10, policy, one-pager, landing wireframe | Designed PDF after term sheet |
-| 11 | Original sales / proposal kit | **Advanced skeleton** | Funnel, L1/L2 decks, FAQ, WhatsApp set | Bilingual full scripts after term sheet |
-| 12 | Legal / compliance checklist | **Advanced subjects** | Clause map + L1/L2 depth | Counsel draft agreements |
-| 13 | State / district expansion model | **In progress** | UP + Bihar + MP snapshots | More states; DSP lists |
-| 14 | Pilot / launch plan | **Advanced seed** | KPIs + district criteria + hardware gate | Lock districts + service freeze |
-| 15 | KPI / MIS framework | **Partial** | Pilot KPIs + monitoring folder | MIS field dictionary |
-| 16 | Final gap analysis | **This file** | Iterating | Continue each batch |
-| 17 | Maintenance / update system | **Skeleton done** | `03-MAINTENANCE-AND-UPDATE-SYSTEM.md` | Assign real owners |
+| # | Required deliverable | Status | Evidence | Residual gap |
+|---|----------------------|--------|----------|--------------|
+| 1 | Channel hierarchy | **Mostly done** | `02-CHANNEL-HIERARCHY/`, `05-.../01-NIVY-CHANNEL...` | VERIFY SCA/SDA primary docs |
+| 2 | Service / auth matrix | **In progress** | `03-SERVICE-PORTFOLIO/02-...` | Primary rate cards |
+| 3 | Sourced economics | **Framework done** | `04-UNIT-ECONOMICS/` + DigiPay VERIFY | Pilot data; bank schedules |
+| 4 | Operating model | **Advanced** | Ops toolkit (checklist, fraud, escalation, hardware, dry-run) | Live dry-run execution |
+| 5 | Onboarding / training | **In progress** | Onboarding checklist | LMS content + assessments |
+| 6 | Tech / AIOS blueprint | **Advanced** | Blueprint + **stack scorecard** + MIS dictionary | Hands-on sandbox choice |
+| 7 | Franchise programme (L3) | **Advanced skeleton** | Channel, sales, FAQ, WhatsApp, one-pager, hardware | **Term sheet ₹** |
+| 8 | Distributor programme (L2) | **Advanced skeleton** | L2 deck + **SLA** + legal subjects + territory register | L2 economics numbers |
+| 9 | State / master (L1) | **Advanced skeleton** | L1 deck + legal subjects | Playbook depth in field |
+| 10 | Original marketing kit | **Outlines done** | Benchmarks, policy, one-pager, landing | Designed PDF post term sheet |
+| 11 | Sales / proposal kit | **Advanced skeleton** | Funnel, decks, FAQ, WhatsApp | Bilingual long scripts post freeze |
+| 12 | Legal / compliance | **Advanced** | Clause map, counsel brief, **privacy outline** | Counsel drafts |
+| 13 | State / district models | **In progress** | UP, Bihar, MP | More states; DSP lists |
+| 14 | Pilot / launch plan | **Advanced** | KPIs, criteria, dry-run script | Lock districts; run dry-run |
+| 15 | KPI / MIS framework | **Advanced** | Pilot KPIs + scorecard + **MIS dictionary** | Implement in chosen tool |
+| 16 | Gap analysis | **This file** | Iterating | Close blockers below |
+| 17 | Maintenance system | **Skeleton done** | `03-MAINTENANCE-AND-UPDATE-SYSTEM.md` | Named owners |
 
 ---
 
-## 3. Critical gaps (unchanged principles)
+## 3. Critical principles (non-negotiable)
 
-1. **Authorisation truth** — no CSC/SCA/SDA/BC claims without primary evidence.  
-2. **Economics** — no invented fees/commissions.  
-3. **Marketing** — no false CSC franchise imitation.  
-4. **Legal** — subject map ≠ signed contract.  
-5. **Pilot data** — scale only on real metrics.
-
----
-
-## 4. Blocked on external decisions
-
-| Item | Blocker |
-|------|---------|
-| Fee / franchise ₹ figures in sales assets | Finance + legal term-sheet freeze |
-| Designed PDF / bilingual long scripts | Same |
-| Live pilot district names | Scoring exercise + capacity |
-| AePS commission in models | Primary bank/CBC schedule |
+1. No CSC / SCA / SDA / BC claims without primary written authority.  
+2. No invented fees, commissions, or income guarantees.  
+3. No copying third-party marketing as Nivy assets.  
+4. Clause maps and outlines are not signed contracts.  
+5. Scale only on real pilot metrics.
 
 ---
 
-## 5. Suggested next execution order
+## 4. Blockers (external / decision)
 
-1. MIS field dictionary (ops + tech)  
-2. L2 support SLA one-pager  
-3. Counsel brief package (model + clause map)  
-4. Soft-launch dry-run script  
-5. Additional state snapshot if expansion priority  
-6. After term-sheet freeze: designed kit + bilingual scripts
+| Blocker | Needed from |
+|---------|-------------|
+| Term-sheet freeze (₹ figures, fees) | Finance + counsel |
+| Designed PDFs / bilingual long scripts | After term sheet |
+| Pilot district names | Leadership workshop using criteria scores |
+| Primary AePS/BC commission PDF | Bank/CBC public or contracted schedule |
+| Production tech stack | Sandbox + IT owner |
+| Named maintenance owners | Org assignment |
 
 ---
 
-## 6. Definition of “programme complete”
+## 5. Recommended sequence from here
 
-All 17 rows evidence-backed; no high-risk legal/brand claims unaddressed; term sheet approved for any public commercial number.
+1. Run **soft-launch dry-run** (internal).  
+2. Package **counsel brief** and engage lawyer.  
+3. Finance + legal **term sheet** for pilot L3.  
+4. Score pilot districts; recruit small cohort.  
+5. Sandbox top tech stack; load MIS fields.  
+6. Only then: public designed marketing kit.
+
+---
+
+## 6. Programme “complete” definition
+
+All 17 rows evidence-backed; commercial numbers approved; no high-risk brand/legal claims outstanding; pilot learnings documented before national scale claims.
 
 ---
 
