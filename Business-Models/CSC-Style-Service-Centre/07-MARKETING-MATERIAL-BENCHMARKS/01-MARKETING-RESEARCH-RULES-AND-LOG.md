@@ -2,8 +2,8 @@
 
 **Folder:** `07-MARKETING-MATERIAL-BENCHMARKS/`  
 **Created:** 2026-10-04  
-**Updated:** 2026-10-04 (5 private-sector benchmarks added)  
-**Status:** Rules active; log expanded  
+**Updated:** 2026-10-04 (batch 2: +3 benchmarks, policy linked)  
+**Status:** Rules active; log expanded (≥10 rows)  
 **Reuse:** Academy `MARKETING-MATERIAL-RESEARCH-RULES.md` (same standards)
 
 ---
@@ -50,7 +50,8 @@
 2. **Never** use CSC / MeitY / state logos without licence.  
 3. Income claims in benchmarks → treat as marketing, not fact; Nivy must use conservative, evidence-based claims or none.  
 4. Prefer primary URLs; archive date.  
-5. Original Nivy kit only **after** ≥5–10 diverse benchmarks logged.
+5. Original Nivy kit only **after** ≥5–10 diverse benchmarks logged.  
+6. Screenshots: see `02-SCREENSHOT-ARCHIVE-POLICY.md` (internal only).
 
 ---
 
@@ -60,58 +61,41 @@
 |----|-------|------|------------|--------|----------|------------|-----------|
 | MKT-001 | CSC official | VLE / about pages | csc.gov.in , register.csc.gov.in | 2026-10-04 | Aspiring VLE | Not a franchise sales brochure; free registration claim | Study tone of public-service entrepreneurship; do not clone |
 | MKT-002 | CSC Academy | Training / services | cscacademy.org | 2026-10-04 | VLE / learners | Official training brand | Link/reuse training *ideas*; original Nivy Academy packaging |
-| MKT-003 | I-Net Secure Labs (I-Net CSC) | Franchise listing (FranchiseIndia) | https://www.franchiseindia.com/brands/I-NETCSC.16652 | 2026-10-04 | Aspiring centre operators | **High risk** — markets as “CSC Franchise”; investment ₹10k–50k, fee ₹25k, 80% royalty claim | Catalogue only as cautionary example of false/official-franchise implication; never imitate |
-| MKT-004 | Digital Gramin Seva | Franchise apply / plan page | https://digitalgraminseva.in/home/apply_for_franchise | 2026-10-04 | Local entrepreneurs | Fee plans (₹4,999 / ₹9,999); kit + services claim; possible income/target claims | Study multi-service centre packaging; Nivy must avoid income guarantees and government-service overclaim |
-| MKT-005 | FIA Global | BC / CSP agent recruitment page | https://fiaglobal.com/business-correspondent-agents/ | 2026-10-04 | Job seekers / self-employed | Income range ₹5k–₹3L/month (indicative); bank-authorised framing | Commission honesty + bank brand rules; Nivy BC path only via real bank authorisation |
-| MKT-006 | Sarva Computer Education (SITED) | Computer institute franchise page | https://sarvacomputereducation.com/computer-education-franchise-opportunity/ | 2026-10-04 | Aspiring training-centre owners | Low franchise fee (₹4,500); income claims ₹35k–95k/month; “govt certified” language | Support-package structure useful; Nivy must not copy income numbers or overstate certification |
-| MKT-007 | DTDC | Channel / franchise partner page | https://v20-uat.dtdc.com/partner/ (and dtdc.com partner) | 2026-10-04 | Logistics / retail entrepreneurs | Tiered partner models (DTDC360, Enterprise, Flex); network size claims | Territory + support-tier architecture; original Nivy partner tiers must be distinct |
+| MKT-003 | I-Net Secure Labs (I-Net CSC) | Franchise listing (FranchiseIndia) | https://www.franchiseindia.com/brands/I-NETCSC.16652 | 2026-10-04 | Aspiring centre operators | **High risk** — markets as “CSC Franchise”; investment/fee claims | Cautionary only; never imitate false official-franchise implication |
+| MKT-004 | Digital Gramin Seva | Franchise apply / plan page | https://digitalgraminseva.in/home/apply_for_franchise | 2026-10-04 | Local entrepreneurs | Fee plans + kit; possible income/target claims | Multi-service packaging idea; no income guarantees |
+| MKT-005 | FIA Global | BC / CSP agent recruitment | https://fiaglobal.com/business-correspondent-agents/ | 2026-10-04 | Job seekers / self-employed | Wide income band (marketing); bank-authorised framing | Process steps map to onboarding; never invent commissions |
+| MKT-006 | Sarva Computer Education (SITED) | Computer institute franchise | https://sarvacomputereducation.com/computer-education-franchise-opportunity/ | 2026-10-04 | Training-centre owners | Low fee; income bands; “govt certified” language | Kit + support structure; strict cert language control |
+| MKT-007 | DTDC | Channel / franchise partner | dtdc.com partner / public franchise write-ups | 2026-10-04 | Logistics / retail entrepreneurs | Tiered models; network size claims | Multi-tier communication architecture |
+| MKT-008 | Ekart Logistics | Courier booking partner | Official programme + public summaries (zero fee claim) | 2026-10-04 | Existing shop / counter operators | Zero franchise fee / deposit claims; profit projections promotional | Zero-fee entry messaging; Nivy fees only if approved term sheet |
+| MKT-009 | Delhivery | Courier sales / franchise partner | https://www.delhivery.com/partner/courier-sales-franchise | 2026-10-04 | Retail / logistics entrepreneurs | Investment/profit bands in third-party write-ups | Brand + network trust signals; original Nivy economics |
+| MKT-010 | Bank BC/CSP aggregator pages (e.g. Bank BC, Bank Mitra style) | CSP registration / earning guides | Multiple public aggregator pages | 2026-10-04 | Aspiring CSP agents | Income ranges; commission % often third-party, not bank PDF | Commission honesty; only bank/CBC published rates for economics files |
 
-### Expanded field notes (selected)
+### Notes on MKT-008–010
 
-**MKT-003 — I-Net CSC (cautionary)**  
-- Offer: low area (100–200 sq ft), investment band, franchise fee, high % return claim.  
-- IA: typical franchise listing (investment, area, royalty, location preference).  
-- Legal risk: **High** — name + “CSC Franchise” can mislead applicants into believing MeitY/CSC SPV appointment.  
-- Nivy: use only to train sales on *what not to say*.
-
-**MKT-004 — Digital Gramin Seva**  
-- Offer: tiered fee plans with hardware/kit (Mini ATM, biometric, IRCTC ID, etc.).  
-- CTA: JOIN NOW / plan selection.  
-- Trust: certificate, agreement, ID card packaging.  
-- Nivy: kit + onboarding checklist idea; no income/target salary claims without pilot evidence.
-
-**MKT-005 — FIA Global BC**  
-- Offer: BC agent path under bank authorisation; training + portal.  
-- Claims: wide income band (marketing).  
-- Nivy: process steps (KYC → field visit → bank DD → training) map well to onboarding checklist; never invent commissions.
-
-**MKT-006 — Sarva / computer franchise**  
-- Offer: very low franchise fee + free kit + renewal fee; space ~100 sq ft.  
-- Claims: monthly earning bands; govt-licence language.  
-- Nivy: kit + certification packaging; strict separation of training brand from government emblems.
-
-**MKT-007 — DTDC partner**  
-- Offer: multiple partner roles (branded outlet vs sales vs flex).  
-- Trust: network scale, helpdesk/CRM.  
-- Nivy: multi-tier channel communication (L1/L2/L3) without copying logistics-specific economics.
+- **Ekart:** Official messaging emphasises no franchise fee / deposit / royalty for booking-counter model; partner sets customer price above base rate. Treat profit claims as promotional.  
+- **Delhivery:** Official partner page focuses on branded outlet + network reach; third-party sites publish cost/profit bands — flag as non-primary.  
+- **BC/CSP aggregators:** Useful for IA (eligibility, docs, hardware list) but **not** primary sources for commission tables. Use bank circulars / official BC portal rates in unit-economics files only.
 
 ---
 
-## 5. Planned original Nivy assets (after research)
+## 5. Planned original Nivy assets
 
-- Centre Partner one-pager  
-- District Distributor deck  
-- Landing page wireframe  
-- WhatsApp script set  
-- FAQ (no income guarantee)  
-- Compliance disclaimer block  
+| Asset | Status |
+|-------|--------|
+| Centre Partner one-pager outline | **Done** — `03-CENTRE-PARTNER-ONE-PAGER-OUTLINE.md` |
+| District Distributor deck | Pending |
+| Landing page wireframe | Pending |
+| WhatsApp script set | Pending (align sales scripts) |
+| FAQ (no income guarantee) | Pending |
+| Compliance disclaimer block | Done in sales kit |
 
 ---
 
 ## 6. Next marketing tasks
 
-- [x] Add 5 private-sector franchise benchmarks (URLs + fields) — **Done 2026-10-04**
-- [ ] Screenshot archive policy (internal only)
-- [ ] Draft Nivy disclaimer language for all partner ads (align with sales disclaimer block)
-- [ ] Add 3–5 more benchmarks (payment/agent, edtech centre, courier booking)
-- [ ] After ≥10 rows: draft original Centre Partner one-pager outline
+- [x] Add 5+ private-sector benchmarks  
+- [x] Screenshot archive policy  
+- [x] Centre Partner one-pager outline  
+- [ ] Designed one-pager PDF (after term-sheet freeze)  
+- [ ] District Distributor deck outline  
+- [ ] Landing page wireframe
