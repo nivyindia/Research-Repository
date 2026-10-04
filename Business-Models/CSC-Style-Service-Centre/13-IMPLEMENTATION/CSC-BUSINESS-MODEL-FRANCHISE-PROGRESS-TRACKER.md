@@ -24,8 +24,15 @@ REUSE → ADAPT → INTEGRATE → BUILD ONLY WHAT IS MISSING.
 | 11 State / district | **In progress** | UP snapshot |
 | 12 Pilot / scale | **In progress** | **Pilot KPIs + launch checklist seed** |
 | 13 Final integration | **Pending** | — |
+| 14 Monitoring / QC / sustainability | **Done (framework)** | Partner scorecard, employee/centre productivity, settlement controls |
 
 ---
+
+## Newly added control files
+- `00-MASTER-RESEARCH-INDEX.md`
+- `04-UNIT-ECONOMICS/05-MONEY-FLOW-AND-SETTLEMENT-MODEL.md`
+- `14-MONITORING-QC-SUSTAINABILITY/01-PARTNER-HEALTH-SCORECARD.md`
+- `14-MONITORING-QC-SUSTAINABILITY/02-EMPLOYEE-AND-CENTRE-PRODUCTIVITY.md`
 
 ## This batch files
 - `08-SALES-PROPOSALS-AND-PITCHES/01-SALES-FUNNEL-AND-PROPOSAL-SKELETON.md`
