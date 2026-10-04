@@ -4,6 +4,7 @@ This is a **Business-Models workspace**, not a Nivy Academy training folder.
 
 ## Structure
 
+- `00-MASTER-RESEARCH-INDEX.md`
 - `01-MARKET-AND-MODEL-RESEARCH/`
 - `02-CHANNEL-HIERARCHY/`
 - `03-SERVICE-PORTFOLIO/`
@@ -17,6 +18,7 @@ This is a **Business-Models workspace**, not a Nivy Academy training folder.
 - `11-STATE-AND-DISTRICT-MODELS/`
 - `12-SOURCE-REGISTER/`
 - `13-IMPLEMENTATION/`
+- `14-MONITORING-QC-SUSTAINABILITY/`
 
 ## Execution
 
