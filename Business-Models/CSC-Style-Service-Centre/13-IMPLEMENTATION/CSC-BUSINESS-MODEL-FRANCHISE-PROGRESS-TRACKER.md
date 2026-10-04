@@ -1,6 +1,6 @@
 # CSC-Style Service Centre — Master Implementation Tracker
 
-**Last update:** 2026-10-04 (batch: review form, de-branding exit checklist)
+**Last update:** 2026-10-04 (batch: mystery audit form, L2 onboarding checklist)
 
 ## Rule
 REUSE → ADAPT → INTEGRATE → BUILD ONLY WHAT IS MISSING.
@@ -9,18 +9,19 @@ REUSE → ADAPT → INTEGRATE → BUILD ONLY WHAT IS MISSING.
 
 ## Status
 
-End-to-end **L3 lifecycle documentation** is in place (apply → live → review → exit).
+L3 lifecycle + L2 onboarding + QC mystery form documented. **Execute** via 90-day runbook.
 
 ---
 
 ## This batch
-- `05-FRANCHISE-PROGRAM-DESIGN/10-REVIEW-FORM-DAY-30-60-90.md` (**new**)
-- `05-FRANCHISE-PROGRAM-DESIGN/11-DEBRANDING-AND-EXIT-CHECKLIST.md` (**new**)
+- `14-MONITORING-QC-SUSTAINABILITY/04-MYSTERY-AUDIT-FORM.md` (**new**)
+- `05-FRANCHISE-PROGRAM-DESIGN/12-L2-ONBOARDING-CHECKLIST.md` (**new**)
+- `README.md` (pilot pack expanded)
 
-## L3 lifecycle
-Apply → DD → Term sheet → Agreement → Welcome kit → Training PASS → Hardware + fee list → LIVE → Day 30/60/90 form → Graduate / Extend / Exit (+ de-brand)
+## QC loop
+Mystery audit → FAIL triggers incident + retrain/suspend → feeds Day 30/60/90 reviews
 
-## Execute next
+## Human priority
 `07-EXECUTION-RUNBOOK-NEXT-90-DAYS.md`
 
 ## Definition of done
