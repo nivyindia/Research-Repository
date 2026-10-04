@@ -2,6 +2,7 @@
 
 **Folder:** `09-LEGAL-COMPLIANCE/`  
 **Created:** 2026-10-04  
+**Updated:** 2026-10-04 (L1/L2 depth)  
 **Status:** Subject map only — **not legal advice**  
 **Rule:** Extract clause *subjects* from public programme patterns. Do **not** copy third-party contract text. All Nivy agreements require qualified legal review before use.
 
@@ -75,7 +76,41 @@
 
 ---
 
-## 3. Research notes from CSC-style public material (not Nivy terms)
+## 3. L2 District / Distributor — additional subjects
+
+| Subject | Why |
+|---------|-----|
+| Multi-partner recruitment authority & limits | L2 may introduce L3 but not bind Nivy beyond approved process |
+| Support SLA (first-response, on-site) | Tie to pilot/ops KPIs |
+| Override / margin definition | **LEGAL-REVIEW** + finance; no oral rates |
+| Territory cluster definition (district/block list) | Change control process |
+| Sub-distributor prohibition or approval | Prevent uncontrolled cascade |
+| Brand enforcement duty on L3s | Mystery audit cooperation |
+| Data access scope (L3 MIS vs citizen PII) | Minimise PII at L2 |
+| Conflict with existing gov DSP / agency roles | Disclosure + non-claim warranties |
+| Performance gates for territory retention | Soft exclusivity design |
+| Training cascade obligations | Certify before L3 activation support |
+
+---
+
+## 4. L1 State / Master — additional subjects
+
+| Subject | Why |
+|---------|-----|
+| State or multi-district appointment scope | Map vs L2 territories without double-grant |
+| Governance committee / reporting cadence | Scale control |
+| Authority to appoint L2 (approval matrix) | Nivy retains veto |
+| Capital / working-capital expectations | If any — written only |
+| Statewide marketing approval | Prevent CSC-impersonation campaigns |
+| Regulatory change cooperation | e.g. new state portal rules |
+| Step-in rights if L1 fails support SLAs | Continuity for L2/L3 |
+| Non-representation as SDA/SCA/DSP | Explicit warranty |
+| Audit of L1 books for override calculations | Finance + counsel |
+| Exit: orderly handover of partner book | Citizen disruption minimisation |
+
+---
+
+## 5. Research notes from CSC-style public material (not Nivy terms)
 
 | Topic | Public cue | Use |
 |-------|------------|-----|
@@ -84,32 +119,38 @@
 | Overcharging | Grievance + action | Mirror in partner rules |
 | Location login | DSP security measures | Ops policy, not legal copy |
 | UP DSP / DeGS | State PPP contracts | Do not claim those rights |
+| AePS touchpoint DD | RBI 2025 directions | If Nivy path uses AePS, align onboarding |
 
 ---
 
-## 4. Compliance registers to maintain
+## 6. Compliance registers to maintain
 
-1. Partner authorisation matrix (which services each centre may offer)
-2. Provider contract register (expiry, scope)
-3. Grievance log
-4. Data breach log
-5. Training certification log
-
----
-
-## 5. Marked LEGAL-REVIEW-REQUIRED
-
-- Franchise vs agency characterisation (Indian law implications)
-- Security deposit forfeiture rules
-- Non-compete enforceability
-- Use of “franchise” word in marketing
-- Any interaction with government scheme branding
+1. Partner authorisation matrix (which services each centre may offer)  
+2. Provider contract register (expiry, scope)  
+3. Grievance log  
+4. Data breach log  
+5. Training certification log  
+6. Territory grant register (L1/L2/L3)
 
 ---
 
-## 6. Next legal tasks
+## 7. Marked LEGAL-REVIEW-REQUIRED
 
-- [ ] Counsel brief: one-pager of Nivy model + this subject map
-- [ ] Draft term sheet (commercial only) for pilot centres
-- [ ] Privacy notice templates for centre customers
-- [ ] Trademark clearance for Nivy centre trade dress
+- Franchise vs agency characterisation (Indian law implications)  
+- Security deposit forfeiture rules  
+- Non-compete enforceability  
+- Use of “franchise” word in marketing  
+- Any interaction with government scheme branding  
+- L1/L2 override and audit rights  
+- Step-in / assignment on L1 failure  
+- DPDP roles across multi-tier channel
+
+---
+
+## 8. Next legal tasks
+
+- [ ] Counsel brief: one-pager of Nivy model + this subject map  
+- [ ] Draft term sheet (commercial only) for pilot centres  
+- [ ] Privacy notice templates for centre customers  
+- [ ] Trademark clearance for Nivy centre trade dress  
+- [ ] L2/L1 term sheet skeletons after pilot L3 sheet stabilises
