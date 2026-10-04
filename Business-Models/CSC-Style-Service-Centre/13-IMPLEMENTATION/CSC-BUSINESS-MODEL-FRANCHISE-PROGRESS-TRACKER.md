@@ -1,6 +1,6 @@
 # CSC-Style Service Centre — Master Implementation Tracker
 
-**Last update:** 2026-10-04 (batch: hardware list, WhatsApp scripts, source register, gap pass, legal L1/L2 depth)
+**Last update:** 2026-10-04 (batch: MIS dictionary, L2 SLA, counsel brief, soft-launch dry-run)
 
 ## Rule
 REUSE → ADAPT → INTEGRATE → BUILD ONLY WHAT IS MISSING.
@@ -15,32 +15,31 @@ REUSE → ADAPT → INTEGRATE → BUILD ONLY WHAT IS MISSING.
 | 2 Channel hierarchy | **Done** (VERIFY SCA/SDA) | Hierarchy + VLE eligibility |
 | 3 Service portfolio | **In progress** | Auth matrix expanded |
 | 4 Unit economics | **Done** (framework) | + DigiPay VERIFY note |
-| 5 Franchise programme | **In progress** | Channel + onboarding + **hardware gate** |
-| 6 Operations & training | **Advanced** | Framework + fraud + daily + escalation + **hardware list** |
-| 7 Tech / AIOS | **In progress** | Tech blueprint |
-| 8 Marketing benchmarks | **Advanced** | Log + policy + outlines + landing |
-| 9 Sales / proposals | **Advanced** | Funnel + L1/L2 decks + FAQ + **WhatsApp scripts** |
-| 10 Legal / compliance | **Advanced** | Clause map + **L1/L2 subjects** |
+| 5 Franchise programme | **Advanced** | Channel + onboarding + hardware + **L2 SLA** |
+| 6 Operations & training | **Advanced** | Full ops toolkit + dry-run script ready |
+| 7 Tech / AIOS | **In progress** | Blueprint + **MIS field dictionary** |
+| 8 Marketing benchmarks | **Advanced** | Research + outlines |
+| 9 Sales / proposals | **Advanced** | Full skeleton stack (L1–L3) |
+| 10 Legal / compliance | **Advanced** | Clause map + **counsel brief outline** |
 | 11 State / district | **In progress** | UP + Bihar + MP |
-| 12 Pilot / scale | **Advanced** | KPIs + district criteria + hardware |
-| 13 Final integration | **In progress** | Gap report updated + maintenance + **source register refresh** |
-| 14 Monitoring / QC / sustainability | **Done (framework)** | Scorecard, productivity, settlement |
+| 12 Pilot / scale | **Advanced** | KPIs + criteria + **soft-launch dry-run script** |
+| 13 Final integration | **In progress** | Gap + maintenance + sources |
+| 14 Monitoring / QC / sustainability | **Advanced** | Scorecard + productivity + **MIS dictionary** |
 
 ---
 
 ## This batch files
-- `06-OPERATIONS-AND-TRAINING/05-HARDWARE-MINIMUM-LIST-L3.md` (**new**)
-- `08-SALES-PROPOSALS-AND-PITCHES/06-WHATSAPP-SCRIPT-SET.md` (**new**)
-- `12-SOURCE-REGISTER/SOURCE-REGISTER-2026-10-04.md` (refreshed)
-- `09-LEGAL-COMPLIANCE/01-LEGAL-CLAUSE-SUBJECT-MAP.md` (L1/L2 depth)
-- `13-IMPLEMENTATION/02-GAP-REPORT-DRAFT.md` (status pass)
+- `14-MONITORING-QC-SUSTAINABILITY/03-MIS-FIELD-DICTIONARY.md` (**new**)
+- `05-FRANCHISE-PROGRAM-DESIGN/03-L2-SUPPORT-SLA.md` (**new**)
+- `09-LEGAL-COMPLIANCE/02-COUNSEL-BRIEF-OUTLINE.md` (**new**)
+- `13-IMPLEMENTATION/05-SOFT-LAUNCH-DRY-RUN-SCRIPT.md` (**new**)
 
-## Next batch
-1. MIS field dictionary  
-2. L2 support SLA one-pager  
-3. Counsel brief package outline  
-4. Soft-launch dry-run script  
-5. Designed PDFs / bilingual long scripts **blocked until term-sheet freeze**
+## Next batch (mostly blocked or polish)
+1. Tech stack scorecard (ERPNext vs alternatives) — optional  
+2. Privacy notice draft outline (pre-counsel)  
+3. Territory grant register template  
+4. **Term-sheet freeze** (finance + legal) → then designed PDFs + bilingual long scripts  
+5. Real pilot district scoring workshop (human decision)
 
 ## Definition of done
-Still open until all 17 completion items are evidence-backed. See updated `02-GAP-REPORT-DRAFT.md`.
+Still open until all 17 completion items are evidence-backed and commercial numbers are approved. See `02-GAP-REPORT-DRAFT.md`.
