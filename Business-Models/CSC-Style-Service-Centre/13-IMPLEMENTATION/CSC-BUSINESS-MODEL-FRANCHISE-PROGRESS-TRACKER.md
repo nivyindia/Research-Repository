@@ -1,6 +1,6 @@
 # CSC-Style Service Centre — Master Implementation Tracker
 
-**Last update:** 2026-10-04 (batch: mystery audit form, L2 onboarding checklist)
+**Last update:** 2026-10-04 (batch: L1 onboarding, weekly ops cadence, quiz bank outline)
 
 ## Rule
 REUSE → ADAPT → INTEGRATE → BUILD ONLY WHAT IS MISSING.
@@ -9,17 +9,21 @@ REUSE → ADAPT → INTEGRATE → BUILD ONLY WHAT IS MISSING.
 
 ## Status
 
-L3 lifecycle + L2 onboarding + QC mystery form documented. **Execute** via 90-day runbook.
+Documentation pack covers **L1 + L2 + L3** onboarding, ops cadence, QC, and training outline. Execution remains human-led.
 
 ---
 
 ## This batch
-- `14-MONITORING-QC-SUSTAINABILITY/04-MYSTERY-AUDIT-FORM.md` (**new**)
-- `05-FRANCHISE-PROGRAM-DESIGN/12-L2-ONBOARDING-CHECKLIST.md` (**new**)
-- `README.md` (pilot pack expanded)
+- `05-FRANCHISE-PROGRAM-DESIGN/13-L1-ONBOARDING-CHECKLIST.md` (**new**)
+- `06-OPERATIONS-AND-TRAINING/08-WEEKLY-OPS-CADENCE.md` (**new**)
+- `06-OPERATIONS-AND-TRAINING/09-TRAINING-QUIZ-BANK-OUTLINE.md` (**new**)
 
-## QC loop
-Mystery audit → FAIL triggers incident + retrain/suspend → feeds Day 30/60/90 reviews
+## Channel onboarding docs
+| Tier | Checklist |
+|------|----------|
+| L3 | `02-PARTNER-ONBOARDING-CHECKLIST.md` + application/welcome/training |
+| L2 | `12-L2-ONBOARDING-CHECKLIST.md` |
+| L1 | `13-L1-ONBOARDING-CHECKLIST.md` |
 
 ## Human priority
 `07-EXECUTION-RUNBOOK-NEXT-90-DAYS.md`
