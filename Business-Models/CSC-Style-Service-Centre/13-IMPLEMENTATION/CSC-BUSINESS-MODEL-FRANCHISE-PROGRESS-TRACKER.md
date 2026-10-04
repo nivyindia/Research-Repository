@@ -1,6 +1,6 @@
 # CSC-Style Service Centre — Master Implementation Tracker
 
-**Last update:** 2026-10-04 (batch: district scoring worksheet, counsel email, 90-day runbook)
+**Last update:** 2026-10-04 (batch: term-sheet structure, Hindi FAQ/WhatsApp, CRM fields)
 
 ## Rule
 REUSE → ADAPT → INTEGRATE → BUILD ONLY WHAT IS MISSING.
@@ -11,38 +11,34 @@ REUSE → ADAPT → INTEGRATE → BUILD ONLY WHAT IS MISSING.
 
 | Phase | Status | Key deliverables |
 |-------|--------|------------------|
-| 1 Market & ecosystem | **Done** | Ecosystem, network stats, sources |
-| 2 Channel hierarchy | **Done** (VERIFY SCA/SDA) | Hierarchy + VLE eligibility |
-| 3 Service portfolio | **In progress** | Auth matrix |
-| 4 Unit economics | **Done** (framework) | VERIFY rates open |
-| 5 Franchise programme | **Advanced** | Full programme design toolkit |
-| 6 Operations & training | **Advanced** | Ops toolkit + dry-run script |
-| 7 Tech / AIOS | **Advanced** | Blueprint + scorecard + MIS |
-| 8 Marketing benchmarks | **Advanced** | Research + outlines |
-| 9 Sales / proposals | **Advanced** | L1–L3 skeleton + scripts |
-| 10 Legal / compliance | **Advanced** | Subjects + brief + privacy + **counsel email draft** |
-| 11 State / district | **In progress** | UP + Bihar + MP |
-| 12 Pilot / scale | **Advanced** | KPIs + criteria + **scoring worksheet** + **90-day runbook** |
-| 13 Final integration | **Advanced** | Gap + maintenance + sources |
-| 14 Monitoring / QC | **Advanced** | Scorecard + MIS dictionary |
+| 1–2 | **Done** | Ecosystem + hierarchy (VERIFY SCA/SDA) |
+| 3 | **In progress** | Auth matrix |
+| 4 | **Done** (framework) | Economics + VERIFY notes |
+| 5 | **Advanced** | Channel + onboarding + SLA + territory + **term-sheet structure** |
+| 6 | **Advanced** | Full ops toolkit |
+| 7 | **Advanced** | Blueprint + scorecard + MIS + **CRM field list** |
+| 8–9 | **Advanced** | Marketing outlines + sales stack + **Hindi FAQ/WhatsApp** |
+| 10 | **Advanced** | Legal subjects + counsel pack |
+| 11 | **In progress** | UP + Bihar + MP |
+| 12 | **Advanced** | Pilot toolkit + 90-day runbook |
+| 13–14 | **Advanced** | Gap + maintenance + MIS |
 
 ---
 
 ## This batch files
-- `13-IMPLEMENTATION/06-PILOT-DISTRICT-SCORING-WORKSHEET.md` (**new**)
-- `09-LEGAL-COMPLIANCE/04-COUNSEL-ENGAGEMENT-EMAIL-DRAFT.md` (**new**)
-- `13-IMPLEMENTATION/07-EXECUTION-RUNBOOK-NEXT-90-DAYS.md` (**new**)
+- `05-FRANCHISE-PROGRAM-DESIGN/05-PILOT-TERM-SHEET-STRUCTURE.md` (**new** — numbers blank)
+- `08-SALES-PROPOSALS-AND-PITCHES/07-FAQ-AND-WHATSAPP-HINDI.md` (**new**)
+- `10-TECH-AND-SYSTEMS/03-CRM-STAGE-AND-FIELD-LIST.md` (**new**)
 
-## Research automation status
-**Skeleton complete for autonomous research batches.** Further value is primarily:
-1. Execute dry-run  
-2. Engage counsel  
-3. Freeze term sheet  
-4. Score districts  
-5. Sandbox tech  
+## Execution priority (human)
+1. Dry-run  
+2. Counsel email  
+3. District scoring  
+4. Fill term sheet amounts → approve version  
+5. CRM configure from field list  
 6. Recruit pilot cohort  
 
 See `07-EXECUTION-RUNBOOK-NEXT-90-DAYS.md`.
 
 ## Definition of done
-All 17 completion items evidence-backed + approved commercial numbers + pilot learnings before scale claims.
+17 completion items evidence-backed + approved commercial numbers + pilot learnings.
