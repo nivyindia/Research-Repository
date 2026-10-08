@@ -1,41 +1,51 @@
-# CRM-Retention — Outline (stronger points)
+# CRM-Retention — Full Outline (International)
 
-> Sources: lifecycle stage models (onboarding→activation→retention→expansion→win-back); trigger-based journeys.
+## 1. CRO program
+- Priority templates by revenue impact
+- Research: heuristics, heatmaps, sessions, surveys
+- Experiment design and sample size awareness
+- Personalization vs complexity tradeoff
+- Local UX issues (address forms, payments, COD)
 
-## 1. CRO foundation
-- Key templates: home, PDP/service, pricing, demo/lead, checkout
-- Hypotheses backlog (friction, clarity, trust, offer)
-- Test method: A/B, prioritized by impact × ease
-- Qual tools: heatmaps, recordings (privacy-aware)
+## 2. CRM data model
+- Leads, contacts, accounts, opportunities
+- Lifecycle stages and health scores
+- Required fields, dedupe, consent flags
+- Multi-currency and multi-language fields
+- Ownership and territory rules
 
-## 2. CRM stage definitions (evidence-based)
-- Lead → MQL → SQL → Opportunity → Customer
-- Entry/exit criteria = buyer evidence, not “email sent”
-- Owner + next action + due date on every active record
-- Data hygiene and consent fields
+## 3. Lifecycle journeys
+- Welcome / onboarding / activation
+- Education and habit formation
+- Renewal and retention
+- Upsell / cross-sell / expansion
+- Win-back and sunset
+- Post-purchase (ecommerce): shipping, review, replenish
 
-## 3. Lifecycle stages to design
-- **Onboarding** — time-to-first-value
-- **Activation** — “aha” milestone rate
-- **Retention** — habit / GRR proxies
-- **Expansion** — upsell / NRR drivers
-- **Win-back** — reactivation then sunset
+## 4. Messaging channels
+- Email deliverability by region
+- SMS/RCS rules and opt-in laws
+- WhatsApp Business / regional messengers
+- Push, in-app, web chat
+- Frequency caps and preference centers
 
-## 4. Journey design rules
-- Prefer **behavior triggers** over pure calendar blasts
-- Channel fit: email / SMS / WhatsApp / in-app
-- Suppression and frequency caps
-- Experiment on subject, timing, content — one variable
+## 5. Loyalty & advocacy
+- Loyalty mechanics legal constraints
+- Referral programs
+- Review generation
+- Community advocacy
+- Customer marketing / case study pipeline
 
-## 5. Process steps
-1. Define stages + metrics
-2. Map 2–3 critical journeys first (welcome, abandon, onboard)
-3. Wire events from product/site/CRM
+## 6. Process steps
+1. Stage + event dictionary
+2. Instrument product/site events
+3. Build critical journeys first
 4. CRO backlog on money pages
-5. Monthly retention review
+5. Deliverability and consent audit
+6. Monthly retention cohort review by market
 
-## 6. Outputs
-- Stage dictionary
-- Journey map + trigger table
+## 7. Outputs
+- Journey maps + trigger tables
 - CRO backlog
-- Lifecycle KPI dashboard fields
+- Preference center requirements
+- Lifecycle KPI set (activation, GRR/NRR proxies, repeat rate)

@@ -1,35 +1,61 @@
-# Data-AI-Automation — Outline (stronger points)
+# Data-AI-Automation — Full Outline (International)
 
-## 1. Tracking plan
-- Events and conversions list
-- GA4 + GTM + pixels/CAPI
-- UTM dictionary (source/medium/campaign/content)
-- CRM/offline import path
+## 1. Measurement architecture
+- Event taxonomy and naming standards
+- GA4 (or equivalent) property strategy multi-market
+- GTM/server-side tagging considerations
+- Pixels, CAPI, enhanced conversions
+- Offline and CRM conversion import
+- Call tracking where voice matters
+- Cross-domain and cross-subdomain tracking
 
-## 2. Decision measurement
-- Default attribution model (document limits)
-- When to run incrementality tests
-- Experiments vs vanity metrics
+## 2. Identity & privacy engineering
+- Consent mode / CMP integration by regime
+- First-party data roadmap
+- Identity resolution approach and limits
+- Data retention schedules
+- Data residency and subprocessors list
 
-## 3. Data systems
-- CRM vs CDP vs warehouse roles
-- First-party collection priorities
-- Consent-aligned retention
+## 3. Attribution & evaluation
+- Reporting attribution vs decision attribution
+- MTA limits in privacy-era
+- Incrementality tests design
+- MMM when spend scale justifies
+- Geo or platform holdouts
 
-## 4. AI & automation
-- Safe use cases (research, drafts, reporting)
-- HITL required: claims, spend, legal, customer messages
-- Automation backlog (n8n/Make/Zapier)
+## 4. BI & reporting
+- Executive vs channel operator dashboards
+- Market-level and global rollups
+- Data quality monitors
+- Definitions glossary (single source of truth)
 
-## 5. Steps
-1. Tracking audit
-2. Standards (UTM, names)
-3. MVP dashboards
-4. Automate reporting/briefs
-5. Pilot low-risk agents
+## 5. AI applications
+- Research synthesis, clustering, brief generation
+- Content drafts with human edit
+- Creative variation
+- Bid/budget recommendations (human approve)
+- Forecasting and anomaly detection
+- Agent use cases and forbidden actions
 
-## 6. Outputs
+## 6. Automation & integration
+- iPaaS: n8n / Make / Zapier / native
+- Webhooks, APIs, MCP future connectors
+- Lead routing automation
+- Alerting (spend anomalies, tracking breaks)
+- Workflow documentation and ownership
+
+## 7. Process steps
+1. Tracking audit global + P1 markets
+2. Taxonomy + UTM standards
+3. Consent and residency compliance
+4. MVP dashboards
+5. Automation backlog prioritization
+6. AI pilot with HITL gates
+7. Quarterly measurement review
+
+## 8. Outputs
 - Tracking plan
-- UTM dictionary
-- Dashboard list
-- Automation backlog
+- UTM & event dictionary
+- Dashboard catalog
+- Automation inventory
+- AI use-policy short doc
