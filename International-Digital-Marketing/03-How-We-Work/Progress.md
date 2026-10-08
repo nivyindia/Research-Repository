@@ -2,13 +2,12 @@
 
 | Area | Status |
 |------|--------|
-| Structure (simple 16 topics) | Done |
-| Overview per topic | Done |
-| Outline.md (international checklist) | Done |
+| Structure (16 topics) | Done |
+| Outline.md international checklists | Done |
 | Reference-Table | Done |
-| **Missing-Depth-Gap-Analysis** | **Done** |
-| **Universal Topic Deep Template (37 layers)** | **Done** |
-| Situation Analysis pack (SWOT/4Cs/Issues) | Not started — top priority |
-| Objectives / Action / Control templates filled | Not started |
-| Details.md (deep write-ups) | Phase 2 |
-| Reusable SOPs / agents | Phase 2 |
+| Universal Topic Deep Template | Done |
+| **Missing-Depth-Gap-Analysis (enriched with online sources)** | **Done** |
+| **Plan-Sources-Table.md** | **Done** |
+| Situation Analysis pack | Not started — next |
+| Plan-Spine folders (Exec/Situation/Objectives/Action/Control) | Not started |
+| Details.md deep write-ups | Phase 2 |

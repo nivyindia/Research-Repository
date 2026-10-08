@@ -1,226 +1,271 @@
 # Missing Depth — Gap Analysis (Current Repo vs Deep Master Plan)
 
-**Date:** 2026-10-08  
-**Purpose:** Clear list of what is **missing or too shallow** in current `International-Digital-Marketing/` compared to a real deep digital marketing plan (Savaganza-style + SOSTAC + RACE + modern 2026 stack).
-
-**Current state (repo):**
-- 16 topic folders under `01-Topics/`
-- Each has `Overview.md` + `Outline.md` (bullet checklist)
-- `02-Reusable/` mostly empty READMEs + Reference-Table
-- `03-How-We-Work/` has 8-point format, reuse rules, process, gap list
-- **No** full Situation Analysis block
-- **No** SOSTAC/RACE master spine as first-class plan chapters
-- **No** universal deep template applied under every topic
-- **No** Details.md filled (Phase 2 not started)
-
-**Sources reused for this gap list:** SOSTAC (PR Smith) Situation→Objectives→Strategy→Tactics→Action→Control; RACE Plan/Reach/Act/Convert/Engage; digital Situation Analysis practice (SWOT + 4Cs + key issues + evidence); Savaganza plan depth (segments, competitors, objectives, tactics, budget, analytics funnels, remarketing).
+**Date:** 2026-10-08 (updated with online plan sources)  
+**Purpose:** What is **missing or too shallow** in `International-Digital-Marketing/` vs a real complete digital marketing plan — using Savaganza PDF depth + SOSTAC + RACE + 2026 international practice + public templates/guides.
 
 ---
 
-## A. MASTER PLAN CHAPTERS MISSING (not in 16-folder map)
+## 0. CURRENT REPO STATE (baseline)
 
-Current repo jumps mostly to channel/topic pillars. A complete plan needs these **plan-level chapters** first:
-
-| # | Missing chapter | Why needed | Status in repo |
-|---|-----------------|------------|----------------|
-| 00 | Executive Summary | Plan snapshot for decision makers | Missing |
-| 01 | **Situation Analysis** (full) | Where are we now? Foundation of SOSTAC | Missing as dedicated structure |
-| 01a | Digital SWOT (detailed) | Strengths/Weaknesses/Opportunities/Threats with evidence | Only thin SWOT ideas inside some outlines |
-| 01b | **4Cs** (Customer, Company, Competitors, Change) | Classic digital situation core | Missing as formal block |
-| 01c | Key Issues register | Issue→Evidence→Impact→Root cause→Urgency→Response→KPI | Missing |
-| 01d | Evidence pack | Quant + qual + charts/tables requirement | Missing |
-| 02 | Market & Environment (PESTEL + digital trends) | Macro context | Partially in Market-Research outline only |
-| 03 | Internal Digital Audit (asset-by-asset) | Current state of every digital asset | Missing formal audit template |
-| 04 | TOWS (not only SWOT list) | SO/ST/WO/WT strategies | Missing |
-| 05 | Strategic priorities from issues | Ranked decisions | Missing |
-| 06 | Objectives hierarchy | Business → Marketing → Channel with baseline/target/owner | Thin in Strategy outline |
-| 07 | Strategy narrative | Growth/market/customer/channel/AI strategy | Partial in Strategy |
-| 08 | STP deep (per segment message/channel/KPI) | Segment packs | Partial in Customers |
-| 09 | Value proposition & offer ladder | Entry/core/upsell/retention offers | Partial in Brand-Product |
-| 10 | Customer journey stage-by-stage | Unaware→Advocacy with content/channel/CTA/KPI/agent | Partial in Leads/CRM |
-| 11 | Action Plan / Roadmap table | Priority/Owner/Dates/Budget/KPI/Status | Missing (PDF had this) |
-| 12 | Control / Reporting cadence | Weekly/monthly/quarterly + alerts | Thin |
-| 13 | Optimization loop | Measure→Diagnose→Hypothesis→Test→Learn→Update SOP/Agent | Thin |
-| 14 | Digital Marketing OS diagram | End-to-end system view | Missing |
-| 15 | Reuse Library operational index | Search existing SOP/tool/agent before build | Folder exists, not filled |
+| Item | Status |
+|------|--------|
+| 16 topic folders (`01-Topics/`) | Done |
+| `Overview.md` + `Outline.md` per topic | Done (checklist level) |
+| `02-Reusable/` | Mostly empty + Reference-Table |
+| `03-How-We-Work/` | 8-point format, reuse rules, Universal 37-layer template, this gap file |
+| Full Situation Analysis chapter | **Missing** |
+| SOSTAC / RACE as plan spine | **Missing** |
+| Executive Summary / Action / Control chapters | **Missing** |
+| `Details.md` filled | Not started (Phase 2) |
 
 ---
 
-## B. SITUATION ANALYSIS — REQUIRED DEPTH (currently missing)
+## 1. ONLINE MATERIALS TO REUSE (integrate into plan design)
 
-This is the biggest gap vs your PDF + SOSTAC teaching materials.
+These are the public / semi-public sources that define “complete plan” quality. **Reuse structure; do not copy proprietary text.**
 
-### B1. Executive Situation Summary (missing fields)
-- Current business position
-- Digital maturity level
-- Marketing maturity level
-- Market position
-- Revenue contribution from digital
-- Customer acquisition model today
-- Digital assets inventory
-- Channel mix today
-- Tech stack today
-- Team & budget today
-- Top problems
-- Top opportunities
+### 1.1 Master frameworks
 
-### B2. Digital SWOT — expand beyond one-liners
-**Strengths (must score with evidence):** brand, traffic, SEO authority, content assets, database, first-party data, social, email list, tech, capabilities, partnerships, automation, AI capability, geo advantages  
-**Weaknesses:** awareness, traffic dependency, conversion, content quality, technical SEO, analytics/tracking, CRM, automation, resources, skills, data quality, retention, international presence  
-**Opportunities:** new markets/channels, AI search, social commerce, creators, video, automation, AI, partnerships, segments, competitor gaps, products  
-**Threats:** competitors, platform dependency, algorithms, rising CAC, privacy, fraud, economy, regulation, AI disruption, reputation, cyber, saturation
+| Source | What it adds to our gap list | Link |
+|--------|------------------------------|------|
+| **Smart Insights RACE Plan Template** | Plan→Reach→Act→Convert→Engage; 25 key processes; OSA (Opportunity–Strategy–Action); channel audit tables | https://www.smartinsights.com/guides/digital-marketing-plan-template/ |
+| **Smart Insights Digital Strategy Template 2025** | RACE + simplified SOSTAC; AI-era updates; opportunity audit | https://www.smartinsights.com/digital-marketing-strategy/digital-marketing-strategy-and-planning-template/ |
+| **SOSTAC® (PR Smith)** | Situation→Objectives→Strategy→Tactics→Action→Control — full plan order | https://www.smartinsights.com/digital-marketing-strategy/sostac-model/ |
+| **SOSTAC + RACE checklist / matrix** | Dense activity checklist per SOSTAC stage mapped to digital | Smart Insights toolkit / shared SOSTAC–RACE matrix docs |
+| **RACE 90-day Growth System guide** | 90-day action planning, not only annual strategy | Smart Insights free resources hub |
 
-### B3. 4Cs (digital-focused) — missing formal structure
-**Customer:** who, demo/firmo/psycho/geo, needs/wants/pains, JTBD, search/purchase/device/content/social behavior, platforms, influencers, decision factors, objections, trust, triggers, frequency, LTV, churn  
-**Company:** website, SEO, social, content, PPC, CRM, email, analytics, conversion, brand, tech, data, automation, AI maturity, team, budget, performance benchmarks  
-**Competitors:** direct/indirect/substitutes; traffic, SEO, keywords, content, links, social, ads, offers, pricing, reviews, UX, conversion, CRM, positioning, brand, AI visibility; strengths/weaknesses/gaps  
-**Change:** PESTEL + privacy + AI disruption + platform changes + search changes + consumer behavior
+### 1.2 Situation / SWOT / evidence standards
 
-### B4. Key Issues template (missing)
-For every issue:
+| Source | What it adds |
+|--------|----------------|
+| **niBusinessInfo – Digital marketing plan situation analysis** | Micro + macro; customers, market, online presence, competitors; PEST-style external; digital SWOT; **quant + qual data + charts/graphs required** | https://www.nibusinessinfo.co.uk/content/digital-marketing-plan-situation-analysis |
+| **niBusinessInfo – Internal/external analysis** | PESTLE + SWOT how to combine into decisions |
+| **Digital Marketing Institute – SWOT for digital** | Digital-specific SWOT framing |
+| **Inbound281 / situation analysis guides** | Scope → data → internal → external → 5–7 key insights → issues/opportunities |
+
+### 1.3 Full plan section standards (exec summary → appendix)
+
+| Source | Sections they expect |
+|--------|----------------------|
+| **MediaPlus marketing plan template** | Exec summary, business/market analysis, competitors, audience, positioning/USP, SMART goals, strategy/channels, action plan + owners, budget, KPIs |
+| **Business in a Box – Digital Marketing Plan** | Exec summary, objectives, personas, competitive landscape, channel strategy (SEO/paid/social/email/content), editorial calendar, budget, KPI framework, implementation timeline |
+| **Shopify marketing plan examples** | Goals, SWOT, competitive grid, channel plans, budget, ROI tracking |
+| **Storyflow SOSTAC example** | Filled Situation→Objectives→Strategy→Tactics→Action→Control (SaaS-style) |
+| **Smart Insights plan example (Wow Accessories style)** | One-page strategy summary, **TOWS**, RACE KPI dashboard, targeting review, actions + budget |
+
+### 1.4 International / global layer
+
+| Source | What it adds to gap list |
+|--------|-------------------------|
+| **Weglot International GTM + planner** | Country selection, messaging, channels, localization steps | https://weglot.com/blog/international-gtm-strategy |
+| **Smartling international business strategy template** | Global objectives, projects, measurable expansion targets |
+| **Google Think – International growth framework** | Define success → decide where to play → localised GTM; geo-diversification |
+| **Google Market Finder – International SEO** | hreflang, URL patterns, localisation for discovery |
+| **Global channel reality guides** | Platform mix by country (LINE, WeChat, WhatsApp, Kakao, etc. — not US-only) |
+| **Marketing localization playbooks** | Transcreation, brand voice, multilingual workflow |
+
+### 1.5 Savaganza PDF (user upload) — depth we still lack
+
+- Segment packs (primary/secondary/tertiary) with **retailers + sites visited + what they buy online**
+- Competitor cards with traffic-style metrics
+- Objectives with **math** (visitors × CPC × budget)
+- Explicit **analytics goals & funnels**
+- **Remarketing segment list**
+- **Budget worksheet** by tactic + launch dates
+- **Action plan table** (Task / Who / When / Budget)
+- PR/copy task lists, homepage merchant priority
+
+---
+
+## 2. COMPLETE PLAN CHAPTER STANDARD (from sources above)
+
+A “full” digital marketing plan should include **all** of these. Repo status:
+
+| # | Chapter | Expected content (from RACE/SOSTAC/templates) | In repo? |
+|---|---------|-----------------------------------------------|----------|
+| 00 | **Executive Summary** | Business, period goals, core strategy, headline budget, expected results (write last) | Missing |
+| 01 | **Situation Analysis** | Micro + macro; performance metrics that matter (not vanity) | Missing as chapter |
+| 01a | Digital SWOT | Evidence-backed S/W/O/T | Thin |
+| 01b | **4Cs** | Customer, Company, Competitors, Change | Missing formal |
+| 01c | PESTEL / Change | Political, Economic, Social, Tech, Legal, Environmental + privacy/AI/platforms | Partial in Market-Research |
+| 01d | Key issues register | Issue→Evidence→Impact→Root→Urgency→Response→KPI | Missing |
+| 01e | Evidence pack | Quant + qual + charts/tables/matrices | Missing |
+| 02 | **TOWS** | SO / ST / WO / WT strategies from SWOT | Missing |
+| 03 | Internal digital audit | Asset-by-asset: site, SEO, ads, CRM, data, tech… | Missing template |
+| 04 | Market & environment | TAM/SAM/SOM, trends, digital penetration | Partial outline |
+| 05 | Customer / audience | ICP, personas, journeys, JTBD, segment packs | Partial |
+| 06 | Competitor intelligence | Cards, gaps, SOV | Partial |
+| 07 | **Objectives** | Business → Marketing → Channel; SMART; **baseline + target + owner + source + budget** | Thin |
+| 08 | **Strategy** | Growth, STP, positioning, channel priorities, international strategy | Partial |
+| 09 | Value proposition & offers | Entry / core / upsell / retention | Partial |
+| 10 | Customer journey map | Stage × content × channel × CTA × KPI | Partial |
+| 11 | **Tactics by channel** | SEO, content, social, video/creators, paid search/social, display, CTV, retail media, affiliate, email/CRM, messaging… | Outlines only |
+| 12 | **International / localization** | Country selection, GTM, hreflang, transcreation, local platforms | Partial |
+| 13 | **Budget** | By channel/objective; media vs production vs tools vs people; test vs scale | Thin |
+| 14 | **Action plan / roadmap** | Priority × Owner × Start/End × Budget × KPI × Status; 30/60/90 day | Missing |
+| 15 | **Control / measurement** | KPI hierarchy, dashboards, review cadence, alerts | Thin |
+| 16 | Optimization loop | Measure→Diagnose→Hypothesis→Test→Learn→Update SOP | Thin |
+| 17 | Governance / privacy / brand safety | Compliance matrix, approvals | Partial in Rules |
+| 18 | Team / RACI / vendors | Roles, agencies | Partial |
+| 19 | Appendix | Research links, data tables, creative notes, glossaries | Missing |
+
+---
+
+## 3. RACE + SOSTAC — WHAT REPO MUST ABSORB
+
+### SOSTAC spine (must become plan chapters)
+
+| Stage | Question | Repo gap |
+|-------|----------|----------|
+| **S** Situation | Where are we now? | No dedicated chapter |
+| **O** Objectives | Where do we want to be? | No baseline/target/owner template as standard |
+| **S** Strategy | How do we get there? | Strategy outline exists but not full narrative + STP packs |
+| **T** Tactics | How exactly? | 16 topics = tactics map, but not linked under SOSTAC T |
+| **A** Action | What is the plan? | No action table / 90-day plan file |
+| **C** Control | Did we get there? | No control dashboard / review ritual docs |
+
+### RACE lifecycle (must map KPIs + activities)
+
+| RACE stage | Meaning | Repo gap |
+|------------|---------|----------|
+| **Plan** | Strategy & targets | Partial |
+| **Reach** | Audience growth (SEO, paid, social, PR…) | Split across topics; no Reach KPI set |
+| **Act** | Interaction & leads | Partial Leads-Sales |
+| **Convert** | Sales / revenue optimization | Partial CRO |
+| **Engage** | Retention & advocacy | Partial CRM-Retention |
+
+### OSA (Opportunity → Strategy → Action)
+
+Missing as the **working method** for every plan refresh and every channel plan:
+1. Opportunity = audit + SMART targets from marketplace review  
+2. Strategy = prioritize initiatives  
+3. Action = 90-day schedule  
+
+---
+
+## 4. SITUATION ANALYSIS — FULL REQUIRED DEPTH (still missing)
+
+### 4.1 Executive situation summary fields
+Current business position · digital maturity · marketing maturity · market position · digital revenue share · acquisition model · digital assets · channels · tech stack · team · budget · top problems · top opportunities
+
+### 4.2 Digital SWOT (evidence required)
+**S:** brand, traffic, SEO, content, database, 1P data, social, email, tech, skills, partners, automation, AI, geo  
+**W:** awareness, dependency, conversion, content gaps, technical SEO, tracking, CRM, resources, data quality, retention, international  
+**O:** markets, channels, AI search, social commerce, creators, video, automation, AI, partnerships, competitor gaps  
+**T:** competitors, platforms, algorithms, CAC, privacy, fraud, economy, regulation, AI disruption, reputation, cyber, saturation
+
+### 4.3 4Cs (formal block missing)
+**Customer** · **Company** (benchmark online proposition) · **Competitors** · **Change** (PESTEL + digital disruption)
+
+### 4.4 Key issues register (template missing)
 ```
-Issue
-→ Evidence (quant + qual)
-→ Impact (business / marketing / revenue / customer)
-→ Root cause
-→ Urgency
-→ Opportunity
-→ Recommended response
-→ KPI
-→ Owner
-```
-
-### B5. Evidence standards (missing)
-- Quantitative: analytics, search volume, ad data, CRM, revenue
-- Qualitative: interviews, surveys, reviews, sales calls, support tickets
-- Visuals required: charts, tables, matrices, journey maps, competitor grids
-
----
-
-## C. UNIVERSAL TOPIC TEMPLATE — NOT APPLIED YET
-
-You specified every topic should eventually expand to ~37 layers. **Current Outline.md files only cover ~8–10 high-level sections.** Missing under almost every topic:
-
-| Layer | Meaning | In current Outline? |
-|-------|---------|---------------------|
-| Definition | Exact meaning | Rarely |
-| Purpose | Why this exists in plan | Partial |
-| Business objectives | Link to revenue | Partial |
-| Customer objectives | Link to journey | Rare |
-| Scope / out-of-scope | Boundaries | Rare |
-| Situation / current state | Audit of this topic | Rare |
-| Market context | Trends for this topic | Partial |
-| Audience | Who for this tactic | Partial |
-| Competitors | How rivals do this | Rare |
-| Strategy | Choices | Partial |
-| Tactics | Exact methods | Partial |
-| Process steps | Ordered workflow | Partial |
-| SOP | Repeatable procedure | Missing |
-| People / roles / RACI | Ownership | Rare |
-| Tools | Software list | Rare |
-| Resources | Inputs needed | Rare |
-| Data requirements | Events, fields | Rare |
-| Automation | What can auto | Partial |
-| AI use cases | Where AI helps | Partial |
-| AI skills | Skill definitions | Missing |
-| AI agents | Agent specs | Missing |
-| Integrations / APIs / MCP | Connections | Rare |
-| KPI set | Metrics | Partial |
-| Measurement method | How measured | Partial |
-| QA checklist | Quality gates | Missing |
-| Budget / ROI model | Economics | Rare |
-| Risks | Failure modes | Rare |
-| Compliance | Legal/policy | Rare |
-| Internationalization | Multi-country notes | Partial |
-| Business-model variants | B2B/B2C/SaaS/ecom | Rare |
-| Existing frameworks to reuse | RACE/CMI/etc. | Partial |
-| Reusable resources | Templates/SOPs | Missing links |
-| Case studies / benchmarks | Proof | Missing |
-| Templates | Fill-in docs | Missing |
-| Gaps | What we still lack | Rare |
-| Implementation | Rollout | Partial |
-| Optimization loop | Improve cycle | Partial |
-
----
-
-## D. CHANNEL / TOPIC DEPTH GAPS (vs Savaganza + 2026)
-
-### From your PDF that repo does not yet mirror in depth
-- **Measurable objective format:** baseline + target + date + budget assumption (e.g. 150k PPC visitors @ £30k / 20p CPC)
-- **Segment packs:** primary/secondary/tertiary with retailers, sites they visit, what they buy online
-- **Competitor cards with traffic/Alexa/PageRank/keyword share style metrics** (modernize to Similarweb/GSC-class metrics)
-- **Monetisation model clarity:** commission, Adsense, PPC-to-merchant models
-- **Affiliate network expansion list** as product/distribution tactic
-- **Registration / membership goals** tied to conversion rate math
-- **Analytics goals & funnels** listed explicitly (registration, review, favourite, search)
-- **Remarketing segment list** (all visitors, registered, category visitors, etc.)
-- **Budget worksheet** by tactic with launch dates
-- **Action plan table:** Task | Who | When | Budget
-- **PR creative ideas** + copywriting task list
-- **Homepage merchant priority list**
-
-### Modern 2026 topics under-specified in current outlines
-| Area | Missing detail examples |
-|------|-------------------------|
-| AI Search / AEO / GEO | Entity optimization, citation tracking, AI crawler access, measurement of AI mentions — needs own deep section, not only SEO bullets |
-| Retail / commerce media | Always-on sponsored products, incrementality, local retail media networks |
-| Creator economy | Vetting, contracts, disclosure, fraud checks, always-on roster — still light |
-| Messaging (WhatsApp/SMS/RCS/LINE) | Opt-in laws by country, commerce on chat |
-| ABM | Account tiers, plays 1:1/1:few/1:many, intent data |
-| Attribution / MMM / incrementality | Decision vs reporting attribution; holdout design |
-| CDP / identity / consent mode | First-party roadmap, residency |
-| AI agents | Trigger, tools, permissions, HITL, failure handling, cost KPI |
-| Martech/Adtech architecture | Stack map, buy vs build, integration map |
-| Brand safety / fraud / ads.txt | Standards and monitoring |
-| Governance | AI governance, brand approval, vendor governance |
-| Control dashboards | Alert rules, review rituals |
-
----
-
-## E. STRUCTURAL PROBLEM (why things feel “lost”)
-
-Current design = **16 parallel topic folders**.  
-Deep plan design = **SOSTAC/RACE spine first**, then topics as modules under Tactics/Actions, each using the **universal 37-layer template**.
-
-Recommended mapping (for next structure update):
-
-```
-00-Start-Here
-01-Plan-Spine/          ← NEW (SOSTAC chapters)
-   01-Situation/        ← SWOT, 4Cs, Issues, Evidence
-   02-Objectives/
-   03-Strategy/
-   04-Tactics-Index/    ← points to Topics
-   05-Action-Roadmap/
-   06-Control-Optimize/
-02-Topics/              ← existing 16 (or expanded) with deep Outline+Details
-03-Reusable/
-04-How-We-Work/
+Issue → Evidence → Impact → Root cause → Urgency → Opportunity → Response → KPI → Owner
 ```
 
-Or keep 16 topics but **add** `00-Situation-Analysis/` and `00-Plan-Control/` as mandatory plan chapters.
+### 4.5 Evidence standard (from niBusinessInfo + plan guides)
+- Quantitative + qualitative  
+- Charts, graphs, tables, matrices, journey maps required in Situation chapter  
 
 ---
 
-## F. WHAT TO BUILD NEXT (priority order)
+## 5. UNIVERSAL TOPIC DEPTH (37 layers) — not applied yet
 
-1. **Situation Analysis pack** (SWOT + 4Cs + Key Issues template + Evidence rules) — highest gap  
-2. **Objectives template** (baseline/target/time/owner/KPI/source/budget)  
-3. **Action Plan + Control tables**  
-4. **Universal Topic Deep Template** (37 layers) saved in How-We-Work  
-5. **Apply deep template** to one pilot topic (e.g. SEO or Paid Search) as Details.md example  
-6. Expand remaining topics  
-7. Fill Reusable: SOPs, KPI defs, agent stubs  
+See `Universal-Topic-Deep-Template.md`. Current Outline.md ≈ 8–10 sections only.  
+Still missing under nearly every topic: Definition, Scope, Situation audit, Competitors for this tactic, SOP, RACI, Tools, Data fields, AI skills/agents, QA, Budget/ROI, Risks, Compliance, Business-model variants, Templates, Case benchmarks, Optimization loop.
 
 ---
 
-## G. WHAT IS ALREADY OK (do not rebuild)
+## 6. CHANNEL / 2026 GAPS (under-specified)
 
-- 16-topic coverage of main digital domains
-- International notes in outlines
-- Reuse-first rules
-- 8-point format (Why→Improve) as a light schema
-- Reference-Table for sources
-- Simple folder names for visibility
+| Area | Missing depth |
+|------|----------------|
+| AI Search / AEO / GEO | Entities, citations, AI crawler access, measurement |
+| Retail / commerce media | Sponsored products base, local retail media, incrementality |
+| Creators | Vetting, contracts, disclosure, fraud, always-on roster |
+| Messaging | WhatsApp/SMS/RCS/LINE; opt-in by country |
+| ABM | Tiers, 1:1 / 1:few / 1:many, intent |
+| Attribution / MMM / incrementality | Decision vs reporting; holdouts |
+| CDP / consent / residency | First-party roadmap |
+| AI agents | Trigger, tools, HITL, failure, cost KPI |
+| Martech/Adtech map | Stack, integrations |
+| Brand safety / fraud / ads.txt | Monitoring standards |
+| Control dashboards | Alert rules, weekly/monthly/quarterly rituals |
 
-**Conclusion:** Repo has a good **topic map**. It does **not** yet have a **complete planning spine** (Situation→Objectives→Strategy→Tactics→Action→Control) nor **Savaganza-level sub-detail** (issue registers, objective math, funnels, remarketing lists, budget/action tables) nor the **universal deep template** under each topic. This file is the checklist of what to add.
+---
+
+## 7. INTERNATIONAL GAPS (from Weglot / Google / localization sources)
+
+Repo has Global-Local outline but still missing as **plan chapter depth**:
+- Country prioritization scorecard tied to GTM  
+- “Define success → decide where → localised GTM” (Google-style)  
+- Local platform matrix as mandatory output (not optional note)  
+- Transcreation rules + terminology DB  
+- Localization workflow (brief → adapt → QA → launch)  
+- Unified global KPIs **with local benchmarks**  
+- Geo-diversification risk logic  
+
+---
+
+## 8. STRUCTURAL FIX (recommended)
+
+```
+International-Digital-Marketing/
+├── 00-Start-Here.md
+├── 01-Plan-Spine/                    ← NEW
+│   ├── 00-Executive-Summary.md
+│   ├── 01-Situation/                 ← SWOT, 4Cs, PESTEL, Issues, Evidence
+│   ├── 02-Objectives/
+│   ├── 03-Strategy/
+│   ├── 04-Tactics-Index.md           ← links to Topics
+│   ├── 05-Action-Roadmap/
+│   ├── 06-Control-Optimize/
+│   └── 07-Appendix-Index.md
+├── 02-Topics/                        ← current 16 (deepen with 37-layer Details)
+├── 03-Reusable/
+│   └── Sources/
+│       ├── Reference-Table.md
+│       └── Plan-Sources-Table.md     ← NEW (links from section 1)
+└── 04-How-We-Work/
+    ├── Missing-Depth-Gap-Analysis.md ← this file
+    └── Universal-Topic-Deep-Template.md
+```
+
+---
+
+## 9. PRIORITY BUILD ORDER (updated)
+
+1. **Plan-Sources-Table.md** in Reusable (save all links from §1)  
+2. **Situation Analysis pack** (SWOT + 4Cs + Issues + Evidence rules)  
+3. **Objectives + Action Plan + Control** templates  
+4. **Executive Summary** template  
+5. Map 16 Topics under RACE Reach/Act/Convert/Engage  
+6. Pilot one topic at 37-layer `Details.md` (SEO or Paid Search)  
+7. International GTM scorecard + local platform matrix  
+8. Fill Reusable SOPs / KPIs / agent stubs  
+
+---
+
+## 10. ALREADY OK (do not rebuild)
+
+- 16-topic map of digital domains  
+- International bullets inside outlines  
+- Reuse-first rules  
+- 8-point light schema  
+- Universal 37-layer template file (exists; not applied)  
+- Simple folder naming  
+
+---
+
+## 11. CONCLUSION
+
+| Layer | Status |
+|-------|--------|
+| Topic map (what domains exist) | Strong |
+| Plan spine (SOSTAC/RACE chapters) | **Weak / missing** |
+| Situation depth (4Cs, SWOT evidence, issues) | **Missing** |
+| Objective math + action tables + control | **Missing** |
+| International GTM as first-class chapter | **Partial** |
+| Channel depth to Savaganza/2026 level | **Outlines only** |
+| Online sources catalogued for reuse | **Now listed in this file; save as Plan-Sources-Table next** |
+
+**Next concrete step:** create `02-Reusable/Sources/Plan-Sources-Table.md` from §1, then build `01-Plan-Spine/01-Situation/` templates.
