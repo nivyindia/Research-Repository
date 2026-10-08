@@ -1,34 +1,49 @@
-# Customers — Outline (stronger points)
+# Customers — Full Outline (International)
 
-## 1. ICP
-- Firmographic or demographic fit
-- Buying committee roles (B2B)
-- Budget, tech, triggers, intent
-- Disqualifiers (explicit)
+## 1. ICP (global + market variants)
+- Firmographics / demographics
+- Company size, industry verticals, revenue bands
+- Geography and language of buying
+- Decision unit: roles, economic buyer, blockers
+- Budget ownership and procurement norms by country
+- Tech environment and integration needs
+- Triggers, intent signals, disqualifiers
 
 ## 2. Personas
-- Jobs-to-be-done
-- Goals, fears, objections
-- Proof they need
-- Preferred channels and content types
+- Buyer, user, influencer, champion, procurement
+- Jobs-to-be-done, success metrics they care about
+- Fears, objections, risk tolerance
+- Content formats and channels they trust (by market)
+- Local cultural communication norms
 
-## 3. Segments
-- Value tiers and lifecycle stage
-- Behavioral / intent segments for activation
-- Map segment → offer → channel
+## 3. Segmentation systems
+- Demographic / geographic / firmographic
+- Psychographic and behavioral
+- Intent and lifecycle stage
+- Value tiers (strategic accounts vs long-tail)
+- Language and locale segments
+- Engagement and product-usage segments (if PLG)
 
-## 4. Data posture
-- First-party / zero-party priorities
-- What we will not depend on (privacy)
+## 4. Journey mapping
+- Awareness → consideration → decision → onboarding → advocacy
+- Local journey differences (e.g. WhatsApp-heavy markets)
+- Offline + online touchpoints where relevant
 
-## 5. Steps
-1. Hypothesis ICP
-2. Validate with sales/support/win-loss
-3. Write 2–4 personas
-4. Segment–channel map
-5. Refresh on product/market change
+## 5. Data & privacy posture
+- First-party / zero-party collection design
+- Consent expectations by regime
+- What third-party data is avoided
 
-## 6. Outputs
-- ICP one-pager
-- Persona sheets
-- Segment map
+## 6. Process steps
+1. Draft global ICP
+2. Localize ICP fields for P1 markets
+3. Validate with sales, support, win-loss
+4. Personas (2–4 global, local notes)
+5. Segment → offer → channel maps
+6. Refresh cadence
+
+## 7. Outputs
+- Global ICP + market variants
+- Persona set
+- Journey maps
+- Segment–channel–offer matrix

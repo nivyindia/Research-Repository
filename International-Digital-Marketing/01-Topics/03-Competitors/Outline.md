@@ -1,31 +1,47 @@
-# Competitors — Outline (stronger points)
+# Competitors — Full Outline (International)
 
-## 1. Set definition
-- Direct / indirect / aspirational
-- Per priority market (not only global names)
-- Active watchlist max ~5–10
+## 1. Competitor universe
+- Global direct / local direct / indirect / aspirational
+- Marketplace and pure-play digital rivals per country
+- Watchlist size limit and review frequency
 
-## 2. Audit fields per competitor
-- Site IA and offers
-- SEO themes and content gaps we can own
-- Paid: search/social creatives, LPs (Ad Libraries)
-- Social proof and review themes
-- Pricing/packaging
-- Partners, creators, PR angles
+## 2. Per-competitor intelligence pack
+- Corporate: markets served, funding, hiring, partnerships
+- Positioning and message pillars
+- Website IA, offers, pricing, packaging by market
+- SEO: topics, languages, international structure signals
+- Content themes and thought leadership
+- Paid: search/social/retail media presence, creatives, LPs
+- Social: platforms, cadence, engagement style
+- Creators/influencers and affiliates used
+- Reviews: rating themes, complaint patterns by market
+- Tech clues (chat, CDP, stack where visible)
+- Local adaptations (language, payment, proof)
 
-## 3. Category patterns
-- Repeated claims (table stakes vs differentiation)
-- SOV signals where measurable
-- White-space opportunities
+## 3. Category & SOV
+- Claim clusters (table stakes vs differentiators)
+- Creative trends by platform and region
+- Share of voice proxies (search, social, ads)
+- White space by market
 
-## 4. Steps
-1. List + prioritize
-2. Structured card per competitor
-3. Creative/offer swipe file (ethical use)
-4. Gap list for Strategy/Content/Ads
-5. Quarterly refresh
+## 4. Competitive response system
+- Win/loss themes with sales
+- Battlecard update triggers
+- Rapid-response for competitor launches/price moves
 
-## 5. Outputs
-- Competitor cards
-- Messaging comparison
-- Opportunity gaps
+## 5. Process steps
+1. Define lists per P1 market
+2. Fill standard competitor card
+3. Capture creatives ethically (ad libraries)
+4. Synthesize gaps for Strategy/Content/Ads
+5. Quarterly refresh + alert sources
+
+## 6. Outputs
+- Competitor cards (global + local)
+- Messaging comparison matrix
+- Creative swipe file (internal use)
+- Opportunity gap list
+- Battlecard inputs
+
+## 7. Tools/sources to document
+- Ad libraries, Similarweb-class tools, review sites, local registries, job boards
