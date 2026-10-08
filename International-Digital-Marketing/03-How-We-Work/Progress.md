@@ -2,12 +2,13 @@
 
 | Area | Status |
 |------|--------|
-| Structure (simple) | Done |
-| 16 topic folders | Done |
+| Structure (simple 16 topics) | Done |
 | Overview per topic | Done |
-| **Outline.md full international points** | **Done — all 16** |
-| Reference-Table (sources by topic) | Done |
-| 8-point format | Done |
-| Reuse rules | Done |
-| Details.md (full write-ups) | Phase 2 — not started |
-| Reusable SOPs / agents filled | Phase 2 — not started |
+| Outline.md (international checklist) | Done |
+| Reference-Table | Done |
+| **Missing-Depth-Gap-Analysis** | **Done** |
+| **Universal Topic Deep Template (37 layers)** | **Done** |
+| Situation Analysis pack (SWOT/4Cs/Issues) | Not started — top priority |
+| Objectives / Action / Control templates filled | Not started |
+| Details.md (deep write-ups) | Phase 2 |
+| Reusable SOPs / agents | Phase 2 |
