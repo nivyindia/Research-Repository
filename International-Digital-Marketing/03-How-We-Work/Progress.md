@@ -3,11 +3,10 @@
 | Area | Status |
 |------|--------|
 | Structure (16 topics) | Done |
-| Outline.md international checklists | Done |
-| Reference-Table | Done |
+| Outline.md checklists | Done |
+| Gap Analysis (enriched) | Done |
+| Plan-Sources-Table | Done |
 | Universal Topic Deep Template | Done |
-| **Missing-Depth-Gap-Analysis (enriched with online sources)** | **Done** |
-| **Plan-Sources-Table.md** | **Done** |
-| Situation Analysis pack | Not started — next |
-| Plan-Spine folders (Exec/Situation/Objectives/Action/Control) | Not started |
-| Details.md deep write-ups | Phase 2 |
+| **00-Master-Plan-Framework.md (complete spine + topics, structure only)** | **Done** |
+| Situation / Plan-Spine deep templates | Not started |
+| Details.md fill | Phase 2 |
