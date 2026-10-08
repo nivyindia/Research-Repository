@@ -1,44 +1,47 @@
-# Global-Local — Outline (stronger points)
+# Global-Local — Full Outline (International)
 
-> Sources: Google multi-regional/multilingual guidance; hreflang best practices.
+## 1. Operating model
+- Hub vs spoke vs federation
+- What is global standard vs mandatory local
+- Translation vendor vs in-market writers
+- Local legal and claims approval path
 
-## 1. URL architecture (choose one pattern and stick)
-- **ccTLD** (example.de) — strong country signal, more ops, equity split
-- **Subdomain** (de.example.com) — clear split, flexible hosting
-- **Subdirectory** (example.com/de/) — shared authority, simpler for most scalers
-- Document decision + why (ops cost vs SEO signal)
+## 2. URL & technical i18n
+- ccTLD vs subdomain vs subdirectory tradeoffs
+- Language-only vs language+country targeting
+- Hreflang: reciprocal, self-ref, x-default, valid codes
+- Implementation: HTML / HTTP / XML sitemap at scale
+- Self-canonical per locale
+- Sitemaps per locale; indexable 200s only
+- Search Console property strategy
+- CDN and geo-performance
 
-## 2. Hreflang rules (must-haves)
-- Reciprocal links (A→B and B→A)
-- Self-reference on every page in the set
-- Valid codes (language ISO + optional region, e.g. en-GB not en-UK)
-- **x-default** for intentional fallback
-- Implementation place: HTML head / HTTP header / **XML sitemap at scale**
-- Each locale **self-canonical** (do not canonical localized page to another language)
+## 3. Localization scope (beyond words)
+- UI strings, help center, emails, ads, creatives
+- Currency, tax display, units, date/time formats
+- Payments, invoices, refunds
+- Imagery, models, color/cultural norms
+- Humor, idioms, taboos
+- Local holidays and campaign calendar
+- Local proof and logos
+- Support hours and channels (WhatsApp, LINE, etc.)
 
-## 3. Page mapping
-- Table of equivalent URLs across locales
-- Only annotate **commercially ready** locales (half-translated = avoid)
-- Pages that exist in one language only: no fake alternate to homepage
+## 4. Market readiness gate
+- Commercially complete locale checklist before hreflang go-live
+- No half-translated section spam
 
-## 4. Real localization checklist
-- Currency, tax, payment methods
-- Contact, shipping, legal pages
-- Imagery, examples, proof (local case studies/reviews)
-- Offers and holidays
-- Support language and hours
-- Local platforms (search/social/messaging) — not US-only defaults
-
-## 5. Rollout steps
-1. Pick URL pattern
-2. Prioritize markets (link Market-Research scores)
-3. Map equivalents
-4. Ship complete locales first
-5. hreflang + sitemaps + Search Console checks
+## 5. Process steps
+1. Architecture decision recorded
+2. Market priority from Research
+3. Equivalence URL map
+4. Localize P0 pages + legal + checkout
+5. Hreflang + QA
 6. Measure by country/language
+7. Expand page set
 
 ## 6. Outputs
-- Architecture decision note
-- Equivalence mapping sheet
-- Localization QA checklist
-- Rollout order table
+- i18n decision record
+- Equivalence map
+- Localization style guides per language
+- QA checklist
+- Rollout wave plan

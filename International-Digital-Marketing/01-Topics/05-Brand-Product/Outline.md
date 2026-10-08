@@ -1,35 +1,47 @@
-# Brand & Product — Outline
+# Brand & Product — Full Outline (International)
 
-## 1. Brand foundation
-- Positioning
-- Brand story and narrative
-- Voice and tone rules
-- Visual identity guidelines (what exists / what is missing)
-- Trust and authority signals
+## 1. Brand system
+- Purpose, vision, personality
+- Positioning and narrative
+- Voice/tone (global rules + local flexibility)
+- Visual system usage rules
+- Trust architecture: certifications, press, customers by region
+- Brand protection: naming, trademark watch (high level)
 
 ## 2. Product marketing
-- Product positioning vs competitors
-- Feature → benefit → proof mapping
-- Launch checklist (new product/feature)
-- Competitive battlecards
-- Adoption and expansion messaging
-- PQL / product-qualified signals (if PLG)
+- Product positioning vs alternatives per market
+- Feature → benefit → proof → objection handling
+- Persona-specific value props
+- Launch framework: beta, GA, regional rollout
+- Competitive battlecards (link Competitors)
+- Adoption, expansion, packaging messaging
+- PLG signals: PQL definitions if applicable
 
-## 3. Offer engineering
-- Free / lead magnet / trial
-- Pricing tiers (starter → enterprise)
-- Bundles, subscriptions
-- Upsell / cross-sell paths
-- Guarantees and risk reversals
+## 3. Offer & packaging engineering
+- Free / trial / freemium / demo / consultation
+- Tiers: starter → growth → enterprise
+- Regional pricing, FX, purchasing power parity tests
+- Bundles, add-ons, services attach
+- Guarantees, SLAs, risk reversals (legal review by market)
+- Marketplace vs direct offers
 
-## 4. Steps
-1. Align positioning with Strategy folder
-2. Draft core message house
-3. Build offer ladder
-4. Create battlecards for sales/marketing
-5. Define proof assets needed (case studies, demos)
+## 4. Proof assets
+- Case studies by industry and country
+- ROI models and calculators
+- Testimonials and ratings strategy
+- Demo environments and sample data rules
 
-## 5. Outputs
+## 5. Process steps
+1. Align with Strategy positioning
+2. Message house (global)
+3. Local message adaptations list
+4. Offer ladder + regional price logic
+5. Launch checklist per market
+6. Enable Sales/CS with battlecards
+
+## 6. Outputs
 - Message house
-- Offer ladder diagram
-- Battlecard template filled for top competitors
+- Offer ladder
+- Regional pricing notes
+- Launch checklist
+- Battlecards
