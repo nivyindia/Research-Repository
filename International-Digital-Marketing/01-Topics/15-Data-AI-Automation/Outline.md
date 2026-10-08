@@ -1,44 +1,35 @@
-# Data-AI-Automation — Outline
+# Data-AI-Automation — Outline (stronger points)
 
-## 1. Measurement stack
-- GA4, Search Console, Tag Manager
-- Pixels / Conversion APIs
-- UTM standards
-- Offline / CRM conversion import
-- Call tracking if needed
+## 1. Tracking plan
+- Events and conversions list
+- GA4 + GTM + pixels/CAPI
+- UTM dictionary (source/medium/campaign/content)
+- CRM/offline import path
 
-## 2. Attribution & evaluation
-- First / last / data-driven (what we will use)
-- Incrementality tests
-- MMM (when scale justifies)
-- Experiment design basics
+## 2. Decision measurement
+- Default attribution model (document limits)
+- When to run incrementality tests
+- Experiments vs vanity metrics
 
-## 3. Customer data
+## 3. Data systems
 - CRM vs CDP vs warehouse roles
-- Identity resolution approach
-- First-party / zero-party strategy
-- Consent and retention rules (link Rules)
+- First-party collection priorities
+- Consent-aligned retention
 
-## 4. AI use cases
-- Research, content, SEO, ads, creative
-- Personalization, forecasting
-- AI agents (what can be automated safely)
-- Human-in-the-loop gates
+## 4. AI & automation
+- Safe use cases (research, drafts, reporting)
+- HITL required: claims, spend, legal, customer messages
+- Automation backlog (n8n/Make/Zapier)
 
-## 5. Automation
-- n8n / Make / Zapier / native
-- APIs, webhooks, MCP later
-- Priority automations list
-
-## 6. Steps
+## 5. Steps
 1. Tracking audit
-2. UTM + naming standards
-3. Dashboard minimum viable set
-4. Automate repetitive reporting / briefs
-5. Agent pilots on low-risk tasks
+2. Standards (UTM, names)
+3. MVP dashboards
+4. Automate reporting/briefs
+5. Pilot low-risk agents
 
-## 7. Outputs
+## 6. Outputs
 - Tracking plan
 - UTM dictionary
-- Dashboard wireframe
+- Dashboard list
 - Automation backlog

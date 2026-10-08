@@ -1,35 +1,32 @@
-# Leads-Sales — Outline
+# Leads-Sales — Outline (stronger points)
 
-## 1. Funnel stages we use
-- Awareness → Interest → Consideration → Intent
-- Lead → MQL → SQL → Opportunity → Customer
-- Repeat → Advocate
-- Definitions for each stage (entry/exit rules)
+## 1. Funnel dictionary
+- Stage names + entry/exit rules
+- MQL/SQL definitions agreed with sales
+- SLA: speed-to-lead, accept/reject reasons
 
-## 2. Demand generation vs capture
-- Education, PR, community, creators, events
-- SEO, search ads, product pages, demos, forms
+## 2. Demand gen vs capture
+- Gen: education, PR, community, creators, events
+- Capture: SEO, search ads, LPs, demos, forms
 
-## 3. Lead generation modes
-- B2B / B2C differences
-- Inbound vs outbound
-- ABM (if B2B enterprise)
-- Lead magnets, webinars, partnerships
+## 3. Motions
+- Inbound / outbound / ABM (if fit)
+- Lead magnets and webinar machine
+- Partnerships and referrals
 
-## 4. Sales enablement
-- Pitch deck, case studies, battlecards
-- Demo script, objection handling
-- ROI calculator / proposal assets
-- Handoff SLA marketing ↔ sales
+## 4. Sales enablement pack
+- Deck, one-pager, case studies, battlecards
+- Demo path and objection handling
+- ROI proof assets
 
 ## 5. Steps
-1. Define stage definitions + SLAs
+1. Agree definitions + SLA
 2. Map offers to stages
-3. Build lead capture points
-4. Enable sales with core assets
-5. Review funnel conversion weekly
+3. Instrument capture points
+4. Enablement kit v1
+5. Weekly funnel review
 
 ## 6. Outputs
-- Funnel definitions doc
-- Lead scoring rules (draft)
-- Asset checklist for sales
+- Stage dictionary
+- Scoring draft
+- Enablement checklist

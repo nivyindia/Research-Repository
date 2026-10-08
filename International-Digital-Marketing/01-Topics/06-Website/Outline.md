@@ -1,34 +1,30 @@
-# Website — Outline
+# Website — Outline (stronger points)
 
-## 1. Site inventory
-- Corporate / product / service / industry / country pages
-- Landing pages (campaign-specific)
-- Blog / resources / case studies / FAQ / tools
-- Careers / community if relevant
-- Ecommerce: catalog, PDP, cart, checkout
+## 1. Inventory
+- Template types: home, product/service, industry, country, blog, resource, LP, FAQ, tools
+- Ecommerce path: PLP, PDP, cart, checkout, account
 
-## 2. Technical foundation (checklist)
-- CMS and hosting choices
-- Performance / Core Web Vitals
-- Mobile, security, SSL
+## 2. Technical baseline
+- Indexability, HTTPS, mobile
+- Core Web Vitals targets
+- Consent + analytics wiring
+- Schema where it helps
 - Accessibility baseline
-- Schema / structured data
-- Analytics and consent implementation
 
 ## 3. Conversion architecture
-- Primary CTAs per template
-- Forms and lead capture
-- Trust blocks (reviews, logos, guarantees)
-- Navigation and internal linking logic
+- One primary CTA per template
+- Form fields minimized to stage
+- Trust: reviews, logos, guarantees, case studies
+- Path to CRM/demo/purchase
 
 ## 4. Steps
-1. Audit current site against checklist
-2. Prioritize fixes (speed, tracking, key templates)
-3. Define page types and templates
-4. Wire conversion paths to CRM
-5. Plan localization URL structure (link to Global-Local)
+1. Audit vs checklist
+2. Fix tracking and speed first
+3. Standardize templates + CTAs
+4. Align URLs with Global-Local
+5. CRO backlog handoff to CRM-Retention
 
 ## 5. Outputs
-- Site map
-- Template list + CTA map
-- Technical backlog prioritized
+- Sitemap
+- Template + CTA map
+- Tech backlog

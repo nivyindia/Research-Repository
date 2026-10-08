@@ -1,36 +1,31 @@
-# Competitors — Outline
+# Competitors — Outline (stronger points)
 
-## 1. Competitor set
-- Direct / indirect / aspirational list
-- Per market (not only global leaders)
+## 1. Set definition
+- Direct / indirect / aspirational
+- Per priority market (not only global names)
+- Active watchlist max ~5–10
 
-## 2. What to capture per competitor
-- Website structure and offers
-- SEO: keywords, content themes, backlink signals
-- Paid: ads (search/social), creatives, landing pages
-- Social presence and content style
-- Pricing and packaging
-- Reviews / ratings themes
-- Partnerships, influencers, PR angles
-- Tech stack clues (where visible)
-- Hiring / expansion signals
+## 2. Audit fields per competitor
+- Site IA and offers
+- SEO themes and content gaps we can own
+- Paid: search/social creatives, LPs (Ad Libraries)
+- Social proof and review themes
+- Pricing/packaging
+- Partners, creators, PR angles
 
-## 3. Category view
-- Share of voice (search/social/ads where measurable)
-- Common claims and messaging patterns
-- Gaps we can own
+## 3. Category patterns
+- Repeated claims (table stakes vs differentiation)
+- SOV signals where measurable
+- White-space opportunities
 
 ## 4. Steps
-1. Build competitor list (5–10 max active)
-2. Run structured audit checklist per competitor
-3. Capture creatives and offers (library)
-4. SWOT or simple win/loss themes
-5. Update quarterly
+1. List + prioritize
+2. Structured card per competitor
+3. Creative/offer swipe file (ethical use)
+4. Gap list for Strategy/Content/Ads
+5. Quarterly refresh
 
 ## 5. Outputs
 - Competitor cards
-- Messaging comparison table
-- Opportunity gaps list
-
-## 6. Tools to document later
-- Similarweb, Semrush/Ahrefs, ad libraries (Meta, etc.), review sites
+- Messaging comparison
+- Opportunity gaps

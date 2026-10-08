@@ -1,40 +1,38 @@
-# Market Research — Outline
+# Market Research — Outline (stronger points)
 
 ## 1. Market sizing
-- TAM / SAM / SOM definitions for our offer
-- Market growth rate and trends
-- Demand signals (search volume, category spend)
+- TAM / SAM / SOM for our offer (definitions written down)
+- Growth rate, category trends
+- Search/category demand signals
 
-## 2. Customer & demand insights
-- Buying triggers and barriers
-- Purchase journey length
-- Seasonality and cycles
-- Price sensitivity / willingness to pay
-- Information sources customers trust
+## 2. Buyer insight
+- Triggers and barriers
+- Journey length and research habits
+- Seasonality
+- Price bands and value perception
+- Trusted information sources (search, peers, review sites)
 
-## 3. Country / market selection
-- Country longlist → shortlist criteria
-- Size, competition, entry difficulty, product fit
-- Language, currency, payment norms
-- Local platforms (search, social, marketplaces, messaging)
-- Regulatory / cultural red flags
+## 3. Country selection scorecard
+- Market size and growth
+- Competition intensity
+- Entry difficulty (regulation, language, payments)
+- Product fit
+- Platform landscape (search, social, marketplace, messaging)
+- Cultural/legal red flags
 
 ## 4. Expansion path
 - Country → region → city → audience → offer → channel
-- Globalise vs localise decisions
-- Phased rollout order
+- Globalise / standardise / localise decisions
+- Phase 1 / 2 / 3 market list
 
 ## 5. Research steps
-1. Desk research (reports, search data, platform insights)
-2. Competitor market presence check
-3. Customer interviews / surveys (if available)
-4. Score markets on a simple matrix
-5. Document assumptions and data sources
+1. Desk research + demand data
+2. Competitor presence by market
+3. Primary input (interviews/surveys) if possible
+4. Scorecard → shortlist
+5. Log sources + date + confidence
 
 ## 6. Outputs
-- Market one-pagers per priority country
-- Scoring matrix
-- Research log (sources + date)
-
-## 7. Tools / sources to note later
-- Google Trends, Keyword Planner, Similarweb, Statista/WARC-style data, local stats offices
+- Scorecard sheet
+- Market one-pagers
+- Assumptions log

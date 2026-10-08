@@ -1,39 +1,36 @@
-# Rules-Team-Budget — Outline
+# Rules-Team-Budget — Outline (stronger points)
 
-## 1. Privacy & compliance
-- GDPR / CCPA and other relevant laws
-- Consent, cookies, data retention
-- Data residency notes for multi-country
+## 1. Privacy
+- Applicable laws by market (GDPR/CCPA/others)
+- Consent, cookies, retention, residency
 
-## 2. Advertising & content rules
-- Platform ad policies
-- Claims and substantiation
-- Influencer / affiliate disclosure
-- Copyright / trademark basics
-- Testimonials rules
+## 2. Marketing compliance
+- Ad platform policies
+- Claims substantiation
+- Influencer/affiliate disclosure
+- IP and testimonials
 
-## 3. Brand safety & fraud
+## 3. Safety & fraud
 - Brand safety settings
-- Invalid traffic / bot awareness
-- Verification basics
+- Invalid traffic awareness
+- Basic verification practices
 
-## 4. Team & operating model
-- Roles and RACI
-- Agency / vendor management
-- Approval workflows
-- Training and knowledge base
+## 4. Operating model
+- RACI for strategy, content, spend, legal
+- Agency/vendor scorecard
+- Approvals for public claims and budgets
 
-## 5. Budget & procurement
-- Budget by channel and by objective
+## 5. Budget
+- By objective and by channel
 - Test vs scale split
-- Vendor evaluation criteria
+- Quarterly reallocation rules
 
 ## 6. Steps
-1. Compliance checklist per market
-2. Policy one-pagers for claims/disclosure
-3. Role map and approval paths
+1. Market compliance checklist
+2. Policy one-pagers
+3. RACI + approvals
 4. Budget template
-5. Quarterly governance review
+5. Quarterly governance
 
 ## 7. Outputs
 - Compliance checklist
