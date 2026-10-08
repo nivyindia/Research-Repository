@@ -1,36 +1,43 @@
-# Content — Outline
+# Content — Outline (stronger points)
 
-## 1. Content strategy
-- Mission / why we publish
-- Audience and journey stages
-- Pillars and topic clusters
-- Search intent + sales intent mapping
-- Content-to-funnel map (awareness → decision)
+> Sources: CMI strategy components; pillar + topic cluster practice (3–6 pillars).
 
-## 2. Formats
-- Long-form (guides, reports, case studies, whitepapers)
-- Short-form (posts, carousels)
-- Video / Shorts / Reels
-- Podcasts / webinars / courses
-- Interactive (tools, calculators, templates)
+## 1. Strategy before calendar (CMI-style)
+- Business case (why content exists)
+- Audience + journey maps
+- Brand story / POV
+- Operations (who writes, approves, publishes)
+- Channel plan (where content lives)
 
-## 3. Lifecycle process (steps)
-1. Research and brief
-2. Create
-3. Edit + fact-check
-4. SEO / legal / localize
-5. Publish
-6. Distribute
-7. Measure
-8. Update / repurpose
+## 2. Pillars & clusters
+- Choose **3–6 pillars** (strategic + demand + right-to-win)
+- Per pillar: 15–40 cluster topics over time (prioritize)
+- Pillar page = broad hub; clusters = specific intents
+- Internal links: cluster → pillar, related clusters
 
-## 4. Operations
-- Editorial calendar fields (topic, owner, channel, status, date)
-- Repurposing rules (1 asset → many cuts)
-- Quality bar checklist
+## 3. Intent & funnel mapping
+- Discover / consider / evaluate / use
+- Search intent + sales objections coverage
+- CTA standards per stage
 
-## 5. Outputs
-- Pillar map
-- Calendar template
+## 4. Formats mix
+- Long-form hubs and proof (case studies, research)
+- Short-form distribution cuts
+- Video / webinars where they convert
+- Templates/tools as lead assets
+
+## 5. Lifecycle steps (ops)
+1. Research + brief (keyword, persona, intent, CTA)
+2. Create → edit → fact-check
+3. SEO/legal/localize
+4. Publish + distribute
+5. Measure → update → repurpose (1→many)
+
+## 6. Calendar fields
+- Topic, pillar, owner, channel, status, ship date, primary KPI
+
+## 7. Outputs
+- Pillar definitions (one sentence each)
+- Cluster backlog prioritized
 - Brief template
 - Repurposing matrix

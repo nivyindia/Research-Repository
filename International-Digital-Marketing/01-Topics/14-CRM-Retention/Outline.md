@@ -1,42 +1,41 @@
-# CRM-Retention — Outline
+# CRM-Retention — Outline (stronger points)
 
-## 1. CRO
-- Landing page principles
-- Forms, CTA, social proof
-- Checkout / pricing page tests
-- Tools: A/B tests, heatmaps, recordings
-- Testing prioritization
+> Sources: lifecycle stage models (onboarding→activation→retention→expansion→win-back); trigger-based journeys.
 
-## 2. CRM foundation
-- Objects: leads, contacts, companies, deals
-- Lifecycle stages in CRM
-- Lead scoring
-- Required fields and hygiene
+## 1. CRO foundation
+- Key templates: home, PDP/service, pricing, demo/lead, checkout
+- Hypotheses backlog (friction, clarity, trust, offer)
+- Test method: A/B, prioritized by impact × ease
+- Qual tools: heatmaps, recordings (privacy-aware)
 
-## 3. Lifecycle journeys
-- Welcome / onboarding / activation
-- Nurture sequences
-- Retention / renewal
-- Upsell / cross-sell
-- Win-back
+## 2. CRM stage definitions (evidence-based)
+- Lead → MQL → SQL → Opportunity → Customer
+- Entry/exit criteria = buyer evidence, not “email sent”
+- Owner + next action + due date on every active record
+- Data hygiene and consent fields
 
-## 4. Messaging channels
-- Email, SMS, WhatsApp, push, in-app, chat
-- When to use which channel
+## 3. Lifecycle stages to design
+- **Onboarding** — time-to-first-value
+- **Activation** — “aha” milestone rate
+- **Retention** — habit / GRR proxies
+- **Expansion** — upsell / NRR drivers
+- **Win-back** — reactivation then sunset
 
-## 5. Loyalty / referral / advocacy
-- Loyalty mechanics
-- Referral program outline
-- Customer and employee advocacy
+## 4. Journey design rules
+- Prefer **behavior triggers** over pure calendar blasts
+- Channel fit: email / SMS / WhatsApp / in-app
+- Suppression and frequency caps
+- Experiment on subject, timing, content — one variable
 
-## 6. Steps
-1. Fix tracking + CRM stages
-2. Map critical journeys
-3. Build first 2–3 automations
-4. CRO backlog on key pages
-5. Retention metrics review monthly
+## 5. Process steps
+1. Define stages + metrics
+2. Map 2–3 critical journeys first (welcome, abandon, onboard)
+3. Wire events from product/site/CRM
+4. CRO backlog on money pages
+5. Monthly retention review
 
-## 7. Outputs
-- Journey map
-- Email/SMS framework
-- CRO test backlog
+## 6. Outputs
+- Stage dictionary
+- Journey map + trigger table
+- CRO backlog
+- Lifecycle KPI dashboard fields

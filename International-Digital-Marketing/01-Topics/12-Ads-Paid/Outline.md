@@ -1,37 +1,48 @@
-# Ads-Paid — Outline
+# Ads-Paid — Outline (stronger points)
 
-## 1. Channel families
-- Search ads (Google, Microsoft)
-- Social ads (Meta, LinkedIn, TikTok, others)
-- Display / programmatic
-- Video / CTV / OTT
-- Audio / podcast
-- Commerce / retail media (Amazon, etc.)
-- DOOH / other if relevant
+> Sources: Google/Meta official patterns; media planning steps; retail media foundation checklists.
 
-## 2. Per channel — what to define later
-- Objectives (awareness / traffic / leads / sales)
-- Audience structure
-- Campaign architecture
-- Creative testing plan
-- Bidding and budget rules
-- Landing page requirements
-- Tracking (pixels, CAPI, offline)
+## 1. Media planning spine (before campaigns)
+- Objective (awareness / consideration / conversion)
+- Audience who + stage
+- Channel where + why
+- Budget weight + flighting (always-on / flight / pulse)
+- Success metric per channel
 
-## 3. Planning steps
-1. Align objectives to Strategy KPIs
-2. Allocate test budget by channel
-3. Build campaign structure
-4. Creative + offer matrix
-5. Launch → learn → scale or cut
-6. Frequency and brand safety checks
+## 2. Search / Shopping (Google & Microsoft)
+- Brand defense vs non-brand capture
+- Product feed quality as “creative” for Shopping
+- Performance Max vs standard Shopping/Search roles
+- RLSA / audience bid adjustments where useful
+- Landing page match to query intent
 
-## 4. Governance links
-- Ad policies, claims, disclosure (Rules folder)
-- Brand safety and fraud basics
+## 3. Paid social (Meta & others)
+- Prospecting vs retargeting budget logic
+- Advantage+/ASC-style automation vs manual tests
+- Creative testing matrix (hook, offer, format)
+- Catalog / DPA feed quality if ecommerce
+- CAPI / pixel event quality
 
-## 5. Outputs
-- Media mix table
-- Campaign naming convention
-- Testing backlog
-- Weekly optimization checklist
+## 4. Retail / commerce media
+- Sponsored Products (or equivalent) as always-on base
+- Then brands/display layers
+- Coordinate with Google/Meta in peak windows
+- Incrementality mindset (not only platform ROAS)
+
+## 5. Other buys (as needed)
+- Programmatic / display: brand safety, frequency
+- CTV/OTT / audio: objective fit and measurement limits
+
+## 6. Process steps
+1. Objectives + constraints from Strategy
+2. Mix table (test vs scale budget)
+3. Campaign architecture + naming convention
+4. Tracking validation before spend
+5. Launch → read → scale/kill on rules
+6. Weekly optimization checklist
+
+## 7. Outputs
+- Media mix + flighting plan
+- Naming convention
+- Creative test backlog
+- Channel playbooks (links to Reusable SOPs later)
