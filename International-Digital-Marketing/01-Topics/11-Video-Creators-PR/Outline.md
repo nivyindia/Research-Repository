@@ -1,40 +1,46 @@
-# Video-Creators-PR — Outline
+# Video-Creators-PR — Full Outline (International)
 
-## 1. Video
-- YouTube strategy (long + Shorts)
-- Reels / TikTok native video
-- CTV / OTT if budget allows
-- Webinars / livestream
-- Production levels (UGC vs pro)
+## 1. Video strategy
+- Home base platforms by market (YouTube, local video apps)
+- Long-form vs short-form roles
+- Series, SEO on YouTube, thumbnails, chapters
+- Webinars, livestreams, AMAs
+- CTV/OTT when brand/performance justifies
+- Production tiers: UGC, hybrid, studio
+- Subtitles/dubbing plan for languages
 
-## 2. Creator / influencer
-- Tiers: micro / macro / KOL
-- Always-on vs campaign
-- Briefs, disclosure, contracts
-- Whitelisting / spark ads
-- Affiliate / creator commerce
-- Measurement (reach, CPA, brand lift proxies)
+## 2. Creator & influencer system
+- Tiering: nano/micro/macro/celebrity/KOL by market
+- Always-on roster vs burst campaigns
+- Briefs, usage rights, exclusivity, disclosure
+- Whitelisting / spark / branded content tools
+- Affiliate and creator commerce codes
+- Fraud/fake engagement checks
+- Local cultural fit screening
 
-## 3. Community
-- Owned communities (Discord, groups, Slack)
-- Participation on Reddit etc.
-- Moderation and value rules
+## 3. Community platforms
+- Owned: Discord, Facebook groups, forums
+- Participative: Reddit, regional forums
+- Rules, moderation, AMAs, feedback loops
 
 ## 4. PR & reputation
-- Media targets and pitches
-- Thought leadership / expert commentary
-- Digital PR and link earning
-- Awards / research releases
-- Crisis notes (link Rules folder)
+- Global vs local media lists
+- Pitch themes, data stories, expert bylines
+- Digital PR for links and mentions
+- Awards, rankings, analyst relations (B2B)
+- Executive thought leadership
+- Review site strategy
+- Crisis communication basics (link Rules)
 
-## 5. Steps
-1. Pick 1–2 video home bases
-2. Creator shortlist + outreach process
-3. Community channels decision
-4. PR target list
-5. Measurement dashboard fields
+## 5. Process steps
+1. Video channel strategy per P1 market
+2. Creator ICP and shortlists
+3. Contracting + disclosure templates
+4. PR narrative calendar
+5. Measurement (view-through, CPA, share of voice, referrals)
 
 ## 6. Outputs
-- Video content pillars
-- Creator brief template
-- PR target list
+- Video pillars and series plan
+- Creator brief + contract checklist
+- Media list by country
+- Crisis contact tree (with Rules)

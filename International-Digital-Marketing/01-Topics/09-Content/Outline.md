@@ -1,43 +1,48 @@
-# Content — Outline (stronger points)
+# Content — Full Outline (International)
 
-> Sources: CMI strategy components; pillar + topic cluster practice (3–6 pillars).
+## 1. Strategy (CMI-aligned)
+- Business case and success metrics
+- Audience and journeys by market
+- Brand story / editorial POV
+- Operations model (central writers vs local)
+- Channel plan for distribution
 
-## 1. Strategy before calendar (CMI-style)
-- Business case (why content exists)
-- Audience + journey maps
-- Brand story / POV
-- Operations (who writes, approves, publishes)
-- Channel plan (where content lives)
+## 2. Architecture
+- 3–6 global pillars; local pillar variants if needed
+- Topic clusters per language
+- Content types by funnel stage
+- Governance: tone, claims, medical/finance disclaimers by country
 
-## 2. Pillars & clusters
-- Choose **3–6 pillars** (strategic + demand + right-to-win)
-- Per pillar: 15–40 cluster topics over time (prioritize)
-- Pillar page = broad hub; clusters = specific intents
-- Internal links: cluster → pillar, related clusters
+## 3. Formats
+- Pillar pages, clusters, comparison pages
+- Case studies, research, whitepapers
+- Short-form, email newsletters
+- Video scripts, webinars, podcasts
+- Interactive tools, templates, calculators
+- Localized landing content for campaigns
 
-## 3. Intent & funnel mapping
-- Discover / consider / evaluate / use
-- Search intent + sales objections coverage
-- CTA standards per stage
+## 4. Multilingual content ops
+- Translate vs transcreate rules
+- Glossary / terminology DB per language
+- Legal review queue
+- Update propagation (English source of truth vs local ownership)
 
-## 4. Formats mix
-- Long-form hubs and proof (case studies, research)
-- Short-form distribution cuts
-- Video / webinars where they convert
-- Templates/tools as lead assets
-
-## 5. Lifecycle steps (ops)
-1. Research + brief (keyword, persona, intent, CTA)
+## 5. Production lifecycle
+1. Insight → brief (persona, intent, keyword, CTA, market)
 2. Create → edit → fact-check
-3. SEO/legal/localize
+3. SEO + compliance + localize
 4. Publish + distribute
-5. Measure → update → repurpose (1→many)
+5. Measure → refresh → repurpose
 
-## 6. Calendar fields
-- Topic, pillar, owner, channel, status, ship date, primary KPI
+## 6. Calendar & prioritization
+- Global themes + local moments
+- Score content by impact × effort × strategic fit
+- Refresh SLA for decaying top pages
 
 ## 7. Outputs
-- Pillar definitions (one sentence each)
-- Cluster backlog prioritized
+- Pillar definitions
+- Cluster backlogs per language
 - Brief template
+- Editorial calendar
 - Repurposing matrix
+- Claims library (approved phrases)
