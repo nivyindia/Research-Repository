@@ -21,4 +21,9 @@ Yahan **International Digital Marketing Plan** ke saare topics hain.
 | 15 | Data-AI-Automation | Data, AI, automation |
 | 16 | Rules-Team-Budget | Privacy, team, budget |
 
-Har folder: `Overview.md` ab; `Details.md` + `Links.md` Phase 2.
+## Har folder mein files
+
+- `Overview.md` — short summary
+- `Outline.md` — **detail points**: kya explain karna hai, steps, outputs (ab bhari hui)
+- `Details.md` — baad mein full 8-point write-up (Phase 2)
+- `Links.md` — Reusable SOPs/tools/agents (Phase 2)
