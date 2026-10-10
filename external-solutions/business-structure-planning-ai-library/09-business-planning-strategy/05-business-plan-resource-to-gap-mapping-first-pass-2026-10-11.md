@@ -23,6 +23,18 @@ Repository search previously surfaced a status record referencing:
 
 However, the current path fetch/search did not reliably retrieve those exact files. Therefore the agent is **not yet counted as verified or runnable**. Next: locate the canonical path and fetch the files; inspect inputs, outputs, source citations, tests, dependencies and runtime status.
 
+## Additional file-level inspection findings
+
+### International business-plan blueprint
+Canonical source found: `Nivy Research Data/New Research04-08-26/Business-Plan-for-DM-AI-IT.md`. It is explicitly designed for an India-based digital marketing + AI + IT + web-development company targeting international markets. It contains a detailed outline and is useful as a vertical-specific reference, but must not be treated as a universal template without adapting the service-business assumptions.
+
+### Unit economics and cash-flow files
+- `Nivy Research Data/SECTION 4 — Cost Structure & Unit Economics 2b1b3416c76d80ef9d8dceef8b03af78.md` includes service prices, delivery-cost examples, freelancer benchmarks, sales commissions and software budgets.
+- `Nivy Research Data/💹 Financial Model — Part 2 Cash Flow Clarity Syste 2b1b3416c76d80c6b36bd2a972b2efcf.md` includes revenue tracking, aging reports, multi-currency cash flows, expense categories and payout processes.
+- Matching copies are present under `Notion - Nivy OS/`, so duplicate/canonical-source reconciliation is necessary.
+
+**Validation warning:** The cost/price numbers are documented examples, not verified current market benchmarks. They need source dates, geography, service scope, sample size and fresh validation. The cash-flow guidance is a process outline; the file inspection did not establish that a working spreadsheet, formulas or automated reconciliations exist. Do not use these values as financial truth without validation.
+
 ## Initial gap decisions
 
 - **Reuse candidate:** existing business-plan outline; financial-model index and its linked sections; existing governance/register patterns.
