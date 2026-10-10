@@ -14,14 +14,18 @@ Status: Repository discovery and partial mapping. This is not runtime validation
 | MAP-06 | `external-solutions/business-structure-planning-ai-library/07-department-sales/93-sales-micro-level-completeness-audit.md` | Search results show provenance, dependency mapping, assumption register and open-question register patterns | G33-G36, governance | Adapt common register fields; inspect source schema before copying |
 | MAP-07 | `external-solutions/business-structure-planning-ai-library/00-navigation-governance/03-MASTER-BUSINESS-CREATION-TO-AUTONOMY-LIST-2026-09.md` | Master business-creation checklist includes evidence/provenance, research confidence, QA and packaging | Evidence, QA, execution | Cross-map against all capabilities to avoid duplicate governance design |
 
-## Market-research agent: unresolved source verification
+## Market Research Agent: file-level inspection completed; runtime still unverified
 
-Repository search previously surfaced a status record referencing:
-- `agents/market-research/agent.yaml`
-- `agents/market-research/prompt.md`
+Canonical paths confirmed:
+- `Chats/ChatGPT/Multi Agent AIOS/agents/market-research/agent.yaml`
+- `Chats/ChatGPT/Multi Agent AIOS/agents/market-research/prompt.md`
 - Status record: `Chats/ChatGPT/Multi Agent AIOS/02-agents/F1-A001-status.yaml`
 
-However, the current path fetch/search did not reliably retrieve those exact files. Therefore the agent is **not yet counted as verified or runnable**. Next: locate the canonical path and fetch the files; inspect inputs, outputs, source citations, tests, dependencies and runtime status.
+The YAML defines A001, required inputs `research_question` and `target_market`, optional geography/industry/segment/time horizon, a structured report output, evidence provenance, material-claim cross-checks, confidence assessment, approved public sources, tool allow-list and failure handling. The prompt repeats the research workflow and includes evidence grades A-D, a report contract and explicit stop conditions.
+
+**Important status:** The status file explicitly says `runtime_verified: false`, `status: 25`, and `next_micro_step: F.1.2`. Therefore this is a well-specified design, not proof of a working agent.
+
+**Next verification work:** resolve the registered SK001/SK002 and TOOL-FIRECRAWL-EXTRACT / TOOL-BROWSER-USE-RESEARCH / TOOL-POSTGRES-QUERY-READONLY contracts; confirm schemas, permissions and runtime wiring; run one harmless public-data test; then build a 10-case golden test set. Record pass/fail, citations, output validity, unsupported-claim rate, and failure handling. Do not mark the agent production-ready before these tests.
 
 ## Additional file-level inspection findings
 
@@ -54,7 +58,7 @@ Before reuse, record exact commit, license and notices, dependencies, security r
 
 ## Next steps in order
 
-1. Resolve the canonical Market Research Agent path and inspect its two files.
+1. Wire and safely test A001 Market Research Agent: canonical files are now located; runtime remains unverified.
 2. Compare internal plan-outline duplicates and select a canonical outline.
 3. Inspect linked financial-model sections, formulas and assumptions; mark untested elements explicitly.
 4. Expand this table into one row per gap from the 75-capability analysis.
