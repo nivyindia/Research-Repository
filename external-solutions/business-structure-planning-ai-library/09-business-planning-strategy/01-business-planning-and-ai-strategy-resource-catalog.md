@@ -52,3 +52,14 @@ The planning UI should therefore not be a standalone canvas only. It should crea
 ## Design rule
 
 Business planning, company design and execution should become data-producing workflows, not dead documents. A plan should be able to create or update company entities, departments, roles, KPIs, projects, SOPs and AI agents after approval.
+
+
+## Newly discovered external business-plan agents and skills — October 2026
+
+A focused catalog of reusable full-plan builders and section-specific skills has been added here:
+
+- [02-external-business-plan-agents-skills-and-planning-systems-2026-10.md](02-external-business-plan-agents-skills-and-planning-systems-2026-10.md)
+
+Priority candidates include the end-to-end business plan skill with Word/Excel outputs, a 137-skill business-plan engine, an MIT-licensed guided AI business planner, a startup finance skill suite, and specialized consulting/GTM skills. All are discovery candidates until license, security, quality, duplication and jurisdiction-localization checks pass.
+
+**Do not import entire repositories by default.** Inspect exact assets and reuse only the components that fill a verified gap.
