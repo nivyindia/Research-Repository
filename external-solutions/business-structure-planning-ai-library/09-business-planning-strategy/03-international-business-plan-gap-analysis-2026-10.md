@@ -1,170 +1,249 @@
-# International-Level Business Plan — Gap Analysis — 2026-10
+# International-Level Business Plan — Expanded Gap Analysis — 2026-10
 
-## Executive finding
+## Executive conclusion
 
-The Nivy Business Planning library already covers the normal business-plan headings and has multiple reusable builders/skills. The remaining gap is not primarily missing sections; it is missing or insufficiently qualified decision-grade capabilities around evidence, localization, modeling, validation, execution, and governance.
+A second-pass review confirms that the earlier five critical gaps remain valid, but they are not the complete gap set.
 
-## Gap severity
+The library is strong on business-plan content generation. The deeper gaps are in evidence integrity, international adaptation, decision modeling, governance, execution integration, lifecycle management, and measurable validation.
 
-| Gap | Status | Severity | What is needed |
-|---|---|---|---|
-| Business-plan assembly | Covered | Low | Existing full-plan candidates BPX-001/002/003 |
-| Executive summary | Covered | Low | Generate only after underlying sections are validated |
-| Company/business model | Covered | Low | Canvas + strategy resources already cataloged |
-| Market research | Partially covered | Critical | Country/industry TAM-SAM-SOM, demand evidence, primary research, source grading |
-| Competitor intelligence | Partially covered | High | Structured competitor database, pricing extraction, feature/service comparison, change monitoring |
-| ICP/customer segmentation | Covered/partial | Medium | Existing Nivy ICP/Buyer Persona assets; connect to plan workflow |
-| Positioning/value proposition | Covered/partial | Medium | GTM/strategy skills exist; require evidence-linked positioning |
-| Sales plan | Covered/partial | High | Funnel economics, quota/capacity model, territory/account model, pipeline forecast |
-| Marketing plan | Covered/partial | High | Channel economics, campaign calendar, attribution, budget allocation and experimentation |
-| Operational plan | Covered/partial | Critical | Capacity model, service delivery architecture, SOP dependency map, SLA and QA model |
-| Organization/hiring | Covered/partial | High | Workforce plan tied to revenue, workload, utilization and hiring triggers |
-| Financial model | Partially covered | Critical | Three-statement model, unit economics, scenario engine, cash-flow timing, country/tax localization |
-| Pricing | Partially covered | High | Competitor pricing evidence, cost/value checks, margin floor, packaging calculator |
-| Legal/compliance | Partially covered | Critical for international use | Country-specific regulatory checklist, contracts, tax, privacy, licensing and professional-service boundaries |
-| Risk management | Covered/partial | High | Quantified risk register, probability/impact, mitigation owner, trigger monitoring |
-| Implementation roadmap | Covered | Medium | Convert plan into projects/tasks/owners/KPIs rather than static roadmap |
-| KPI/OKR system | Covered/partial | Medium | KPI definitions, formulas, data sources, targets, owners and cadence |
-| Business-plan QA | Partially covered | Critical | Independent reviewer/evaluator, numerical consistency, citation verification, assumption/fact separation |
-| Research provenance | Partially covered | Critical | Source registry, retrieval date, evidence grade, claim-to-source mapping |
-| International localization | Missing as a unified layer | Critical | Country/currency/tax/regulatory/payment/labor/data/privacy/local-market adaptation |
-| Sensitivity analysis | Partially covered | High | Driver-based sensitivity, break-even, downside/base/upside and Monte Carlo where justified |
-| Customer validation | Partial | High | Interview scripts, survey/experiment design, evidence scoring and decision gates |
-| Go/no-go decision system | Missing as unified layer | High | Stage gates with objective criteria before market/service expansion |
-| Document production | Covered/partial | Medium | DOCX/XLSX/PDF generation exists in candidates; require deterministic QA |
-| Post-plan monitoring | Partial | High | Actual-vs-plan dashboard, forecast updates, variance analysis and plan revision loop |
+Therefore the target should be a Business Plan Intelligence, Decision & Execution System, not another standalone plan generator.
 
-## Critical missing layer #1 — Evidence & Research Intelligence
+## Expanded gap matrix
 
-A high-quality international plan cannot depend only on an LLM-generated narrative.
+| ID | Capability | Current state | Severity | What is still needed |
+|---|---|---|---|---|
+| G01 | Business-plan assembly | Covered | Low | Orchestrate existing builders |
+| G02 | Executive summary | Covered | Low | Generate after validation |
+| G03 | Business model | Covered | Low | Structured machine-readable model |
+| G04 | Market research | Partial | Critical | Evidence-backed country/industry research |
+| G05 | TAM/SAM/SOM | Partial | Critical | Bottom-up + top-down reconciliation |
+| G06 | Customer/ICP | Partial | High | Segment sizing, priority scoring, evidence |
+| G07 | Competitor intelligence | Partial | Critical | Structured competitor database + monitoring |
+| G08 | Competitor pricing intelligence | Partial | Critical | Current price/package extraction and normalization |
+| G09 | Positioning/value proposition | Partial | High | Evidence-linked differentiation |
+| G10 | Sales plan | Partial | High | Funnel, quota, capacity, territory and pipeline model |
+| G11 | Marketing plan | Partial | High | Channel economics, attribution, budget allocation, experiments |
+| G12 | GTM/market-entry | Partial | High | Country-specific entry modes and sequencing |
+| G13 | Operational plan | Partial | Critical | Capacity, process, SLA, QA and dependency model |
+| G14 | Service/product delivery model | Partial | Critical | Delivery architecture, fulfillment, support, escalation |
+| G15 | Organization/workforce | Partial | High | Revenue/workload-linked headcount model |
+| G16 | Hiring plan | Partial | High | Hiring triggers, ramp time, compensation and productivity |
+| G17 | Financial model | Partial | Critical | Integrated 3-statement driver model |
+| G18 | Unit economics | Partial | Critical | CAC, LTV, gross margin, contribution, payback |
+| G19 | Pricing architecture | Partial | Critical | Packaging, discount rules, margin floors, value-based checks |
+| G20 | Working-capital/cash model | Partial | Critical | AR/AP, payment terms, collections, cash runway |
+| G21 | Scenario/sensitivity | Partial | High | Driver-based downside/base/upside + break-even |
+| G22 | Funding/investment plan | Partial | High | Capital requirement, use of funds, financing options |
+| G23 | Legal/compliance | Partial | Critical | Country-specific obligations and professional boundaries |
+| G24 | Tax/VAT/GST/local fiscal model | Partial | Critical | Country-specific tax assumptions integrated into financial model |
+| G25 | Data/privacy/cybersecurity | Partial | Critical | Data map, privacy obligations, security controls |
+| G26 | IP/brand/licensing | Partial | High | IP ownership, licenses, trademarks, content/software rights |
+| G27 | Contracts/procurement | Partial | High | Customer/vendor/partner contract assumptions and dependencies |
+| G28 | Partnerships/channel ecosystem | Partial | High | Partner economics, incentives, dependencies and governance |
+| G29 | Risk management | Partial | High | Quantified risk register + triggers + owners |
+| G30 | Business continuity/disaster recovery | Missing as unified plan layer | High | Critical-process recovery, backups, supplier/region contingencies |
+| G31 | Technology architecture | Partial | High | Systems, integrations, AI stack, scalability and TCO |
+| G32 | AI governance | Partial | Critical for AI businesses | Model/vendor risk, human oversight, evaluation, data/security policy |
+| G33 | Research provenance | Partial | Critical | Claim-source mapping, dates, geography, evidence grade |
+| G34 | Assumption management | Partial | Critical | Central assumption register with owner/status/confidence |
+| G35 | Version/change management | Missing as unified layer | High | Plan versions, decision log, change impact and approvals |
+| G36 | Independent plan QA | Partial | Critical | Separate evaluator with numerical/content/evidence checks |
+| G37 | Financial model audit | Partial | Critical | Formula/reconciliation/error detection |
+| G38 | Citation/source QA | Partial | High | Broken-source, freshness and claim-support checks |
+| G39 | Customer validation | Partial | High | Interviews, surveys, experiments and evidence scoring |
+| G40 | Competitive/market monitoring | Partial | High | Scheduled changes in market, pricing and competitors |
+| G41 | Go/no-go stage gates | Missing as unified layer | High | Objective criteria and approval gates |
+| G42 | Portfolio/alternative comparison | Missing | Medium/High | Compare business ideas, countries, offers and scenarios |
+| G43 | Resource allocation | Partial | High | Capital, people, time and technology allocation |
+| G44 | Implementation decomposition | Partial | High | Plan -> initiatives -> projects -> tasks -> owners |
+| G45 | Dependency management | Partial | High | Cross-team/vendor/regulatory dependencies |
+| G46 | KPI/OKR architecture | Partial | Medium/High | Definitions, formulas, sources, owners, cadence |
+| G47 | Actual-vs-plan management | Partial | High | Variance analysis and corrective actions |
+| G48 | Rolling forecast/replanning | Partial | High | Periodic reforecast from actual performance |
+| G49 | Post-launch learning loop | Missing as unified layer | High | Experiment -> result -> learning -> plan update |
+| G50 | Dashboard/reporting | Partial | Medium/High | Decision dashboards for executives/operators |
+| G51 | Stakeholder/governance model | Partial | High | Decision rights, RACI, approval authority, escalation |
+| G52 | Quality management | Partial | High | Quality standards, acceptance criteria, audits and CAPA |
+| G53 | Customer success/retention | Partial | High | Onboarding, adoption, renewal, churn and expansion model |
+| G54 | Sales/service handoff | Partial | High | Contract-to-delivery handoff, scope and SLA controls |
+| G55 | International localization | Missing as unified engine | Critical | Country profile + localization rules |
+| G56 | Multi-country sequencing | Missing as unified layer | High | Market prioritization and expansion order |
+| G57 | Localization of competitors/pricing | Partial | High | Local price, purchasing behavior and alternatives |
+| G58 | Language/cultural adaptation | Partial | Medium/High | Messaging, negotiation, service and channel adaptation |
+| G59 | ESG/sustainability | Partial | Medium/High | Material ESG requirements and customer/tender expectations |
+| G60 | Regulatory horizon scanning | Partial | High | Monitor law/policy changes affecting plan assumptions |
+| G61 | Procurement/tender strategy | Missing | Medium/High | Enterprise/government procurement requirements where relevant |
+| G62 | Exit/long-term strategic options | Partial | Medium | Exit, acquisition, succession or long-term strategic paths |
+| G63 | Business-plan document design | Covered | Low | Consistent professional output |
+| G64 | Post-document execution integration | Partial | Critical | Approved plan must create operating objects |
+| G65 | Plan security/privacy | Partial | Critical | Sensitive assumptions, credentials, customer data isolation |
+| G66 | Agent/tool observability | Partial | High | Logs, source traceability, failures, costs and outputs |
+| G67 | Cost control for AI/workflows | Partial | High | Token/API/tool cost budgets and ROI |
+| G68 | Human approval workflow | Partial | High | Explicit approval before consequential changes/actions |
+| G69 | Reproducibility | Missing as unified layer | High | Same inputs + source snapshot -> auditable result |
+| G70 | Business-plan benchmarking | Partial | Medium/High | Compare assumptions/KPIs against industry benchmarks |
+| G71 | Early-warning indicators | Missing as unified layer | High | Signals that trigger plan review before failure |
+| G72 | Ethics/fairness/reputational risk | Partial | Medium/High | Sensitive-market and brand-risk review |
+| G73 | Data quality management | Partial | High | Validation, missing-data flags and confidence scores |
+| G74 | Vendor/third-party dependency analysis | Partial | High | Concentration, SLA, lock-in and contingency analysis |
+| G75 | Geographic/entity structure | Partial | High | Country entity, branch/subsidiary, contracting and money-flow model |
 
-Required flow: Question -> Search -> Primary/secondary sources -> Extract facts -> Source quality score -> Claim/evidence mapping -> Market model -> Conclusion.
+## Newly discovered second-order gaps
 
-Required outputs:
-- market-size evidence;
-- growth evidence;
-- customer demand signals;
-- competitor evidence;
-- pricing evidence;
-- regulatory evidence;
-- source date;
-- geography;
-- confidence;
-- assumption vs verified fact.
+### A. Assumption Register
+Every important assumption needs an ID, value, source/rationale, confidence, owner, date, status (verified/assumed/disputed), and impact if wrong.
 
-## Critical missing layer #2 — Internationalization Engine
+### B. Plan Version + Decision Log
+International plans change continuously. Required chain: Version -> Change -> Reason -> Evidence -> Impact -> Approver -> Effective date.
 
-The plan generator needs a reusable country profile object:
+### C. Reproducibility / Auditability
+A future user should be able to trace any recommendation to its calculation, assumptions, extracted facts, sources, retrieval dates and model/version.
 
-Country -> Currency -> Tax -> Corporate rules -> Employment -> Data/privacy -> Financial regulation -> Licensing -> Payments -> Market conventions -> Language -> Local competitors
+### D. AI-Agent Governance
+Required: model/vendor registry, tool permissions, human approval, prompt/version control, evaluation datasets, source checks, sensitive-data controls, cost monitoring and fallback procedures.
 
-The same business idea should therefore produce different plan variants for UAE, USA, UK, Canada, Australia, India, etc., rather than merely changing currency symbols.
+### E. Early-Warning System
+The plan should specify failure signals such as CAC breach, conversion decline, margin decline, cash-runway decline, churn increase, regulatory change or competitor price movement, with predefined review/action triggers.
 
-## Critical missing layer #3 — Integrated Financial/Operating Model
+### F. Alternative / Portfolio Decision Engine
+Compare Country A vs B, Offer A vs B, Channel A vs B, Build vs Buy, Hire vs Outsource and Organic vs Paid using common weighted criteria.
 
-The plan needs a driver-based model connecting:
+### G. Plan-to-Company Digital Twin
+Approved plans should create structured objects: Business -> Markets -> Offers -> Customers -> Departments -> Roles -> KPIs -> Processes -> Projects -> Tasks -> Systems -> Budgets.
 
-Leads -> Qualified leads -> Meetings -> Proposals -> Wins -> Customers -> Retention -> Revenue -> Delivery workload -> Staff capacity -> Costs -> Gross margin -> Cash flow
+### H. Post-Launch Learning Loop
+Plan -> Execute -> Measure -> Learn -> Update assumptions -> Reforecast -> Revise plan.
 
-This is more valuable than a standalone financial forecast because management can see what operational assumptions create the financial result.
+## International-specific additions
 
-## Critical missing layer #4 — Independent Plan QA
+For an actually international plan, these should be first-class inputs:
+- target-country selection;
+- market-entry mode;
+- entity/branch/subsidiary structure;
+- cross-border payment flows;
+- FX exposure;
+- tax/VAT/GST;
+- employment/contractor rules;
+- data-transfer/privacy requirements;
+- local licensing;
+- local pricing;
+- local competitors;
+- language/cultural adaptation;
+- local procurement/tender rules;
+- geopolitical/sanctions exposure where relevant;
+- country concentration risk;
+- regional operational redundancy.
 
-The final business plan needs a separate reviewer that checks:
-- every major claim has evidence or is labeled an assumption;
-- market-size math is internally consistent;
-- revenue projections reconcile with customer counts and pricing;
-- staffing matches workload;
-- marketing budget matches acquisition assumptions;
-- cash flow reflects payment timing;
-- financial statements reconcile;
-- country-specific claims are sourced;
-- risks have owners and mitigations;
-- recommendations follow from evidence.
+## Completeness test
 
-## Critical missing layer #5 — Validation / Stage Gates
+A plan should not be called International-Level / Decision-Ready unless it can answer:
+1. Why this market?
+2. Why now?
+3. Who exactly buys?
+4. What evidence proves demand?
+5. What alternatives/competitors exist?
+6. Why will customers choose us?
+7. What exactly are we selling?
+8. At what price and with what margin?
+9. How will customers be acquired?
+10. What will CAC and payback look like?
+11. How will sales capacity be created?
+12. How will delivery capacity scale?
+13. What people and technology are required?
+14. What legal/tax/privacy obligations apply?
+15. How much capital/cash is required?
+16. What happens in downside scenarios?
+17. What are the major risks and early-warning signals?
+18. What are the measurable first 30/60/90/365-day actions?
+19. Who owns each outcome?
+20. What evidence would make us change the plan?
+21. How will actual results update the plan?
+22. Can every important recommendation be audited back to evidence?
 
-Gate 0 — Idea -> problem and customer hypothesis
+## Priority tiers
 
-Gate 1 — Market -> demand + competition + market attractiveness
+### Tier A — must-have
+- Evidence/provenance
+- Internationalization
+- Integrated financial-operational model
+- Independent QA
+- Validation/stage gates
+- Assumption register
+- Version/change/decision log
+- Reproducibility/audit trail
+- Unit economics and working capital
+- Tax/fiscal integration
+- Data/privacy/cybersecurity
+- AI governance
+- Technology architecture/TCO
+- Customer validation
+- Plan-to-Company-OS integration
+- Actual-vs-plan + rolling forecast
+- Early-warning indicators
+- Multi-country sequencing
+- Business continuity
+- Independent financial-model audit
 
-Gate 2 — Offer -> willingness-to-pay + pricing + unit economics
+### Tier B — strongly recommended
+- Partnership/channel economics
+- Contracts/procurement
+- IP/licensing
+- Benchmarking
+- Portfolio/alternative comparison
+- Quality management
+- Customer success/retention
+- Vendor dependency
+- Stakeholder governance/RACI
+- Regulatory horizon scanning
+- ESG
+- Tender/procurement strategy
+- Post-launch learning loop
 
-Gate 3 — Sales -> acquisition channel + conversion + CAC evidence
+### Tier C — context dependent
+- Funding/investor plan
+- Exit strategy
+- Advanced ESG
+- Government procurement
+- Geopolitical exposure
+- Multi-entity structures
+- Advanced Monte Carlo simulation
 
-Gate 4 — Delivery -> capacity + quality + contribution margin
+## Architecture after second-pass gap analysis
 
-Gate 5 — Financial -> cash flow + break-even + downside survivability
-
-Gate 6 — Expansion -> repeatability + retention + management capacity
-
-## What is NOT missing
-
-The library already has enough raw material for:
-- Business Model Canvas / Lean Canvas
-- Strategy frameworks
-- SWOT / PESTEL / Five Forces
-- Market research
-- ICP / personas
-- Competitive intelligence
-- GTM
-- Sales
-- Marketing
-- Operations
-- Finance
-- HR / organization
-- SOPs
-- AI workforce/company design
-- KPIs/OKRs
-- project/task execution
-- document generation
-- agent orchestration
-
-The problem is integration and qualification, not a shortage of isolated resources.
-
-## Recommended target architecture
-
-BUSINESS IDEA
--> INTAKE + ASSUMPTIONS
--> MARKET / CUSTOMER RESEARCH
--> COMPETITOR + PRICING INTELLIGENCE
+IDEA / INTAKE
+-> ASSUMPTIONS + EVIDENCE
+-> MARKET + CUSTOMER
+-> COMPETITOR + PRICING
+-> COUNTRY / INTERNATIONALIZATION
 -> BUSINESS MODEL
 -> OFFER + POSITIONING
--> GTM
--> SALES PLAN
--> MARKETING PLAN
--> OPERATING PLAN
--> ORGANIZATION + WORKFORCE
--> TECHNOLOGY / AI PLAN
--> LEGAL / COMPLIANCE
--> FINANCIAL MODEL
--> RISK + SCENARIOS
--> IMPLEMENTATION ROADMAP
--> KPI / MONITORING
+-> GTM + SALES + MARKETING
+-> DELIVERY + OPERATIONS
+-> PEOPLE + TECHNOLOGY + AI
+-> LEGAL + TAX + PRIVACY + IP
+-> FINANCIAL + UNIT ECONOMICS + CASH
+-> RISK + BCP + SCENARIOS
+-> VALIDATION + STAGE GATES
 -> INDEPENDENT QA
 -> EXECUTIVE PLAN
 -> APPROVAL
--> EXECUTION SYSTEM
+-> COMPANY OS / DIGITAL TWIN
+-> PROJECTS + TASKS + KPIs
+-> EXECUTION
 -> ACTUAL vs PLAN
+-> EARLY WARNING
 -> REFORECAST
+-> LEARNING
+-> PLAN VERSION N+1
 
-## Priority build/reuse order
+## Final assessment
 
-1. Research/evidence + provenance layer
-2. International country-localization layer
-3. Integrated operating + financial model
-4. Independent business-plan QA/evaluation
-5. Validation/stage-gate system
-6. Pricing/unit-economics calculator
-7. Sales/marketing funnel economics
-8. Plan-to-execution converter
-9. Post-plan monitoring/reforecasting
-10. Only then build remaining custom business-plan generation logic.
+The library is not missing a few more chapters. It is missing several control systems around the chapters.
 
-## Conclusion
+The final architecture should have four layers:
+1. Content Layer — all business-plan sections.
+2. Intelligence Layer — research, evidence, benchmarks, market/competitor monitoring.
+3. Decision-Control Layer — assumptions, scenarios, validation gates, QA, governance and approvals.
+4. Execution Layer — Company OS, budgets, projects, tasks, KPIs, monitoring and reforecasting.
 
-Nivy does not need another generic Business Plan Generator.
-
-The stronger architecture is a Business Plan Intelligence & Execution System that orchestrates the existing builders, research agents, strategy skills, finance skills, GTM skills and Company OS assets, then adds the missing evidence, localization, integrated modeling, QA and execution layers.
-
-This is an assessment of the current Nivy library/catalog state; external candidates remain subject to exact-file, license, security, compatibility and quality verification.
+Only after these four layers are connected should we call the system an international-level business-plan engine.
