@@ -12,9 +12,10 @@
 ## 2. Canonical outline status
 Canonical file: [07-canonical-international-business-plan-blueprint-2026-10-11.md](07-canonical-international-business-plan-blueprint-2026-10-11.md)
 
-The two outline source files are **near-duplicates, not byte-identical in the current revision**:
-- [Nivy Artisan outline](https://github.com/nivyindia/Research-Repository/blob/main/Nivy%20Artisan/International-Business-Plan-Topics.md) — current blob SHA `bee70411a70c72a50e257db5e67a3dc08acfe653`.
-- [Claude chat outline](https://github.com/nivyindia/Research-Repository/blob/main/Chats/Claude/International-Business-Plan-Topics.md) — current blob SHA `bee70411a70c72a50e257db5e67a3dc08acfe653` was reported by an earlier index, but a fresh fetch returned `bee70411a70c72a50e257db5e67a3dc08acfe653` only for the Claude file; current contents differ in the timestamp/header. **Re-check both current blob SHAs before any destructive deduplication.** Do not delete either source. The canonical blueprint is a new consolidated derivative, preserving both sources.
+The two outline source files were fetched again and have the **same current blob SHA**, so they are byte-identical in the current revision:
+- [Nivy Artisan outline](https://github.com/nivyindia/Research-Repository/blob/main/Nivy%20Artisan/International-Business-Plan-Topics.md) — blob SHA `bee70411a70c72a50e257db5e67a3dc08acfe653`.
+- [Claude chat outline](https://github.com/nivyindia/Research-Repository/blob/main/Chats/Claude/International-Business-Plan-Topics.md) — blob SHA `bee70411a70c72a50e257db5e67a3dc08acfe653`.
+This proves identical file content at the fetched revision, not that either copy should be deleted. Keep both originals untouched for now; use the canonical blueprint as the primary reference and decide source archival only during a safe migration review.
 
 ## 3. External repository: Musengimana/develop-a-business-plan-in-minutes
 Files inspected:
