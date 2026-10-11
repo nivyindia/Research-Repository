@@ -306,3 +306,16 @@ Static exact-file qualification of A001 Market Research Agent is recorded in [Wa
 - **Finance gate remains blocked:** narrative Year-1 revenue of $68,500 conflicts with $190,000 from quarterly P&L rows; neither is approved pending monthly reconciliation.
 - **Route guard:** qualify exact existing assets and integrate/test only after provenance, license, dependencies and acceptance criteria are verified. Continue all departments; do not let the A001 workstream replace the full business-plan system.
 
+
+
+---
+
+## Wave 19 — Evidence and Assumption Contract Integration — 2026-10-11
+
+- **Q0 integration:** identified and fixed the A001 output contract mismatch between SK001's evidence-pack specification and the former narrow JSON Schema.
+- **Changes:** expanded the output schema, aligned agent required fields, added one valid/five negative JSON Schema test cases, and wired them into CI.
+- **Evidence report:** [Wave 19 — Evidence and Assumption Contract Integration](33-evidence-assumption-contract-integration-wave19-2026-10-11.md).
+- **Commits:** schema `7ea23aa9d25f857bbf9c6f63c80a218971dbe2eb`; agent contract `fd705fdedbe44d2185cc39608c0b4130cbe11b77`; tests `0bd5809052099e22954247e02e904e50fe42e71e`; CI `8d4c5f5b0d5f072e34bfae8bd370ed500fe5eae5`; report `864c6b57742668f2380e0ff40701c0cc48817f18`.
+- **Verification boundary:** JSON Schema tests are authored and wired, but their execution result remains unconfirmed until CI logs are available. Cross-array evidence-reference integrity is still a separate test requirement. A001 runtime remains unverified.
+- **Next:** add referential-integrity tests and source freshness/identity rules; reconcile assumption ledger; inspect financial workbooks and monthly revenue/cash bridge in parallel.
+
