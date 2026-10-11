@@ -1,20 +1,19 @@
 # F1/F2 Static Validation Note — 2026-10-11
 
-**Roadmap continuity:** Main roadmap unchanged. Phase-1 F2 complete; Phase-2 F2 started with 2.1.
+**Phase-1 F2 complete; Phase-2 F2 in progress (2.1, 2.2).**
 
-## Staged replacements (all inactive)
+| Module | HTTP retries | Key risks |
+|---|---|---|
+| 1.1–1.5 | done | WF-SEC-01, WF-CONTENT-02, WF-SEO-03, placeholders |
+| 2.1 Multichannel Outreach | 4/4 | postal-reply-webhook auth; AI email/WA auto-send |
+| **2.2 Nurture Sequence** | **3/3** | AI email/WA auto-send; nurture_step schema dep; possible double step increment |
 
-| Module | Path | HTTP retries | Key open risks |
-|---|---|---|---|
-| 1.1 | `F1-replacements/1.1-content-social-factory/workflow.json` | 5/5 | WF-CONTENT-02 |
-| 1.2 | `F1-replacements/1.2-seo-automation/workflow.json` | 5/5 | WF-SEO-03 |
-| 1.3 | `F1-replacements/1.3-website-lead-capture/workflow.json` | 2/2 | WF-SEC-01 typebot-lead-capture |
-| 1.4 | `F1-replacements/1.4-inbound-form-qualification/workflow.json` | 3/3 | WF-SEC-01 lead-qualification |
-| 1.5 | `F1-replacements/1.5-central-crm-sync/workflow.json` | 1/1 | IF empty false branches; REPLACE_WITH_* IDs |
-| **2.1** | `F1-replacements/2.1-multichannel-outreach/workflow.json` | **4/4** | WF-SEC-01 postal-reply-webhook; AI email/WhatsApp auto-send |
-
-Note: User label "2.1 Odoo CRM Sync" maps to **1.5 Central CRM Sync** in the repo. **2.1 is Multi-channel Outreach.**
+## 2.2 static audit summary
+- 10 nodes; 3 HTTP (Ollama, Waha, Odoo Discuss); 0 webhooks; active:false
+- No original retry/errorWorkflow
+- IF Final Nurture Step: true → Discuss alert; false → empty
+- Requires `clients_master.nurture_step` and `last_nurture_sent`
+- Email + WhatsApp both wire to Update Nurture Step → risk of double increment
 
 ## Next
-1. Continue Phase-2 F2 (2.2+) or F5 master migration as priority.
-2. Do not activate any staged workflow until WF-SEC-01 / approval gates closed.
+F5 master migration (schema columns for nurture) or continue 2.3 F2.
