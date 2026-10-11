@@ -220,3 +220,17 @@ However, **a catalog entry is not proof that the capability is available, licens
 ### Acceptance rule for every requirement
 
 Every requirement must have: stable ID; applicability rule; required inputs; method/formula where applicable; output schema; source/library candidates; license/security decision; owner; dependencies; evidence and confidence; validation test; acceptance criteria; status; and a reason if not applicable. “Covered” is reserved for tested behavior with recorded evidence, not a heading or a document.
+
+
+---
+
+## Cross-functional mapping continuation — Wave 12 — 2026-10-11
+
+The next dated cross-functional resource-to-gap mapping delta is recorded here:
+[Wave 12 — Cross-Functional Resource-to-Gap Mapping](25-cross-functional-resource-to-gap-mapping-wave12-2026-10-11.md).
+
+**What changed:** No roadmap phase or priority order changed. This pass extends Phase 0 mapping beyond the finance submodule and makes Sales, Marketing, Operations/Delivery, HR/Workforce, Customer Success, Evidence/Governance, Legal/Localization, Technology/Data, Execution, Finance, Archetypes and QA visible in one dependency-aware map.
+
+**Current status:** Static mapping only. Phase 0 exit criteria remain open; no candidate is newly marked tested, integrated, or production-ready.
+
+**Return point:** Continue normalizing one deduplicated requirement-to-resource matrix, then qualify exact files/licenses/dependencies/schemas and tests in the roadmap's Phase 1 order. Keep the financial model's P0 validation blockers active in parallel; do not let finance-only auditing replace the full roadmap.
