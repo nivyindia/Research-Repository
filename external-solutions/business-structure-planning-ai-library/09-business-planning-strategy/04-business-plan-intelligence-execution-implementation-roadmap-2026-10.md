@@ -246,3 +246,14 @@ The existing 75 stable gap IDs have been normalized into a single requirement-to
 **Result:** 75 source gap rows captured with original capability/state/priority retained, candidate internal source paths, and an explicit next-verification requirement. This is mapping evidence only; no gap was upgraded to tested or production-ready.
 
 **Next gate:** Reconcile the matrix against the initial and dated capability registers; then qualify exact Tier A/P0 assets (version, license/security, dependencies, input/output schema, test evidence, owner and acceptance criteria). Preserve the full cross-functional scope and keep finance validation as a parallel P0 workstream.
+
+
+---
+
+## Research/evidence asset qualification — Wave 14 — 2026-10-11
+
+Static exact-file qualification of A001 Market Research Agent is recorded in [Wave 14 — Market Research Agent Contract Audit](27-market-research-agent-contract-audit-wave14-2026-10-11.md).
+
+**Finding:** The agent definition/prompt are well specified, but SK001 is still `planned`, SK002 is also `planned`, the three allowed tools are registered as `planned`, and the status record says `runtime_verified: false`. Therefore this asset remains specified—not tested or production-ready.
+
+**Next micro-step:** Resolve skill/tool/event-schema prerequisites, create contract fixtures, then run an authorized harmless public-source smoke test and 10-case golden set. Do not change the existing runtime status without evidence. This is a Phase 1 evidence-layer work item; full roadmap scope and parallel finance blockers remain active.
