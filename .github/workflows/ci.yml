@@ -77,6 +77,9 @@ jobs:
           done
           echo "Validated ${#files[@]} Docker Compose files."
 
+      - name: A001/SK001 contract consistency checks
+        run: python .github/scripts/validate_a001_contracts.py
+
       - name: Repository smoke test
         run: |
           test -d 'Chats/ChatGPT/Multi Agent AIOS'
