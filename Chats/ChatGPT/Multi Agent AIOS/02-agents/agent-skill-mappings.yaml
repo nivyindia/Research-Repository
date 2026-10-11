@@ -1,0 +1,34 @@
+# Canonical agent-to-skill mapping records.
+# Status is deliberately non-production until every activation gate passes.
+version: "1.0"
+status: draft
+contract: AGENT_SKILL_MAPPING.md
+resolution_policy: default_deny
+
+mappings:
+  - agent_id: A001
+    agent_version: "1.0"
+    skill_ids:
+      - SK001
+    required_skills: [SK001]
+    optional_skills: [SK002]
+    status: blocked
+    activation_gates:
+      agent_definition_verified: true
+      skill_definition_verified: true
+      skill_registry_status_approved: false
+      required_tools_available_and_authorized: false
+      input_output_contract_compatible: pending
+      integrated_contract_tests_passed: false
+      runtime_evidence_recorded: false
+    blockers:
+      - SK001 is specified but not approved/active.
+      - SK002 remains planned and must not be resolved as an available capability.
+      - TOOL-FIRECRAWL-EXTRACT remains planned.
+      - TOOL-BROWSER-USE-RESEARCH remains planned.
+      - TOOL-POSTGRES-QUERY-READONLY remains planned.
+      - No executed integration-test evidence is recorded.
+    failure_behavior: fail_closed
+    notes: >
+      This is an explicit traceability mapping, not runtime authorization.
+      A001 must not execute until the approval, tool, compatibility, and test gates pass.
