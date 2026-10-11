@@ -1,0 +1,158 @@
+# SK001 Market Research contract fixtures
+# Status: authored; execution not yet performed.
+# These fixtures define expected contract behavior, not proof of passing tests.
+schema_version: "1.0"
+skill_id: SK001
+test_runner: pending
+cases:
+  - id: SK001-T01-valid-scoped-request
+    category: valid_input
+    input:
+      research_question: "Estimate demand signals for bookkeeping services among US HVAC businesses"
+      target_market: "US HVAC businesses"
+      geography: "United States"
+      time_horizon: "current and next 12 months"
+    expected:
+      outcome: accept
+      required_output_fields: [schema_version, research_question, scope, findings, evidence, implications, assumptions, contradictions, gaps, confidence, researched_at, limitations, review_required]
+      every_material_finding_requires_evidence: true
+      preserve_source_dates_and_urls: true
+  - id: SK001-T02-missing-research-question
+    category: invalid_input
+    input:
+      target_market: "US HVAC businesses"
+    expected:
+      outcome: reject
+      error_code: MISSING_RESEARCH_QUESTION
+      no_research_tool_invocation: true
+  - id: SK001-T03-missing-target-market
+    category: invalid_input
+    input:
+      research_question: "Estimate market demand"
+    expected:
+      outcome: reject
+      error_code: MISSING_TARGET_MARKET
+      no_research_tool_invocation: true
+  - id: SK001-T04-conflicting-sources
+    category: evidence_conflict
+    input:
+      research_question: "Compare two conflicting published market estimates"
+      target_market: "Example market"
+      fixture_evidence:
+        - evidence_id: E1
+          claim: "Estimate is 100"
+          source_independence: independent
+        - evidence_id: E2
+          claim: "Estimate is 160"
+          source_independence: independent
+    expected:
+      outcome: accept_with_conflict
+      contradiction_must_be_recorded: true
+      must_not_silently_average: true
+      confidence_must_reflect_conflict: true
+  - id: SK001-T05-stale-time-sensitive-source
+    category: freshness
+    input:
+      research_question: "Determine the current applicable rate"
+      target_market: "A jurisdiction-specific regulated market"
+      fixture_evidence:
+        publication_date: "2021-01-01"
+        current_date: "2026-10-11"
+        time_sensitive: true
+    expected:
+      outcome: flag_stale_or_research_again
+      stale_source_cannot_be_presented_as_current_fact: true
+  - id: SK001-T06-unsupported-material-claim
+    category: provenance
+    input:
+      research_question: "Assess market growth"
+      target_market: "Example market"
+      fixture_finding:
+        finding_id: F1
+        claim: "The market will grow by 30%"
+        evidence_ids: []
+    expected:
+      outcome: reject_claim_or_label_hypothesis
+      unsupported_claim_must_not_be_reported_as_fact: true
+  - id: SK001-T07-unauthorized-domain
+    category: authorization
+    input:
+      research_question: "Research market prices"
+      target_market: "Example market"
+      requested_url: "https://unauthorized.example/private"
+      allowed_domains: ["official.example", "publicdata.example"]
+    expected:
+      outcome: deny
+      error_code: SOURCE_NOT_AUTHORIZED
+      no_access_control_bypass: true
+  - id: SK001-T08-tool-timeout
+    category: resilience
+    input:
+      research_question: "Find public demand indicators"
+      target_market: "Example market"
+      simulated_tool_error: timeout
+    expected:
+      outcome: bounded_retry_or_structured_failure
+      retry_policy_must_be_bounded: true
+      fabricated_success_forbidden: true
+  - id: SK001-T09-empty-evidence
+    category: insufficient_evidence
+    input:
+      research_question: "Estimate demand"
+      target_market: "Narrow market with no usable public evidence"
+      fixture_evidence: []
+    expected:
+      outcome: incomplete_or_insufficient_evidence
+      unsupported_material_conclusion_forbidden: true
+      next_research_actions_required: true
+  - id: SK001-T10-invalid-output-reference
+    category: output_validation
+    input:
+      research_question: "Assess a market"
+      target_market: "Example market"
+      fixture_output:
+        findings:
+          - finding_id: F1
+            claim: "A material claim"
+            evidence_ids: [E404]
+        evidence:
+          - evidence_id: E1
+            canonical_url: "https://official.example/report"
+    expected:
+      outcome: reject_output
+      error_code: BROKEN_EVIDENCE_REFERENCE
+      report_must_not_be_accepted: true
+  - id: SK001-T11-currency-or-market-definition-mismatch
+    category: normalization
+    input:
+      research_question: "Compare market estimates"
+      target_market: "Example market"
+      fixture_evidence:
+        - currency: USD
+          geography: "United States"
+          market_definition: "annual revenue"
+        - currency: INR
+          geography: "India"
+          market_definition: "total addressable spend"
+    expected:
+      outcome: normalize_or_keep_separate
+      silent_combination_forbidden: true
+      conversions_require_explicit_basis: true
+  - id: SK001-T12-ai-content-as-corroboration
+    category: source_quality
+    input:
+      research_question: "Verify a material market claim"
+      target_market: "Example market"
+      fixture_evidence:
+        - source_type: ai_generated_summary
+        - source_type: original_primary_source
+    expected:
+      outcome: do_not_count_ai_summary_as_independent_corroboration
+      primary_source_provenance_required: true
+
+acceptance_gate:
+  required_cases: 12
+  required_pass_rate: "100% for critical authorization, provenance, and schema checks"
+  independent_review_required: true
+  execution_log_required: true
+  runtime_status_must_remain_unverified_until_executed: true
