@@ -61,6 +61,22 @@ def sample_report():
     }
 
 
+def validate_cross_references(report):
+    finding_ids = {item.get("finding_id") for item in report.get("findings", [])}
+    evidence_ids = {item.get("evidence_id") for item in report.get("evidence", [])}
+    problems = []
+    for finding in report.get("findings", []):
+        for evidence_id in finding.get("evidence_refs", []):
+            if evidence_id not in evidence_ids:
+                problems.append(f"finding {finding.get('finding_id')} references unknown evidence {evidence_id}")
+    for evidence in report.get("evidence", []):
+        for finding_id in evidence.get("supports", []):
+            if finding_id not in finding_ids:
+                problems.append(f"evidence {evidence.get('evidence_id')} supports unknown finding {finding_id}")
+    if problems:
+        raise ValueError("; ".join(problems))
+
+
 def main():
     with SCHEMA_PATH.open(encoding="utf-8") as handle:
         schema = json.load(handle)
@@ -69,6 +85,7 @@ def main():
     errors = list(validator.iter_errors(valid))
     if errors:
         raise AssertionError("valid sample rejected: " + "; ".join(error.message for error in errors))
+    validate_cross_references(valid)
 
     cases = []
     missing_evidence = sample_report()
@@ -96,7 +113,25 @@ def main():
         if not errors:
             raise AssertionError(f"invalid sample unexpectedly accepted: {name}")
 
-    print(f"A001 output schema tests passed: 1 valid sample and {len(cases)} negative cases.")
+    bad_finding_ref = sample_report()
+    bad_finding_ref["findings"][0]["evidence_refs"] = ["E-DOES-NOT-EXIST"]
+    try:
+        validate_cross_references(bad_finding_ref)
+    except ValueError:
+        pass
+    else:
+        raise AssertionError("unknown evidence reference was not rejected")
+
+    bad_support_ref = sample_report()
+    bad_support_ref["evidence"][0]["supports"] = ["F-DOES-NOT-EXIST"]
+    try:
+        validate_cross_references(bad_support_ref)
+    except ValueError:
+        pass
+    else:
+        raise AssertionError("unknown finding support reference was not rejected")
+
+    print(f"A001 output schema tests passed: 1 valid sample, {len(cases)} schema-negative cases, and 2 referential-integrity cases.")
 
 
 if __name__ == "__main__":
