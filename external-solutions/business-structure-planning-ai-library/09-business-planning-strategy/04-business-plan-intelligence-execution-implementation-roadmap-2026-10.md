@@ -316,6 +316,6 @@ Static exact-file qualification of A001 Market Research Agent is recorded in [Wa
 - **Changes:** expanded the output schema, aligned agent required fields, added one valid/five negative JSON Schema test cases, and wired them into CI.
 - **Evidence report:** [Wave 19 — Evidence and Assumption Contract Integration](33-evidence-assumption-contract-integration-wave19-2026-10-11.md).
 - **Commits:** schema `7ea23aa9d25f857bbf9c6f63c80a218971dbe2eb`; agent contract `fd705fdedbe44d2185cc39608c0b4130cbe11b77`; tests `0bd5809052099e22954247e02e904e50fe42e71e`; CI `8d4c5f5b0d5f072e34bfae8bd370ed500fe5eae5`; report `864c6b57742668f2380e0ff40701c0cc48817f18`.
-- **Verification boundary:** JSON Schema tests are authored and wired, but their execution result remains unconfirmed until CI logs are available. Cross-array evidence-reference integrity is still a separate test requirement. A001 runtime remains unverified.
+- **Verification boundary:** JSON Schema and cross-array reference tests are authored and wired; static read-back confirms the schema parses and required-field lists match. Python/jsonschema execution is unconfirmed until CI logs are available. A001 runtime remains unverified.
 - **Next:** add referential-integrity tests and source freshness/identity rules; reconcile assumption ledger; inspect financial workbooks and monthly revenue/cash bridge in parallel.
 
