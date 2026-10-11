@@ -257,3 +257,15 @@ Static exact-file qualification of A001 Market Research Agent is recorded in [Wa
 **Finding:** The agent definition/prompt are well specified, but SK001 is still `planned`, SK002 is also `planned`, the three allowed tools are registered as `planned`, and the status record says `runtime_verified: false`. Therefore this asset remains specified—not tested or production-ready.
 
 **Next micro-step:** Resolve skill/tool/event-schema prerequisites, create contract fixtures, then run an authorized harmless public-source smoke test and 10-case golden set. Do not change the existing runtime status without evidence. This is a Phase 1 evidence-layer work item; full roadmap scope and parallel finance blockers remain active.
+
+
+---
+
+## Wave 15 — Market Research Contract Fixtures and Event Contract Draft — 2026-10-11
+
+- **Completed:** authored 12 SK001 contract fixtures; drafted the `market.research.requested` and `research.completed` event contracts; changed SK001 registry state from `planned` to `specified` based on the existing canonical specification and fixture artifact.
+- **Evidence report:** [Wave 15 contract fixtures and event-contract draft](28-market-research-contract-fixtures-and-event-contract-draft-wave15-2026-10-11.md).
+- **Commits:** fixtures `15e399eb8aaa35bd5d0785fe5ee69ab8defc75df`; event-contract draft `90eaba4d4950b1aa3479d2a803f972b5d8af373a`; SK001 registry update `4d1a732db697ef76c8fb4189cb9f6c9e9c0e363a`; Wave 15 report `a404944927accd065246ad0318d3bc003a92e6ab`.
+- **Status discipline:** artifacts are authored but not schema-validated or executed. Proposed research events are not production-registered. A001 `runtime_verified: false` remains unchanged; all three research tools remain `planned`.
+- **Next gate:** validate YAML/schema with the actual project validator; reconcile payload/envelope and idempotency semantics against agent/workflow/data contracts; execute the 12 fixtures in a harness; only then run a harmless public-source runtime smoke test and record logs/event persistence.
+- **Route protection:** this is a supporting Market Research/provenance workstream. Continue the main roadmap's cross-functional plan-system scope (sales, marketing, delivery/operations, workforce, customer success, compliance/localization, finance, QA, execution and monitoring); do not let the research-agent work displace it.
