@@ -27,9 +27,9 @@ Move from documentation-only contract work toward repeatable automated checks, w
 
 ## Verification status
 
-- The changed JSON workflow was fetched back and parsed successfully as JSON; it remains inactive and the runtime status remains pending.
-- The latest commit's combined GitHub status endpoint returned an empty status list, and the available workflow-run lookup returned no run. Therefore CI execution and test pass/fail are **not confirmed** in this checkpoint.
-- The test files and CI wiring have been committed, but do not label these tests as passed until a real run is visible and its logs are inspected.
+- The changed workflow JSON was fetched back and parsed successfully; the workflow remains inactive and the runtime status remains pending.
+- **Direct code-node execution check now passed:** fetched the committed workflow JSON, executed the exact JavaScript stored in the `a001-normalize` Code node in an isolated JavaScript runtime, and observed 11/11 expected outcomes: one valid envelope accepted and ten malformed envelopes rejected. This verifies the current validation function's behavior for these cases; it is not a live n8n run and does not test the committed `.github/scripts/test_a001_trigger.js` file as a standalone Node process.
+- The latest commit's combined GitHub status endpoint returned an empty status list, and the available workflow-run lookup returned no run. Therefore the full GitHub Actions CI job and the Python static validator's result are **not confirmed**.
 - No n8n instance, A001 executor, research tool adapter or event-store persistence was exercised.
 
 ## Next actions
