@@ -93,6 +93,21 @@ def main():
     require("research.completed" in agent.get("outputs", {}).get("downstream_events", []),
             "A001 output event declaration missing")
 
+    output_schema_path = ROOT / "Chats/ChatGPT/Multi Agent AIOS/agents/market-research/output.schema.json"
+    with output_schema_path.open(encoding="utf-8") as handle:
+        output_schema = json.load(handle)
+    schema_required = set(output_schema.get("required", []))
+    agent_required = set(agent.get("outputs", {}).get("required_fields", []))
+    require(schema_required == agent_required,
+            f"A001 agent output fields and JSON Schema differ: schema_only={sorted(schema_required - agent_required)}, agent_only={sorted(agent_required - schema_required)}")
+    required_evidence_fields = {
+        "schema_version", "research_question", "scope", "findings", "evidence",
+        "implications", "assumptions", "contradictions", "gaps", "confidence",
+        "researched_at", "limitations", "review_required",
+    }
+    require(required_evidence_fields.issubset(schema_required),
+            f"A001 evidence-pack contract missing fields: {sorted(required_evidence_fields - schema_required)}")
+
     status = load_yaml(status_path)
     require(status.get("runtime_verified") is False, "A001 must remain runtime_unverified until evidence exists")
 
