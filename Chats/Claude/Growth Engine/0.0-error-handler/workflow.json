@@ -1,0 +1,59 @@
+{
+  "name": "0.0 - Shared Error Handler",
+  "nodes": [
+    {
+      "parameters": {},
+      "id": "n0-error-trigger",
+      "name": "Error Trigger",
+      "type": "n8n-nodes-base.errorTrigger",
+      "typeVersion": 1,
+      "position": [
+        260,
+        300
+      ]
+    },
+    {
+      "parameters": {
+        "operation": "executeQuery",
+        "query": "INSERT INTO automation_errors\n  (workflow_name, workflow_id, execution_id, execution_url, failed_node, error_message, error_stack, occurred_at)\nVALUES\n  (\n    {{ \"'\" + String($json.workflow?.name || \"unknown\").replace(/\\u0000/g, \"\").replace(/'/g, \"''\").slice(0, 255) + \"'\" }},\n    {{ \"'\" + String($json.workflow?.id || \"\").replace(/\\u0000/g, \"\").replace(/'/g, \"''\").slice(0, 255) + \"'\" }},\n    {{ \"'\" + String($json.execution?.id || \"\").replace(/\\u0000/g, \"\").replace(/'/g, \"''\").slice(0, 255) + \"'\" }},\n    {{ \"'\" + String($json.execution?.url || \"\").replace(/\\u0000/g, \"\").replace(/'/g, \"''\").slice(0, 2000) + \"'\" }},\n    {{ \"'\" + String($json.execution?.lastNodeExecuted || $json.trigger?.error?.node?.name || \"\").replace(/\\u0000/g, \"\").replace(/'/g, \"''\").slice(0, 255) + \"'\" }},\n    {{ \"'\" + String($json.execution?.error?.message || $json.trigger?.error?.message || \"Unspecified workflow error\").replace(/\\u0000/g, \"\").replace(/'/g, \"''\").slice(0, 8000) + \"'\" }},\n    {{ \"'\" + String($json.execution?.error?.stack || $json.trigger?.error?.stack || \"\").replace(/\\u0000/g, \"\").replace(/'/g, \"''\").slice(0, 16000) + \"'\" }},\n    NOW()\n  );",
+        "options": {}
+      },
+      "id": "n0-log-error-postgres",
+      "name": "Log Failure to Postgres",
+      "type": "n8n-nodes-base.postgres",
+      "typeVersion": 2.5,
+      "position": [
+        520,
+        300
+      ],
+      "credentials": {
+        "postgres": {
+          "name": "Odoo Postgres"
+        }
+      },
+      "notes": "Requires automation_errors_migration.sql to be run first. Choose the correct PostgreSQL credential after import. No request body or secret values are intentionally stored."
+    }
+  ],
+  "connections": {
+    "Error Trigger": {
+      "main": [
+        [
+          {
+            "node": "Log Failure to Postgres",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    }
+  },
+  "pinData": {},
+  "settings": {
+    "executionOrder": "v1"
+  },
+  "staticData": null,
+  "tags": [],
+  "triggerCount": 0,
+  "updatedAt": "2026-10-11T00:00:00.000Z",
+  "versionId": "nivy-f1-error-handler-v1"
+}
