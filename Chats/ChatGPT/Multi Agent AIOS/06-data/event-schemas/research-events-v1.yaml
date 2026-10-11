@@ -1,0 +1,97 @@
+# Draft event contracts for A001 Market Research Agent.
+# This file is a proposed contract only; neither event is production-registered.
+# Promote only after schema validation, producer/consumer review, and recorded tests.
+schema_version: "1.0"
+status: draft
+owner: research_operations
+compatibility_policy: additive_payload_changes_minor_version_breaking_changes_major_version
+security:
+  secrets_in_payloads: prohibited
+  private_personal_data: minimize_and_authorize
+  idempotent_consumption: required
+
+events:
+  market.research.requested:
+    event_version: "1.0"
+    producer: a001_market_research_trigger
+    owning_domain: research
+    entity_type: MarketResearchRequest
+    consumers: [A001]
+    idempotency_key_required: true
+    payload_schema:
+      type: object
+      required: [research_question, target_market]
+      additionalProperties: false
+      properties:
+        research_question: {type: string, minLength: 1}
+        target_market: {type: string, minLength: 1}
+        geography: {type: string}
+        industry: {type: string}
+        customer_segment: {type: string}
+        time_horizon: {type: string}
+        competitor_set: {type: array, items: {type: string}}
+        source_policy: {type: object}
+        output_format: {type: string}
+    validation:
+      reject_missing_required_fields: true
+      validate_allowed_source_policy_before_tool_use: true
+      authorization_failure_must_fail_closed: true
+
+  research.completed:
+    event_version: "1.0"
+    producer: A001
+    owning_domain: research
+    entity_type: MarketResearchReport
+    consumers: [business_plan_workflow, ICP_definition_workflow]
+    idempotency_key_required: true
+    payload_schema:
+      type: object
+      required: [request_id, research_question, target_market, report, evidence_refs, confidence, researched_at, limitations]
+      additionalProperties: false
+      properties:
+        request_id: {type: string, minLength: 1}
+        research_question: {type: string, minLength: 1}
+        target_market: {type: string, minLength: 1}
+        report: {type: object}
+        evidence_refs: {type: array, items: {type: string}, minItems: 1}
+        confidence: {type: string, enum: [high, medium, low]}
+        researched_at: {type: string, format: date-time}
+        limitations: {type: array, items: {type: string}}
+    validation:
+      every_material_finding_requires_evidence: true
+      evidence_refs_must_resolve: true
+      include_source_urls_and_dates_in_report: true
+      unresolved_contradictions_must_remain_visible: true
+      unsupported_claims_must_not_be_emitted_as_facts: true
+    failure_event_candidate: research.failed
+
+envelope:
+  required:
+    - event_id
+    - event_type
+    - event_version
+    - occurred_at
+    - source
+    - company_id
+    - entity_type
+    - entity_id
+    - correlation_id
+    - causation_id
+    - payload
+    - metadata
+  constraints:
+    event_id: globally_unique_immutable
+    occurred_at: ISO-8601-UTC
+    correlation_id: required
+    causation_id: nullable_if_not_known
+    company_id: tenant_scope_required
+    metadata: transport_and_processing_metadata_only
+
+promotion_checklist:
+  - confirm producer and consumer names against canonical workflow registries
+  - validate schema with the project's chosen schema validator
+  - confirm tenant authorization and event-store persistence path
+  - add schema-valid and schema-invalid automated tests
+  - demonstrate idempotency and duplicate-event handling
+  - record test run identifier and results
+  - update EVENT_REGISTRATION.yaml only after tests and review pass
