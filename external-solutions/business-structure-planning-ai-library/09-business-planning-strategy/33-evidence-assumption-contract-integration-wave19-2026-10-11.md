@@ -36,4 +36,4 @@ The test is authored and wired, but its actual `jsonschema` execution result is 
 4. Inspect the financial workbooks and reconcile monthly revenue and cash in parallel.
 
 ## Status
-**Output contract expanded and CI tests added; execution evidence and cross-system referential checks remain pending.**
+**Output contract expanded, schema and cross-reference tests added, and CI wired; test execution evidence remains pending.**
