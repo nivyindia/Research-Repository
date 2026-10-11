@@ -269,3 +269,15 @@ Static exact-file qualification of A001 Market Research Agent is recorded in [Wa
 - **Status discipline:** artifacts are authored but not schema-validated or executed. Proposed research events are not production-registered. A001 `runtime_verified: false` remains unchanged; all three research tools remain `planned`.
 - **Next gate:** validate YAML/schema with the actual project validator; reconcile payload/envelope and idempotency semantics against agent/workflow/data contracts; execute the 12 fixtures in a harness; only then run a harmless public-source runtime smoke test and record logs/event persistence.
 - **Route protection:** this is a supporting Market Research/provenance workstream. Continue the main roadmap's cross-functional plan-system scope (sales, marketing, delivery/operations, workforce, customer success, compliance/localization, finance, QA, execution and monitoring); do not let the research-agent work displace it.
+
+
+---
+
+## Wave 16 — A001 Contract Alignment and Trigger Validation — 2026-10-11
+
+- **Completed:** added a fail-closed A001 → SK001 mapping record; reconciled the inactive n8n trigger to the canonical event envelope; updated the trigger README with required metadata, negative-validation behavior and explicit runtime limitations.
+- **Evidence report:** [Wave 16 — A001 Contract Alignment and Trigger Validation](30-a001-contract-alignment-and-trigger-validation-wave16-2026-10-11.md).
+- **Commits:** mapping `929a98340cad1e3fe3f1acaf5a1204298eeef0b2`; trigger JSON `672ff5ea24c5ff3ee330d36ad0a685c14bdd385d`; trigger README `effe456805d33a2188c6827ee388d12d1053fffb`; Wave 16 report `5f4f92fd34f4c411293bc483b2e1e87cf2ddd159`.
+- **Verification boundary:** GitHub read-back/static checks only. No YAML/schema validator, automated fixture runner, n8n runtime, A001 executor, tool adapter or event-store persistence was exercised. A001 `runtime_verified: false` remains mandatory; all three research tools remain `planned`; the mapping remains `blocked`.
+- **Next gate:** execute schema and code-node tests using the project's actual validator/harness, record evidence, then assess tool/runtime wiring. Production event registration and skill activation remain blocked until review and tests pass.
+- **Route guard:** continue the full cross-functional business-plan system roadmap; A001 work is a supporting capability, not a scope replacement.
