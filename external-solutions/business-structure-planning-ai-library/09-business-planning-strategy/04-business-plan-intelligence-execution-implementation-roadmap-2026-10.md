@@ -293,3 +293,16 @@ Static exact-file qualification of A001 Market Research Agent is recorded in [Wa
 - **Verification boundary:** direct execution of the exact committed A001 Code-node JavaScript passed 11/11 expected outcomes (one valid envelope + ten negative cases). This is not a live n8n run and did not execute the committed Node test file as a standalone process. No GitHub Actions status/run was returned; CI and Python static-validator results remain unconfirmed. Do not infer a green build. The n8n workflow remains inactive, the A001 mapping blocked, research tools planned, and `runtime_verified: false`.
 - **Next gate:** obtain and inspect a real CI run, fix any failures, then validate event schemas and move to a safe runtime smoke test only when tool authorization/runtime are available.
 - **Route guard:** continue the main cross-functional business-plan roadmap in parallel; agent contract work is a supporting capability, not the whole project.
+
+
+---
+
+## Wave 18 — Cross-Functional Tier-A Implementation Queue — 2026-10-11
+
+- **Main-roadmap work resumed:** grouped stable gaps G01–G75 into seven cross-functional execution queues without changing their source states or claiming closure.
+- **Next batch:** Q0 evidence/assumption/data-quality foundation; Q2 financial workbook and monthly driver reconciliation in parallel.
+- **Evidence report:** [Wave 18 — Cross-Functional Tier-A Implementation Queue](32-cross-functional-tier-a-implementation-queue-wave18-2026-10-11.md).
+- **Supporting test evidence:** direct execution of the committed A001 Code-node JavaScript passed 11/11 expected cases; this is not a live n8n run. GitHub Actions CI is still unconfirmed.
+- **Finance gate remains blocked:** narrative Year-1 revenue of $68,500 conflicts with $190,000 from quarterly P&L rows; neither is approved pending monthly reconciliation.
+- **Route guard:** qualify exact existing assets and integrate/test only after provenance, license, dependencies and acceptance criteria are verified. Continue all departments; do not let the A001 workstream replace the full business-plan system.
+
