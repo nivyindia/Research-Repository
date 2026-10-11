@@ -36,13 +36,19 @@ inputs:
 outputs:
   primary: market_research_report
   required_fields:
+    - schema_version
     - research_question
     - scope
     - findings
     - evidence
     - implications
+    - assumptions
+    - contradictions
+    - gaps
     - confidence
     - researched_at
+    - limitations
+    - review_required
   downstream_events:
     - research.completed
 
