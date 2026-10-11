@@ -1,17 +1,399 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
   "$id": "aios://agents/A001/output.schema.json",
-  "title": "A001 Market Research Output",
+  "title": "A001 Market Research Evidence Pack",
   "type": "object",
   "additionalProperties": false,
-  "required": ["research_question", "scope", "findings", "evidence", "implications", "confidence", "researched_at"],
+  "required": [
+    "schema_version",
+    "research_question",
+    "scope",
+    "findings",
+    "evidence",
+    "implications",
+    "assumptions",
+    "contradictions",
+    "gaps",
+    "confidence",
+    "researched_at",
+    "limitations",
+    "review_required"
+  ],
   "properties": {
-    "research_question": {"type": "string"},
-    "scope": {"type": "object"},
-    "findings": {"type": "array", "items": {"type": "object"}},
-    "evidence": {"type": "array", "items": {"type": "object"}},
-    "implications": {"type": "array", "items": {"type": "object"}},
-    "confidence": {"type": "string", "enum": ["high", "medium", "low"]},
-    "researched_at": {"type": "string", "format": "date-time"}
+    "schema_version": {
+      "type": "string",
+      "const": "1.0"
+    },
+    "research_question": {
+      "type": "string",
+      "minLength": 1
+    },
+    "scope": {
+      "type": "object",
+      "required": [
+        "target_market"
+      ],
+      "properties": {
+        "target_market": {
+          "type": "string",
+          "minLength": 1
+        },
+        "geography": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "industry": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "customer_segment": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "time_horizon": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "exclusions": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        }
+      },
+      "additionalProperties": true
+    },
+    "findings": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "finding_id",
+          "claim",
+          "claim_type",
+          "evidence_grade",
+          "confidence",
+          "as_of_date",
+          "evidence_refs"
+        ],
+        "properties": {
+          "finding_id": {
+            "type": "string",
+            "minLength": 1
+          },
+          "claim": {
+            "type": "string",
+            "minLength": 1
+          },
+          "claim_type": {
+            "type": "string",
+            "enum": [
+              "fact",
+              "estimate",
+              "interpretation",
+              "forecast",
+              "recommendation"
+            ]
+          },
+          "evidence_grade": {
+            "type": "string",
+            "enum": [
+              "A",
+              "B",
+              "C",
+              "D",
+              "insufficient"
+            ]
+          },
+          "confidence": {
+            "type": "string",
+            "enum": [
+              "high",
+              "medium",
+              "low"
+            ]
+          },
+          "as_of_date": {
+            "type": "string",
+            "format": "date"
+          },
+          "evidence_refs": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "minLength": 1
+            },
+            "minItems": 1
+          },
+          "limitations": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          }
+        },
+        "additionalProperties": true
+      }
+    },
+    "evidence": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "evidence_id",
+          "source_title",
+          "canonical_url",
+          "publisher",
+          "accessed_at",
+          "source_type",
+          "summary",
+          "supports"
+        ],
+        "properties": {
+          "evidence_id": {
+            "type": "string",
+            "minLength": 1
+          },
+          "source_title": {
+            "type": "string",
+            "minLength": 1
+          },
+          "canonical_url": {
+            "type": "string",
+            "format": "uri"
+          },
+          "publisher": {
+            "type": "string",
+            "minLength": 1
+          },
+          "publication_date": {
+            "type": [
+              "string",
+              "null"
+            ],
+            "format": "date"
+          },
+          "accessed_at": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "source_type": {
+            "type": "string"
+          },
+          "relevant_excerpt_or_summary": {
+            "type": "string"
+          },
+          "summary": {
+            "type": "string",
+            "minLength": 1
+          },
+          "supports": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            },
+            "minItems": 1
+          },
+          "source_independence": {
+            "type": [
+              "string",
+              "null"
+            ]
+          }
+        },
+        "additionalProperties": true
+      }
+    },
+    "implications": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "implication",
+          "finding_refs",
+          "caveats"
+        ],
+        "properties": {
+          "implication": {
+            "type": "string",
+            "minLength": 1
+          },
+          "finding_refs": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            },
+            "minItems": 1
+          },
+          "caveats": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          }
+        },
+        "additionalProperties": true
+      }
+    },
+    "assumptions": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "assumption_id",
+          "statement",
+          "reason",
+          "confidence",
+          "validation_action"
+        ],
+        "properties": {
+          "assumption_id": {
+            "type": "string"
+          },
+          "statement": {
+            "type": "string",
+            "minLength": 1
+          },
+          "reason": {
+            "type": "string"
+          },
+          "owner": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "confidence": {
+            "type": "string",
+            "enum": [
+              "high",
+              "medium",
+              "low"
+            ]
+          },
+          "validation_action": {
+            "type": "string",
+            "minLength": 1
+          }
+        },
+        "additionalProperties": true
+      }
+    },
+    "contradictions": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "claim_refs",
+          "source_refs",
+          "status"
+        ],
+        "properties": {
+          "claim_refs": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            },
+            "minItems": 2
+          },
+          "source_refs": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            },
+            "minItems": 2
+          },
+          "status": {
+            "type": "string",
+            "enum": [
+              "unresolved",
+              "partially_resolved",
+              "resolved"
+            ]
+          },
+          "resolution": {
+            "type": [
+              "string",
+              "null"
+            ]
+          }
+        },
+        "additionalProperties": true
+      }
+    },
+    "gaps": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "unknown",
+          "materiality",
+          "next_action"
+        ],
+        "properties": {
+          "unknown": {
+            "type": "string",
+            "minLength": 1
+          },
+          "materiality": {
+            "type": "string",
+            "enum": [
+              "critical",
+              "high",
+              "medium",
+              "low"
+            ]
+          },
+          "next_action": {
+            "type": "string",
+            "minLength": 1
+          }
+        },
+        "additionalProperties": true
+      }
+    },
+    "confidence": {
+      "type": "object",
+      "required": [
+        "level",
+        "rationale"
+      ],
+      "properties": {
+        "level": {
+          "type": "string",
+          "enum": [
+            "high",
+            "medium",
+            "low"
+          ]
+        },
+        "rationale": {
+          "type": "string",
+          "minLength": 1
+        }
+      },
+      "additionalProperties": false
+    },
+    "researched_at": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "limitations": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "review_required": {
+      "type": "boolean"
+    }
   }
 }
