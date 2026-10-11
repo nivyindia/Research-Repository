@@ -281,3 +281,15 @@ Static exact-file qualification of A001 Market Research Agent is recorded in [Wa
 - **Verification boundary:** GitHub read-back/static checks only. No YAML/schema validator, automated fixture runner, n8n runtime, A001 executor, tool adapter or event-store persistence was exercised. A001 `runtime_verified: false` remains mandatory; all three research tools remain `planned`; the mapping remains `blocked`.
 - **Next gate:** execute schema and code-node tests using the project's actual validator/harness, record evidence, then assess tool/runtime wiring. Production event registration and skill activation remain blocked until review and tests pass.
 - **Route guard:** continue the full cross-functional business-plan system roadmap; A001 work is a supporting capability, not a scope replacement.
+
+
+---
+
+## Wave 17 — A001 CI Contract Tests — 2026-10-11
+
+- **Implemented:** added a PyYAML-based static contract consistency validator and a Node.js test harness that executes the actual A001 n8n normalization Code-node source (1 valid envelope + 10 negative cases); wired both into repository CI; added required metadata validation.
+- **Evidence report:** [Wave 17 — A001 CI Contract Tests](31-a001-ci-contract-tests-wave17-2026-10-11.md).
+- **Commits:** static validator `b8f53d9cbff0326587f49ae4e07d64a205f0f5b7`; metadata guard `e4053f3a0aa0f9cc5cd3ab5e9fa56cf9cf7e815c`; trigger tests `282349044dad4c7b7ff7cef477a2542e03644ae4`; validator guard `863d358394841b6384b710d6a0baeec8919b02dd`; CI wiring `9efd948e5c4fefb11e1e8106287e836852c6b4ce`; report `3739103445b6e7492dc11759154d53843ea6a9fc`.
+- **Verification boundary:** no GitHub Actions status/run was returned for the latest CI commit; tests are committed but not yet confirmed passing. Do not infer a green build. The n8n workflow remains inactive, the A001 mapping blocked, research tools planned, and `runtime_verified: false`.
+- **Next gate:** obtain and inspect a real CI run, fix any failures, then validate event schemas and move to a safe runtime smoke test only when tool authorization/runtime are available.
+- **Route guard:** continue the main cross-functional business-plan roadmap in parallel; agent contract work is a supporting capability, not the whole project.
