@@ -46,6 +46,9 @@ jobs:
       - name: Install validation dependencies
         run: python -m pip install --disable-pip-version-check --quiet PyYAML jsonschema
 
+      - name: A001 output schema tests
+        run: python .github/scripts/test_a001_output_schema.py
+
       - name: Validate JSON files
         shell: bash
         run: |
