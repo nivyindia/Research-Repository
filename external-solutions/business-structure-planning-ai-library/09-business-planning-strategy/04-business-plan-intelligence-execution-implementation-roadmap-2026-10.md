@@ -234,3 +234,15 @@ The next dated cross-functional resource-to-gap mapping delta is recorded here:
 **Current status:** Static mapping only. Phase 0 exit criteria remain open; no candidate is newly marked tested, integrated, or production-ready.
 
 **Return point:** Continue normalizing one deduplicated requirement-to-resource matrix, then qualify exact files/licenses/dependencies/schemas and tests in the roadmap's Phase 1 order. Keep the financial model's P0 validation blockers active in parallel; do not let finance-only auditing replace the full roadmap.
+
+
+---
+
+## Requirement matrix normalization — Wave 13 — 2026-10-11
+
+The existing 75 stable gap IDs have been normalized into a single requirement-to-resource working matrix:
+[Wave 13 — Normalized Requirement-to-Resource Matrix](26-normalized-requirement-to-resource-matrix-wave13-2026-10-11.md).
+
+**Result:** 75 source gap rows captured with original capability/state/priority retained, candidate internal source paths, and an explicit next-verification requirement. This is mapping evidence only; no gap was upgraded to tested or production-ready.
+
+**Next gate:** Reconcile the matrix against the initial and dated capability registers; then qualify exact Tier A/P0 assets (version, license/security, dependencies, input/output schema, test evidence, owner and acceptance criteria). Preserve the full cross-functional scope and keep finance validation as a parallel P0 workstream.
