@@ -107,6 +107,7 @@ def main():
         "event_version !== '1.0'",
         "company_id",
         "correlation_id",
+        "envelope.metadata",
         "payload.research_question",
         "payload.target_market",
         "runtime_invoked: false",
