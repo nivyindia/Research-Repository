@@ -17,7 +17,7 @@ Q0 covers G33, G34, G38, G69 and G73. Inspection found a concrete mismatch: SK00
 1. Expanded A001 `output.schema.json` to require schema version, research question, scope, findings, evidence, implications, assumptions, contradictions, gaps, confidence rationale, research timestamp, limitations and review flag.
 2. Added nested checks for evidence references, source metadata, assumption validation actions, contradiction state and research gaps. Unknown top-level fields are rejected.
 3. Aligned required output fields in `agent.yaml` with the schema.
-4. Added `.github/scripts/test_a001_output_schema.py`: one valid report and five negative cases.
+4. Added `.github/scripts/test_a001_output_schema.py`: one valid report, five JSON Schema negative cases, and two cross-array referential-integrity cases that reject unknown evidence IDs and unknown finding IDs.
 5. Wired the schema test into CI, after CI installs `jsonschema`.
 
 ## Commits
@@ -30,11 +30,10 @@ Q0 covers G33, G34, G38, G69 and G73. Inspection found a concrete mismatch: SK00
 The test is authored and wired, but its actual `jsonschema` execution result is not yet available because no GitHub Actions run result has surfaced. Do not claim it passed. This is contract-level integration only; it does not activate A001/SK001 or validate live research sources. A001 remains runtime-unverified, tools remain planned and events remain draft.
 
 ## Remaining work
-1. Add referential-integrity tests so every finding evidence reference resolves and every evidence support reference points to a known finding.
-2. Define source identity and freshness/expiry rules; access date is not publication date.
-3. Map the report confidence object to the event's controlled confidence level without losing rationale.
-4. Reconcile the existing assumption ledger; undated, unverified and conflicting assumptions must remain flagged.
-5. Inspect the financial workbooks and reconcile monthly revenue and cash in parallel.
+1. Define source identity and freshness/expiry rules; access date is not publication date.
+2. Map the report confidence object to the event's controlled confidence level without losing rationale.
+3. Reconcile the existing assumption ledger; undated, unverified and conflicting assumptions must remain flagged.
+4. Inspect the financial workbooks and reconcile monthly revenue and cash in parallel.
 
 ## Status
 **Output contract expanded and CI tests added; execution evidence and cross-system referential checks remain pending.**
