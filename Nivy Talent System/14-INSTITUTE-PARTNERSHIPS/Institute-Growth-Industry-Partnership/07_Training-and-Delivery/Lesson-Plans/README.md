@@ -1,0 +1,2 @@
+# Lesson Plan Template
+Title; duration; prerequisite; measurable objective; materials; diagnostic; demo; guided/independent practice; common mistakes; feedback; assessment; accessibility; homework; solution notes; trainer; version.
