@@ -1,0 +1,2 @@
+# Assignment Design
+Scenario, task, expected output, data source, permitted tools, estimated time, rubric mapping, submission format, due date, feedback and answer key. Synthetic/public-safe data default रखें; client data केवल authorisation/security controls के साथ।
