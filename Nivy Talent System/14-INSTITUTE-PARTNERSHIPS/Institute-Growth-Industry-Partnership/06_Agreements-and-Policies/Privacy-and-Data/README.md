@@ -1,0 +1,2 @@
+# Privacy and Data
+Collect minimum data; use restricted approved systems and role-based access. Never commit student names, contacts, CVs, marks, IDs, credentials or private notes to public GitHub. Document purpose, owner, access, retention/deletion, tool/vendor use and incident escalation. Anonymise reports and check re-identification risk.
