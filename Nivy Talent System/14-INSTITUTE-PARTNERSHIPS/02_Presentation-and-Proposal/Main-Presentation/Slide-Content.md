@@ -1,22 +1,31 @@
 # Main Presentation — Slide Content (Draft)
 
-## Slide 1: Title
-Institute Growth & Industry Partnership Program — Nivy
+## 1. Title
+**Institute Growth & Industry Partnership Program**  
+Nivy Talent System
 
-## Slide 2: The Opportunity
-Bridge between campus talent and real industry projects.
+## 2. The gap we close
+Campus talent ↔ real industry projects & verified roles.  
+Many institutes have placement cells; few have structured assessment + training + opportunity matching in one pipeline.
 
-## Slide 3: What Nivy Offers
-- Verified vacancies & client projects
-- Structured assessment + training
-- Paid internship / apprenticeship pathway
-- Placement support
+## 3. What Nivy brings
+- Verified vacancies & client projects  
+- Structured skill assessment  
+- Targeted training modules  
+- Paid internship / apprenticeship pathways  
+- Clear reporting for the institute
 
-## Slide 4: How the Pilot Works
-6-month structured pilot with clear roles and success metrics.
+## 4. Pilot design (6 months)
+Month 1: Kickoff & baseline  
+Months 2–3: Training & mid-review  
+Months 4–5: Matching & interview prep  
+Month 6: Outcomes & scale decision
 
-## Slide 5: Benefits for the Institute
-Better placement outcomes, industry exposure, low operational load.
+## 5. Institute benefits
+Better placement quality, industry exposure for students, low operational load on campus team, measurable pilot metrics.
 
-## Slide 6: Next Step
-Schedule discovery call / pilot kickoff.
+## 6. How we work together
+Clear RACI: Institute nominates & coordinates; Nivy assesses, trains, matches, reports.
+
+## 7. Next step
+Discovery call → pilot agreement → kickoff workshop.

@@ -1,13 +1,19 @@
-# Objection Handling
+# Objection Handling — Institute Partnerships
 
-**"We already have placement cell"**
-→ We complement, not replace. We add verified pipeline + assessment depth.
+**Objection: “Humara placement cell already hai.”**  
+Response: Hum replace nahi karte — complement karte hain. Assessment depth, verified opportunity pipeline, aur structured reporting add hota hai.
 
-**"Students may not convert"**
-→ Pilot metrics and gated progression protect both sides.
+**Objection: “Students convert nahi karenge.”**  
+Response: Pilot gated progression aur clear metrics ke saath design hai. Dono sides ko data dikhta hai; scale tabhi jab results aaye.
 
-**"Cost concern"**
-→ Flexible commercial models; start small.
+**Objection: “Cost zyada / budget nahi.”**  
+Response: Flexible commercial models (institute / shared / outcome components). Chhote cohort se shuru kar sakte hain.
 
-**"Data privacy"**
-→ Consent forms + short privacy policy; no unnecessary PII in GitHub.
+**Objection: “Data privacy / consent.”**  
+Response: Student Consent form + short Privacy policy. Sirf zaroori data; PII operational systems mein, GitHub par nahi.
+
+**Objection: “Pehle results dikhao.”**  
+Response: Pilot hi isi liye hai — measurable, time-bound, low commitment. End pe go/no-go.
+
+**Objection: “Language / communication.”**  
+Response: Hi-En, Hi-Only, En-Only packs available.

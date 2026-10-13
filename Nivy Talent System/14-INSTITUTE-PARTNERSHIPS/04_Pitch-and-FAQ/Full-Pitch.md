@@ -1,7 +1,25 @@
-# Full Pitch — Institute Partnerships
+# Full Pitch — Institute Growth & Industry Partnership Program
 
-Nivy helps institutes turn campus talent into industry-ready professionals through a structured pipeline: assessment → targeted training → verified opportunities → paid pathways.
+## Opening
+Institutes ke paas talent hai; industry ke paas real projects aur roles hain. Beech ka gap assessment, targeted training, aur verified matching ka hai.
 
-We reduce placement friction for institutes and give students real industry exposure with clear milestones.
+## What Nivy does
+Nivy ek structured pipeline chalata hai:
 
-The 6-month pilot is low-risk, measurable, and designed to scale only after proven results.
+1. **Assess** — clear skill baseline  
+2. **Train** — industry-aligned modules  
+3. **Match** — verified vacancies / client projects  
+4. **Support** — interview prep, feedback, reporting
+
+## Why a pilot
+6-month pilot low-risk hai: fixed cohort, clear metrics, go/no-go decision end mein. Institute operational load light rahta hai; Nivy delivery aur matching handle karta hai.
+
+## Outcomes we optimise for
+- Higher readiness of the cohort  
+- Transparent conversion numbers  
+- Student and institute feedback  
+- A repeatable model that can scale only after proof
+
+## Close
+Discovery call → pilot design lock → kickoff.  
+Language packs (Hi-En / Hi-Only / En-Only) ready hain taaki communication campus ke hisaab se ho sake.
