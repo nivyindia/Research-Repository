@@ -1,0 +1,2 @@
+# Career and Opportunities
+Process templates only. Share an opportunity after checking source, validity, eligibility, location, compensation if published, deadline and application route. Candidate personal records stay in restricted system.
