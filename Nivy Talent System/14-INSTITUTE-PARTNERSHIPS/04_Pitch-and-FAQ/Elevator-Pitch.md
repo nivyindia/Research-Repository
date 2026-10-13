@@ -1,29 +1,45 @@
-# Elevator Pitch (Full Draft)
+# Elevator Pitch — Institute Growth & Industry Partnership Program
 
-**Duration:** 30–60 seconds  
-**Tone:** Lucknow-friendly, respectful Hindi
-
----
-
-## Hindi (primary)
-
-Namaste sir, main [Aapka Naam], Nivy Global se bol raha hoon.
-
-Hum accounting, digital marketing, software aur AI jaise areas mein industry ka kaam karte hain. Hum aise computer institutes aur coaching centres se judna chahte hain jahan students practical, industry-level training le saken aur jahan mumkin ho, real opportunities ke liye bhi taiyar ho saken.
-
-Aapke paas pehle se classrooms, computers aur students hain. Hum curriculum, practical training system, assessment aur career preparation ki taraf se madad de sakte hain. Shuruaat limited scope ke chheh mahine ke pilot se ho sakti hai—us likhe hue scope par training fee nahi; baad mein results dekh kar aap decide karenge aage badhna hai ya nahi.
-
-Agar aap 15–20 minute nikaal saken, to aapke institute ke hisaab se short plan baat kar sakte hain.
+**Duration:** 45–60 seconds  
+**Use:** First contact, phone, WhatsApp voice note, or walking into an institute  
+**Tone:** Confident, respectful, clear — no hard sell
 
 ---
 
-## English (optional backup)
+## Core Version (English)
 
-Hello, I’m [Name] from Nivy Global. We work in accounting, digital marketing, software and AI. We partner with institutes that already have classrooms and students—we bring industry-oriented training, assessment and career support. We can start with a limited six-month pilot (free only within a written scope), then decide together. Could we schedule 15–20 minutes?
+“Sir / Madam, I’m [Name] from Nivy Global.
+
+We work with existing computer institutes and coaching centres. You already have classrooms, computers and local students. We bring industry-oriented practical training systems, assessment, portfolio building and career preparation — especially in Accounting & Taxation operations and Digital Marketing.
+
+We don’t ask you to build new infrastructure or become a franchise. We start with a limited six-month pilot so both sides can see results before any long-term commitment.
+
+If you have 10 minutes this week, I can walk you through exactly how the pilot works and what stays free versus paid. Would that be useful?”
 
 ---
 
-## Do not say in elevator
-- Job guarantee
-- Full fee-share percentages
-- Long course catalogue
+## Hindi Version (natural spoken)
+
+“Sir / Madam, main [Name] Nivy Global se bol raha / rahi hoon.
+
+Hum existing computer institutes aur coaching centres ke saath kaam karte hain. Aapke paas classrooms, computers aur local students pehle se hain. Hum industry-level practical training system, assessment, portfolio aur career preparation laate hain — especially Accounting-Taxation operations aur Digital Marketing mein.
+
+Naya infrastructure banane ya franchise lene ki zarurat nahi. Pehle limited six-month pilot se shuru karte hain taaki dono taraf results dikhein, uske baad decision.
+
+Agar is hafte 10 minute mil sakein to main aapko pilot ka exact structure bata sakta / sakti hoon — kya free rahega aur kya paid. Kya ye baat useful hogi?”
+
+---
+
+## Key Points to Remember
+
+- Lead with **their existing strength** (infra + local reach)
+- Position Nivy as the **industry system layer**, not a competing institute
+- Always mention the **limited pilot** early — reduces fear of commitment
+- Never say “placement guarantee”
+- End with a low-friction next step (10-minute conversation)
+
+---
+
+## Optional 15-second ultra-short version
+
+“We help existing institutes add real industry practicals and career readiness using the classrooms and computers you already have — starting with a limited pilot. Interested in a quick overview?”
