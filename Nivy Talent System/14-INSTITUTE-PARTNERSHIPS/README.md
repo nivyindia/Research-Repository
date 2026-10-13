@@ -2,19 +2,21 @@
 
 **Program:** Institute Growth & Industry Partnership Program
 
-## Language packs / भाषा पैक
+## Language packs
 
-| Folder | Use |
-|--------|-----|
-| **[Hi-En/](./Hi-En/)** | **द्विभाषी स्रोत सत्य — हिंदी (देवनागरी) पंक्ति + नीचे English** / **Bilingual source of truth — Hindi line + English below** |
-| (root 00–11) | Earlier monolingual drafts (may lag Hi-En) |
+| Folder | Language |
+|--------|----------|
+| **[Hi-En/](./Hi-En/)** | Hindi (Devanagari) line + English line below |
+| **[Hi-Only/](./Hi-Only/)** | Hindi only (Devanagari) |
+| **[En-Only/](./En-Only/)** | English only |
+
+Same `00`–`11` hierarchy inside each pack.
 
 ## Status
 
-- Structure: ready  
-- Outlines + full drafts: ready  
-- **Hi-En bilingual hierarchy: created**  
+- Structure + outlines + drafts: ready  
+- Language packs: **Hi-En**, **Hi-Only**, **En-Only**  
 - Gates G1–G5: open  
 - Legal review / PPT binary: pending  
 
-Primary working set for multi-language expansion: start from **`Hi-En/`**.
+Use the pack that matches the audience; keep claims consistent across languages.
