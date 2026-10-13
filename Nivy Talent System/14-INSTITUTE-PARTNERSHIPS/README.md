@@ -12,12 +12,13 @@
 
 ## Root `00`–`11` monolingual pack
 
-Restored from pre-delete commit after accidental delete.  
-If any file still looks incomplete, use the matching path under **Hi-En / Hi-Only / En-Only** (those packs were never deleted).
+**Fully recovered** from pre-delete state. All folders and key draft files restored.
+
+If you need bilingual or single-language versions, use the matching path under **Hi-En / Hi-Only / En-Only** (those packs were never deleted).
 
 ## Status
 
-- Language packs: complete  
-- Root structure: recovered / recovering from git history  
-- Gates G1–G5: still open  
-- Legal review / PPT binary: pending  
+- Language packs: **complete**
+- Root structure `00`–`11`: **recovered**
+- Gates G1–G5: still open
+- Legal review / PPT binary: pending
