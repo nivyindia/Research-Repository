@@ -1,12 +1,13 @@
 # 14 — Institute Partnerships
 
 | File / Folder | Description |
-|------|-------------|
-| [institute-partnership-sop.md](./institute-partnership-sop.md) | Existing institute sourcing and hiring-pipeline SOP: partner types, onboarding, cadence, and metrics |
-| [01-INSTITUTE-GROWTH-PARTNERSHIP-KIT/](./01-INSTITUTE-GROWTH-PARTNERSHIP-KIT/) | Complete institute growth and industry partnership kit: presentation, proposal, Hindi pitch, phone/WhatsApp/email communication, FAQ, six-month pilot, capability gate, CRM, agreement checklist, KPI reporting, and implementation roadmap |
+|---|---|
+| [institute-partnership-sop.md](./institute-partnership-sop.md) | Existing institute sourcing and hiring-pipeline SOP. Preserve and reuse; do not replace it. |
+| [01-INSTITUTE-GROWTH-PARTNERSHIP-KIT/](./01-INSTITUTE-GROWTH-PARTNERSHIP-KIT/) | Compact kit: pitch, proposal, communications, pilot, capability gate, CRM and metrics. |
+| [Institute-Growth-Industry-Partnership/](./Institute-Growth-Industry-Partnership/) | Full project workspace with 00–11 folders for master plan, company profile, presentation/proposal, communication, pitch/FAQ, pilot/commercial model, policies, training delivery, institution CRM, verified opportunities, reporting and archive. |
 
 ## Scope distinction
-The existing SOP focuses mainly on sourcing candidates through educational institutions for Nivy hiring and talent workflows. The new kit supports the broader institute partnership model discussed for practical training, career preparation, potential future course-fee sharing, and possible client-work collaboration. Reuse existing talent screening/training systems where applicable; do not duplicate or replace their source documents.
+The existing SOP focuses on institute-based candidate sourcing and hiring pipeline. The two partnership resources support the broader institute growth model: practical training, career readiness, potential future course/revenue arrangements and possible client-work collaboration. Reuse shared Talent System workflows where applicable and preserve source provenance.
 
-## Safety and accuracy
-Do not promise jobs, income, government recognition, or client projects without verified evidence and written terms. Keep student personal data out of public GitHub.
+## Accuracy and safety
+No job, income, placement, certification, government recognition or client-project guarantee without verified evidence and written terms. Keep student personal data and private institute contacts out of public GitHub. Agreement/policy documents are checklists/templates until appropriately reviewed and approved.
