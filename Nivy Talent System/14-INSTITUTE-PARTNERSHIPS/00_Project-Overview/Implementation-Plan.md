@@ -1,131 +1,161 @@
-# Implementation Plan — Institute Growth & Industry Partnership
+# Implementation Plan — Outline Creation (Phase-wise)
 
-**Goal:** Move from strategy discussion to first live pilot with 1–3 Lucknow institutes within a clear, sequenced plan.
+**Rule:** Abhi sirf plan. Har phase mein bataya gaya folder/files ki **outline** banegi (points: kya-kya cover hoga). Full draft uske baad.
 
----
-
-## Stage 0 — Foundation (Current)
-
-**Outcome:** Complete documentation kit skeleton + outlines.
-
-- [x] Folder structure in Research-Repository  
-- [x] Master Plan  
-- [x] Document Register  
-- [x] Progress Tracker  
-- [ ] Outlines in every core .md file  
-- [ ] Brand decision (Nivy Global / Nivy Academy)  
-
-**Exit criteria:** All priority outline files exist; open decisions listed.
+**Source:** Business-Positioning-Strategy.md discussion.
 
 ---
 
-## Stage 1 — Sales Kit (Week 1–2)
+## Phase 0 — Done
 
-**Outcome:** Can walk into an institute and present a coherent, trustworthy offer.
-
-### 1.1 Communication
-- First-meeting script (Lucknow Hindi, respectful, non-salesy)
-- Phone script + 30-sec / 2-min / 5–7 min pitches
-- WhatsApp first message, PDF send, follow-up, meeting confirm
-- Email intro + proposal send templates
-
-### 1.2 Pitch assets
-- Elevator pitch
-- Full pitch narrative
-- FAQ (all 20+ questions from strategy)
-- Objection handling (especially job-guarantee, free-pilot-after, cost)
-
-### 1.3 Presentation & proposal
-- 9–12 slide deck (Hindi primary)
-- One-page summary (WhatsApp-ready)
-- 4–6 page partnership proposal
-- Roles & responsibilities one-pager
-
-### 1.4 Commercial clarity
-- Six-month pilot plan with **written free-scope limits**
-- Cost ownership matrix (electricity, internet, trainer travel, software)
-- Provisional revenue-share / delivery-fee models (not final without costing)
-
-**Exit criteria:** Founder can run a 15-minute meeting using only these assets without inventing answers.
+- [x] Folder structure under `Nivy Talent System/14-INSTITUTE-PARTNERSHIPS/`
+- [x] Control files exist: Master-Plan, Document-Register, Progress-Tracker, this Implementation-Plan
 
 ---
 
-## Stage 2 — Capacity & Credibility (Week 2–3)
+## Phase A — Control lock (pehle ye finalize)
 
-**Outcome:** Only promise what can be delivered.
+**Folder:** `00_Project-Overview/` only  
+**Files:**
 
-- List real trainers available for Accounting & Digital Marketing
-- List real current / near-term vacancies and client projects
-- Company introduction + services capability sheet
-- 2–3 anonymized work samples / portfolio examples (permission-based)
-- Sample practical assignment + rubric (one per vertical)
-- Decide pilot capacity: max institutes, max students per batch
+| File | Outline will cover |
+|------|--------------------|
+| Master-Plan.md | Vision, positioning, model, verticals, pilot idea, success definition (short) |
+| Document-Register.md | Full document list + status columns |
+| Progress-Tracker.md | Phase checklist + dates |
+| Implementation-Plan.md | This phased outline schedule (already this file) |
 
-**Exit criteria:** Verified vacancy list and trainer calendar exist; free pilot numbers are fixed in writing.
-
----
-
-## Stage 3 — Legal & Ops Skeleton (Week 3)
-
-**Outcome:** Ready to sign a pilot without ambiguity.
-
-- Partnership agreement draft (pilot-focused)
-- Student consent form
-- Privacy & data note
-- Work & payment policy (training vs paid client work boundary)
-- Exit / dispute simple process
-- Institution assessment form
-- Student skill assessment form
-- Pilot tracker + monthly report template
-
-**Exit criteria:** Lawyer or trusted reviewer has seen agreement; consent form ready.
+**Exit:** Founder OK that sequence of outline phases is correct.
 
 ---
 
-## Stage 4 — First Outreach (Week 3–4)
+## Phase B — Sales conversation kit (outreach se pehle zaroori)
 
-**Outcome:** 5–10 institute conversations; 1–3 meetings booked.
+**Order of outline work inside this phase:**
 
-- Build Lucknow institute list (name, owner, courses, computers estimate)
-- Use phone / walk-in with approved scripts only
-- Log every contact in Contact-and-Follow-Up tracker
-- Send one-pager + schedule assessment visit
+### B1 — `04_Pitch-and-FAQ/`
+| File | Outline points will include |
+|------|-----------------------------|
+| Elevator-Pitch.md | 30–60 sec structure; Hindi tone rules |
+| Full-Pitch.md | 5–7 min sequence (opening → gap → offer → pilot → close) |
+| Frequently-Asked-Questions.md | List of ~20 questions from strategy; answer format (short/long) |
+| Objection-Handling.md | Objection → response direction table |
 
-**Exit criteria:** At least one institute agrees to assessment meeting.
+### B2 — `03_Communication-Kit/`
+| Folder / file | Outline points will include |
+|---------------|-----------------------------|
+| First-Meeting/ | Opening lines, pilot explain, job honesty, close (Lucknow Hindi) |
+| Phone-Scripts/ | Opening 30s, if busy, if interested, log |
+| WhatsApp/ | First msg, PDF send, follow-up, meeting confirm, thank-you |
+| Email/ | Intro email, proposal-send email |
+| Follow-Ups/ | Reminder, decline reply, welcome after agreement |
 
----
+### B3 — `02_Presentation-and-Proposal/`
+| Folder | Outline points will include |
+|--------|-----------------------------|
+| Main-Presentation/ | 9–12 slide titles + 3–5 bullets per slide |
+| One-Page-Summary/ | Sections for WhatsApp one-pager |
+| Partnership-Proposal/ | 4–6 page section list |
+| Presentation-PDF/ | Same as main deck (export note) |
+| Institute-Specific-Templates/ | What fields change per institute |
 
-## Stage 5 — Pilot Launch (Month 2+)
-
-**Outcome:** One live six-month pilot running.
-
-- Institute assessment completed
-- Pilot agreement signed (scope, costs, KPIs)
-- Batch 1 enrolled under free agreed scope
-- Weekly training + attendance logged
-- Monthly KPI report to institute and internal
-- Month 6: joint review → expand / modify / exit
-
-**Exit criteria:** Pilot completes with measured KPIs and written decision.
-
----
-
-## Rules During Implementation
-
-1. **No hidden paid model** — free pilot scope and future paid option stated from day one.  
-2. **No job guarantee** without confirmed vacancy.  
-3. **Training work ≠ unpaid client delivery** — clear boundary and compensation for real client work.  
-4. **One vertical at a time** if capacity is tight.  
-5. **Every claim must have a document or sample behind it.**  
+**Exit:** Pitch + talk + meeting assets ke outlines ready; full draft Phase B ke baad alag step.
 
 ---
 
-## Ownership
+## Phase C — Offer substance
 
-| Area | Primary owner |
-|------|----------------|
-| Strategy & final commercial terms | Founder |
-| Documentation & kit assembly | This project folder |
-| Trainer / delivery capacity | Founder + CA / DM seniors |
-| Institute outreach (Lucknow) | Founder (initially) |
-| Legal review | To be assigned |
+### C1 — `05_Pilot-and-Commercial-Model/`
+| File | Outline points will include |
+|------|-----------------------------|
+| Six-Month-Pilot-Plan.md | Scope limits, month plan, KPIs, exit |
+| Roles-and-Responsibilities.md | Institute vs Nivy vs shared |
+| Cost-and-Revenue-Models.md | Pilot / paid course / outsourcing (3 lines) |
+| Success-Metrics.md | Metric list + decision rules |
+
+### C2 — `01_Company-Profile/`
+| File / folder | Outline points will include |
+|---------------|-----------------------------|
+| Company-Introduction.md | Who, what, why institutes, what we are not |
+| Services-and-Capabilities.md | Verticals + partnership capabilities + capacity honesty |
+| Proof-and-Portfolio/ | What samples to collect (list only) |
+
+**Exit:** Pilot + commercial + company story outlines ready.
+
+---
+
+## Phase D — `06_Agreements-and-Policies/`
+
+| Folder | Outline points will include |
+|--------|-----------------------------|
+| Partnership-Agreement/ | Clauses list (roles, term, pilot, exit) |
+| Student-Consent/ | Consent items list |
+| Privacy-and-Data/ | Data use points |
+| Work-and-Payment-Policy/ | Training vs paid work boundary; pay rules |
+| Exit-and-Dispute-Process/ | Steps list |
+
+**Exit:** Agreement outline set ready for legal draft later.
+
+---
+
+## Phase E — `07_Training-and-Delivery/`
+
+| Folder | Outline points will include |
+|--------|-----------------------------|
+| Curriculum/ | Per vertical module list (start Accounting + Digital Marketing) |
+| Lesson-Plans/ | Weekly structure template points |
+| Assignments/ | Assignment types list |
+| Assessment-Rubrics/ | Scoring dimensions list |
+| Student-Portfolio/ | Portfolio sections list |
+
+**Exit:** Training outline skeleton for pilot verticals.
+
+---
+
+## Phase F — Ops & pipeline
+
+### F1 — `08_Institution-CRM-and-Tracking/`
+| Folder | Outline points will include |
+|--------|-----------------------------|
+| Institution-Register/ | Fields list |
+| Contact-and-Follow-Up/ | Tracker columns |
+| Meeting-Notes/ | Note template sections |
+| Proposal-Tracker/ | Status fields |
+| Partnership-Pipeline/ | Stages: new → active |
+
+### F2 — `09_Career-and-Opportunities/`
+| Folder | Outline points will include |
+|--------|-----------------------------|
+| Verified-Vacancies/ | Vacancy record fields |
+| Candidate-Assessment/ | Assessment sections |
+| Interview-Preparation/ | Prep pack sections |
+| Client-Projects/ | Project record fields |
+
+### F3 — `10_Operations-and-Reporting/`
+| Folder | Outline points will include |
+|--------|-----------------------------|
+| Pilot-Tracker/ | Tracker columns |
+| Monthly-Reports/ | Report sections |
+| Issues-and-Decisions/ | Log fields |
+| Lessons-Learned/ | Entry template |
+
+**Exit:** All folder outlines exist; then full drafting can start from Phase B priority.
+
+---
+
+## After all outlines
+
+1. Full draft order: Phase B → C → Presentation build → D → E → F tools  
+2. Open decisions before outreach: brand name, pilot free scope numbers, real vacancies, first verticals  
+3. First Lucknow outreach only after Phase B full drafts + Phase C pilot scope frozen  
+
+---
+
+## What NOT to do yet
+
+- Full Hindi scripts  
+- Full PPT content  
+- Legal agreement text  
+- Curriculum write-ups  
+
+Ye sab **outline phase complete + founder OK** ke baad.
