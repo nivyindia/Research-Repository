@@ -1,0 +1,2 @@
+# Work and Payment Policy
+Separate practice assignment from productive client work. Before work starts, write scope, supervisor, deadline, acceptance criteria, consent, rate/payment date, expenses, IP/licence, confidentiality, access/security and withdrawal route. Do not disguise unpaid productive work as training. Completing work does not guarantee future work or employment.
