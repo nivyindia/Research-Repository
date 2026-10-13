@@ -1,0 +1,2 @@
+# Proposal Tracker Fields
+proposal_id; institution_id; version; created/sent/expiry dates; scope; status; owner; next action/date; cost verification; open questions; decision status; secure document link. Live private links only in restricted CRM.
