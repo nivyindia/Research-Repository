@@ -1,0 +1,2 @@
+# Pilot Tracker Fields
+Month/week; planned/delivered sessions; trainer; aggregate attendance; assignment completion; rubric status; issue/risk; action owner/due date; evidence; cost variance. No student-level personal details in public report.
