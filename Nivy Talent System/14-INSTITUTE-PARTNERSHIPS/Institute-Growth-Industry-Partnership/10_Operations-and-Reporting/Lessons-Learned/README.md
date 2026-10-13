@@ -1,0 +1,2 @@
+# Lessons Learned
+At midpoint/closeout record what worked/failed, evidence, root cause, stakeholder input, unexpected costs, student impact, changes and owner/date. Separate observations from hypotheses; approved lessons update versioned process docs.
