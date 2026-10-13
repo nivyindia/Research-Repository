@@ -11,8 +11,8 @@
 | Phase | Name | Status | % | Notes |
 |-------|------|--------|---|-------|
 | P0 | Control & Standards | Done | 100% | Plan + this tracker created |
-| P1 | Core Sales Assets | In Progress | 0% | Elevator, Full Pitch, FAQ, Objection, Company Intro, Services |
-| P2 | Communication Kit | Not started | 0% | | 
+| P1 | Core Sales Assets | **Done** | 100% | All 6 professional full drafts pushed |
+| P2 | Communication Kit | Not started | 0% | Next |
 | P3 | Presentation & Proposal | Not started | 0% | |
 | P4 | Pilot & Commercial | Not started | 0% | |
 | P5 | Agreements & Policies | Not started | 0% | |
@@ -20,7 +20,7 @@
 | P7 | CRM / Career / Ops | Not started | 0% | |
 | P8 | Language Pack Sync | Not started | 0% | After English approval |
 
-**Overall professional full-draft completion:** 5% (P0 only)
+**Overall professional full-draft completion:** ~18% (P0 + P1)
 
 ---
 
@@ -37,14 +37,14 @@
 
 | # | File | Path | Status | Words (approx) | Review |
 |---|------|------|--------|----------------|--------|
-| 1 | Elevator-Pitch.md | 04_Pitch-and-FAQ/ | Pending | — | |
-| 2 | Full-Pitch.md | 04_Pitch-and-FAQ/ | Pending | — | |
-| 3 | Frequently-Asked-Questions.md | 04_Pitch-and-FAQ/ | Pending | — | |
-| 4 | Objection-Handling.md | 04_Pitch-and-FAQ/ | Pending | — | |
-| 5 | Company-Introduction.md | 01_Company-Profile/ | Pending | — | |
-| 6 | Services-and-Capabilities.md | 01_Company-Profile/ | Pending | — | |
+| 1 | Elevator-Pitch.md | 04_Pitch-and-FAQ/ | **Done** | ~450 | Ready |
+| 2 | Full-Pitch.md | 04_Pitch-and-FAQ/ | **Done** | ~950 | Ready |
+| 3 | Frequently-Asked-Questions.md | 04_Pitch-and-FAQ/ | **Done** | ~1,400 | Ready |
+| 4 | Objection-Handling.md | 04_Pitch-and-FAQ/ | **Done** | ~1,100 | Ready |
+| 5 | Company-Introduction.md | 01_Company-Profile/ | **Done** | ~650 | Ready |
+| 6 | Services-and-Capabilities.md | 01_Company-Profile/ | **Done** | ~750 | Ready |
 
-**Phase P1 Done when:** All 6 files meet Quality Standard and are pushed.
+**Phase P1 Done when:** All 6 files meet Quality Standard and are pushed. → **COMPLETE**
 
 ---
 
@@ -133,6 +133,7 @@
 | Date | Change |
 |------|--------|
 | 2026-10-14 | Tracker created. P0 complete. P1 started. |
+| 2026-10-14 | Phase P1 complete — 6 professional full drafts pushed (Elevator, Full Pitch, FAQ, Objection Handling, Company Introduction, Services & Capabilities). |
 
 ---
 
