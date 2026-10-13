@@ -2,21 +2,22 @@
 
 **Program:** Institute Growth & Industry Partnership Program
 
-## Language packs
+## Language packs (complete)
 
 | Folder | Language |
 |--------|----------|
-| **[Hi-En/](./Hi-En/)** | Hindi (Devanagari) line + English line below |
-| **[Hi-Only/](./Hi-Only/)** | Hindi only (Devanagari) |
+| **[Hi-En/](./Hi-En/)** | Hindi line + English below |
+| **[Hi-Only/](./Hi-Only/)** | Hindi only |
 | **[En-Only/](./En-Only/)** | English only |
 
-Same `00`–`11` hierarchy inside each pack.
+## Root `00`–`11` monolingual pack
+
+Restored from pre-delete commit after accidental delete.  
+If any file still looks incomplete, use the matching path under **Hi-En / Hi-Only / En-Only** (those packs were never deleted).
 
 ## Status
 
-- Structure + outlines + drafts: ready  
-- Language packs: **Hi-En**, **Hi-Only**, **En-Only**  
-- Gates G1–G5: open  
+- Language packs: complete  
+- Root structure: recovered / recovering from git history  
+- Gates G1–G5: still open  
 - Legal review / PPT binary: pending  
-
-Use the pack that matches the audience; keep claims consistent across languages.
