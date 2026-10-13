@@ -1,42 +1,48 @@
-# First Meeting Script — Outline (Phase B2)
+# First Meeting Script (Full Draft)
 
-**Tone:** Tahzeebdar Lucknow Hindi; apna-pan; non-salesy
+**Tone:** Tahzeebdar Lucknow Hindi · non-salesy
 
-## Sections to script later
+---
 
-1. **Opening**
-   - Greeting
-   - Name + Nivy Global
-   - One-line purpose (students + practical industry path)
-   - Permission: 2 minute baat?
+## Opening
 
-2. **If they say “bataiye”**
-   - Soft gap (courses vs practical industry work)
-   - Their assets (rooms, PCs, students)
-   - Our add (training system, assessment, career prep)
+Namaste sir, kaise hain aap?
 
-3. **Pilot**
-   - 6-month limited pilot
-   - Free only for agreed scope (say this clearly)
-   - What will be measured
-   - After 6 months: their choice to continue paid or not
+Main [Naam], Nivy Global se aaya hoon. Hum accounting, digital marketing, software aur AI side par industry ka kaam karte hain. Soch ye thi ki aap jaise institutes—jahan pehle se classrooms, computers aur students hain—ke saath milkar practical training aur career preparation ka ek saaf model try kiya jaaye.
 
-4. **Institute benefit (business angle)**
-   - New programs without major new infra
-   - Better student value prop
-   - Future revenue only if pilot works
+Agar aap 2 minute den, to main short mein bata deta hoon; phir aapki raay se aage.
 
-5. **Job / hiring honesty**
-   - Career support + available opportunities
-   - Nivy may hire eligible candidates when real need
-   - No guarantee without vacancy
+---
 
-6. **Close**
-   - Understand their courses / capacity
-   - Offer short written plan
-   - Ask meeting slot this week
+## Agar “bataiye”
 
-## Do not in first meeting
-- Full fee-share math
-- Long course catalogue
-- Attack their quality
+Sir, students kai courses kar lete hain, lekin kai baar company-style practical kaam aur interview ki taiyari kam pad jaati hai. Har naye domain ki poori senior team institute ke andar khadi karna aasan nahi.
+
+Aapke paas foundation hai. Hum curriculum, practical assignments, assessment aur career support ki taraf se system laa sakte hain—taaki certificate ke saath kaam ki samajh bhi bane.
+
+---
+
+## Pilot
+
+Shuruaat chheh mahine ke **limited pilot** se soch rahe hain. Kaunse programs, kitne students—pehle likh kar fix. Us agreed scope par training fee nahi. Bijli, net, local coordination jaise points pehle clear.
+
+Har mahine progress dekhenge. Chheh mahine baad aap decide karein: paid partnership, change, ya band. Auto-lock nahi.
+
+---
+
+## Institute faida
+
+Naya bada investment infra mein nahi. Practical programs test karne ka mauka, students ko behtar value, aur agar model chale to aage revenue options—sab mutual agreement se.
+
+---
+
+## Naukri wali baat
+
+Career prep aur available opportunities par support. Nivy jab real need ho to eligible students consider kar sakti hai. Har student ko guarantee nahi—kyunki bina vacancy ke guarantee galat hoti hai.
+
+---
+
+## Close
+
+Agla step seedha hai: aapke current courses aur capacity samajhna, phir 1–2 page ka pilot idea.  
+Is hafte kab 15–20 minute convenient rahega?

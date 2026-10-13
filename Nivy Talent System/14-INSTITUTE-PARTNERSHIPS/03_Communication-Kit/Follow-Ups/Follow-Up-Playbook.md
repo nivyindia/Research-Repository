@@ -1,22 +1,19 @@
-# Follow-Ups Playbook — Outline (Phase B2)
+# Follow-Up Playbook (Full Draft)
 
-## Cadence (points)
+## Cadence
 
-| Day | Action |
-|-----|--------|
-| 0 | First contact / meeting |
-| 2–3 | WhatsApp or email with one-pager if promised |
-| 7 | Soft follow-up if no reply |
-| 14 | Final soft check; then park in pipeline |
-| Post-meeting +2–3 | Written short proposal |
-| Proposal +5 | Follow-up questions |
-| Agreed | Welcome + pilot kickoff checklist |
+| When | Action |
+|------|--------|
+| Day 0 | Contact / meeting |
+| Day 2–3 | One-pager or summary if promised |
+| Day 7 | Soft WA/email if no reply |
+| Day 14 | Final soft check → park in pipeline |
+| Meeting +2–3 days | Written short proposal |
+| Proposal +5 days | Follow-up questions |
+| Agreed | Welcome + kickoff checklist |
 
-## Message intents
-- Remind without pressure
-- Answer open questions
-- Move to assessment visit
-- Close loop if declined (stay polite)
-
-## Tracker fields to update each time
-- Date, channel, summary, next action, next date, owner
+## Principles
+- No spam daily
+- Always log tracker
+- Respect “not now”
+- Same claims as pitch deck (no new promises in follow-up)
