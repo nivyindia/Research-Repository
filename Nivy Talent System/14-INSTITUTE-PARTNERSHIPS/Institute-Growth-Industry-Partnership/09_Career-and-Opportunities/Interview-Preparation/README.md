@@ -1,0 +1,2 @@
+# Interview Preparation
+Role-specific CV review, project explanation, mock interview, communication practice, question bank and feedback rubric. Never fabricate experience or imply preparation guarantees interview/job.
