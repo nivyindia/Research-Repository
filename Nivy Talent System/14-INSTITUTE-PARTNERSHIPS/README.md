@@ -1,19 +1,26 @@
 # 14 — Institute Partnerships
 
-**Program:** Institute Growth & Industry Partnership Program  
+**Program:** Institute Growth & Industry Partnership Program
 
-| File | Description |
-|------|-------------|
-| [institute-partnership-sop.md](./institute-partnership-sop.md) | Existing SOP note |
-| [00_Project-Overview/Implementation-Plan.md](./00_Project-Overview/Implementation-Plan.md) | **Phase-wise outline creation plan** |
-| [00_Project-Overview/Progress-Tracker.md](./00_Project-Overview/Progress-Tracker.md) | Status |
-| [00_Project-Overview/Master-Plan.md](./00_Project-Overview/Master-Plan.md) | Short program frame |
-| [00_Project-Overview/Document-Register.md](./00_Project-Overview/Document-Register.md) | Document map |
+## Control docs (`00_Project-Overview/`)
 
-## Current rule
+| File | Use |
+|------|-----|
+| [Master-Plan.md](./00_Project-Overview/Master-Plan.md) | Program frame |
+| [Implementation-Plan.md](./00_Project-Overview/Implementation-Plan.md) | Outline phases A–F (done) |
+| [Draft-Implementation-Plan.md](./00_Project-Overview/Draft-Implementation-Plan.md) | **Full draft phases D0–D8** |
+| [Progress-Tracker.md](./00_Project-Overview/Progress-Tracker.md) | Outline status |
+| [Draft-Progress-Tracker.md](./00_Project-Overview/Draft-Progress-Tracker.md) | **Draft status + gates** |
+| [Document-Register.md](./00_Project-Overview/Document-Register.md) | Document map |
 
-Outlines aur full drafts **Implementation-Plan.md** ke phases ke hisaab se banenge. Abhi premature full outlines nahi.
+## Current state
 
-## Folders
+- Structure: ready  
+- Outlines: complete  
+- Full drafts: **not started** — follow Draft-Implementation-Plan  
 
-`00` … `11` — structure ready; content per phase.
+## Folders 01–11
+
+Company · Presentation · Communication · Pitch · Pilot · Agreements · Training · CRM · Career · Operations · Archive
+
+Also: [institute-partnership-sop.md](./institute-partnership-sop.md)
