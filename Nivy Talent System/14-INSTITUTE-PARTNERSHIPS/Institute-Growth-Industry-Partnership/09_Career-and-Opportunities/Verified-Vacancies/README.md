@@ -1,0 +1,2 @@
+# Verified Vacancy Register
+Opportunity ID; employer/source URL; role/location/remote; skills/eligibility; compensation only if published; deadline; last verified date; application route; legitimacy checks; candidate fees red flags; status/owner. Expire stale roles. Verification is point-in-time, not job guarantee.

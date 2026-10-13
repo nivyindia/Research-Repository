@@ -1,0 +1,2 @@
+# Client Projects Register
+Before student work: verify client authority, SOW, deliverables, supervisor, security/access, consent, payment/expenses, IP, confidentiality and acceptance criteria. Use anonymised project IDs here; confidential details require permission and private storage.

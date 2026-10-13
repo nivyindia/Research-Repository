@@ -1,0 +1,3 @@
+# First Meeting
+Flow: 1) परिचय/धन्यवाद 2) courses, student needs, practical gaps पूछें 3) relevant concept explain करें 4) timetable/lab/faculty constraints समझें 5) potential pilot and next step.
+Questions: कौन-से courses? practical exposure में gap? cohort/lab capacity? faculty support? success कैसे measure होगा? decision-maker कौन? Follow-up actions, owner and due date दर्ज करें; student personal data न लिखें.

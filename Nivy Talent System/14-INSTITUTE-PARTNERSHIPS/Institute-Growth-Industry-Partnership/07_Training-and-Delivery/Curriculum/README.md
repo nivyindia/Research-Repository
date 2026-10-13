@@ -1,0 +1,2 @@
+# Curriculum Register
+हर curriculum में target learner, prerequisites, measurable outcomes, sequence, estimated hours, software/lab, teaching method, assessment mapping, trainer and version रखें। Tax/accounting content में jurisdiction/effective date और scope limitations दर्ज करें।

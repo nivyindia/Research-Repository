@@ -1,0 +1,2 @@
+# Student Portfolio
+Approved projects, brief, role, tools, process, outcome and reflection. Synthetic demo को client work न बताएं; public sharing permission लें; personal/client confidential data हटाएं।

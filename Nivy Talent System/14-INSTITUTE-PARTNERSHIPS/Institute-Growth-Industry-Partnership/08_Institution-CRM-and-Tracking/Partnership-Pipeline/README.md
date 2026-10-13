@@ -1,0 +1,2 @@
+# Pipeline Stages
+Identified → Researching → Contact permitted → Meeting booked → Needs assessed → Capability gate → Proposal drafting → Sent → Negotiation → Agreement review → Approved → Pilot active → Review → Continue/Revise/Close. Every active record needs owner, next action and due date. Approved requires written authorised approval.

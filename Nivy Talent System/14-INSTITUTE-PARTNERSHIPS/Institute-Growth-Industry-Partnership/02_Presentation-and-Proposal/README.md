@@ -1,0 +1,2 @@
+# 02 — Presentation and Proposal
+Source content पहले Markdown में maintain करें। Approved content से presentation/PDF export करें। प्रत्येक institute-specific version में institution name, meeting date, needs, cohort, schedule, scope, costs और approvals बदलें; master copy को सीधे overwrite न करें।

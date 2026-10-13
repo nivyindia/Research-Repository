@@ -1,0 +1,2 @@
+# Student Consent Checklist
+Explain purpose, data collected/access, optional participation, fees, assessment, portfolio/publication, client exposure, payment if any, withdrawal and contact route. Don't link consent to guaranteed jobs. Check age/minor status and institute policies; final wording needs authorised review.

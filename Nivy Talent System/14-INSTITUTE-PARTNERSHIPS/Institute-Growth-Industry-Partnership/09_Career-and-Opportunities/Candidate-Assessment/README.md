@@ -1,0 +1,2 @@
+# Candidate Assessment
+Use consistent job-related criteria, skills evidence, task rubric, availability and candidate preferences. Provide reasonable accommodations; avoid irrelevant personal/protected attributes. Consent and assessor/date required. CVs and individual scores belong in restricted storage.

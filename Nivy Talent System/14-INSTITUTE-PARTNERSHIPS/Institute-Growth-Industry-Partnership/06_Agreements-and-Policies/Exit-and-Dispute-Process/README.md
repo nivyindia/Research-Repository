@@ -1,0 +1,2 @@
+# Exit and Dispute Process
+Define notice, pause/termination triggers, pending payments/refunds, student continuity, record handover/deletion, IP after exit, complaint route, response times, escalation contacts and dispute resolution. Privacy/safety incidents use immediate escalation rather than ordinary commercial cadence.

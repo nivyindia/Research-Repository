@@ -1,0 +1,2 @@
+# Issues and Decisions Log
+Issue: ID/date/severity/non-personal description/impact/containment/owner/due/resolution/evidence. Decision: ID/date/options/rationale/evidence/approver/affected files/effective date/review date. Separate proposed from approved decisions.

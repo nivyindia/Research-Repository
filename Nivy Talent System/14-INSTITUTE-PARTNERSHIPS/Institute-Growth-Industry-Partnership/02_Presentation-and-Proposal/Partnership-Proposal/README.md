@@ -1,0 +1,2 @@
+# Proposal Outline
+Institute context and needs; proposed scope/exclusions; cohort, module, hours and timetable; outcomes and assessment; both parties' responsibilities; infrastructure/software; costs, taxes and payment terms; consent/privacy; work/payment/IP rules; KPIs and review; change control; cancellation/exit; authorised signatures. यह outline legal contract का substitute नहीं है।

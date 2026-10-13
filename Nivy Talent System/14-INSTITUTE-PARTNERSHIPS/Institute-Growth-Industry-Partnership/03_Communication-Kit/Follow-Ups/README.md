@@ -1,0 +1,2 @@
+# Follow-up Rules
+Day 0: agreed material भेजें। 3–5 business days: केवल permission/expectation के अनुसार एक polite follow-up। फिर recipient preference के अनुसार wait/close। हर follow-up में clear next step हो; fake urgency नहीं। Meeting date/time and requested documents confirm करें।

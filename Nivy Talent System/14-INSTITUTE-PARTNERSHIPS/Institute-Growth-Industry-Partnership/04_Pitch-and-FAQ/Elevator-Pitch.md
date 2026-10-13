@@ -1,0 +1,2 @@
+# Elevator Pitch (30 sec)
+हम institutes के साथ ऐसी partnership explore कर रहे हैं जिसमें institute अपने classroom, lab और student reach का उपयोग करे, और हम verified capacity के अनुसार practical modules, assignments, feedback और career readiness में मदद करें। शुरुआत सीमित pilot से होगी; responsibilities, expenses और measurable outcomes पहले तय होंगे। पहले आपकी जरूरत समझना चाहेंगे ताकि proposal आपके institute के हिसाब से बने।

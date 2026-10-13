@@ -1,0 +1,2 @@
+# Partnership Agreement Checklist
+Parties/legal authority; purpose/scope/term; deliverables and roles; fees/taxes/payment; IP; confidentiality; data; student safeguarding; logo/claims; liability/warranties; change control; cancellation; breach cure; disputes; notices/signatures. Attach pilot plan, cost sheet, timetable and escalation contacts. Mark draft—not for signature until reviewed.
