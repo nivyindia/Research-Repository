@@ -1,0 +1,2 @@
+# Institution Register Fields
+institution_id; public institution name; city/area; type; public website/source; course categories; cohort/capacity band; fit score; last verified date; owner; stage; next action. Contact details restricted CRM में रखें।
