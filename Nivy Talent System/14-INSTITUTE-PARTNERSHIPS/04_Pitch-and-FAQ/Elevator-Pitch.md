@@ -1,26 +1,29 @@
-# Elevator Pitch — Outline (Phase B1)
+# Elevator Pitch (Full Draft)
 
-**Length:** 30–60 seconds  
-**Tone:** Lucknow-friendly Hindi; no sales-rep feel
+**Duration:** 30–60 seconds  
+**Tone:** Lucknow-friendly, respectful Hindi
 
-## Points to cover (in order)
+---
 
-1. **Greeting + name + company** — Nivy Global; short who we are
-2. **Industry domains** — accounting, digital marketing, software/AI (one line)
-3. **Why contact** — institutes ke students ke liye practical industry training + career path
-4. **Model in one line** — aapka infra (rooms/PCs/students); humari industry training system
-5. **Start method** — limited 6-month pilot (written free scope) → results → then decide
-6. **Ask** — 15–20 minute meeting / assessment visit
+## Hindi (primary)
 
-## Must include
-- Respect for existing institute
-- No job guarantee in elevator version
+Namaste sir, main [Aapka Naam], Nivy Global se bol raha hoon.
 
-## Must avoid
-- Full commercial dump
-- Heavy English / franchise language
-- Pressure close
+Hum accounting, digital marketing, software aur AI jaise areas mein industry ka kaam karte hain. Hum aise computer institutes aur coaching centres se judna chahte hain jahan students practical, industry-level training le saken aur jahan mumkin ho, real opportunities ke liye bhi taiyar ho saken.
 
-## Later full draft will add
-- Exact Hindi script (approved wording)
-- English backup line if needed
+Aapke paas pehle se classrooms, computers aur students hain. Hum curriculum, practical training system, assessment aur career preparation ki taraf se madad de sakte hain. Shuruaat limited scope ke chheh mahine ke pilot se ho sakti hai—us likhe hue scope par training fee nahi; baad mein results dekh kar aap decide karenge aage badhna hai ya nahi.
+
+Agar aap 15–20 minute nikaal saken, to aapke institute ke hisaab se short plan baat kar sakte hain.
+
+---
+
+## English (optional backup)
+
+Hello, I’m [Name] from Nivy Global. We work in accounting, digital marketing, software and AI. We partner with institutes that already have classrooms and students—we bring industry-oriented training, assessment and career support. We can start with a limited six-month pilot (free only within a written scope), then decide together. Could we schedule 15–20 minutes?
+
+---
+
+## Do not say in elevator
+- Job guarantee
+- Full fee-share percentages
+- Long course catalogue
