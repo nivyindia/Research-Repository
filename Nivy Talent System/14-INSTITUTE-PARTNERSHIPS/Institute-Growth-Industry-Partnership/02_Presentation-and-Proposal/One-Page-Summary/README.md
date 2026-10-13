@@ -1,0 +1,2 @@
+# One-page summary
+एक page में purpose, institute benefits, student outcomes, pilot, roles, cost status, safeguards, what is/not guaranteed और next step दें। Standalone पढ़ने पर भी misleading claim न हो।
