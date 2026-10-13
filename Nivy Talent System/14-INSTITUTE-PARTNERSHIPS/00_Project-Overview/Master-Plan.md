@@ -1,16 +1,44 @@
-# Master Plan — Institute Partnerships
+# Master Plan — Institute Growth & Industry Partnership Program
 
-**Program:** Institute Growth & Industry Partnership Program  
-**Status:** Structure ready · Outline creation not started  
+**Status:** Phase A complete (control outline)
 
-## Purpose of this folder set
+## 1. Vision
+- Existing computer institutes / coaching centres ko industry-connected training + career centre banana
+- Nayi infrastructure pe paisa na lagana; unka existing infra use karna
 
-Complete Sales & Implementation Kit for institute partnerships (presentation, communication, pitch, pilot, agreements, training, CRM, career, ops).
+## 2. Positioning
+- **Primary:** Institute Growth & Industry Partnership Program
+- **Line:** Your Infrastructure. Our Industry Expertise. Shared Growth.
+- Supporting: growth / industry skills / employability
+- Risk offer: 6-month limited pilot → measure → then paid decision
 
-## Source
+## 3. Three parties
+| Party | Brings |
+|-------|--------|
+| Institute | Rooms, PCs, local students, coordination |
+| Nivy | Curriculum, trainers, practicals, assessment, career support, verified opportunities |
+| Student | Skills, portfolio, readiness, access to real opportunities where available |
 
-Business-Positioning-Strategy discussion (Oct 2026).
+## 4. Verticals (phased)
+1. Accounting / Tax / Finance ops (priority)
+2. Digital Marketing & Growth (priority)
+3. IT / Software / AI (later)
+4. Career readiness (all verticals ke saath)
 
-## Next step
+## 5. Student path (system)
+Assess → Train → Practice → Evaluate → Portfolio → Interview prep → Opportunity match → Feedback → Follow-up
 
-Follow **Implementation-Plan.md** — outlines banenge phase-wise, pehle plan ke hisaab se, content baad mein.
+## 6. Commercial (3 alag lines)
+- Pilot: free only within written scope
+- Paid courses: revenue share or delivery fee (cost sheet ke baad)
+- Outsourcing: separate contract (billing, pay, supervision, margin)
+
+## 7. Success
+Repeatable, measurable, commercially sustainable system — local infra + central quality & employer links
+
+## 8. Open decisions (before outreach)
+- Brand: Nivy Global vs Nivy Academy
+- Pilot free scope numbers
+- First 1–2 programs + real trainers
+- Real vacancies / client work list
+- Provisional fee-share approach

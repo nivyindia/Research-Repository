@@ -1,22 +1,23 @@
-# Progress Tracker — Institute Partnerships
+# Progress Tracker
 
-**Last updated:** 2026-10-14  
+**Last updated:** 2026-10-14
 
 | Phase | Work | Status |
 |-------|------|--------|
-| 0 | Folder structure in Research-Repository | Done |
-| 0b | Premature outline content removed / reset | Done |
-| 1 | Outline Creation Plan approved (Implementation-Plan.md) | In progress |
-| 2 | Phase A outlines (Project Overview control docs only) | Todo |
-| 3 | Phase B outlines (Pitch + Communication + Presentation folders) | Todo |
-| 4 | Phase C outlines (Pilot + Commercial + Company Profile) | Todo |
-| 5 | Phase D outlines (Agreements) | Todo |
-| 6 | Phase E outlines (Training delivery) | Todo |
-| 7 | Phase F outlines (CRM + Career + Operations) | Todo |
-| 8 | Full drafts from outlines | Todo |
-| 9 | First institute outreach | Todo |
+| 0 | Folder structure | Done |
+| A | Control docs outline (Master, Register, Tracker, Impl Plan) | Done |
+| B1 | Pitch & FAQ outlines | Done |
+| B2 | Communication Kit outlines | Done |
+| B3 | Presentation & Proposal outlines | Next |
+| C1 | Pilot & Commercial outlines | Todo |
+| C2 | Company Profile outlines | Todo |
+| D | Agreements outlines | Todo |
+| E | Training outlines | Todo |
+| F1–F3 | CRM + Career + Ops outlines | Todo |
+| — | Full drafts (after all priority outlines) | Todo |
+| — | First Lucknow outreach | Todo |
 
-## Notes
-
-- Outlines = point list of what each file will cover (not full draft).  
-- Do not write full scripts/PPT until the relevant phase outline is done and approved.  
+## Blockers
+- Brand name decision
+- Pilot free-scope numbers
+- Real vacancy / trainer list
