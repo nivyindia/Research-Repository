@@ -1,27 +1,27 @@
-# Cost and Revenue Models (Draft)
+# Cost and Revenue Models (Full Draft)
 
-**Status:** Working draft — commercial sign-off (Gate G3) pending. Numbers placeholder.
+## Principle
+Teen lines **alag** rakho: Pilot · Paid training · Outsourcing.
 
-## Model options under discussion
+---
 
-1. **Institute-sponsored cohort**  
-   Fixed fee per student / per cohort for assessment + training facilitation + reporting.
+## 1. Pilot costs
 
-2. **Shared model**  
-   Institute + student contribution split (ratios TBD).
+| Cost item | Typical owner (decide in annex) |
+|-----------|----------------------------------|
+| Classroom / PC usage | Institute |
+| Electricity / internet | Institute (unless agreed otherwise) |
+| Local coordinator time | Institute |
+| Curriculum & core delivery | Nivy |
+| Assessment design | Nivy |
+| Reporting | Nivy |
 
-3. **Outcome-linked component**  
-   Base fee + success-linked element (definition of success to be agreed).
+## 2. Paid training (post-pilot options)
 
-## What is included in pilot fee (typical)
-- Assessment design & delivery  
-- Core training modules facilitation  
-- Opportunity matching support  
-- Monthly reporting to institute
+Cohort fee / per-student models — numbers founder freeze ke baad.
 
-## What is usually excluded
-- Student stipends / salaries (employer side)  
-- Travel / logistics outside agreed scope  
-- Custom curriculum beyond agreed modules
+## 3. Outsourcing / project work
 
-*Final commercial schedule will be attached after internal sign-off. Do not quote numbers externally until G3 is closed.*
+Alag commercial line; pilot se mix mat karo.
+
+*Numbers TBD until G3 pricing sign-off. Externally quote mat karo.*

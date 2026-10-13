@@ -1,19 +1,39 @@
-# Objection Handling — Institute Partnerships
+# Objection Handling (Full Draft)
 
-**Objection: “Humara placement cell already hai.”**  
-Response: Hum replace nahi karte — complement karte hain. Assessment depth, verified opportunity pipeline, aur structured reporting add hota hai.
+**Tone:** Calm, respectful, factual Hindi
 
-**Objection: “Students convert nahi karenge.”**  
-Response: Pilot gated progression aur clear metrics ke saath design hai. Dono sides ko data dikhta hai; scale tabhi jab results aaye.
+---
 
-**Objection: “Cost zyada / budget nahi.”**  
-Response: Flexible commercial models (institute / shared / outcome components). Chhote cohort se shuru kar sakte hain.
+### 1. “Placement wale pehle se aate rehte hain”
 
-**Objection: “Data privacy / consent.”**  
-Response: Student Consent form + short Privacy policy. Sirf zaroori data; PII operational systems mein, GitHub par nahi.
+Samajh sakta hoon sir. Farq ye hai ki hum sirf drive / promise par nahi aate. Practical training, assessment, portfolio aur career prep ke saath system ki baat hai. Placement sirf jahan opportunity verified ho.
 
-**Objection: “Pehle results dikhao.”**  
-Response: Pilot hi isi liye hai — measurable, time-bound, low commitment. End pe go/no-go.
+---
 
-**Objection: “Language / communication.”**  
-Response: Hi-En, Hi-Only, En-Only packs available.
+### 2. “Free kyun? Baad mein pakadoge?”
+
+Is liye free boundaries annex mein likh ke freeze karte hain. Jo scope hai wahi; uske bahar alag baat.
+
+---
+
+### 3. “Students convert nahi karenge”
+
+Isliye limited cohort aur clear metrics. Scale tab jab data aaye.
+
+---
+
+### 4. “Humara placement cell hai”
+
+Complement hai, replace nahi. Assessment depth + practical system + verified pipeline add hota hai.
+
+---
+
+### 5. “Data privacy”
+
+Consent + short privacy policy. Sirf zaroori data.
+
+---
+
+### 6. “Pehle results dikhao”
+
+Pilot isi liye hai — time-bound, measurable, low commitment.

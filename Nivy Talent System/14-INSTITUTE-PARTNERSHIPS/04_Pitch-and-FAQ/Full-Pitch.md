@@ -1,25 +1,32 @@
-# Full Pitch — Institute Growth & Industry Partnership Program
+# Full Pitch (Full Draft)
 
-## Opening
-Institutes ke paas talent hai; industry ke paas real projects aur roles hain. Beech ka gap assessment, targeted training, aur verified matching ka hai.
+**Duration:** 5–7 minutes  
+**Use:** In-person or detailed call after permission
 
-## What Nivy does
-Nivy ek structured pipeline chalata hai:
+---
 
-1. **Assess** — clear skill baseline  
-2. **Train** — industry-aligned modules  
-3. **Match** — verified vacancies / client projects  
-4. **Support** — interview prep, feedback, reporting
+## 1. Opening
 
-## Why a pilot
-6-month pilot low-risk hai: fixed cohort, clear metrics, go/no-go decision end mein. Institute operational load light rahta hai; Nivy delivery aur matching handle karta hai.
+Namaste sir, main [Naam], Nivy Global se. Dhanyavad time dene ke liye.
 
-## Outcomes we optimise for
-- Higher readiness of the cohort  
-- Transparent conversion numbers  
-- Student and institute feedback  
-- A repeatable model that can scale only after proof
+Hum accounting, taxation, digital marketing, website/software aur AI tools ke area mein industry ka kaam karte hain. Hum kuch institutes ke saath is liye baat kar rahe hain ki unke students ko sirf certificate nahi, practical system aur career readiness mile.
 
-## Close
-Discovery call → pilot design lock → kickoff.  
-Language packs (Hi-En / Hi-Only / En-Only) ready hain taaki communication campus ke hisaab se ho sake.
+## 2. Aapka strength
+
+Aapke paas classrooms, computers, local reach aur existing courses hain. Ye infrastructure valuable hai.
+
+## 3. Gap
+
+Industry ready hone ke liye practical process, assessment, portfolio aur verified opportunity pipeline chahiye. Bahut jagah ye missing rehta hai.
+
+## 4. Hamara offer
+
+Limited pilot: aapka infrastructure + hamari curriculum/delivery/assessment/career support. Pehle results dekho, phir scale.
+
+## 5. Honest line on placement
+
+Guarantee nahi. Jab real opportunity ho tab discuss. Metrics saath mein.
+
+## 6. Close
+
+Agar interest hai to pilot annex freeze karke chhota start kar sakte hain. Language packs bhi ready hain (Hindi / English / dono).

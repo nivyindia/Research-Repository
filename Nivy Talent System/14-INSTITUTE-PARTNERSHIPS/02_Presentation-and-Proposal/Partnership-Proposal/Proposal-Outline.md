@@ -1,11 +1,15 @@
-# Partnership Proposal — Outline
+# Partnership Proposal — Outline (Phase B3)
 
-1. Cover page / intro  
-2. Problem & opportunity  
-3. Nivy solution overview  
-4. Pilot design (6 months)  
-5. Roles & responsibilities  
-6. Commercial model (summary)  
-7. Success metrics & reporting  
-8. Timeline & next steps  
-9. Appendices (optional)
+**Length target:** 4–6 pages
+
+## Sections
+1. Introduction & purpose
+2. Positioning & opportunity for institute
+3. What Nivy brings
+4. What institute brings
+5. Programs in scope (pilot verticals)
+6. Six-month pilot terms (scope, capacity, free boundaries, cost ownership)
+7. Roles & responsibilities
+8. Career & employment support policy (honest)
+9. Future paid options (high level)
+10. Next steps & contact

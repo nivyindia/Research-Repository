@@ -1,16 +1,16 @@
-# Institute Fields Guide
+# Institute-Specific Fields Guide (Full Draft)
 
-Customise these fields for every institute proposal and presentation:
+Fill per institute; master pitch claims same rakho.
 
-| Field | Example / notes |
-|-------|-----------------|
-| Institute legal name | |
-| Short name / brand | |
-| City / campus | |
-| Primary contact name & role | TPO / Dean / Placement cell |
-| Contact email / phone | |
-| Relevant departments / courses | |
-| Approx. student strength (final year) | |
-| Current placement partners | |
-| Preferred pilot start | Month / semester |
-| Special constraints | Timing, language, compliance |
+| Field | Example |
+|-------|---------|
+| Institute name | |
+| City / area | Lucknow |
+| Owner / coordinator | |
+| Phone / WA / email | |
+| Current courses | CCC, ADCA, Tally, … |
+| Classrooms / PCs (approx) | |
+| Active students (approx) | |
+| Preferred pilot vertical | Accounting / DM |
+| Proposed start window | |
+| Special notes | |

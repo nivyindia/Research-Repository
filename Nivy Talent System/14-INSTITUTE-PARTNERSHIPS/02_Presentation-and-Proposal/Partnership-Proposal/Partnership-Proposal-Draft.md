@@ -1,36 +1,52 @@
 # Partnership Proposal — Draft
 
-**Prepared for:** [Institute Name]  
-**Prepared by:** Nivy Talent System  
-**Date:** [Date]
+**Program:** Institute Growth & Industry Partnership Program  
+**To:** [Institute Name]  
+**From:** Nivy Global  
+**Date:** [TBD]  
+**Version:** 0.1 Draft
 
-## 1. Executive summary
-Nivy proposes a **6-month pilot** under the Institute Growth & Industry Partnership Program. The pilot focuses on structured student assessment, industry-aligned training, and verified opportunity matching, with transparent success metrics and a clear go/no-go decision at the end of the pilot.
+---
 
-## 2. Objectives
-- Improve placement readiness of a defined student cohort  
-- Expose students to verified industry opportunities  
-- Give the institute measurable outcomes and a low-risk path to scale
+## 1. Purpose
 
-## 3. Scope of the pilot
-- Target cohort size and departments (to be agreed)  
-- Assessment battery and training modules  
-- Opportunity pipeline (vacancies / client projects)  
-- Reporting cadence to institute leadership
+[Institute] ke existing classrooms, computers aur local student reach ke saath industry-oriented practical training, assessment aur career support jodna—pehle limited pilot se, phir mutual results ke baad scale.
 
-## 4. Roles
-**Institute:** Student nomination, campus logistics, single point of contact.  
-**Nivy:** Assessment design & delivery, training facilitation, opportunity matching, monthly reports.
+## 2. Positioning
 
-## 5. Commercial outline
-See separate Cost-and-Revenue-Models (draft). Final numbers subject to commercial sign-off.
+Hum franchise bechne nahi aaye. Aapka infrastructure + hamari delivery system = practical growth path for students.
 
-## 6. Success metrics
-Defined in Success-Metrics.md (conversion, feedback, NPS, completion rates).
+## 3. What Nivy brings
 
-## 7. Proposed next steps
-1. Align on cohort and start date  
-2. Sign pilot / MoU (legal review pending)  
-3. Kickoff workshop
+- Curriculum & practical system  
+- Assessment framework  
+- Delivery / facilitation support  
+- Career prep & opportunity matching (verified only)  
+- Reporting
 
-*This document is a working draft and not a binding offer.*
+## 4. What institute brings
+
+- Space / PCs  
+- Student nomination  
+- Local coordination  
+- Alignment on pilot boundaries
+
+## 5. Six-month pilot
+
+Scope, capacity, free boundaries, cost ownership — annex mein freeze.
+
+## 6. Roles & responsibilities
+
+RACI clear rakha jayega (Institute vs Nivy).
+
+## 7. Career & employment support policy
+
+Honest: guarantee nahi; verified opportunity par discussion.
+
+## 8. Next steps
+
+1. Fields guide fill  
+2. Pilot annex lock  
+3. Kickoff
+
+*Draft only — not a binding offer.*

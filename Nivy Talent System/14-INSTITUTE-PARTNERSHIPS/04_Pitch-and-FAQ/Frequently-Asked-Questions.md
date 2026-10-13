@@ -1,22 +1,55 @@
-# Frequently Asked Questions — Institute Partnerships
+# Frequently Asked Questions (Full Draft)
 
-**Q1. Pilot kitna time ka hota hai?**  
-Standard pilot **6 months** ka hai. Extension ya scale decision pilot ke end pe data ke basis pe hota hai.
+Har sawal: **Short (bolne ke liye)** · **Detailed**
 
-**Q2. Training ka cost kaun bear karta hai?**  
-Commercial model flexible hai: institute-sponsored, shared, ya outcome-linked components. Final model Gate G3 (pricing sign-off) ke baad lock hota hai.
+---
 
-**Q3. Placement guarantee hai kya?**  
-Nahi. Hum verified vacancies aur structured matching dete hain. Final conversion student performance aur market conditions par depend karta hai. Metrics transparent rakhe jaate hain.
+### 1. Aap actually kya karna chahte ho?
 
-**Q4. Student data kaise handle hota hai?**  
-Sirf zaroori assessment aur career data, consent form ke saath. Privacy policy short form available hai. GitHub par PII nahi store kiya jata.
+**Short:** Aapke existing institute par industry-level practical training aur career preparation jodna—pehle limited pilot se.
 
-**Q5. Sirf ek department se shuru kar sakte hain?**  
-Haan — pilot ke liye recommended approach hai.
+**Detailed:** Hum franchise bechne nahi aaye. Aapke rooms/PCs/students ke saath hum curriculum, practical system, assessment aur career support laate hain. Job tab discuss hogi jab real opportunity ho.
 
-**Q6. Existing placement cell ke saath kaise kaam karega?**  
-Complement karta hai, replace nahi. Assessment depth + verified pipeline add hota hai.
+---
 
-**Q7. Language / medium?**  
-Content packs available hain: Hindi-English bilingual, Hindi-only, English-only.
+### 2. Aapki company kya karti hai?
+
+**Short:** Accounting, taxation, digital marketing, website/software, AI tools — industry side ka kaam.
+
+**Detailed:** Nivy Global industry projects aur talent systems dono side se connected hai. Is program ka focus institute ke students ko practical readiness dena hai.
+
+---
+
+### 3. Pilot free hai kya?
+
+**Short:** Pilot ke andar jo scope annex mein likha hai wahi free / included; uske bahar paid.
+
+**Detailed:** Free boundaries clearly freeze karte hain taaki baad mein confusion na ho.
+
+---
+
+### 4. Placement guarantee?
+
+**Short:** Nahi. Verified opportunity par hi baat.
+
+**Detailed:** Promise sirf wahi jahan demand clear ho. Metrics transparent rakhenge.
+
+---
+
+### 5. Data / consent?
+
+**Short:** Consent form + short privacy policy.
+
+**Detailed:** Sirf zaroori data; public repos mein PII nahi.
+
+---
+
+### 6. Kitne students se shuru?
+
+**Short:** Limited cohort — annex mein number freeze.
+
+---
+
+### 7. Language?
+
+**Short:** Hindi / English / bilingual packs available.
