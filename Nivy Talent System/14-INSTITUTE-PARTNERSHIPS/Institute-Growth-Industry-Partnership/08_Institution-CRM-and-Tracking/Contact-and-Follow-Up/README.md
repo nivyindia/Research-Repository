@@ -1,0 +1,2 @@
+# Contact and Follow-up Fields
+Restricted CRM: institution_id, contact/role, approved channel, source/permission, first/last contact, response, next date, opt-out preference, owner, notes. Respect opt-outs and communication rules.
