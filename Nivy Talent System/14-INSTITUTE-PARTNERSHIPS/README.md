@@ -2,25 +2,27 @@
 
 **Program:** Institute Growth & Industry Partnership Program
 
-## Control docs (`00_Project-Overview/`)
+## Status (2026-10-14)
 
-| File | Use |
-|------|-----|
-| [Master-Plan.md](./00_Project-Overview/Master-Plan.md) | Program frame |
-| [Implementation-Plan.md](./00_Project-Overview/Implementation-Plan.md) | Outline phases A–F (done) |
-| [Draft-Implementation-Plan.md](./00_Project-Overview/Draft-Implementation-Plan.md) | **Full draft phases D0–D8** |
-| [Progress-Tracker.md](./00_Project-Overview/Progress-Tracker.md) | Outline status |
-| [Draft-Progress-Tracker.md](./00_Project-Overview/Draft-Progress-Tracker.md) | **Draft status + gates** |
-| [Document-Register.md](./00_Project-Overview/Document-Register.md) | Document map |
+| Layer | Status |
+|-------|--------|
+| Folder structure | Done |
+| Outlines A–F | Done |
+| Full drafts D1–D7 | Done |
+| Gates G1–G5 (brand, scope, trainers, vacancies) | Open |
+| Legal sign-off / PPT binary | Pending |
+| Outreach | After G2 + G5 |
 
-## Current state
+## Control (`00_Project-Overview/`)
 
-- Structure: ready  
-- Outlines: complete  
-- Full drafts: **not started** — follow Draft-Implementation-Plan  
+- [Draft-Implementation-Plan.md](./00_Project-Overview/Draft-Implementation-Plan.md)  
+- [Draft-Progress-Tracker.md](./00_Project-Overview/Draft-Progress-Tracker.md)  
+- [Master-Plan.md](./00_Project-Overview/Master-Plan.md)  
+- [Document-Register.md](./00_Project-Overview/Document-Register.md)  
 
-## Folders 01–11
+## Key draft entry points
 
-Company · Presentation · Communication · Pitch · Pilot · Agreements · Training · CRM · Career · Operations · Archive
-
-Also: [institute-partnership-sop.md](./institute-partnership-sop.md)
+- Pitch: `04_Pitch-and-FAQ/`  
+- Scripts: `03_Communication-Kit/`  
+- Slides text: `02_Presentation-and-Proposal/Main-Presentation/Slide-Content.md`  
+- Proposal: `02_Presentation-and-Proposal/Partnership-Proposal/Partnership-Proposal-Draft.md`  
