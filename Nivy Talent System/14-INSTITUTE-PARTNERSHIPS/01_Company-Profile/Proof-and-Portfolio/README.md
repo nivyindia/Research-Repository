@@ -1,13 +1,13 @@
-# Proof and Portfolio — Outline (Phase C2)
+# Proof and Portfolio — Checklist
 
-## Items to collect (list only until available)
-- Company one-pager / website proof
-- Anonymized work samples (permission-based)
-- Sample training module page
-- Sample assignment + filled rubric
-- Sample student portfolio structure
-- Verified vacancy / project sheet (if real)
-- Pilot timeline visual
+Attach only real, permission-safe items:
 
-## Rule
-- No fabricated clients, numbers, or logos
+- [ ] Website / company one-pager  
+- [ ] Anonymized work sample(s)  
+- [ ] Sample module page  
+- [ ] Sample assignment + rubric  
+- [ ] Portfolio structure sample  
+- [ ] Vacancy/project sheet (verified or labelled tentative)  
+- [ ] Pilot timeline one-pager  
+
+No fabricated logos, counts, or client names.

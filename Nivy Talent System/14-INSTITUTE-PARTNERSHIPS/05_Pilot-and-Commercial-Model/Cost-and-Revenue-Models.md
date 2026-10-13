@@ -1,26 +1,53 @@
-# Cost and Revenue Models — Outline (Phase C1)
+# Cost and Revenue Models (Full Draft)
 
-## Three separate lines (do not mix)
+## Principle
+Teen lines **alag** rakho: Pilot · Paid training · Outsourcing.
 
-### 1. Pilot
-- Free only for pre-agreed scope
-- Cost matrix: electricity, internet, trainer travel, tools, marketing — who pays
+---
 
-### 2. Paid training
-- A: Revenue share on course fee (after cost sheet)
-- B: Fixed delivery fee per student/batch
-- C: Hybrid
-- Provisional ratios only for modelling — not final without costs
+## 1. Pilot costs
 
-### 3. Outsourcing / workforce
-- Client billing rate
-- Worker compensation (legal compliance)
-- Institute supervision fee
-- Nivy acquisition & management margin
-- Rework / absence / replacement rules
+| Cost item | Typical owner (decide in annex) |
+|-----------|----------------------------------|
+| Classroom / PC usage | Institute |
+| Electricity / internet | Institute (unless agreed otherwise) |
+| Local coordinator time | Institute |
+| Curriculum & core training delivery | Nivy (within free scope) |
+| Trainer travel | TBD |
+| Software licenses | TBD |
+| Marketing to fill seats | TBD |
+
+Free ≠ “every cost is zero for everyone.”
+
+---
+
+## 2. Paid training (after pilot, new agreement)
+
+**Model A — Revenue share**  
+Institute collects fee → share after agreed deductions. Final % only after cost sheet.  
+*EXAMPLE only (not policy):* ₹20,000 fee → explore splits after costs — do not treat as committed ratio.
+
+**Model B — Delivery fee**  
+Institute pays Nivy fixed per student/batch; institute sets student price.
+
+**Model C — Hybrid**  
+Base delivery fee + share on advanced modules.
+
+---
+
+## 3. Outsourcing / workforce
+
+Separate contract fields:
+
+- Client billing rate  
+- Worker compensation (legal compliance)  
+- Institute supervision fee  
+- Nivy margin for acquisition/management  
+- Absence, rework, replacement  
+
+*EXAMPLE arithmetic only:* If client pays ₹15,000/seat/month, worker pay and margins must be written—not “institute keeps the rest” without rules.
+
+---
 
 ## Pricing philosophy
-- Value package (hours, projects, assessment, career support) — not only copy market CCC/ADCA rates
-
-## Package concept (later pricing)
-- Foundation / Professional / Industry-Ready / International Ops
+Compare value: hours, projects, assessment, career support—not only CCC/ADCA market stickers.

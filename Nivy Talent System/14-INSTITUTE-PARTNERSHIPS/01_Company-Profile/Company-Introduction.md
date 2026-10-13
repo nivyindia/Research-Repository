@@ -1,12 +1,24 @@
-# Company Introduction — Outline (Phase C2)
+# Company Introduction (Full Draft)
 
-## Points to cover
-1. **Who** — Nivy Global short intro; India + international direction
-2. **Experience** — founder ~15 years; senior CAs / practitioners network
-3. **What we do** — CA/accounting/tax ops; digital marketing; web/software/AI; talent path
-4. **Why institutes** — practical talent pipeline; institutes have infra + students
-5. **What we are not** — not pure franchise seller; not pure placement agency; not replacing institute identity
-6. **Contact / legitimacy** — website, email, key contact
+## Who we are
 
-## Tone
-- Factual; no exaggerated claims
+**Nivy Global** industry services aur talent-oriented training partnerships par kaam karti hai. Focus areas mein accounting/tax operations, digital marketing, software/web, aur AI-assisted workflows shamil hain—India operations ke saath international direction jahan delivery real ho.
+
+Founder side ~15 years industry experience; delivery network mein experienced CA professionals aur domain practitioners shamil ho sakte hain (program ke hisaab se).
+
+## Why institutes
+
+Institutes ke paas classrooms, computers aur local students hain. Nivy ke paas industry workflows, training design aur (jab available ho) real work exposure ka system. Milkar gap kam hota hai jo sirf theory courses aur job-ready skills ke beech rehta hai.
+
+## What we are not
+
+- Sirf franchise bechne wale nahi  
+- Sirf placement brochure agency nahi  
+- Institute ka naam/identity replace karne wale nahi  
+
+## Contact
+
+- Website: [TBD]  
+- Email: [TBD]  
+- Phone: [TBD]  
+- Location: [TBD]  

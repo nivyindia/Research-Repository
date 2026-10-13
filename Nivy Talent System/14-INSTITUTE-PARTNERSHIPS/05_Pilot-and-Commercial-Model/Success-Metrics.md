@@ -1,25 +1,25 @@
-# Success Metrics — Outline (Phase C1)
+# Success Metrics (Full Draft)
 
-## Pilot metrics
-| Metric | Notes |
-|--------|-------|
-| Enrolment vs plan | % of agreed capacity |
-| Completion rate | % |
-| Practical assessment pass | % |
-| Portfolio completed | % |
-| Interview-ready | count |
-| Interviews arranged | count |
-| Paid employment / projects | count (honest) |
-| 30-day retention of placed | % |
-| Institute satisfaction | score / notes |
-| Student satisfaction | score / notes |
-| Net pilot cost to Nivy | ₹ |
+## Definitions
 
-## Decision rules after 6 months
-- Expand paid if demand + quality + economics positive
-- Modify if partial success
-- Exit cleanly if not viable
+| Metric | Definition |
+|--------|------------|
+| Enrolment vs plan | Seats filled / annex capacity |
+| Completion | Finished required modules + attendance rule |
+| Practical pass | Met rubric threshold |
+| Portfolio done | Agreed artifacts submitted |
+| Interview-ready | Flagged after assessment + prep checklist |
+| Interviews | Documented interview events |
+| Paid outcomes | Employment or paid project starts |
+| 30-day retention | Still active after 30 days if placed |
+| Satisfaction | Short institute + student feedback |
+| Pilot cost | Nivy direct costs attributable to pilot |
 
 ## Reporting
-- Monthly one-pager to institute
-- Internal full log in Pilot-Tracker
+- Monthly one-pager to institute  
+- Internal full log in Pilot-Tracker  
+
+## Month-6 decision guide
+- **Expand paid:** demand + quality + tolerable economics  
+- **Modify:** partial success  
+- **Stop:** not viable for either side  
