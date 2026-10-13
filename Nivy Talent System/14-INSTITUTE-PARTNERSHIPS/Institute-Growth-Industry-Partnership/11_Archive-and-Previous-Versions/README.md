@@ -1,0 +1,2 @@
+# Archive and Previous Versions
+Retain superseded versions with version/date/reason/replacement link/approval status. No personal student data, credentials or confidential client files. Do not delete source materials during migration without verified backup and provenance note.
