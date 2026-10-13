@@ -1,0 +1,2 @@
+# Institute-specific templates
+हर institute के लिए separate meeting notes, proposal version और decision log बनाएं। Personal contact details/negotiations restricted CRM में रखें; public repo में blank templates या anonymised examples ही। Naming: InstituteID-YYYY-MM-DD-Meeting-Notes.md; InstituteID-Proposal-v01.md.
