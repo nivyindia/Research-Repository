@@ -1,44 +1,107 @@
 # Master Plan — Institute Growth & Industry Partnership Program
 
-**Status:** Phase A complete (control outline)
+**Status:** Updated with mutual growth & revenue logic  
+**Date:** 2026-10-15
+
+---
 
 ## 1. Vision
-- Existing computer institutes / coaching centres ko industry-connected training + career centre banana
-- Nayi infrastructure pe paisa na lagana; unka existing infra use karna
+
+Turn existing computer institutes and coaching centres into stronger industry-connected training and career-preparation centres — without forcing them to rebuild infrastructure or lose control of their brand.
+
+---
 
 ## 2. Positioning
-- **Primary:** Institute Growth & Industry Partnership Program
-- **Line:** Your Infrastructure. Our Industry Expertise. Shared Growth.
-- Supporting: growth / industry skills / employability
-- Risk offer: 6-month limited pilot → measure → then paid decision
 
-## 3. Three parties
+**Primary Name:** Institute Growth & Industry Partnership Program  
+**Line:** Your Infrastructure. Our Industry Expertise. Shared Growth.
+
+---
+
+## 3. Three Parties
+
 | Party | Brings |
 |-------|--------|
-| Institute | Rooms, PCs, local students, coordination |
-| Nivy | Curriculum, trainers, practicals, assessment, career support, verified opportunities |
-| Student | Skills, portfolio, readiness, access to real opportunities where available |
+| Institute | Rooms, PCs, local students, coordination, local trust |
+| Nivy | Curriculum, practical systems, assessment, career support, industry linkage |
+| Student | Effort, portfolio, readiness |
 
-## 4. Verticals (phased)
-1. Accounting / Tax / Finance ops (priority)
-2. Digital Marketing & Growth (priority)
-3. IT / Software / AI (later)
-4. Career readiness (all verticals ke saath)
+---
 
-## 5. Student path (system)
-Assess → Train → Practice → Evaluate → Portfolio → Interview prep → Opportunity match → Feedback → Follow-up
+## 4. Core Value Exchange
 
-## 6. Commercial (3 alag lines)
-- Pilot: free only within written scope
-- Paid courses: revenue share or delivery fee (cost sheet ke baad)
-- Outsourcing: separate contract (billing, pay, supervision, margin)
+**Institute receives:**
+- Better student outcomes and satisfaction
+- Stronger local reputation
+- Differentiation from certificate-only centres
+- Better use of existing infrastructure
+- Low-risk pilot entry
+- Optional later co-branding and digital visibility support
+- Potential inbound student benefit from association and results
 
-## 7. Success
-Repeatable, measurable, commercially sustainable system — local infra + central quality & employer links
+**Nivy receives:**
+- Partner network
+- Real delivery environment
+- Later-stage revenue from optional branding / digital marketing services
+- Stronger market presence through successful associations
 
-## 8. Open decisions (before outreach)
-- Brand: Nivy Global vs Nivy Academy
-- Pilot free scope numbers
-- First 1–2 programs + real trainers
-- Real vacancies / client work list
-- Provisional fee-share approach
+---
+
+## 5. Commercial Logic (Three Clear Layers)
+
+1. **Pilot Layer** — Limited scope, written, mostly free/included items only
+2. **Core Partnership Layer** — Paid training / delivery model after successful pilot (terms TBD)
+3. **Growth Services Layer** (optional, after results):
+   - Co-branding support
+   - Digital marketing / online visibility services for the institute
+   - Paid branding packages (institute pays → Nivy revenue)
+
+---
+
+## 6. Progression Principle
+
+**Results first → Trust → Optional expansion**
+
+We do not lead with co-branding or paid marketing.  
+We lead with student outcomes and a clean pilot.  
+Everything else is earned.
+
+---
+
+## 7. Verticals (Phased)
+
+1. Accounting / Tax / Finance operations (Priority)
+2. Digital Marketing & Growth (Priority)
+3. IT / Software / AI-assisted (Later)
+4. Career readiness (across verticals)
+
+---
+
+## 8. Student Path
+
+Assess → Train → Practice → Evaluate → Portfolio → Interview prep → Opportunity match (where real) → Feedback
+
+---
+
+## 9. Success Definition
+
+A repeatable, measurable, commercially sustainable system where:
+- Institutes see clear student and reputation benefits
+- Nivy builds a quality partner network
+- Optional growth services create additional revenue without damaging trust
+
+---
+
+## 10. Open Decisions (Founder Freeze Required)
+
+- Brand name lock (Nivy Global / Nivy Academy / other)
+- Exact pilot free scope numbers
+- Post-pilot commercial model percentages
+- Pricing for optional digital visibility / branding services
+- First pilot cities and target institute profile
+
+---
+
+**Document control**  
+Version: 1.1 — Mutual benefits & growth services layer added  
+Date: 2026-10-15

@@ -1,44 +1,38 @@
 # Elevator Pitch — Institute Growth & Industry Partnership Program
 
 **Duration:** 45–60 seconds  
-**Framework used:** Problem + Light Fear → Institute Benefit → Risk Reversal → Soft CTA  
-**Tone:** Respectful, confident, benefit-focused
+**Framework:** Problem → Institute Benefit → Risk Reversal → Mutual Upside hint → Soft CTA
 
 ---
 
 ## English Version
 
-“Sir / Madam, most institutes today have good classrooms and students, but still face the same problem — students finish the course and still don’t feel job-ready. Parents keep asking for results, and local competition is only increasing.
+“Sir / Madam, most institutes have classrooms and students, but students still don’t feel job-ready. Parents keep asking for results and competition is rising.
 
-We help institutes like yours use the infrastructure you already have and add a proper industry practical system — especially in Accounting operations and Digital Marketing — so students leave with real skills and portfolio, not just a certificate.
+We help institutes use their existing infrastructure and add a real industry practical system — so students leave with skills and portfolio, not just a certificate. You keep full control of your brand and fees.
 
-You keep full control of your brand and fees. We only start with a limited six-month pilot so you can see the results first. No long lock-in.
+We start only with a limited six-month pilot so you see results first. No lock-in.
 
-If this sounds relevant, can we schedule 10 minutes this week so I can show you exactly how the pilot works?”
+Later, if you want, we can also explore co-branding and support to increase your online visibility — but only after you see the results.
 
----
-
-## Hindi Version (Natural Spoken)
-
-“Sir / Madam, aaj kal zyatar institutes ke paas classrooms aur students to hain, lekin problem yeh hai ki course khatam hone ke baad bhi students job-ready nahi feel karte. Parents results maangte rehte hain aur local competition bhi badhta ja raha hai.
-
-Hum aapke jaise institutes ki existing infrastructure use karke usme industry-level practical system jodte hain — especially Accounting operations aur Digital Marketing mein — taaki students ke paas sirf certificate nahi, real skills aur portfolio ho.
-
-Aapka brand aur fees ka full control aapke paas hi rehta hai. Hum sirf limited six-month pilot se shuru karte hain taaki aap pehle results dekh saken. Koi long lock-in nahi.
-
-Agar yeh baat relevant lagti hai to kya is hafte 10 minute nikal sakte hain? Main aapko pilot ka exact structure dikha dunga.”
+Can we schedule 10 minutes this week so I can show you the pilot structure?”
 
 ---
 
-## 15-Second Ultra Short
+## Hindi Version
 
-“Institutes ke paas infra hai, lekin students abhi bhi job-ready nahi feel karte. Hum aapke existing setup pe industry practical system jodte hain — limited pilot se, bina lock-in ke. 10 minute baat karein?”
+“Sir / Madam, zyatar institutes ke paas classrooms aur students hain, lekin students abhi bhi job-ready nahi feel karte. Parents results maangte hain aur competition badh raha hai.
+
+Hum aapke existing infrastructure pe industry-level practical system jodte hain — taaki students ke paas skills aur portfolio ho, sirf certificate nahi. Aapka brand aur fees ka control aapke paas hi rehta hai.
+
+Hum sirf limited six-month pilot se shuru karte hain taaki aap pehle results dekh saken. Koi lock-in nahi.
+
+Baad mein, agar aap chahen to co-branding aur aapki online visibility badhane ka support bhi explore kar sakte hain — lekin pehle results ke baad.
+
+Kya is hafte 10 minute nikal sakte hain? Main pilot ka structure dikha dunga.”
 
 ---
 
-## Key Elements Used
-- Opening with real problem + light fear (parents + competition)
-- Clear institute benefit (better student outcomes + reputation)
-- Risk reversal (limited pilot, no lock-in)
-- Control stays with institute
-- Soft, clear CTA (10 minutes)
+## 15-Second Version
+
+“Institutes ke paas infra hai, lekin students job-ready nahi feel karte. Hum existing setup pe industry practical system jodte hain — limited pilot se. Baad mein co-branding aur visibility support bhi possible hai. 10 minute baat karein?”
