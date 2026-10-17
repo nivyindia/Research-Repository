@@ -132,3 +132,28 @@ These exact paths were surfaced by repository search. Unless stated otherwise, t
 - Video editing and social content SOPs may include a handoff between Nivy Crafts (creative production) and Nivy Hype (campaign planning, posting and paid distribution). Keep one clear service owner per deliverable and document handoffs.
 - Profile kits may relate to legacy brands such as Nivy Nexus or Nivy TrustChain. Do not automatically transfer brand-specific profile content to the four service brands.
 - Search results revealed several delivery SOPs and pricing references; these should be audited before any service package is promised to international clients.
+
+
+## Fourth pass — full-content spot checks of priority candidates
+
+| ID | Exact source path | Content verified | Preliminary decision / risk | Status |
+|---|---|---|---|---|
+| INV-024 | `Nivy Next/🗺️ Nivy Next — Business Profile Execution Plan 35534207fb4d81988ac8ef196085310e.md` | Master plan links to brochure, sales deck, social version, directory profiles and website copy | Useful asset index; many outputs inherit mixed-brand service scope. Keep as source until each linked asset is mapped | Review Required |
+| INV-025 | `Nivy Next/🔍 Nivy Next — SEO Optimization Master Plan (Intern 38534207fb4d816d888dde5528469b8d.md` | International SEO plan targets US, UK, Canada, Australia and UAE; states 29 existing pages and 43+ after planned additions | Strong SEO source, but hierarchy includes marketing/PPC/social/creative/VA services. Retain as legacy master; later split page ownership and intent by brand | Review Required |
+| INV-026 | `Nivy Next/📢 PPC Advertising — Service Page (V3) 38434207fb4d8168bbd7cfa8d5bcc5bd.md` | Client-facing PPC page for Google, Microsoft and YouTube ads; tagged Live | Service maps to Nivy Hype under new architecture. “Live” is source metadata, not confirmation it is currently published online | Review Required |
+| INV-027 | `Notion - Nivy OS/🎬 Video Editing — Service Page e4beb94b1a2a8236b625810b0c7e4072.md` | Explicit “Internal Use Only”; covers short-form, long-form, hooks, captions, motion elements, sound design, exports | Nivy Crafts service source; must derive public copy rather than publish internal page verbatim | Review Required |
+| INV-028 | `Notion - Nivy OS/💰 Nivy Pricing Packages — VA Reference Sheet e88eb94b1a2a836e905881e255236f91.md` | Explicitly says VA-only reference and not to share exact prices during outreach; includes Nivy Advisory accounting/bookkeeping alongside VA | Mixed-brand/internal sales enablement document, not a clean Nivy Ops price list. Split service references by brand only after audit; restrict internal pricing visibility | Review Required |
+| INV-029 | `Notion - Nivy OS/📋 DELIVERY SOP-001 — Social Media Management (SMM) 835eb94b1a2a837da078012a32d3594a.md` | Active dated SOP with monthly package scope, deliverables and quality-control workflow | Nivy Hype delivery SOP; check handoffs to Nivy Crafts for creative assets and compare matching SOP copy | Review Required |
+| INV-030 | `Notion - Nivy OS/📋 DELIVERY SOP-003 — Performance Marketing (Ads Management) 65eeb94b1a2a8220adee819f5febfb7d.md` | Active dated SOP; written client authorization, budget approval and QC sign-off required before launch | Nivy Hype delivery SOP; preserve operational safeguards and confirm canonical version | Review Required |
+| INV-031 | `Nivy Nexus/🌐 Social Media Profile Content Kit — LinkedIn, Twi 360962c68c128132905dffc00c7217c1.md` | Profile kit is for Business Partnership & Community Growth Manager and names Nivy Digital, not the four new service brands | Legacy/cross-company asset; do not move directly into any one brand. Extract reusable template only if needed | Review Required |
+| INV-032 | `Nivy Next/🗺️ Workspace Reorganization — Master Plan 34734207fb4d816ba4fcc07ec2ad2033.md` | Older workspace reorganization plan marked execution complete in April 2026; discusses duplicate teamspaces and no-delete policy | Historical planning reference. Use for context only; do not assume it describes current GitHub structure or current completion | Review Required |
+| INV-033 | `Nivy Next/🗒️ Global Company Portfolio Master Checklist 2a534207fb4d804b93d7c78a95817c5f.md` | Reusable checklist includes company information, foundation, services/capabilities and client-experience assets | Candidate for shared master checklist, with brand-specific appendices; inspect remaining sections before final placement | Review Required |
+
+## Fourth-pass decisions and controls
+
+- The business-profile execution plan is a useful navigation hub, but each linked brochure, social profile, directory profile, website copy and sales deck needs its own row in the inventory and a brand-specific scope check.
+- The international SEO plan is reusable as a research/implementation reference; its page hierarchy must be reconciled with the four-brand model before it drives new URLs or copy.
+- The PPC page maps to Nivy Hype, while the video-editing internal service page maps to Nivy Crafts. These are proposed classifications only; source files remain untouched.
+- The VA reference pricing sheet contains Nivy Advisory accounting/bookkeeping material as well as VA content. It must not be moved wholesale into Nivy Ops or treated as a public rate card.
+- Internal delivery SOPs should be kept distinct from public website copy. Client authorization, ad-budget approval and quality-control gates must remain intact.
+- The legacy social profile kit names Nivy Digital; preserve its provenance and do not repurpose its claims as approved copy for the new brands.
