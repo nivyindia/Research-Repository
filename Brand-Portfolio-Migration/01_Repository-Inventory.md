@@ -50,3 +50,40 @@
 - This register has not yet comprehensively audited all website pages, pricing sheets, portfolios, proposals, social profiles, operations SOPs, external references or every brand-specific file.
 - Search remaining categories: portfolio/case study/testimonial, proposal/quotation, company profile/capabilities, VA/remote operations/CRM, graphic design/motion graphics, paid ads/PPC, AI/web/app/software, social/business profiles, keyword/SEO/GEO/AEO, campaigns/content calendar, SOP/onboarding/delivery.
 - Fetch all candidate documents before assigning final destinations. Keep ambiguous entries as Review Required.
+
+
+## Second discovery pass — verified portfolio, website, and commercial assets
+
+| ID | Exact source path | Verified content / risk | Preliminary mapping | Proposed action | Status |
+|---|---|---|---|---|---|
+| INV-011 | `Nivy Next/🎬 Video Production Portfolio 2f134207fb4d809d8ef7c8c7ac1e01fd.md` | Portfolio contains case studies based on well-known third-party brands and says some examples are for reference / can be created from own work | Nivy Crafts / portfolio inspiration, not automatically Nivy client proof | Keep source; classify as inspiration/reference. Do not present third-party work as Nivy's own client work | Review Required |
+| INV-012 | `Notion - Nivy OS/🎬 Video Production Portfolio 5ebeb94b1a2a8223b67481eee8ac1156.md` | Opening content matches INV-011 | Duplicate/version candidate | Compare full content; retain canonical source or reference only after review | Review Required |
+| INV-013 | `Nivy Next/💻 Web Development Portfolio 2f134207fb4d80a089d3da37d4a42028.md` | Includes named third-party examples and explicitly labels a +35% engagement result as hypothetical/estimated | Nivy Next / portfolio inspiration | Do not use hypothetical metrics as achieved results; separate sample concept from verified client case study | Review Required |
+| INV-014 | `Notion - Nivy OS/💻 Web Development Portfolio 4a9eb94b1a2a82e59dcf816267179b29.md` | Opening content matches INV-013 | Duplicate/version candidate | Compare complete content and provenance | Review Required |
+| INV-015 | `Notion - Nivy OS/📚 Case Studies & Social Proof Library 765eb94b1a2a8353a39a814a0e6f3e1e.md` | Master template/SOP library; status Todo; contains general statistics and a case-study template | Shared portfolio governance, with case studies later tagged by service brand | Keep in shared/reference location; verify every statistic and populate only with authorized, evidenced client proof | Review Required |
+| INV-016 | `Nivy Next/🌐 Nivy Next — Website Version (Full Copy) 35534207fb4d8181aadce83a354c1de9.md` | Website copy labelled Final v1.0 (May 2026), but service menu includes graphic design, video editing and virtual assistant services | Mixed-brand legacy website copy | Preserve; map service sections to Next/Crafts/Ops and paid marketing sections to Hype where present; produce brand-specific page plan after audit | Review Required |
+| INV-017 | `Notion - Nivy OS/🌐 Nivy Next — Website Version (Full Copy) e98eb94b1a2a82a9a7910132842cb67d.md` | Opening metadata and website content match INV-016 | Duplicate/version candidate | Compare full contents and metadata before canonical selection | Review Required |
+| INV-018 | `Notion - Nivy OS/NIVY NEXT- SETUP CHECKLIST ec0eb94b1a2a839a9fc1014a5f173b12.md` | Broad checklist for brand, website, social profiles, trust assets, sales assets and international readiness | Nivy Next setup reference; parts reusable across all four brands | Keep source; derive shared checklist template only after comparing Research Data copy | Review Required |
+| INV-019 | `Nivy Research Data/NIVY NEXT- SETUP CHECKLIST 2d1b3416c76d8067a9e5c7adea13b9b7.md` | Opening text matches INV-018 | Duplicate/version candidate | Compare complete contents before deciding canonical version | Review Required |
+| INV-020 | `Notion - Nivy OS/Portfolio 7aceb94b1a2a82f19954018ebab8b88d.md` | General portfolio guidance covers web, branding, SEO/social; includes illustrative outcome examples | Shared portfolio standards/reference | Keep as methodology; ensure examples are labelled illustrative, not actual Nivy outcomes | Review Required |
+| INV-021 | `Nivy Research Data/Portfolio 276b3416c76d8076aa23dc34f76ab225.md` | Opening content matches INV-020 | Duplicate/version candidate | Compare full contents; preserve source until decision | Review Required |
+| INV-022 | `Nivy Next/🛠️ Services & Offers 34734207fb4d81a8956dfe5d6227e19a.md` | Service index links to SEO pricing, branding/audio identity, one-pager, company overview, detailed services and offers | Mixed-brand navigation/index | Inventory linked documents individually; do not move index before its links are mapped | In Progress |
+| INV-023 | `Notion - Nivy OS/🛠️ Services & Offers e33eb94b1a2a83b3a56a01d4f8a3dcc1.md` | Similar service index with links to related assets | Duplicate/version candidate | Compare with INV-022 and check relative links before choosing canonical | Review Required |
+
+## New cross-brand and trust findings
+
+- The current website copy is marked “Final” but its navigation still groups seven capabilities across multiple future brands. “Final” is document metadata, not proof that the content is approved for the new four-brand architecture.
+- Portfolio files contain third-party case studies, hypothetical metrics, and suggestions for work that could be created. These must be separated from verified Nivy client results. Never claim work or outcomes as Nivy's own without evidence and permission.
+- A shared case-study template/SOP library exists; it can inform one reusable portfolio standard, while actual case studies should be tagged and stored by the brand that delivered the service.
+- Setup checklists and portfolio guidance appear in more than one source location. Treat matching openings as duplicate candidates until the full documents are compared.
+- The Services & Offers file is a link hub. Moving it without updating relative links could break access to linked pages.
+
+## Updated search coverage
+
+| Category | New evidence | Remaining work |
+|---|---|---|
+| Portfolio/case studies/social proof | Video and web portfolios; shared case-study library; portfolio guidance | Identify genuine Nivy work, proof, permissions, actual testimonials, and other brand portfolios |
+| Website content | Nivy Next full website copy found in two locations | Compare full versions and map mixed-brand service pages |
+| Sales/commercial readiness | Nivy Next setup checklist includes pitch deck, one-pager, brochures and proposal templates | Locate actual proposal/quotation files and verify availability |
+| Services/catalog navigation | Services & Offers index found in Nivy Next and Notion | Fetch each linked service/pricing/offer document and map by brand |
+| Version control | Multiple matching portfolio, checklist, website and service-index candidates | Full-document comparison and canonical decision pending |
