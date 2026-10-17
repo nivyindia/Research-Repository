@@ -1,0 +1,23 @@
+action,source_path,dest_folder,new_filename,brand,priority,notes
+skip_if_exists,Nivy Hype/04_Pricing-and-Packages/SEO-Packages-and-Pricing.md,Nivy Hype/04_Pricing-and-Packages,SEO-Packages-and-Pricing.md,Hype,P0,Already canonical
+skip_if_exists,Nivy Hype/04_Pricing-and-Packages/Global-Social-Media-Management-Packages.md,Nivy Hype/04_Pricing-and-Packages,Global-Social-Media-Management-Packages.md,Hype,P0,Already canonical
+skip_if_exists,Nivy Hype/03_Services-and-Catalog/PPC-Advertising-Service-Page-V3.md,Nivy Hype/03_Services-and-Catalog,PPC-Advertising-Service-Page-V3.md,Hype,P0,Already canonical
+skip_if_exists,Nivy Hype/03_Services-and-Catalog/Social-Media-Advertising-Service-Page-V3.md,Nivy Hype/03_Services-and-Catalog,Social-Media-Advertising-Service-Page-V3.md,Hype,P0,Already canonical
+skip_if_exists,Nivy Hype/11_Operations-and-Delivery/DELIVERY-SOP-001-Social-Media-Management.md,Nivy Hype/11_Operations-and-Delivery,DELIVERY-SOP-001-Social-Media-Management.md,Hype,P0,Already canonical
+skip_if_exists,Nivy Hype/11_Operations-and-Delivery/DELIVERY-SOP-003-Performance-Marketing-Ads.md,Nivy Hype/11_Operations-and-Delivery,DELIVERY-SOP-003-Performance-Marketing-Ads.md,Hype,P0,Already canonical
+skip_if_exists,Nivy Crafts/03_Services-and-Catalog/Video-Editing-Service-Page.md,Nivy Crafts/03_Services-and-Catalog,Video-Editing-Service-Page.md,Crafts,P0,Already canonical
+move_or_copy,Nivy Next/*Website*Full Copy*.md,Nivy Next/07_Website-and-Landing-Pages,Website-Full-Copy.md,Next,P1,Mixed-brand services listed - historical OK
+move_or_copy,Nivy Next/*Sales Deck*PPT*.md,Nivy Next/05_Sales-and-Business-Development,Sales-Deck-PPT-Version.md,Next,P1,Mixed 7 services
+move_or_copy,Nivy Next/*Business Profile Execution Plan*.md,Nivy Next/00_Project-Management,Business-Profile-Execution-Plan.md,Next,P1,Planning index
+copy_label,Nivy Next/*Web Development Portfolio*.md,Nivy Next/06_Portfolio-and-Proof,Web-Development-Portfolio-REFERENCE-ONLY.md,Next,P1,Third-party + hypothetical - not client proof
+copy_label,Nivy Next/*Video Production Portfolio*.md,Nivy Crafts/06_Portfolio-and-Proof,Video-Production-Portfolio-REFERENCE-ONLY.md,Crafts,P1,Third-party examples - not client proof
+dedupe_move,Nivy Next/*Company Vision Statement*.md,Shared-Brand-Assets/01_Company-Information,Company-Vision-Statement.md,Shared,P1,Keep one by hash; archive rest
+dedupe_move,Nivy Next/*Mission Statement*.md,Shared-Brand-Assets/01_Company-Information,Mission-Statement.md,Shared,P1,Keep one by hash
+dedupe_move,Nivy Next/*Core Values*.md,Shared-Brand-Assets/01_Company-Information,Core-Values-and-Beliefs.md,Shared,P1,Keep one by hash
+move,Brand Systems/*Data Protection*Privacy*.md,Shared-Brand-Assets/02_Legal-and-Compliance,Nivy-Tech-Data-Protection-Privacy-Framework.md,Shared,P1,If not already present
+move,Brand Systems/*Intellectual Property*Ownership*.md,Shared-Brand-Assets/02_Legal-and-Compliance,Nivy-Tech-IP-Content-Ownership-Policy.md,Shared,P1,If not already present
+split_manual,Notion - Nivy OS/*VA Reference Sheet*.md,Nivy Ops/04_Pricing-and-Packages,VA-Services-Pricing.md,Ops,P2,Extract VA section only - do not move whole mixed file
+skip,Nivy Next/*Services & Offers*.md,,,Next,P2,Index - map children first
+skip,Nivy Next/HR *.md,,,Internal,P3,Internal OS - not brand client assets
+skip,Nivy Next/Finance *.md,,,Internal,P3,Internal OS
+skip,Nivy Next/Untitled *.md,,,Noise,P3,Empty stubs
