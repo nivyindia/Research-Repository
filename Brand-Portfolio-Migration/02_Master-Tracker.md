@@ -1,25 +1,31 @@
 # Master Tracker — Brand Portfolio Migration
 
-**Last updated:** 2026-10-18 (Batch 1 complete)
+**Last updated:** 2026-10-18  
+**Mapped set rename+move:** executed on GitHub
 
-## Batch 1 results
+## Completed mapped destinations
 
-| Task | Status |
-|---|---|
-| Hype `02_Pricing` → `04_Pricing` | Done (canonical + pointers) |
-| Hype `09_SOPs` → `11_Operations-and-Delivery` | Done (canonical + pointers) |
-| Shared company identity placeholder | Done (`01_Company-Information`) — full copy still needs owner text |
-| Legal: Data Protection + IP policies → Shared `02_` | Done |
-| Portfolio safety labels Next `06_` + Crafts `06_` | Done |
+### Nivy Hype
+- 03_Services: PPC, Social Media Advertising
+- 04_Pricing: SEO Packages, Global SMM Packages
+- 11_Operations: SOP-001 SMM, SOP-003 Performance Ads
 
-## Phase status
+### Nivy Crafts
+- 03_Services: Video Editing Service Page
+- 06_Portfolio: Video-Production-Portfolio-REFERENCE-ONLY
 
-| Phase | Status |
-|---|---|
-| Folder structure | Done |
-| Inventory + mapping | Done |
-| Moves (service pages + SOPs) | 7 earlier + Batch 1 path alignment |
-| Batch 2 | VA split → Ops; Services & Offers children |
+### Nivy Next
+- 00_Project-Management: Business-Profile-Execution-Plan
+- 05_Sales: Sales-Deck-PPT-Version
+- 06_Portfolio: Web-Development-Portfolio-REFERENCE-ONLY
+- 07_Website: Website-Full-Copy
 
-## Note on SEO/SMM full body
-Batch 1 placed aligned copies under `04_`/`11_`. Full long-form SEO package body remains recoverable from git / prior `02_` history; expand `04_` files to full text in a follow-up if needed for single-file completeness.
+### Shared
+- 01_Company-Information: Vision / Mission / Core Values placeholders + earlier canonical note
+- 02_Legal: Data Protection + IP policies
+
+### Not done (needs split / owner text)
+- VA Pricing whole file → Ops (split only)
+- Full Vision/Mission body (sources were stubs)
+- Services & Offers index children
+- Mass duplicates archive
