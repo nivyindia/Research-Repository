@@ -1,24 +1,30 @@
 # Master Tracker — Brand Portfolio Migration
 
-**Last updated:** 2026-10-18  
-**Current phase:** Phase 1 + 2 continuing
+**Last updated:** 2026-10-18
 
 ## Phase status
 
 | Phase | Status |
 |---|---|
-| 0 Control documents | Completed |
-| 1 Inventory | ~45% |
-| 2 Content audit | High-priority + portfolios + indexes audited |
-| 3 Mapping | Updated |
-| 5 Moves | 7 completed |
-| 6–7 | Not started |
+| 0 Control documents | Done |
+| Folder structure (00–12 + Shared) | Done |
+| 1 Repository inventory | **Major snapshot done** (~882 files in Nivy Next clustered; Notion OS, Research Data, Brand Systems scanned) |
+| 2 Content audit | High-value assets done; bulk internal OS pending |
+| 3 Brand mapping | **Updated** in 06_Source-to-Destination-Mapping.md |
+| 5 Controlled moves | 7 files done |
+| Path alignment (Hype 02→04, 09→11) | Pending |
+| 6 Verification | Not started |
 
-## Latest audit (this pass)
-- Video Production Portfolio → reference only (third-party examples)
-- Services & Offers → keep as index (do not move)
+## Completed moves: 7
 
-## Completed moves: 7 files (all under Nivy Hype + 1 under Nivy Crafts)
+Hype: SEO packages, PPC page, SMM packages, Social Ads page, 2 SOPs  
+Crafts: Video Editing service page
 
-## Next
-Continue auditing linked files from Services & Offers (Services One-Pager, Company Overview, Detailed Services, Branding Kit) and any remaining pure VA / Ops content.
+## Next recommended batch
+
+1. Align Hype folder paths to standard numbers  
+2. Canonical company identity → Shared-Brand-Assets/01_  
+3. Legal policies from Brand Systems → Shared/02_  
+4. Portfolios → brand 06_ with “reference only” labels  
+
+Owner can approve batch before execution.
