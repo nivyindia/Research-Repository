@@ -1,46 +1,24 @@
 # Master Tracker — Brand Portfolio Migration
 
-**Repository:** `nivyindia/Research-Repository`  
 **Last updated:** 2026-10-18  
-**Current overall phase:** Phase 1 + Phase 2 continuing  
-**Migration status:** Partial controlled moves completed. No blind moves of mixed/unverified assets.
+**Current phase:** Phase 1 + 2 continuing
 
-## Phase tracker
+## Phase status
 
-| Phase | Status | Progress |
-|---|---|---|
-| 0 — Control documents | Completed | 100% |
-| 1 — Repository inventory | In Progress | ~40% |
-| 2 — Content/version audit | In Progress | High-priority service + pricing + SOPs done; more ongoing |
-| 3 — Brand mapping | In Progress | Mapping register updated |
-| 4 — Approval gate | Partial | Owner-directed moves executed |
-| 5 — Controlled migration | Partial | 7 files moved |
-| 6 — Verification | Not Started | — |
-| 7 — International SEO plan | Deferred | — |
+| Phase | Status |
+|---|---|
+| 0 Control documents | Completed |
+| 1 Inventory | ~45% |
+| 2 Content audit | High-priority + portfolios + indexes audited |
+| 3 Mapping | Updated |
+| 5 Moves | 7 completed |
+| 6–7 | Not started |
 
-## Completed moves (7)
+## Latest audit (this pass)
+- Video Production Portfolio → reference only (third-party examples)
+- Services & Offers → keep as index (do not move)
 
-**Nivy Hype:**
-- SEO Packages & Pricing
-- PPC Advertising Service Page V3
-- Global Social Media Management Packages
-- Social Media Advertising Service Page V3
-- DELIVERY SOP-001 Social Media Management
-- DELIVERY SOP-003 Performance Marketing
+## Completed moves: 7 files (all under Nivy Hype + 1 under Nivy Crafts)
 
-**Nivy Crafts:**
-- Video Editing Service Page
-
-## Latest audit findings (this pass)
-
-| File | Classification | Action |
-|---|---|---|
-| Website Full Copy | Mixed-brand (lists Digital Marketing, AI, Web, App, Graphic Design, Video, VA) | Keep in Nivy Next as historical source. Do not move whole file. |
-| Business Profile Execution Plan | Planning index / Nivy Next | Keep in Nivy Next. Links to other versions. |
-| Web Development Portfolio | Third-party examples + hypothetical metrics | Keep as inspiration/reference only. Never present as Nivy client work. |
-
-## Next plan-aligned actions
-1. Continue content audit of remaining high-value files (Video Production Portfolio, Services & Offers, remaining SOPs, VA pure content).
-2. Expand inventory entries.
-3. Do not move mixed or evidence-flagged files without explicit owner instruction.
-4. After more audit coverage, prepare next approval batch.
+## Next
+Continue auditing linked files from Services & Offers (Services One-Pager, Company Overview, Detailed Services, Branding Kit) and any remaining pure VA / Ops content.
