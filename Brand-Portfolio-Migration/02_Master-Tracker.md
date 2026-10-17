@@ -1,30 +1,25 @@
 # Master Tracker — Brand Portfolio Migration
 
-**Last updated:** 2026-10-18
+**Last updated:** 2026-10-18 (Batch 1 complete)
+
+## Batch 1 results
+
+| Task | Status |
+|---|---|
+| Hype `02_Pricing` → `04_Pricing` | Done (canonical + pointers) |
+| Hype `09_SOPs` → `11_Operations-and-Delivery` | Done (canonical + pointers) |
+| Shared company identity placeholder | Done (`01_Company-Information`) — full copy still needs owner text |
+| Legal: Data Protection + IP policies → Shared `02_` | Done |
+| Portfolio safety labels Next `06_` + Crafts `06_` | Done |
 
 ## Phase status
 
 | Phase | Status |
 |---|---|
-| 0 Control documents | Done |
-| Folder structure (00–12 + Shared) | Done |
-| 1 Repository inventory | **Major snapshot done** (~882 files in Nivy Next clustered; Notion OS, Research Data, Brand Systems scanned) |
-| 2 Content audit | High-value assets done; bulk internal OS pending |
-| 3 Brand mapping | **Updated** in 06_Source-to-Destination-Mapping.md |
-| 5 Controlled moves | 7 files done |
-| Path alignment (Hype 02→04, 09→11) | Pending |
-| 6 Verification | Not started |
+| Folder structure | Done |
+| Inventory + mapping | Done |
+| Moves (service pages + SOPs) | 7 earlier + Batch 1 path alignment |
+| Batch 2 | VA split → Ops; Services & Offers children |
 
-## Completed moves: 7
-
-Hype: SEO packages, PPC page, SMM packages, Social Ads page, 2 SOPs  
-Crafts: Video Editing service page
-
-## Next recommended batch
-
-1. Align Hype folder paths to standard numbers  
-2. Canonical company identity → Shared-Brand-Assets/01_  
-3. Legal policies from Brand Systems → Shared/02_  
-4. Portfolios → brand 06_ with “reference only” labels  
-
-Owner can approve batch before execution.
+## Note on SEO/SMM full body
+Batch 1 placed aligned copies under `04_`/`11_`. Full long-form SEO package body remains recoverable from git / prior `02_` history; expand `04_` files to full text in a follow-up if needed for single-file completeness.
