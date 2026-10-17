@@ -1,23 +1,24 @@
 # Source-to-Destination Mapping Register
 
-**Last updated:** 2026-10-17 23:55 IST  
-**Status:** Working. First approved move executed.  
-**Safety:** Original replaced with pointer. Full content lives in Nivy Hype.
+**Last updated:** 2026-10-17 23:58 IST  
+**Status:** High-confidence moves completed.
 
 ## Executed moves
 
-| ID | Source Path | Brand | Destination Path | Action | Status |
-|---|---|---|---|---|---|
-| INV-002 | `Nivy Next/🔍 SEO Packages & Pricing 2f434207fb4d81fb8f0cd3a0161a1f56.md` | **Nivy Hype** | `Nivy Hype/02_Pricing-and-Packages/SEO-Packages-and-Pricing.md` | Move (owner instruction) | **Completed** 2026-10-17 |
+| Source | Brand | New Location | Status |
+|---|---|---|---|
+| `Nivy Next/🔍 SEO Packages & Pricing ...` | **Nivy Hype** | `Nivy Hype/02_Pricing-and-Packages/SEO-Packages-and-Pricing.md` | Completed |
+| `Nivy Next/📢 PPC Advertising — Service Page (V3) ...` | **Nivy Hype** | `Nivy Hype/03_Services-and-Catalog/PPC-Advertising-Service-Page-V3.md` | Completed |
+| `Notion - Nivy OS/🎬 Video Editing — Service Page ...` | **Nivy Crafts** | `Nivy Crafts/03_Services-and-Catalog/Video-Editing-Service-Page.md` | Completed |
 
-## High-confidence remaining (still Pending approval)
+Original locations now contain only pointers.
 
-| ID | Source Path | Proposed Brand | Destination Path | Action | Confidence |
-|---|---|---|---|---|---|
-| CAND-020 | `Nivy Next/📢 PPC Advertising — Service Page (V3) ...` | Nivy Hype | `Nivy Hype/03_Services-and-Catalog/PPC-Advertising-Service-Page-V3.md` | Copy+Retain | High |
-| CAND-024 | `Notion - Nivy OS/🎬 Video Editing — Service Page ...` | Nivy Crafts | `Nivy Crafts/03_Services-and-Catalog/Video-Editing-Service-Page.md` | Copy+Retain | High |
+## Remaining (not yet moved — need explicit instruction)
+- Other Video Editing variants
+- Social Media packages / Social Media Advertising pages
+- VA Pricing & Ops SOPs
+- Mixed-brand files (Sales Deck, Website Full Copy, Services & Offers)
+- Brand Guidelines (still placeholders)
+- Portfolios (third-party / hypothetical content)
 
-## Notes
-- SEO Packages & Pricing moved to Nivy Hype on explicit owner instruction.
-- Original location now contains only a pointer to the new file.
-- Next: confirm if other SEO-related files should also go to Hype, or stay with Next.
+Tell me which of these to move next.
