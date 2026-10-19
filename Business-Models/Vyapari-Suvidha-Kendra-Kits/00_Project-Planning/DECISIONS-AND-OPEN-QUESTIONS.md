@@ -39,7 +39,7 @@
 | Q-12 | What official contacts, support hours and response commitments apply? / official contacts, support hours और response commitments क्या हैं? | Published support details / प्रकाशित support details | Current escalation list / current escalation list | P1 | Open / खुला |
 | Q-13 | Which brand wording, logo and print specs are approved? / कौन-सी brand wording, logo और print specs approved हैं? | Brand consistency / brand consistency | Approved brand kit / approved brand kit | P2 | Open / खुला |
 | Q-14 | Which source is authoritative when files conflict? / files में conflict होने पर कौन-सा source authoritative है? | Avoids choosing wrong policy / गलत policy चुनने से बचना | Owner-designated source of truth / owner द्वारा तय source of truth | P0 | Open / खुला |
-| Q-15 | Can the source folders be made readable for the audit? / क्या source folders audit के लिए readable बनाए जा सकते हैं? | Required to inspect/map files / files inspect और map करने के लिए आवश्यक | Uploaded files/ZIPs or restored Drive/browser access / uploaded files/ZIPs या restored access | P0 | Blocked / रुका |
+| Q-15 | Can the source folders be made readable for the audit? / क्या source folders audit के लिए readable बनाए जा सकते हैं? | Required to inspect/map files / files inspect और map करने के लिए आवश्यक | GitHub `main` source folders are now readable at path/metadata level; binary contents still need extraction / GitHub `main` पर paths/metadata पढ़े जा सकते हैं; binary content extract करना बाकी | P1 | Partially resolved / आंशिक रूप से हल |\n| Q-16 | Do `Training/Training Test/Test 2/Sample Documents` files contain real, identifiable personal/financial data, and is the repository access appropriate? / क्या sample documents में वास्तविक पहचान/वित्तीय data है और repository access उचित है? | Prevent personal-data exposure / personal-data exposure रोकना | Inspect content, confirm redaction/consent, then approved access-control/remediation decision / content inspect करें, redaction/consent verify करें और access-control/remediation निर्णय लें | P0 | Open — urgent / खुला — तत्काल |\n| Q-17 | Are the 34 named Partner/Distributor DOCX files intended to be identical, or were the wrong source binaries uploaded repeatedly? / क्या 34 DOCX जानबूझकर एक जैसे हैं या गलत binaries बार-बार upload हुईं? | Document integrity and reliable kit / document integrity और भरोसेमंद kit | Original source copies, author/owner confirmation and content comparison / मूल copies, owner confirmation और content comparison | P0 | Open / खुला |
 
 ## Assumptions not approved / अभी स्वीकृत न हुई assumptions
 - Company may generate online leads / कंपनी online leads दे सकती है।
@@ -54,3 +54,10 @@
 | Date / तारीख | Decision ID | Decision / निर्णय | Options / विकल्प | Evidence/source / प्रमाण-स्रोत | Owner / जिम्मेदार | Impacted files / प्रभावित files | Follow-up / अगली कार्रवाई |
 |---|---|---|---|---|---|---|---|
 | YYYY-MM-DD | Q-XX / D-XX |  |  |  |  |  |  |
+
+
+## New source-audit findings / स्रोत जाँच के नए निष्कर्ष
+
+**हिंदी:** GitHub inventory में 182 files मिलीं। Partner kit की 23 और Distributor kit की 11 DOCX files का Git blob SHA समान है, इसलिए उनकी stored binary content identical है। Training sample-document paths में Aadhaar/PAN/bank/electricity-bill जैसे संवेदनशील दस्तावेज़ों के संकेत हैं। जब तक content और redaction जाँचे नहीं जाते, उन्हें sensitive मानें और partner/distributor kit में reuse न करें। Detailed inventory `SOURCE-INVENTORY-AND-FINDINGS.md` में है।
+
+**English:** The GitHub inventory found 182 files. The 23 Partner and 11 Distributor DOCX files share the same Git blob SHA, so their stored binary content is identical. Training sample-document paths indicate possible sensitive documents such as Aadhaar/PAN/bank/electricity-bill records. Treat them as sensitive until content and redaction are checked, and do not reuse them in partner/distributor kits. The detailed inventory is in `SOURCE-INVENTORY-AND-FINDINGS.md`.
