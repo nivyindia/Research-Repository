@@ -1,7 +1,7 @@
 # Progress Tracker / प्रगति ट्रैकर
 
 **Last updated / अंतिम अपडेट:** 2026-10-20  
-**Overall status / कुल स्थिति:** GitHub source inventory completed for 3 folders (182 files); content audit is partial; 34 named DOCX files share one identical blob and training samples raise a P0 privacy review / तीन GitHub source folders की inventory पूरी (182 files); content audit आंशिक; 34 DOCX एक ही blob हैं और training samples पर P0 privacy review आवश्यक है।  
+**Overall status / कुल स्थिति:** Source inventory is complete at path/metadata level. The user has designated `Catalogue 1.52.docx` as the latest catalogue reference and deferred all price/commercial comparisons, identical-DOCX integrity checks, and Training sample privacy review to separate workstreams. Non-commercial mapping, workflows, templates, and guide drafts can continue in parallel. / स्रोत inventory path/metadata स्तर पर पूरी है। उपयोगकर्ता ने `Catalogue 1.52.docx` को नवीनतम catalogue reference बताया है और सभी price/commercial comparisons, समान DOCX integrity checks तथा Training sample privacy review को अलग workstreams के लिए स्थगित किया है। Non-commercial mapping, workflows, templates और guide drafts समानांतर जारी रह सकते हैं।  
 **Rule / नियम:** A draft is not verified or approved. Every file must be Hindi-first bilingual / Draft को verified या approved न मानें। हर file में पहले हिंदी और फिर English अनुवाद अनिवार्य है।
 
 ## Phase tracker / चरणों की स्थिति
@@ -53,3 +53,25 @@
 |---|---|---|
 | 2026-10-20 | Added Hindi-first bilingual standard / हिंदी-प्रथम द्विभाषी मानक जोड़ा | User instruction / उपयोगकर्ता का निर्देश |
 | 2026-10-20 | Recorded Drive access attempt and blocker / Drive access प्रयास और बाधा दर्ज की | Drive source was unreadable at that time / उस समय Drive source पढ़ने योग्य नहीं था |\n| 2026-10-20 | Added GitHub inventory findings and P0 blockers / GitHub inventory findings और P0 blockers जोड़े | Main branch source folders became inspectable; content/privacy risks surfaced / main branch के source folders inspect हुए; content/privacy risks सामने आए |
+
+
+## Current work batch — continue items not dependent on deferred audits / वर्तमान कार्य-चरण — स्थगित जाँचों पर निर्भर न रहने वाले काम जारी रखें
+
+| Workstream / कार्यधारा | Status / स्थिति | Next action / अगली कार्रवाई | Guardrail / सीमा |
+|---|---|---|---|
+| Latest catalogue reference / नवीनतम catalogue reference | User-designated: `Catalogue 1.52.docx` / उपयोगकर्ता द्वारा निर्धारित | Use as the current catalogue pointer when structuring service descriptions / service descriptions बनाते समय इसी को current catalogue pointer मानें | Do not claim content or approval independently verified / content या approval independently verified न कहें |
+| Prices and commercial comparisons / prices और commercial तुलना | Deferred by user / उपयोगकर्ता ने स्थगित किया | Leave placeholders; do not compare or insert amounts / placeholders रखें; राशि न भरें या तुलना न करें | No price, fee, commission, share, earnings or break-even figures / कोई price, fee, commission, share, earning या break-even figure नहीं |
+| DOCX duplicate integrity / DOCX duplicate integrity | Deferred to separate workstream / अलग workstream के लिए स्थगित | Do not reuse the 34 identical-binary DOCX files as trusted source material / 34 समान binary DOCX को trusted source की तरह reuse न करें | No destructive changes / कोई destructive change नहीं |
+| Training sample privacy/access / Training sample privacy/access | Deferred to separate workstream / अलग workstream के लिए स्थगित | Exclude potential identity/financial samples from drafts / संभावित identity/financial samples drafts से बाहर रखें | Do not copy, quote or publish samples / samples copy, quote या publish न करें |
+| Outline-to-source mapping / outline और source mapping | Next / अगला | Create preliminary mapping from filenames/paths, explicitly labelled filename-only / filenames/paths से preliminary mapping बनाएँ और filename-only label दें | No content-verified claims from filenames / filenames से content-verified दावा नहीं |
+| Partner operational workflows / Partner संचालन workflows | Next / अगला | Draft inquiry-to-closure workflow, case tracking fields, customer communication and escalation templates / inquiry-to-closure workflow, case tracking, communication और escalation templates बनाएँ | Exact eligibility/KYC/turnaround marked `[VERIFY]` / exact eligibility/KYC/turnaround पर `[VERIFY]` |
+| Distributor field workflow / Distributor field workflow | Next / अगला | Draft prospecting, meeting, qualification, follow-up and onboarding-handoff framework / prospecting से onboarding handoff तक framework बनाएँ | No unverified lead, territory, support or earnings promises / unverified leads, territory, support या earnings promises नहीं |
+| Training and reporting framework / training और reporting ढाँचा | Next / अगला | Draft role-wise learning path, competency checklist and aggregate reporting templates / role-wise learning path, competency checklist और aggregate reporting templates बनाएँ | No real personal data in GitHub / GitHub में वास्तविक personal data नहीं |
+| Long guides / विस्तृत guides | Pending current-batch drafting / वर्तमान batch में draft बाकी | Fill non-commercial sections and flag unknowns / non-commercial sections भरें और unknowns mark करें | Not approved for release / release के लिए approved नहीं |
+| Short booklets / संक्षिप्त booklets | After long-guide review / long-guide review के बाद | Condense reviewed material to page targets / reviewed material को page targets में संक्षिप्त करें | Not print-ready until approval / approval तक print-ready नहीं |
+
+## Change log / बदलाव का रिकॉर्ड
+
+| Date / तारीख | Change / बदलाव | Reason / कारण |
+|---|---|---|
+| 2026-10-20 | Added a parallel work batch excluding deferred price, duplicate-integrity and privacy topics / स्थगित price, duplicate-integrity और privacy topics को छोड़कर parallel work batch जोड़ा | Explicit user direction; continue independent work rather than wait on all audits / उपयोगकर्ता का स्पष्ट निर्देश; सभी audits का इंतजार करने के बजाय स्वतंत्र काम जारी रखना |
