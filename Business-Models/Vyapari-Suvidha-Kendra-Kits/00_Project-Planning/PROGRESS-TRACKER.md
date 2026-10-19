@@ -75,3 +75,36 @@
 **हिंदी:** इस tracker update का अर्थ यह नहीं है कि source audit, privacy review या commercial verification पूरी हो गई है। ये काम अलग से खुले रहेंगे।
 
 **English:** This tracker update does not mean the source audit, privacy review, or commercial verification is complete. Those workstreams remain separately open.
+
+
+## Outline-only execution update / केवल outline कार्य का अपडेट
+
+**Last updated / अंतिम अपडेट:** 2026-10-20 — detailed outline batches 01–03 created / detailed outline batches 01–03 बनाए गए
+
+| Phase / चरण | Status / स्थिति | Evidence / प्रमाण | Next action / अगला कदम |
+|---|---|---|---|
+| 0. Outline baseline / outline आधार | Completed / पूरा | Outline-only scope, bilingual rule, catalogue guardrail and deferred workstreams are recorded in the phase plan / Outline-only scope, bilingual rule, catalogue guardrail और deferred workstreams दर्ज हैं | Keep rules consistent across batches / सभी batches में नियम समान रखें |
+| 1. Document inventory / दस्तावेज़ सूची | In progress / जारी | Existing register lists planning files, Partner kit, Distributor kit, shared references and proposed assets / Register में planning files, Partner kit, Distributor kit, shared references और proposed assets दर्ज हैं | Verify each path and existence status against actual GitHub tree; distinguish existing files from proposed assets / हर path और existence status actual GitHub tree से verify करें; existing और proposed assets अलग करें |
+| 2. Detailed individual outlines / विस्तृत individual outlines | In progress / जारी | Batch 01 Partner Kit, Batch 02 Distributor Kit, Batch 03 Shared Masters and proposed assets are committed / Batch 01 Partner Kit, Batch 02 Distributor Kit, Batch 03 Shared Masters और proposed assets commit किए गए | Complete planning-file and any remaining known-file outlines; verify outline coverage row by row / Planning files और बाकी ज्ञात files की outlines पूरी करें; हर row की coverage जाँचें |
+| 3. Outline QA and deduplication / Outline QA और deduplication | Pending / बाकी | Proposed assets remain clearly labeled as proposed; no final keep/merge/drop decisions made / Proposed assets proposed चिह्नित हैं; keep/merge/drop final decisions नहीं हुए | Compare similar assets, merge duplicate scopes conceptually, record cross-references and gaps / मिलते-जुलते assets compare करें, duplicate scope merge करें, cross-references और gaps दर्ज करें |
+| 4. Owner review and outline freeze / Owner review और outline freeze | Pending / बाकी | No approval is implied by draft outline commits / Draft outline commits approval नहीं दर्शाते | Present final inventory and deduplicated outline list for owner approval / Final inventory और deduplicated outline list owner approval के लिए दें |
+| 5 onward. Source mapping, verification, drafting, booklets and release / Source mapping, verification, drafting, booklets और release | Not started or deferred by plan / Plan के अनुसार शुरू नहीं या स्थगित | Explicitly downstream of outline approval / Outline approval के बाद ही | Do not begin until outline freeze / Outline freeze से पहले शुरू न करें |
+
+## Detailed outline batch links / विस्तृत outline batch links
+
+- [Batch 01 — Partner Welcome Kit](PHASE-2-OUTLINE-DETAILS-01-PARTNER-KIT.md) — section-level outlines for the main documents and 14 support-folder README files. / मुख्य documents और 14 support-folder README files की section-level outlines.
+- [Batch 02 — Distributor Field Meeting Kit](PHASE-2-OUTLINE-DETAILS-02-DISTRIBUTOR-KIT.md) — section-level outlines for the main documents and 20 support-folder README files. / मुख्य documents और 20 support-folder README files की section-level outlines.
+- [Batch 03 — Shared Masters and Proposed Assets](PHASE-2-OUTLINE-DETAILS-03-SHARED-AND-PROPOSED-ASSETS.md) — shared masters and proposed Partner/Distributor reusable assets. / Shared masters और proposed Partner/Distributor reusable assets.
+
+## Deferred work remains separate / स्थगित काम अलग रहेगा
+
+- Pricing, commission, incentives, earnings, fees and settlement analysis: **Deferred**; keep every value pending. / Pricing, commission, incentives, earnings, fees और settlement analysis: **स्थगित**; सभी values pending रखें।
+- Identical DOCX integrity investigation: **Deferred**; not resolved by outlining. / Identical DOCX integrity investigation: **स्थगित**; outline बनाने से हल नहीं हुई।
+- Training sample privacy/access review: **Deferred**; not resolved by outlining. / Training sample privacy/access review: **स्थगित**; outline बनाने से हल नहीं हुई।
+- `Catalogue 1.52.docx`: working latest catalogue reference only; no price consideration. / `Catalogue 1.52.docx`: केवल working latest catalogue reference; prices consider नहीं करने।
+
+## Change log / बदलाव का रिकॉर्ड
+
+| Date / तारीख | Change / बदलाव | Reason / कारण |
+|---|---|---|
+| 2026-10-20 | Added three detailed outline batches and linked them from the register/tracker / तीन detailed outline batches बनाए और register/tracker से link किए | User requested phase-wise outlines for all files, with no full content or pricing work / उपयोगकर्ता ने सभी files की phase-wise outlines मांगीं; full content और pricing work नहीं |
