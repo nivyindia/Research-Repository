@@ -48,3 +48,14 @@ When the scope changes, update this plan, the File Outline Register and the Prog
 **हिंदी:** Phase 0 पूरा है। Phase 1 में known paths और existing-vs-proposed status की वास्तविक repository tree के विरुद्ध अंतिम जाँच जारी है। Phase 2 में तीन detailed outline batches commit हो चुके हैं: Partner Kit, Distributor Kit और Shared Masters/Proposed Assets। अभी full content drafting, source migration, commercial analysis या release work शुरू नहीं होगा।
 
 **English:** Phase 0 is complete. Phase 1's final check of known paths and existing-versus-proposed status against the actual repository tree is in progress. Three detailed outline batches have been committed in Phase 2: Partner Kit, Distributor Kit, and Shared Masters/Proposed Assets. Full content drafting, source migration, commercial analysis, and release work must not begin yet.
+
+
+## Owner-directed adjustment: create required file skeletons first / निर्देशानुसार बदलाव: पहले आवश्यक file skeletons बनाना
+
+**हिंदी:** मौजूदा outline plan के भीतर अब स्पष्ट execution order यह है: (1) folder और file inventory verify करना; (2) हर आवश्यक folder में जरूरी file skeletons बनाना, केवल तब जब file मौजूद न हो; (3) प्रत्येक skeleton में purpose, headings/sections, tables/forms, dependencies और pending inputs की outline देना; (4) duplicate assets को canonical file/cross-reference में consolidate करना; (5) complete outline QA और owner review/freeze। Existing files overwrite नहीं करनी हैं। Proposed assets को बिना scope-check के blindly duplicate नहीं करना है।
+
+**English:** Within the existing outline plan, the execution order is now explicit: (1) verify folder and file inventory; (2) create required file skeletons inside each necessary folder only when the file does not already exist; (3) put purpose, headings/sections, tables/forms, dependencies, and pending inputs into each skeleton; (4) consolidate duplicate assets into a canonical file/cross-reference; and (5) complete outline QA and owner review/freeze. Do not overwrite existing files. Do not blindly duplicate proposed assets without checking scope.
+
+**हिंदी:** Skeleton files बनाना final content drafting नहीं है। Pricing, commission, earnings और fees का analysis स्थगित रहेगा; `Catalogue 1.52.docx` केवल current catalogue reference है। Identical DOCX और Training privacy/access review अलग deferred workstreams रहेंगे।
+
+**English:** Creating skeleton files is not final content drafting. Pricing, commission, earnings, and fee analysis remains deferred; `Catalogue 1.52.docx` is only the current catalogue reference. The identical-DOCX and Training privacy/access reviews remain separate deferred workstreams.
