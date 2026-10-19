@@ -1,43 +1,43 @@
-# Phased Implementation Plan
+# Phased Implementation Plan / चरणबद्ध कार्यान्वयन योजना
 
-## Execution approach
-Complete planning and source discovery before writing final content. Do not treat current draft booklets as approved until evidence and commercial terms have been checked.
+## Current operating mode / वर्तमान कार्य-पद्धति
 
-| Phase | Work | Outputs | Exit / acceptance gate | Initial status |
+**हिंदी:** अभी केवल सभी planned documents की outline बनानी और review करनी है। इस चरण में full content, detailed SOPs, sales scripts, final booklets, source migration, pricing/commission analysis या commercial decisions पर काम नहीं करना है। हर document की outline मंजूर होने के बाद ही अगले चरण में बढ़ेंगे।
+
+**English:** The current task is limited to outlining and reviewing every planned document. Do not write full content, detailed SOPs, sales scripts, final booklets, perform source migration, analyze pricing/commissions, or make commercial decisions at this stage. Proceed to the next phase only after the outlines are reviewed and approved.
+
+**हिंदी:** `Catalogue 1.52.docx` को फिलहाल latest catalogue reference मानें। किसी भी service की price को अभी consider, compare या publish न करें। Pricing और commercial topics outline में रहेंगे, लेकिन values खाली/pending रहेंगी।
+
+**English:** Treat `Catalogue 1.52.docx` as the current latest catalogue reference for now. Do not consider, compare, or publish any service price at this stage. Pricing and commercial topics may remain in the outline, but values must stay blank/pending.
+
+## Phases / चरण
+
+| Phase / चरण | Scope / कार्य-सीमा | Deliverable / परिणाम | Exit gate / आगे बढ़ने की शर्त | Status / स्थिति |
 |---|---|---|---|---|
-| 0. Planning baseline | Establish scope, audience boundaries, file outline, implementation phases, tracker and decision log | Planning hub and outline register | All planned file families listed; unknowns visibly recorded | In progress |
-| 1. Source inventory | Inspect Google Drive Partner Welcome Kit, Distributor Field Kit and Training Folder; identify relevant approved documents | Source inventory with file name, location, date/version, owner if known, relevance and status | All accessible source folders inventoried; inaccessible sources noted explicitly | Not started — access/audit pending |
-| 2. Coverage and gap audit | Compare each source against File Outline Register; mark existing, partial, missing, conflicting or N/A | Requirement-to-source matrix and prioritized gap list | Every requirement has evidence or an explicit gap/action | Blocked by Phase 1 |
-| 3. Source migration and organization | Copy/move approved useful materials into intended repository folders; preserve provenance; deduplicate safely; archive old versions | Organized source library, migration log, duplicate/conflict register | No source silently discarded; migrated files link to original and carry status | Blocked by Phase 2 |
-| 4. Verify business facts and commercial rules | Confirm services, prices, statutory/third-party costs, company/retailer/distributor shares, settlement, incentives, support, leads, refunds/cancellations and compliance | Approved master service catalogue, pricing/commission matrix and decision log | Written evidence/owner approval exists for all claims used in public/partner materials | Blocked by source availability and owner decisions |
-| 5. Build supporting operational assets | Create/update onboarding, CRM, message bank, marketing, sales collateral, SOPs, training, payment/support and reporting assets | Support files in each kit folder | Each asset has defined audience, owner, version and verified workflow | Blocked by Phases 2–4 where applicable |
-| 6. Draft long-format masters | Build Partner Master Guide and Distributor Field Playbook from verified sources and approved references | Full guides with source links and open questions flagged | Outline coverage complete; no unsupported commercial promise; cross-check passed | Blocked by Phases 2–5 |
-| 7. Produce short offline booklets | Condense approved long-format content into 8–10-page Partner booklet and 9–12-page Distributor booklet | Compact offline-ready drafts | Page target, readability, print layout, factual consistency and separate economics checked | Blocked by Phase 6 and approvals |
-| 8. Review and approval | Business owner review, commercial review, operational review, compliance/brand review; resolve feedback | Review log and approvals | Every release-critical issue closed or explicitly excluded from release | Not started |
-| 9. Release and maintenance | Mark approved versions, publish/print, archive previous versions, set review cadence | Release package, version history and maintenance owner | Final links, effective dates and update owner recorded | Not started |
+| 0. Outline baseline / Outline का आधार | Existing repository paths, planned deliverables, audience and bilingual rules list करना / List existing repository paths, planned deliverables, audiences and bilingual rules | Updated outline register and phase plan / Updated outline register and phase plan | No content-writing or commercial analysis mixed into this phase / इस चरण में full content या commercial analysis न हो | In progress / जारी |
+| 1. Document inventory / दस्तावेज़ सूची | Partner, Distributor, Shared References और planning folders की हर existing/planned file को list करना / List every existing/planned file across Partner, Distributor, Shared References and planning folders | File-by-file register with path, purpose, status and outline owner / Path, purpose, status और outline सहित file-by-file register | Every known file has a row; existing file and proposed future asset clearly distinguished / हर ज्ञात file दर्ज हो; existing और proposed assets अलग पहचाने जाएँ | Next / अगला |
+| 2. Outline each document / हर दस्तावेज़ की outline | हर file के headings, subheadings, tables/checklists and required inputs define करना; content लिखना नहीं / Define headings, subheadings, tables/checklists and required inputs without drafting the full content | Complete file-by-file outlines / सभी files की पूरी outlines | Each outline has purpose, audience, section sequence, dependencies and unresolved inputs / हर outline में उद्देश्य, पाठक, sections, dependencies और unresolved inputs हों | Pending / बाकी |
+| 3. Outline QA and deduplication / Outline गुणवत्ता-जाँच और दोहराव हटाना | Duplicate coverage, missing topics, audience overlap, dependencies and cross-kit consistency check / Check duplicate coverage, missing topics, audience overlap, dependencies and cross-kit consistency | Revised register and gap list / संशोधित register और gap list | Every requirement is assigned once or intentionally cross-referenced / हर requirement एक जगह assigned हो या cross-reference स्पष्ट हो | Pending / बाकी |
+| 4. Owner review and outline freeze / Owner review और outline freeze | Review outline-only register and confirm additions/removals / Outline-only register की समीक्षा और additions/removals की पुष्टि | Approved outline baseline / स्वीकृत outline baseline | User/owner approves scope and file list / User/owner file list और scope approve करे | Pending / बाकी |
+| 5. Source-to-outline mapping / Source को outline से जोड़ना | After outline approval, map source documents to outline rows; defer separate integrity/privacy investigations as agreed / Outline approval के बाद sources map करें; तय अनुसार integrity/privacy investigations अलग रखें | Source map and gap register / Source map और gap register | Every outline topic has a source, gap or explicit pending status / हर topic का source, gap या pending status हो | Pending / बाकी |
+| 6. Source verification / Source सत्यापन | Read sources and verify service scope, roles, workflows and factual claims / Sources पढ़कर service scope, roles, workflows और facts verify करना | Verified fact register / Verified facts register | Claims have traceable sources; conflicts are logged / Claims के traceable sources हों; conflicts दर्ज हों | Pending / बाकी |
+| 7. Commercial review — later / Commercial review — बाद में | Pricing, fees, commissions, payouts, deductions and support commitments only when explicitly resumed / Pricing, fees, commissions, payout, deductions और support commitments केवल अलग से शुरू करने पर | Approved commercial reference / Approved commercial reference | Written source/owner approval / लिखित source/owner approval | Deferred / स्थगित |
+| 8. Draft full documents / पूर्ण दस्तावेज़ लिखना | Write detailed bilingual content from approved outlines and verified sources / Approved outlines और verified sources से detailed bilingual content लिखना | Long guides and supporting assets / Long guides और support assets | Source-backed, bilingual and internally consistent / Source-backed, bilingual और consistent | Pending / बाकी |
+| 9. Derive short booklets / छोटे booklets बनाना | Condense approved long guides to Partner 8–10 pages and Distributor 9–12 pages / Approved long guides को Partner 8–10 और Distributor 9–12 pages में संक्षिप्त करना | Print/offline drafts / Print/offline drafts | Page targets and factual consistency pass / Page target और factual consistency pass हों | Pending / बाकी |
+| 10. Approval and release / Approval और release | Operational, commercial, compliance and brand review; version and release record / Operational, commercial, compliance और brand review; version/release record | Approved release package / Approved release package | Required approvals and release metadata complete / सभी आवश्यक approvals और release metadata पूरे हों | Pending / बाकी |
 
-## Recommended order of work
-1. Approve the outline and scope.
-2. Audit existing source folders and files.
-3. Map source files to the outline and identify gaps/conflicts.
-4. Verify all business and commercial facts.
-5. Migrate/organize source files without deleting originals.
-6. Complete missing support assets and long-format masters.
-7. Derive compact booklets.
-8. Review, approve and release.
+## Rules for this phase / इस चरण के नियम
 
-## Change control
-If new files, services or business rules are discovered:
-- Add the requirement to the File Outline Register.
-- Record its source in the audit register.
-- Add any unresolved decision to Decisions and Open Questions.
-- Update the Progress Tracker and explain the change.
-- Update affected downstream documents only after the source/owner decision is resolved.
+1. **Outline, not full content. / केवल outline, पूरा content नहीं।** Each outline may list section headings, intended tables/forms, required inputs and source dependencies; it must not be expanded into final prose.
+2. **No pricing decisions. / Pricing पर निर्णय नहीं।** Do not compare, calculate, recommend or publish prices/commissions. Keep placeholders such as `[PENDING APPROVED SOURCE]`.
+3. **Catalogue reference. / Catalogue संदर्भ।** `Catalogue 1.52.docx` is the working latest catalogue reference until the owner changes this instruction; this does not approve its prices.
+4. **Deferred work stays deferred. / स्थगित काम स्थगित रहेगा।** The identical-DOCX investigation and Training sample privacy/access investigation are separate workstreams; do not let them block outline creation, but do not claim they are resolved.
+5. **Bilingual structure. / द्विभाषी संरचना।** Every outline is Hindi-first in Devanagari followed immediately by English. File paths, filenames and product/service names may remain in English.
+6. **No destructive changes. / हटाने वाली कार्रवाई नहीं।** Do not delete, overwrite or move source documents during outline work.
+7. **Traceability. / स्रोत-लिंक।** Mark each item as existing file, folder README outline, or proposed future document. Do not imply a proposed asset already exists.
 
-## Release blockers
-Do not approve or print the final kit while any of these remain unresolved:
-- Pricing, commissions, deductions or payout triggers are unverified.
-- Distributor and Retailer earnings are conflated.
-- Lead generation or marketing support is promised without written confirmation.
-- Service availability, document requirements or customer workflow is unsupported.
-- Required contact information, brand assets or legal/compliance statements are unverified.
+## Change control / बदलाव का नियंत्रण
+
+When the scope changes, update this plan, the File Outline Register and the Progress Tracker together. Record the reason and keep deferred work clearly separate from the current outline phase.
+
+यदि scope बदले, तो इस plan, File Outline Register और Progress Tracker को साथ update करें। कारण दर्ज करें और स्थगित काम को मौजूदा outline चरण से अलग रखें।
