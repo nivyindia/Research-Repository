@@ -10,3 +10,9 @@
 01_Distributor_Onboarding_and_Identity; 02_Market_Research_and_Territory; 03_Franchise_Recruitment_Prospecting; 04_Opening_Scripts_and_Meeting_Agenda; 05_Franchise_Business_Model_and_Pitch; 06_Franchise_Earnings_and_Commission; 07_Distributor_Earnings_and_Incentives; 08_Service_Catalogue_and_Pricing; 09_Company_Support_and_Lead_Generation; 10_Local_Marketing_and_Sales_Kit; 11_Objection_Handling_and_FAQ; 12_Closing_and_Negotiation; 13_KYC_Application_and_Onboarding; 14_Field_Reporting_and_Performance; 15_Training_and_Sales_Enablement; 16_Regional_Commercial_and_Compliance_Alerts; 17_Competitor_Intelligence; 18_Communication_and_Follow_ups; 19_Distributor_Support_and_Escalation; 20_Archive_Old_Versions.
 
 Never guarantee income, customer leads or results. Use only approved commercial terms and marketing commitments.
+
+## File minimisation / फ़ाइलें कम रखने का नियम
+
+**हिंदी:** हर subfolder में अलग `README.md` नहीं रखा जाएगा। Folder का उद्देश्य इस root README, file names और central outline register में समझा जाएगा। काम के लिए उपयोगी actual templates/guides ही अलग files होंगे।
+
+**English:** Subfolders do not need individual `README.md` files. Their purpose is covered by this root README, filenames, and the central outline register. Keep separate files only for useful working templates or guides.
