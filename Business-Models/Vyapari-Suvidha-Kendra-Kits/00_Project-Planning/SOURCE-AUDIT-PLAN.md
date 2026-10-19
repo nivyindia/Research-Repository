@@ -1,15 +1,14 @@
 # Source Audit and Migration Plan / स्रोत जाँच और माइग्रेशन योजना
 
-## 1. Audit status and access blocker / जाँच की स्थिति और पहुँच में बाधा
+## 1. Audit status and current findings / जाँच की स्थिति और वर्तमान निष्कर्ष
 
-**हिंदी:** 2026-10-20 को Google Drive तक पहुँच की उपलब्धता जाँची गई। Browser tabs की सूची में `Nivy_Partner_Welcome_Kit_2026` नाम का Google Drive folder tab दिखा, लेकिन Drive tab पढ़ने का प्रयास browser connection error के कारण विफल रहा। Google Drive connector खोजने पर वह administrator द्वारा disabled और installation के लिए unavailable दिखा। इसलिए अभी Drive की कोई भी फ़ाइल खोले बिना उसका content audit करना संभव नहीं हुआ। यह source audit शुरू करने का प्रयास है, पूर्ण audit नहीं।
+**हिंदी:** 2026-10-20 को GitHub `main` branch पर तीन source folders inspect किए गए। Recursive inventory में `Nivy_Partner_Welcome_Kit_2026` में 23 files, `Nivy_Distributor_Field_Meeting_Kit` में 11 files और `Training` में 148 files मिले (कुल 182 files)। Partner के 23 और Distributor के 11 DOCX files — कुल 34 files — का Git blob SHA एक ही है और हर file का आकार 6,480 bytes है। इसका मतलब इन अलग-अलग filenames में stored binary content identical है; इन्हें अलग-अलग सही documents मानना सुरक्षित नहीं है। Training tree में 148 files हैं और sample-document paths में Aadhaar/PAN/bank/electricity-bill जैसे पहचान/वित्तीय दस्तावेज़ों के संकेत हैं। वास्तविक सामग्री/redaction अभी सत्यापित नहीं हुई है; इसे P0 privacy review मानें। Repository content सार्वजनिक रूप से fetch हो रहा है, इसलिए संभावित व्यक्तिगत दस्तावेज़ों को संवेदनशील मानकर तुरंत access/privacy review करें। किसी file को इस audit में delete नहीं किया गया है।
 
-**English:** On 2026-10-20, Google Drive access was checked. The browser tab list showed a Google Drive folder tab titled `Nivy_Partner_Welcome_Kit_2026`, but reading the Drive tab failed because of a browser connection error. The Google Drive connector appeared disabled by the administrator and unavailable for installation. Therefore, the contents of Drive files could not yet be inspected. This records an attempted access check, not a completed source audit.
+**English:** On 2026-10-20, three source folders on GitHub `main` were inspected. Recursive inventory found 23 files in `Nivy_Partner_Welcome_Kit_2026`, 11 in `Nivy_Distributor_Field_Meeting_Kit`, and 148 in `Training` (182 total). All 23 Partner and 11 Distributor DOCX files — 34 files total — have the same Git blob SHA and each is 6,480 bytes. Their stored binary contents are therefore identical despite different filenames; they must not be treated as distinct valid documents without re-verification. The Training tree has 148 files, and sample-document paths indicate possible identity/financial documents such as Aadhaar, PAN, bank statements and electricity bills. Actual contents/redaction are not yet verified; treat this as a P0 privacy review. Repository content is publicly fetchable, so immediately review access/privacy for any possible personal documents. No files were deleted during this audit.
 
-**अगला आवश्यक कदम / Required next step:** कृपया तीनों source folders की फ़ाइलें यहाँ upload करें (अधिमानतः ZIP सहित subfolders), या Google Drive/browser connection को फिर से उपलब्ध कराएँ। जब तक source files पढ़ने योग्य नहीं होंगी, file-by-file mapping और content extraction नहीं की जा सकती।
+**सीमा / Limitation:** GitHub connector ने binary DOCX/XLSX files का पूरा content extract नहीं किया। इसलिए actual clauses, prices, commissions, effective dates, approvals, document contents और training accuracy अभी content-verified नहीं हैं। Inventory और hash-based duplicate finding verified हैं; full content audit अभी अधूरा है।
 
-**Next step:** Upload the files from all three source folders here (preferably as ZIPs preserving subfolders), or restore usable Google Drive/browser access. File-by-file mapping and content extraction cannot proceed until the source files are readable.
-
+**Next steps / अगले कदम:** (1) 34 identical DOCX files के valid originals verify/re-upload करें; (2) Training sample documents का P0 privacy review करें; (3) pricing/commercial spreadsheets और catalogue की सामग्री/version/approval inspect करें; (4) content पढ़ने के बाद File Outline Register mapping और gap/conflict register अपडेट करें।
 ## 2. Sources to inspect / जाँच के स्रोत
 1. Google Drive — Partner Welcome Kit folder / पार्टनर स्वागत किट फ़ोल्डर।
 2. Google Drive — Distributor Field Kit folder / डिस्ट्रीब्यूटर फील्ड किट फ़ोल्डर।
@@ -78,3 +77,9 @@ For every source file, record / हर source file के लिए दर्ज
 5. Migration Log / migration log।
 6. Updated Progress Tracker / अपडेटेड प्रगति ट्रैकर।
 7. Bilingual quality check for each deliverable / हर deliverable की द्विभाषी गुणवत्ता जाँच।
+
+## 9. GitHub inventory findings / GitHub inventory के निष्कर्ष
+
+Detailed manifest and initial findings are maintained at [SOURCE-INVENTORY-AND-FINDINGS.md](SOURCE-INVENTORY-AND-FINDINGS.md). / विस्तृत manifest और प्रारंभिक निष्कर्ष [SOURCE-INVENTORY-AND-FINDINGS.md](SOURCE-INVENTORY-AND-FINDINGS.md) में दर्ज हैं।
+
+**Current audit label / वर्तमान audit स्थिति:** Path inventory complete; content audit partial; P0 duplicate-integrity and privacy blockers open. / Path inventory पूरी; content audit आंशिक; P0 duplicate-integrity और privacy blockers खुले हैं।
