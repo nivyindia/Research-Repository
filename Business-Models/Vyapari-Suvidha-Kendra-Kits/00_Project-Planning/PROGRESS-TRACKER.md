@@ -75,3 +75,18 @@
 | Date / तारीख | Change / बदलाव | Reason / कारण |
 |---|---|---|
 | 2026-10-20 | Added a parallel work batch excluding deferred price, duplicate-integrity and privacy topics / स्थगित price, duplicate-integrity और privacy topics को छोड़कर parallel work batch जोड़ा | Explicit user direction; continue independent work rather than wait on all audits / उपयोगकर्ता का स्पष्ट निर्देश; सभी audits का इंतजार करने के बजाय स्वतंत्र काम जारी रखना |
+
+
+## Work completed in current batch / वर्तमान कार्य-चरण में पूरा किया गया काम
+
+| Deliverable / deliverable | Status / स्थिति | Link / लिंक | Next action / अगली कार्रवाई |
+|---|---|---|---|
+| Next work plan / अगली कार्ययोजना | Created / बनाई गई | [NEXT-WORK-PLAN-EXCLUDING-DEFERRED-AUDITS.md](NEXT-WORK-PLAN-EXCLUDING-DEFERRED-AUDITS.md) | Execute workstreams in listed order / सूचीबद्ध क्रम में काम करें |
+| Preliminary source map / प्रारंभिक source map | Created — filename/path basis / filename/path के आधार पर बनाई गई | [PRELIMINARY-OUTLINE-SOURCE-MAP.md](PRELIMINARY-OUTLINE-SOURCE-MAP.md) | Validate against actual content in later source audit / बाद में actual content से verify करें |
+| Partner customer journey SOP / Partner customer journey SOP | Drafted framework / framework draft | [Partner-Customer-Journey-and-Case-Handling.md](../01_Partner-Welcome-Kit/10_Customer_Service_and_SOPs/Partner-Customer-Journey-and-Case-Handling.md) | Confirm secure channels, checklists, contacts and escalation policy / secure channels, checklists, contacts और escalation policy confirm करें |
+| Distributor field workflow / Distributor field workflow | Drafted framework / framework draft | [03_Franchise-Recruitment-Field-Workflow.md](../02_Distributor-Field-Meeting-Kit/03_Franchise-Recruitment-Field-Workflow.md) | Review recruitment criteria and approved claims / recruitment criteria और approved claims review करें |
+| Operational reporting templates / Operational reporting templates | Created — draft / draft बनाया गया | [Operational-Reporting-Templates.md](../03_Shared-Master-References/Operational-Reporting-Templates.md) | Confirm system, cadence, KPI definitions and owners / system, cadence, KPI definitions और owners confirm करें |
+
+**हिंदी:** ये नई files operational frameworks और planning aids हैं; source-verified policy, commercial approval या final release नहीं। स्थगित price, DOCX integrity और privacy topics अभी खुले हैं और इन्हें final publication से पहले अलग से resolve करना होगा।
+
+**English:** These new files are operational frameworks and planning aids, not source-verified policy, commercial approval, or final releases. The deferred price, DOCX integrity, and privacy topics remain open and must be resolved separately before final publication.
