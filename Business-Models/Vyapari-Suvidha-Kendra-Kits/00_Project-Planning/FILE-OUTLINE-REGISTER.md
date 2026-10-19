@@ -212,3 +212,55 @@ The following documents expand the file-by-file section sequence. They are outli
 - `DECISIONS-AND-OPEN-QUESTIONS.md`: confirmed decisions; assumptions; unresolved questions; evidence required; decision owner; next action; date/status. / confirmed decisions; assumptions; unresolved questions; evidence required; decision owner; next action; date/status.
 
 **Current outline status / वर्तमान outline स्थिति:** The three detailed batches provide section-level outlines for the Partner kit, Distributor kit, shared master files and proposed reusable assets. Phase 1 still needs a final path/existence check against the actual repository tree. Phase 3 must deduplicate proposed assets and identify intentional cross-references before the owner review/freeze. / तीन detailed batches Partner kit, Distributor kit, shared master files और proposed reusable assets की section-level outlines देते हैं। Phase 1 में actual repository tree के विरुद्ध path/existence check बाकी है। Owner review/freeze से पहले Phase 3 में proposed assets का deduplication और intentional cross-reference तय करना होगा।
+
+
+## 12. File scaffold creation update / आवश्यक files के skeleton बनाने का अपडेट
+
+**हिंदी:** उपयोगकर्ता के निर्देश के अनुसार अब पहले हर जरूरी folder के अंदर जरूरी file paths मौजूद होने चाहिए। इसलिए Phase 2 outline work के साथ-साथ चुने गए essential assets की skeleton files सही folders में बनाई जा रही हैं। ये files केवल structure, fields, section headings, dependencies और pending approvals रखती हैं; final operational content नहीं।
+
+**English:** Per the user's direction, each required folder should first contain the necessary file paths. Therefore, alongside Phase 2 outline work, skeleton files for selected essential assets are being created in their correct folders. These files contain only structure, fields, section headings, dependencies, and pending approvals—not final operational content.
+
+### Newly created essential skeletons / नई बनाई गई आवश्यक skeleton files
+
+| Folder / फ़ोल्डर | File / फ़ाइल | Purpose / उद्देश्य |
+|---|---|---|
+| Partner — Onboarding | `Partner-Eligibility-and-Activation-Checklist.md` | Eligibility to activation checkpoints / पात्रता से activation तक checkpoints |
+| Partner — Onboarding | `Blank-KYC-and-Document-Checklist.md` | Blank document checklist; no personal data / खाली document checklist; निजी डेटा नहीं |
+| Partner — CRM | `Lead-Tracker-and-Follow-Up-Log.md` | Lead stages, consent and follow-up / Lead stages, consent और follow-up |
+| Partner — Communication | `Customer-Communication-Message-Bank.md` | Customer message categories and approval fields / Customer message categories और approval fields |
+| Partner — Communication | `WhatsApp-Follow-Up-Scripts.md` | Follow-up message slots / Follow-up message slots |
+| Partner — Branding | `Brand-Style-and-Print-Specifications.md` | Brand assets and print specification fields / Brand assets और print specification fields |
+| Partner — Sales collateral | `Welcome-Letter-and-First-Steps.md` | Welcome and first-step structure / Welcome और शुरुआती कदम |
+| Partner — Sales collateral | `Service-Document-Checklists.md` | Service-wise document requirements / सेवा-वार document requirements |
+| Partner — Business/SOP | `Partner-Handbook-and-SOP.md` | Handbook/SOP navigation outline / Handbook/SOP navigation outline |
+| Partner — Customer service | `Customer-Case-Handling-and-Escalation-SOP.md` | Case lifecycle and escalation structure / Case lifecycle और escalation structure |
+| Partner — Customer service | `Client-Enquiry-and-Document-Receipt-Forms.md` | Blank enquiry/receipt form structure / खाली enquiry/receipt form structure |
+| Partner — Marketing | `Google-Maps-Lead-Research-SOP.md` | Evidence-led local lead research / Evidence-led local lead research |
+| Partner — Training/reference | `Tax-Alerts-and-Due-Dates-Calendar.md` | Official-source alert tracker / Official-source alert tracker |
+| Partner — Payment/support | `Partner-Support-Directory.md` | Verified contact directory fields / Verified contact directory fields |
+| Partner — Reporting | `Daily-Weekly-Monthly-Report-Templates.md` | Reporting fields and cadence / Reporting fields और cadence |
+| Distributor — Onboarding | `Distributor-Role-and-Authorization-Guide.md` | Role boundaries and authority / Role boundaries और authority |
+| Distributor — Territory | `Territory-Mapping-and-Market-Research-Sheet.md` | Territory research and evidence / Territory research और evidence |
+| Distributor — Prospecting | `Franchise-Recruitment-Field-Workflow.md` | Prospect-to-onboarding sequence / Prospect-to-onboarding sequence |
+| Distributor — Prospecting | `Prospect-Qualification-Scorecard.md` | Prospect qualification criteria / Prospect qualification criteria |
+| Distributor — Meetings | `Field-Meeting-Agenda-and-Discovery-Form.md` | Meeting and discovery fields / Meeting और discovery fields |
+| Distributor — Retailer earnings | `Retailer-Earnings-Outline.md` | Input outline only; no calculations / केवल input outline; calculations नहीं |
+| Distributor — Incentives | `Distributor-Commission-and-Incentive-Outline.md` | Commercial fields pending / Commercial fields pending |
+| Distributor — Support/lead generation | `Lead-and-Marketing-Support-Register.md` | Confirmed vs proposed support / Confirmed बनाम proposed support |
+| Distributor — Objections/FAQ | `Objection-Handling-and-FAQ-Bank.md` | Approved answer-source register / Approved answer-source register |
+| Distributor — Closing | `Closing-and-Follow-Up-Sequence.md` | Close/follow-up sequence / Close/follow-up sequence |
+| Distributor — Reporting | `Field-Visit-and-Funnel-Report.md` | Field funnel reporting / Field funnel reporting |
+| Distributor — Training | `Sales-Training-and-Role-Play-Pack.md` | Training module structure / Training module structure |
+| Distributor — Local marketing | `Local-Marketing-Campaign-Checklist.md` | Campaign checklist and approval fields / Campaign checklist और approval fields |
+| Distributor — Competitor research | `Competitor-Intelligence-Register.md` | Evidence-led competitor observations / Evidence-led competitor observations |
+| Distributor — Communication | `Distributor-Communication-and-Follow-Up-Log.md` | Contact and follow-up record / Contact और follow-up record |
+| Distributor — Support/escalation | `Distributor-Support-and-Escalation-Register.md` | Issue ownership and escalation / Issue ownership और escalation |
+| Distributor — Archive | `Archive-Index-and-Version-Log.md` | Archive/version history / Archive/version history |
+| Shared references | `Master-Service-Catalogue-Outline.md` | Service catalogue index; no pricing / Service catalogue index; pricing नहीं |
+| Shared references | `Approved-Contacts-and-Responsibilities.md` | Verified contact/owner fields / Verified contact/owner fields |
+| Shared references | `Common-Glossary-and-Role-Definitions.md` | Consistent bilingual terminology / Consistent bilingual terminology |
+| Shared references | `Cross-Kit-Consistency-Checklist.md` | Cross-kit quality checks / Cross-kit quality checks |
+
+**हिंदी:** यह सूची इस update में newly created skeleton files का रिकॉर्ड है, न कि हर प्रस्तावित file के complete होने का दावा। जिन paths पर file पहले से मौजूद थी, उन्हें overwrite नहीं किया गया। अब अगला चरण प्रत्येक folder में मौजूद README और assets को actual tree के विरुद्ध reconcile करना, duplicate assets को canonical file में merge/reference करना, और हर जरूरी file के अंदर outline भरना है।
+
+**English:** This table records skeleton files newly created in this update; it does not claim every proposed file is complete. Paths that already existed were not overwritten. Next, reconcile each folder's README and assets against the actual repository tree, merge/reference duplicate assets to a canonical file, and complete the outline inside every required file.
