@@ -264,3 +264,12 @@ The following documents expand the file-by-file section sequence. They are outli
 **हिंदी:** यह सूची इस update में newly created skeleton files का रिकॉर्ड है, न कि हर प्रस्तावित file के complete होने का दावा। जिन paths पर file पहले से मौजूद थी, उन्हें overwrite नहीं किया गया। अब अगला चरण प्रत्येक folder में मौजूद README और assets को actual tree के विरुद्ध reconcile करना, duplicate assets को canonical file में merge/reference करना, और हर जरूरी file के अंदर outline भरना है।
 
 **English:** This table records skeleton files newly created in this update; it does not claim every proposed file is complete. Paths that already existed were not overwritten. Next, reconcile each folder's README and assets against the actual repository tree, merge/reference duplicate assets to a canonical file, and complete the outline inside every required file.
+
+
+## File reduction decision — 2026-10-20 / फ़ाइलें कम करने का निर्णय
+
+**हिंदी:** Distributor Field Meeting Kit के 20 subfolder `README.md` files हटाए गए क्योंकि वे अलग deliverables नहीं थे; folder purpose root `README.md`, actual working files और इस register से समझा जाएगा। Distributor root `README.md` और 2 मुख्य deliverables (Short Offline Booklet, Long Format Field Playbook) सुरक्षित हैं। Shared Master References का अलग `PROGRESS-TRACKER.md` हटाया गया; canonical tracker `00_Project-Planning/PROGRESS-TRACKER.md` है। `MISSING-ITEMS-AUDIT.md` रखा गया है क्योंकि उसमें अलग source-gap checklist है।
+
+**English:** Removed the 20 Distributor subfolder `README.md` files because they were not standalone deliverables; folder purpose is covered by the root `README.md`, working files, and this register. The Distributor root README and both core deliverables (Short Offline Booklet and Long Format Field Playbook) remain. Removed the separate Shared Master References `PROGRESS-TRACKER.md`; the canonical tracker is `00_Project-Planning/PROGRESS-TRACKER.md`. Kept `MISSING-ITEMS-AUDIT.md` because it contains a distinct source-gap checklist.
+
+**Scope guardrail / सीमा:** This is structural cleanup only. It does not approve outlines or complete source, privacy, pricing, commission, or legal verification. / यह केवल structure cleanup है; इससे outlines approve या source, privacy, pricing, commission अथवा legal verification complete नहीं मानी जाएगी।
