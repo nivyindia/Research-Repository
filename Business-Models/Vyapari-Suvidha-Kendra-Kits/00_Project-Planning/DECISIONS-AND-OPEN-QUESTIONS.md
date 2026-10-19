@@ -1,46 +1,56 @@
-# Decisions and Open Questions
+# Decisions and Open Questions / निर्णय और खुले प्रश्न
 
-Use this log to distinguish confirmed decisions from assumptions and unresolved matters. Do not convert an assumption into a public-facing claim without evidence and approval.
+**हिंदी:** इस log में confirmed decisions, assumptions और unresolved matters अलग-अलग रखें। बिना प्रमाण और approval के किसी assumption को public claim न बनाएँ।
 
-## Confirmed project decisions
-| ID | Decision | Basis | Status |
+**English:** Keep confirmed decisions, assumptions, and unresolved matters separate in this log. Do not turn an assumption into a public claim without evidence and approval.
+
+## Confirmed project decisions / परियोजना के पुष्ट निर्णय
+| ID | Decision / निर्णय | Basis / आधार | Status / स्थिति |
 |---|---|---|---|
-| D-01 | Create a central folder for all project plans and tracking documents | User instruction | Confirmed |
-| D-02 | Define file-by-file outlines before further content production | User instruction | Confirmed |
-| D-03 | Use phased implementation with a progress tracker | User instruction | Confirmed |
-| D-04 | Partner Welcome Kit is for Franchisees/Retailers; Distributor Field Meeting Kit is for Distributors | Established project scope | Confirmed |
-| D-05 | Partner compact offline booklet target is 8–10 pages; Distributor compact offline booklet target is 9–12 pages | Established project scope | Working target |
-| D-06 | Long-format guides are maintained separately from compact offline booklets | Established project scope | Confirmed |
-| D-07 | Source-file audit of Drive Partner Welcome Kit, Distributor Field Kit and Training Folder must precede final factual content | Established project requirement | Pending execution |
-| D-08 | Distributor economics must be shown separately from Retailer/Franchisee economics | Established project requirement | Confirmed |
+| D-01 | Create one central folder for plans and trackers / योजनाओं और trackers के लिए central folder | User instruction / उपयोगकर्ता का निर्देश | Confirmed / पुष्ट |
+| D-02 | Define each file outline before further content production / आगे content बनाने से पहले हर file की outline तय करें | User instruction / उपयोगकर्ता का निर्देश | Confirmed / पुष्ट |
+| D-03 | Use phased implementation and a progress tracker / phased implementation और progress tracker रखें | User instruction / उपयोगकर्ता का निर्देश | Confirmed / पुष्ट |
+| D-04 | Partner Welcome Kit is for Franchisees/Retailers; Distributor Field Meeting Kit is for Distributors / Partner kit Retailer/Franchisee के लिए और Distributor kit Distributor के लिए है | Established scope / तय scope | Confirmed / पुष्ट |
+| D-05 | Partner booklet target 8–10 pages; Distributor booklet target 9–12 pages / Partner booklet 8–10 और Distributor booklet 9–12 pages | Established scope / तय scope | Working target / कार्य लक्ष्य |
+| D-06 | Keep long guides separate from compact offline booklets / विस्तृत guides को short booklets से अलग रखें | Established scope / तय scope | Confirmed / पुष्ट |
+| D-07 | Audit Drive Partner Welcome Kit, Distributor Field Kit and Training Folder before final factual content / final factual content से पहले तीनों Drive folders का audit करें | Established requirement / तय requirement | Blocked by access / access के कारण रुका |
+| D-08 | Show Distributor earnings separately from Retailer/Franchisee earnings / Distributor और Retailer/Franchisee की earnings अलग दिखाएँ | Established requirement / तय requirement | Confirmed / पुष्ट |
+| D-09 | Every file must be Hindi-first bilingual, with English immediately following Hindi / हर file में पहले हिंदी और तुरंत बाद English translation | User instruction / उपयोगकर्ता का निर्देश | Confirmed / पुष्ट |
 
-## Open questions requiring source or owner confirmation
-| ID | Question / claim to verify | Why it matters | Evidence needed | Priority | Status |
+## Source access issue / source access की समस्या
+**हिंदी:** 2026-10-20 को Google Drive connector उपलब्ध नहीं था क्योंकि status administrator-disabled था। खुले browser tabs में Partner Welcome Kit folder दिखाई दिया, लेकिन tab content पढ़ने का प्रयास connection error से विफल हुआ। किसी Drive file की सामग्री inspect नहीं हुई। Audit शुरू करने के लिए source files upload करना या usable Drive/browser access बहाल करना आवश्यक है।
+
+**English:** On 2026-10-20, the Google Drive connector was unavailable because it was marked disabled by the administrator. The open browser tabs showed a Partner Welcome Kit folder, but reading its content failed with a connection error. No Drive file content was inspected. To begin the audit, the source files must be uploaded or usable Drive/browser access restored.
+
+## Open questions requiring evidence or owner confirmation / प्रमाण या owner confirmation वाले प्रश्न
+| ID | Question / प्रश्न | Why it matters / महत्व | Evidence needed / आवश्यक प्रमाण | Priority / प्राथमिकता | Status / स्थिति |
 |---|---|---|---|---|---|
-| Q-01 | What is the definitive, current service catalogue? | Determines all pitches, pricing and training | Approved catalogue with date/owner | P0 | Open |
-| Q-02 | What is the approved customer price for each service, including statutory/third-party charges and tax treatment? | Prevents incorrect customer quotations | Current approved pricing sheet | P0 | Open |
-| Q-03 | What exact share/commission does the company, Retailer/Franchisee and Distributor receive per service? | Prevents misrepresentation of earnings | Approved service-wise matrix/agreement | P0 | Open |
-| Q-04 | What deductions, reversals, cancellations/refunds and settlement triggers/cycles apply? | Impacts real earnings and customer handling | Written commercial/settlement policy | P0 | Open |
-| Q-05 | Are there joining fees, deposits, recurring fees, minimum targets, exclusivity or territory rights? | Must be disclosed before recruitment | Current agreement/official policy | P0 | Open |
-| Q-06 | What company-generated online leads, if any, are actually provided? Are they guaranteed or discretionary? | Avoids unsupported lead promises | Written lead allocation policy | P0 | Open |
-| Q-07 | What online marketing and local marketing support is committed, and who pays for it? | Sets accurate expectations | Approved marketing/support policy | P0 | Open |
-| Q-08 | Who fulfils each service, expected turnaround and escalation route? | Enables correct operational SOPs | Service operations documentation | P1 | Open |
-| Q-09 | What documents/KYC are required for distributor and retailer onboarding? | Determines onboarding checklists | Approved application/KYC checklist | P1 | Open |
-| Q-10 | Which customer data can partners collect/store, where, and for how long? | Privacy and security | Data handling/privacy policy | P1 | Open |
-| Q-11 | Which training is mandatory, who provides it, and is there certification? | Defines training path | Training plan/materials | P2 | Open |
-| Q-12 | What are the official contact details, support hours and escalation response commitments? | Needed for published materials | Current contact/escalation list | P1 | Open |
-| Q-13 | What logo, brand wording, approved claims and print specifications must be used? | Brand consistency | Approved brand kit/assets | P2 | Open |
-| Q-14 | Which source document is authoritative if two files conflict? | Avoids accidental policy selection | Owner-designated source of truth | P0 | Open |
+| Q-01 | What is the current definitive service catalogue? / वर्तमान definitive service catalogue कौन-सा है? | Determines pitches, pricing and training / pitch, pricing और training तय होते हैं | Approved dated catalogue / तारीख सहित approved catalogue | P0 | Open / खुला |
+| Q-02 | What customer price, statutory/third-party charges and tax treatment apply per service? / हर सेवा की customer price, statutory/third-party charges और tax treatment क्या है? | Prevents incorrect quotations / गलत quotation रोकना | Current approved pricing sheet / current approved pricing sheet | P0 | Open / खुला |
+| Q-03 | What share/commission does company, Retailer/Franchisee and Distributor receive per service? / हर सेवा में company, Retailer/Franchisee और Distributor का share/commission कितना है? | Prevents earnings misrepresentation / earnings का गलत दावा रोकना | Approved matrix/agreement / approved matrix/agreement | P0 | Open / खुला |
+| Q-04 | What deductions, reversals, refunds and settlement cycle apply? / deductions, reversals, refunds और settlement cycle क्या हैं? | Determines actual earnings and handling / वास्तविक earnings और workflow | Written commercial/settlement policy / लिखित policy | P0 | Open / खुला |
+| Q-05 | Are there joining fees, deposits, recurring fees, minimum targets, exclusivity or territory rights? / joining fees, deposits, recurring fees, targets, exclusivity या territory rights हैं? | Required disclosure / जरूरी disclosure | Current agreement/policy / current agreement/policy | P0 | Open / खुला |
+| Q-06 | What company-generated online leads are provided, if any? / company कौन-सी online leads देती है, यदि देती है? | Avoids unsupported promises / बिना प्रमाण promises रोकना | Written lead allocation policy / लिखित lead policy | P0 | Open / खुला |
+| Q-07 | What marketing support is committed and who pays? / कौन-सा marketing support committed है और खर्च कौन देगा? | Sets correct expectations / सही expectations | Approved marketing/support policy / approved policy | P0 | Open / खुला |
+| Q-08 | Who fulfils each service, turnaround and escalation route? / कौन सेवा पूरी करता है, turnaround और escalation क्या है? | Operational accuracy / संचालन की सटीकता | Service operations documentation / service operations documents | P1 | Open / खुला |
+| Q-09 | What KYC documents are required for distributor and retailer onboarding? / onboarding में कौन-से KYC documents चाहिए? | Onboarding checklist / onboarding checklist | Approved checklist / approved checklist | P1 | Open / खुला |
+| Q-10 | What customer data may partners collect/store and for how long? / partner कौन-सा customer data collect/store कर सकता है और कितने समय तक? | Privacy/security / privacy और security | Data-handling policy / data-handling policy | P1 | Open / खुला |
+| Q-11 | Which training is mandatory and is certification provided? / कौन-सी training mandatory है और certification है? | Training plan / training plan | Training materials/policy / training materials/policy | P2 | Open / खुला |
+| Q-12 | What official contacts, support hours and response commitments apply? / official contacts, support hours और response commitments क्या हैं? | Published support details / प्रकाशित support details | Current escalation list / current escalation list | P1 | Open / खुला |
+| Q-13 | Which brand wording, logo and print specs are approved? / कौन-सी brand wording, logo और print specs approved हैं? | Brand consistency / brand consistency | Approved brand kit / approved brand kit | P2 | Open / खुला |
+| Q-14 | Which source is authoritative when files conflict? / files में conflict होने पर कौन-सा source authoritative है? | Avoids choosing wrong policy / गलत policy चुनने से बचना | Owner-designated source of truth / owner द्वारा तय source of truth | P0 | Open / खुला |
+| Q-15 | Can the source folders be made readable for the audit? / क्या source folders audit के लिए readable बनाए जा सकते हैं? | Required to inspect/map files / files inspect और map करने के लिए आवश्यक | Uploaded files/ZIPs or restored Drive/browser access / uploaded files/ZIPs या restored access | P0 | Blocked / रुका |
 
-## Assumptions not yet approved
-- Company may generate leads through online channels.
-- Company may provide marketing support to help local partners attract customers.
-- Distributors may help prospects close/onboard as franchisees.
-- Some service-wise earning figures may already exist in source folders.
+## Assumptions not approved / अभी स्वीकृत न हुई assumptions
+- Company may generate online leads / कंपनी online leads दे सकती है।
+- Company may support local/online marketing / कंपनी local/online marketing support दे सकती है।
+- Distributor may assist in prospect closing and onboarding / Distributor prospect closing और onboarding में मदद कर सकता है।
+- Service-wise earning figures may exist in source folders / service-wise earning figures source folders में हो सकती हैं।
 
-These are audit prompts only, not approved promises. Confirm each against source documents and authorized owner decisions.
+**हिंदी:** ये केवल जाँच के प्रश्न हैं, स्वीकृत promises नहीं।  
+**English:** These are audit questions only, not approved promises.
 
-## Decision record template
-| Date | Decision ID | Decision | Options considered | Evidence/source | Decision owner | Impacted files | Follow-up |
+## Decision record template / निर्णय दर्ज करने का प्रारूप
+| Date / तारीख | Decision ID | Decision / निर्णय | Options / विकल्प | Evidence/source / प्रमाण-स्रोत | Owner / जिम्मेदार | Impacted files / प्रभावित files | Follow-up / अगली कार्रवाई |
 |---|---|---|---|---|---|---|---|
 | YYYY-MM-DD | Q-XX / D-XX |  |  |  |  |  |  |
