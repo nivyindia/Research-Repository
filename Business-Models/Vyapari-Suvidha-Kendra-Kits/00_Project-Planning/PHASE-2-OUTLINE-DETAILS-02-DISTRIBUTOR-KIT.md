@@ -219,3 +219,10 @@
 - No final sales script or operational procedure is written / Final sales script या operational procedure न लिखा गया हो
 - All commercial values remain pending / सभी commercial values pending रहें
 - Hindi-first bilingual structure is followed / पहले हिंदी और फिर English का क्रम हो
+
+
+## Structure simplification note — 2026-10-20 / संरचना सरल करने का नोट
+
+**हिंदी:** इस batch में subfolder `README.md` की जो outlines सूचीबद्ध थीं, वे अब अलग files के रूप में नहीं रहेंगी। 20 subfolder README files हटाई गई हैं; उनके लिए अलग content तैयार नहीं करना है। उनके folder purposes root `02_Distributor-Field-Meeting-Kit/README.md`, central `FILE-OUTLINE-REGISTER.md` और संबंधित working-file outlines से cover होंगे।
+
+**English:** The subfolder `README.md` outlines listed in this batch will no longer exist as separate files. All 20 subfolder README files have been removed; do not draft separate content for them. Their folder purposes are covered by the root Distributor README, the central File Outline Register, and the relevant working-file outlines.
