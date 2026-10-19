@@ -1,7 +1,7 @@
 # Progress Tracker / प्रगति ट्रैकर
 
-**Last updated / अंतिम अपडेट:** 2026-10-20  
-**Overall status / कुल स्थिति:** GitHub source inventory completed for 3 folders (182 files); content audit is partial; 34 named DOCX files share one identical blob and training samples raise a P0 privacy review / तीन GitHub source folders की inventory पूरी (182 files); content audit आंशिक; 34 DOCX एक ही blob हैं और training samples पर P0 privacy review आवश्यक है।  
+**Last updated / अंतिम अपडेट:** 2026-10-20 — outline-only phase reset  
+**Overall status / कुल स्थिति:** Current execution is limited to completing and reviewing outlines for every planned document. Source integrity, sample privacy/access and all pricing/commission analysis are deferred workstreams; they are not being resolved in this phase. / वर्तमान काम केवल सभी planned documents की outlines पूरी करने और review करने तक सीमित है। Source integrity, sample privacy/access और pricing/commission analysis अलग स्थगित workstreams हैं; इस चरण में उनका समाधान नहीं किया जा रहा।
 **Rule / नियम:** A draft is not verified or approved. Every file must be Hindi-first bilingual / Draft को verified या approved न मानें। हर file में पहले हिंदी और फिर English अनुवाद अनिवार्य है।
 
 ## Phase tracker / चरणों की स्थिति
@@ -53,3 +53,25 @@
 |---|---|---|
 | 2026-10-20 | Added Hindi-first bilingual standard / हिंदी-प्रथम द्विभाषी मानक जोड़ा | User instruction / उपयोगकर्ता का निर्देश |
 | 2026-10-20 | Recorded Drive access attempt and blocker / Drive access प्रयास और बाधा दर्ज की | Drive source was unreadable at that time / उस समय Drive source पढ़ने योग्य नहीं था |\n| 2026-10-20 | Added GitHub inventory findings and P0 blockers / GitHub inventory findings और P0 blockers जोड़े | Main branch source folders became inspectable; content/privacy risks surfaced / main branch के source folders inspect हुए; content/privacy risks सामने आए |
+
+
+## Current execution focus — outline only / वर्तमान कार्य-क्षेत्र — केवल outline
+
+**हिंदी:** 2026-10-20 से काम का क्रम स्पष्ट किया गया है: पहले हर planned document की outline पूरी होगी; उसके बाद outline QA और owner approval होगा। Full content drafting, source migration, price/commission calculations और commercial recommendations इस चरण में नहीं होंगे।
+
+**English:** As of 2026-10-20, the execution order is clarified: complete the outline for every planned document first, then perform outline QA and obtain owner approval. Full content drafting, source migration, price/commission calculations, and commercial recommendations are out of scope for this phase.
+
+| Task / कार्य | Status / स्थिति | Evidence / प्रमाण | Next action / अगला कदम |
+|---|---|---|---|
+| Phase 0 — outline baseline / outline आधार | In progress / जारी | Phased plan updated to make outline-only scope explicit / Phased plan में outline-only scope स्पष्ट किया गया | Complete file-by-file inventory / File-by-file inventory पूरी करें |
+| Phase 1 — document inventory / दस्तावेज़ सूची | In progress / जारी | Outline register now includes planning files, both kits, support-folder README outlines, shared references and proposed future assets / Register में planning files, दोनों kits, support-folder README outlines, shared references और proposed assets शामिल हैं | Check every known path and label existing vs proposed / हर path जाँचें और existing/proposed अलग करें |
+| Phase 2 — individual outlines / individual outlines | Pending / बाकी | Register defines intended coverage at file/folder level; some assets remain proposed / Register में file/folder-level coverage है; कुछ assets proposed हैं | Review outline granularity and missing documents / Outline की detail और missing documents review करें |
+| Phase 3 — outline QA / outline गुणवत्ता-जाँच | Pending / बाकी | Cross-document QA checklist added to outline register / Register में cross-document QA checklist जोड़ी गई | Identify duplication, gaps and cross-references / Duplication, gaps और cross-references पहचानें |
+| Phase 4 — owner review and freeze / owner review और freeze | Pending / बाकी | No outline approval implied by this update / इस update से outline approval मानकर न चलें | Obtain user/owner review before drafting / Drafting से पहले user/owner review लें |
+| Source integrity investigation / source integrity जाँच | Deferred / स्थगित | Prior inventory finding retained in source audit records / पिछली inventory finding source audit records में सुरक्षित है | Resume as a separate workstream when requested / अलग से कहे जाने पर शुरू करें |
+| Training sample privacy/access review / training sample privacy/access review | Deferred / स्थगित | Prior finding retained; contents/access remediation not claimed as complete / पिछली finding सुरक्षित; contents/access remediation को complete नहीं माना गया | Resume separately; do not claim resolved / अलग से शुरू करें; resolved न लिखें |
+| Pricing/commission analysis / pricing/commission विश्लेषण | Deferred / स्थगित | `Catalogue 1.52.docx` treated as current catalogue reference only; prices not considered / `Catalogue 1.52.docx` केवल current catalogue reference है; prices consider नहीं की गईं | Leave all monetary values pending until explicitly resumed / स्पष्ट निर्देश मिलने तक monetary values pending रखें |
+
+**हिंदी:** इस tracker update का अर्थ यह नहीं है कि source audit, privacy review या commercial verification पूरी हो गई है। ये काम अलग से खुले रहेंगे।
+
+**English:** This tracker update does not mean the source audit, privacy review, or commercial verification is complete. Those workstreams remain separately open.
