@@ -1,23 +1,9 @@
-# Progress Tracker
+# Progress Tracker — Central Location
 
-| Workstream | Status | Evidence | Next action |
-|---|---|---|---|
-| Repository location confirmed | Complete | Business-Models directory reviewed | Continue within this project |
-| Kit folder structure | In progress | Markdown folder markers being created | Verify folder tree |
-| Partner short booklet | Initial draft | 8–10 page structure drafted | Replace placeholders from approved sources |
-| Partner long guide | Initial draft | Detailed section map drafted | Audit and integrate Drive material |
-| Distributor short booklet | Initial draft | 9–12 page structure drafted | Replace placeholders from approved sources |
-| Distributor long playbook | Initial draft | Detailed section map drafted | Audit and integrate Drive material |
-| Shared pricing/commission source | Pending | Template only | Find approved master pricing file |
-| Drive source-file audit | Pending | Not all file contents inspected | Inventory Partner Kit, Distributor Field Kit and Training Folder |
-| Commercial/legal approval | Pending | No approval recorded | Obtain authorized review |
-| Print-ready exports | Not started | Markdown only | Finalize content, then design/print |
+The authoritative live tracker is now centralized here:
 
-## Status definitions
-- Not started
-- In progress
-- Drafted — verification required
-- Needs source
-- Needs approval
-- Approved
-- Complete
+**[00_Project-Planning/PROGRESS-TRACKER.md](00_Project-Planning/PROGRESS-TRACKER.md)**
+
+Use the central tracker for phase status, deliverable status, blockers, next actions and change history. This root file is retained as a navigation pointer so older links continue to work.
+
+Current high-level status: planning baseline established; Google Drive source audit, coverage mapping, commercial verification and final approvals remain pending.
