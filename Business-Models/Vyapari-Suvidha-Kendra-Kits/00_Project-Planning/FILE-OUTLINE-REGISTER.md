@@ -146,3 +146,45 @@ The assets below are **proposed outline entries**, not claims that these files a
 An outline is complete when its file path and existence status are recorded; its audience and purpose are clear; the heading/section sequence and intended tables/forms are listed; dependencies and required evidence are noted; unresolved inputs are marked; and its scope does not duplicate another asset without an explicit cross-reference.
 
 किसी outline को complete तभी मानें जब file path और existence status दर्ज हों; audience और purpose स्पष्ट हों; headings/sections और प्रस्तावित tables/forms सूचीबद्ध हों; dependencies और जरूरी evidence दर्ज हों; unresolved inputs marked हों; और किसी दूसरे asset से duplicate scope होने पर स्पष्ट cross-reference हो।
+
+## 7.1 Additional proposed document outlines / अतिरिक्त प्रस्तावित दस्तावेज़ों की outlines
+
+**हिंदी:** नीचे के items प्रस्तावित future documents हैं, अभी बनाई गई files नहीं। Phase 2 में हर item को keep / merge / drop निर्णय मिलेगा। Duplicate coverage को cross-reference करें।
+
+**English:** The items below are proposed future documents, not files created by this update. In Phase 2, mark each item keep / merge / drop. Cross-reference duplicate coverage.
+
+| Kit / किट | Proposed file / प्रस्तावित फ़ाइल | Outline / रूपरेखा |
+|---|---|---|
+| Partner | `Partner-Handbook-and-SOP.md` | Role boundaries; daily workflow; service handoff; conduct; support / Role boundaries; daily workflow; service handoff; conduct; support |
+| Partner | `Welcome-Letter-and-First-Steps.md` | Welcome; confirmed relationship; onboarding steps; contacts; links / Welcome; confirmed relationship; onboarding steps; contacts; links |
+| Partner | `Partner-Eligibility-and-Activation-Checklist.md` | Eligibility; application; blank KYC checklist; agreement status; training; activation / Eligibility; application; blank KYC checklist; agreement status; training; activation |
+| Partner | `Cold-Outreach-and-Calling-Script.md` | Opening; permission; need discovery; value summary; next step; opt-out / Opening; permission; need discovery; value summary; next step; opt-out |
+| Partner | `Google-Maps-Lead-Research-SOP.md` | Search criteria; source/date; qualification; duplicate check; respectful contact; CRM entry / Search criteria; source/date; qualification; duplicate check; respectful contact; CRM entry |
+| Partner | `WhatsApp-Follow-Up-Scripts.md` | First message; meeting follow-up; requested details; reminder; close-loop; opt-out / First message; meeting follow-up; requested details; reminder; close-loop; opt-out |
+| Partner | `Tax-Alerts-and-Due-Dates-Calendar.md` | Topic; jurisdiction; authoritative source; due date; last-verified date; disclaimer / Topic; jurisdiction; authoritative source; due date; last-verified date; disclaimer |
+| Partner | `Brand-Style-and-Print-Specifications.md` | Logo; typography/colours; approved contact fields; formats; print requirements / Logo; typography/colours; approved contact fields; formats; print requirements |
+| Partner | `Client-Enquiry-and-Document-Receipt-Forms.md` | Contact/consent; service need; documents received; date; secure-handling note / Contact/consent; service need; documents received; date; secure-handling note |
+| Partner | `Service-Document-Checklists.md` | Service ID; eligibility; document categories; completeness checks; common errors; secure handoff / Service ID; eligibility; document categories; completeness checks; common errors; secure handoff |
+| Partner | `Customer-Case-Handling-and-Escalation-SOP.md` | Intake; case ID; owner; status; response log; escalation; closure / Intake; case ID; owner; status; response log; escalation; closure |
+| Partner | `Order-Status-and-Reconciliation-Templates.md` | Case/order ID; submission/status; payment reference; settlement status; discrepancies; closure / Case/order ID; submission/status; payment reference; settlement status; discrepancies; closure |
+| Partner | `Partner-Support-Directory.md` | Issue type; official channel; owner; support hours/targets only if approved; escalation / Issue type; official channel; owner; support hours/targets only if approved; escalation |
+| Distributor | `Distributor-Role-and-Authorization-Guide.md` | Authority; permitted activities; prohibited claims; territory; approval boundaries / Authority; permitted activities; prohibited claims; territory; approval boundaries |
+| Distributor | `Territory-Mapping-and-Market-Research-Sheet.md` | Geography; business clusters; segments; source/date; observations; confidence / Geography; business clusters; segments; source/date; observations; confidence |
+| Distributor | `Franchise-Recruitment-Field-Workflow.md` | Prospect; contact; discovery; qualification; meeting; disclosure; application; handoff / Prospect; contact; discovery; qualification; meeting; disclosure; application; handoff |
+| Distributor | `Prospect-Qualification-Scorecard.md` | Fit criteria; evidence; readiness; decision authority; risks; next step / Fit criteria; evidence; readiness; decision authority; risks; next step |
+| Distributor | `Field-Meeting-Agenda-and-Discovery-Form.md` | Objective; permission; business profile; needs; questions; objections; outcome; follow-up / Objective; permission; business profile; needs; questions; objections; outcome; follow-up |
+| Distributor | `Retailer-Earnings-Outline.md` | Input fields; cost/share fields; deductions; assumptions; source/approval; values withheld / Input fields; cost/share fields; deductions; assumptions; source/approval; values withheld |
+| Distributor | `Distributor-Commission-and-Incentive-Outline.md` | Eligible activity; basis; trigger; exclusions; payout timing; reversals; approval fields / Eligible activity; basis; trigger; exclusions; payout timing; reversals; approval fields |
+| Distributor | `Lead-and-Marketing-Support-Register.md` | Support item; confirmed/proposed; eligibility; owner; evidence; limitations / Support item; confirmed/proposed; eligibility; owner; evidence; limitations |
+| Distributor | `Objection-Handling-and-FAQ-Bank.md` | Objection; approved answer source; unknowns; escalation owner / Objection; approved answer source; unknowns; escalation owner |
+| Distributor | `Closing-and-Follow-Up-Sequence.md` | Recap; requested information; disclosure checklist; follow-up dates; outcome; opt-out / Recap; requested information; disclosure checklist; follow-up dates; outcome; opt-out |
+| Distributor | `Field-Visit-and-Funnel-Report.md` | Visits; prospects; stages; proposals; applications; activation; lost reasons; next actions / Visits; prospects; stages; proposals; applications; activation; lost reasons; next actions |
+| Distributor | `Sales-Training-and-Role-Play-Pack.md` | Learning objectives; scenarios; rubric; service knowledge check; coaching notes / Learning objectives; scenarios; rubric; service knowledge check; coaching notes |
+| Shared | `Master-Service-Catalogue-Outline.md` | Service ID/name; description; availability; eligibility; documents; exclusions; version; price fields pending / Service ID/name; description; availability; eligibility; documents; exclusions; version; price fields pending |
+| Shared | `Approved-Contacts-and-Responsibilities.md` | Team/role; official contact; issue category; owner; approved hours; escalation / Team/role; official contact; issue category; owner; approved hours; escalation |
+| Shared | `Common-Glossary-and-Role-Definitions.md` | Standard terms; Hindi/English equivalents; role distinctions; process definitions / Standard terms; Hindi/English equivalents; role distinctions; process definitions |
+| Shared | `Cross-Kit-Consistency-Checklist.md` | Shared facts; service names; role split; support promises; version links; approval state / Shared facts; service names; role split; support promises; version links; approval state |
+
+**हिंदी:** इन proposed assets की अंतिम सूची Phase 2 में deduplication के बाद freeze होगी। अभी कोई proposed file create नहीं करनी है।
+
+**English:** The final list of these proposed assets will be frozen after deduplication in Phase 2. Do not create any proposed file at this stage.
