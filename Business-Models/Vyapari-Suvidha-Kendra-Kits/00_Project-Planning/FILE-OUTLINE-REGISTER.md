@@ -188,3 +188,27 @@ An outline is complete when its file path and existence status are recorded; its
 **हिंदी:** इन proposed assets की अंतिम सूची Phase 2 में deduplication के बाद freeze होगी। अभी कोई proposed file create नहीं करनी है।
 
 **English:** The final list of these proposed assets will be frozen after deduplication in Phase 2. Do not create any proposed file at this stage.
+
+
+## 10. Detailed outline batches / विस्तृत outline batches
+
+The following documents expand the file-by-file section sequence. They are outline drafts, not final content or approvals. / नीचे दिए दस्तावेज़ file-by-file section sequence को विस्तार देते हैं। ये outline drafts हैं, final content या approvals नहीं।
+
+| Batch / बैच | Coverage / दायरा | Detailed outline / विस्तृत outline | Status / स्थिति |
+|---|---|---|---|
+| 01 | Partner Welcome Kit: kit README, short booklet, long master guide, 14 support-folder READMEs / Partner Welcome Kit की मुख्य files और 14 support-folder READMEs | [PHASE-2-OUTLINE-DETAILS-01-PARTNER-KIT.md](PHASE-2-OUTLINE-DETAILS-01-PARTNER-KIT.md) | Drafted / Draft तैयार |
+| 02 | Distributor Field Meeting Kit: kit README, short booklet, long playbook, 20 support-folder READMEs / Distributor kit की मुख्य files और 20 support-folder READMEs | [PHASE-2-OUTLINE-DETAILS-02-DISTRIBUTOR-KIT.md](PHASE-2-OUTLINE-DETAILS-02-DISTRIBUTOR-KIT.md) | Drafted / Draft तैयार |
+| 03 | Shared master references and proposed reusable assets for Partner, Distributor and Shared / Shared master references और Partner, Distributor व Shared के proposed reusable assets | [PHASE-2-OUTLINE-DETAILS-03-SHARED-AND-PROPOSED-ASSETS.md](PHASE-2-OUTLINE-DETAILS-03-SHARED-AND-PROPOSED-ASSETS.md) | Drafted / Draft तैयार |
+
+## 11. Planning-file section-level outline / Planning files की section-level outline
+
+- `README.md`: project purpose; scope and exclusions; folder map; phase sequence; current status; key links; working rules. / project purpose; scope और exclusions; folder map; phase sequence; current status; मुख्य links; working rules.
+- `MASTER-IMPLEMENTATION-PLAN.md`: objective; audience; deliverables; scope boundaries; phase dependencies; governance; bilingual rule; acceptance criteria; risks and deferred work. / objective; audience; deliverables; scope boundaries; phase dependencies; governance; bilingual rule; acceptance criteria; risks और deferred work.
+- `FILE-OUTLINE-REGISTER.md`: scope rules; bilingual standard; planning files; Partner kit files; Distributor kit files; shared references; proposed assets; cross-document QA; completion criteria; links to detailed outline batches. / scope rules; bilingual standard; planning files; Partner kit files; Distributor kit files; shared references; proposed assets; cross-document QA; completion criteria; detailed outline batches के links.
+- `PHASED-IMPLEMENTATION-PLAN.md`: operating mode; phases and exit gates; outline-only rules; commercial guardrails; deferred investigations; change control. / operating mode; phases और exit gates; outline-only rules; commercial guardrails; deferred investigations; change control.
+- `PROGRESS-TRACKER.md`: phase tracker; evidence; next action; blocker; access log; bilingual quality gate; planning deliverables; deferred workstreams; change log. / phase tracker; evidence; next action; blocker; access log; bilingual quality gate; planning deliverables; deferred workstreams; change log.
+- `SOURCE-AUDIT-PLAN.md`: audit findings and limitations; source list; inventory fields; audit workflow; coverage labels; priorities; migration safety; outputs; deferred integrity/privacy work. / audit findings और limitations; source list; inventory fields; audit workflow; coverage labels; priorities; migration safety; outputs; स्थगित integrity/privacy work.
+- `SOURCE-INVENTORY-AND-FINDINGS.md`: inventory summary; per-file manifest; duplicate metadata; potential privacy flags; limitations; follow-up actions; change log. / inventory summary; per-file manifest; duplicate metadata; संभावित privacy flags; limitations; follow-up actions; change log.
+- `DECISIONS-AND-OPEN-QUESTIONS.md`: confirmed decisions; assumptions; unresolved questions; evidence required; decision owner; next action; date/status. / confirmed decisions; assumptions; unresolved questions; evidence required; decision owner; next action; date/status.
+
+**Current outline status / वर्तमान outline स्थिति:** The three detailed batches provide section-level outlines for the Partner kit, Distributor kit, shared master files and proposed reusable assets. Phase 1 still needs a final path/existence check against the actual repository tree. Phase 3 must deduplicate proposed assets and identify intentional cross-references before the owner review/freeze. / तीन detailed batches Partner kit, Distributor kit, shared master files और proposed reusable assets की section-level outlines देते हैं। Phase 1 में actual repository tree के विरुद्ध path/existence check बाकी है। Owner review/freeze से पहले Phase 3 में proposed assets का deduplication और intentional cross-reference तय करना होगा।
