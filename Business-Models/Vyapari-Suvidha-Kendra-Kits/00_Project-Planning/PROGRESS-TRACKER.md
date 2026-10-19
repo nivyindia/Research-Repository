@@ -108,3 +108,22 @@
 | Date / तारीख | Change / बदलाव | Reason / कारण |
 |---|---|---|
 | 2026-10-20 | Added three detailed outline batches and linked them from the register/tracker / तीन detailed outline batches बनाए और register/tracker से link किए | User requested phase-wise outlines for all files, with no full content or pricing work / उपयोगकर्ता ने सभी files की phase-wise outlines मांगीं; full content और pricing work नहीं |
+
+
+## Owner-directed file-creation phase / निर्देशानुसार file creation phase
+
+**Last updated / अंतिम अपडेट:** 2026-10-20
+
+| Task / कार्य | Status / स्थिति | Evidence / प्रमाण | Next action / अगला कदम |
+|---|---|---|---|
+| Create essential skeletons in Partner folders / Partner folders में आवश्यक skeletons बनाना | In progress / जारी | Eligibility/KYC, lead tracking, message bank, branding, welcome, service checklist, handbook, case handling, enquiry forms, lead research, tax alert, support directory and reporting skeletons created or existing paths retained / संबंधित Partner skeletons बनाए गए या existing files सुरक्षित रखी गईं | Reconcile all 14 folder contents against actual tree; add any missing must-have file / सभी 14 folders की contents जाँचें; कोई जरूरी file missing हो तो जोड़ें |
+| Create essential skeletons in Distributor folders / Distributor folders में आवश्यक skeletons बनाना | In progress / जारी | Role guide, territory research, recruitment workflow, qualification scorecard, meeting form, earnings/incentive outline, support register, FAQ, follow-up, reporting, training, local marketing, competitor, communication, escalation and archive assets created or existing paths retained / संबंधित Distributor assets बनाए गए या existing files सुरक्षित रखी गईं | Reconcile all 20 folder contents against actual tree; identify folders still needing a must-have asset / सभी 20 folders जाँचें; जिनमें जरूरी asset नहीं है उन्हें पहचानें |
+| Create shared master files / Shared master files बनाना | In progress / जारी | Master catalogue outline, contacts/responsibilities, glossary and cross-kit checklist created; existing approval/version, missing-items, pricing template and tracker preserved / Master catalogue outline, contacts/responsibilities, glossary और cross-kit checklist बनाए; existing files सुरक्षित | Check all shared assets for overlap and canonical location / सभी shared assets में overlap और canonical location जाँचें |
+| Complete each file's outline / हर file की outline पूरी करना | In progress / जारी | Detailed outline batches and skeleton headings now in repository / Detailed outline batches और skeleton headings repository में हैं | Fill any missing sections, tables, dependencies and pending inputs; no full prose / Missing sections, tables, dependencies और pending inputs भरें; full prose नहीं |
+| Duplicate/cross-reference review / Duplicate/cross-reference review | Pending / बाकी | One accidental duplicate follow-up stub was removed; canonical closing file remains / एक accidental duplicate follow-up stub हटाया गया; canonical closing file सुरक्षित | Review all similarly named assets and consolidate before outline freeze / मिलते-जुलते assets जाँचकर outline freeze से पहले consolidate करें |
+
+## New execution rule / नया execution rule
+
+पहले आवश्यक file skeletons सही folders में सुनिश्चित करें; existing files overwrite न करें; उसके बाद सभी outlines को complete और consistent करें। यह file creation final content drafting नहीं है। / First ensure required file skeletons exist in the correct folders without overwriting existing files; then complete and harmonize all outlines. This file creation is not final content drafting.
+
+**Commercial restrictions / व्यावसायिक सीमाएँ:** Prices, commissions, fees, margins, earnings and incentives remain out of scope. `Catalogue 1.52.docx` is the working catalogue reference only. Identical DOCX and Training privacy/access checks remain deferred. / Prices, commissions, fees, margins, earnings और incentives scope से बाहर हैं। `Catalogue 1.52.docx` केवल working catalogue reference है। Identical DOCX और Training privacy/access checks स्थगित हैं।
